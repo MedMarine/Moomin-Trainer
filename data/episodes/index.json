@@ -1,0 +1,44 @@
+{
+  "episodes": [
+    {
+      "id": "ep01",
+      "title": "春のしらせ",
+      "titleEn": "Tidings of Spring",
+      "available": true,
+      "vocabCount": 85,
+      "lineCount": 198
+    },
+    {
+      "id": "ep02",
+      "title": "魔法の帽子",
+      "titleEn": "The Magic Hat",
+      "available": true,
+      "vocabCount": 75,
+      "lineCount": 165
+    },
+    {
+      "id": "ep03",
+      "title": "浜で見つけた難破船",
+      "titleEn": "The Shipwreck on the Beach",
+      "available": true,
+      "vocabCount": 105,
+      "lineCount": 156
+    },
+    {
+      "id": "ep04",
+      "title": "おばけ島へようこそ",
+      "titleEn": "Welcome to Ghost Island",
+      "available": true,
+      "vocabCount": 95,
+      "lineCount": 142
+    },
+    {
+      "id": "ep05",
+      "title": "ニョロニョロの秘密",
+      "titleEn": "The Secret of the Hattifatteners",
+      "available": true,
+      "vocabCount": 90,
+      "lineCount": 156
+    }
+  ]
+}

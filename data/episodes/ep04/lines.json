@@ -1,0 +1,1280 @@
+[
+  {
+    "id": "ep04_001",
+    "timestamp": "23.86s",
+    "speaker": "ナレーター",
+    "japanese": "どこかへ行きましょうと言い出してみんなが賛成しました",
+    "english": "Someone suggested going somewhere, and everyone agreed.",
+    "vocabUsed": ["どこか", "行く", "言い出す", "みんな", "賛成"],
+    "grammar": ["〜ましょう (let's)", "〜と言い出す (to start saying)"]
+  },
+  {
+    "id": "ep04_002",
+    "timestamp": "111.84s",
+    "speaker": "ナレーター",
+    "japanese": "でもどこかがどこだかは出発する今日になっても決まりませんでした",
+    "english": "But even now, on the day of departure, no one had decided where 'somewhere' actually was.",
+    "vocabUsed": ["どこ", "出発", "今日", "決まる"],
+    "grammar": ["〜だか (whether)", "〜ても (even though)"]
+  },
+  {
+    "id": "ep04_003",
+    "timestamp": "119.28s",
+    "speaker": "ムーミン",
+    "japanese": "ママ、それみんな持っていくつもり?",
+    "english": "Mama, are you planning to bring all of that?",
+    "vocabUsed": ["ママ", "みんな", "持っていく", "つもり"],
+    "grammar": ["〜つもり (intend to)"]
+  },
+  {
+    "id": "ep04_004",
+    "timestamp": "124.04s",
+    "speaker": "ムーミンママ",
+    "japanese": "そうよ",
+    "english": "That's right.",
+    "vocabUsed": [],
+    "grammar": ["〜よ (assertion, feminine)"]
+  },
+  {
+    "id": "ep04_005",
+    "timestamp": "124.70s",
+    "speaker": "ムーミンパパ",
+    "japanese": "私たちは船に乗るんだよ",
+    "english": "We're going on a boat, you know.",
+    "vocabUsed": ["私たち", "船", "乗る"],
+    "grammar": ["〜んだ (explanatory)"]
+  },
+  {
+    "id": "ep04_006",
+    "timestamp": "127.11s",
+    "speaker": "ムーミンママ",
+    "japanese": "でもどこかへ行くんでしょ?",
+    "english": "But we're going somewhere, right?",
+    "vocabUsed": ["どこか", "行く"],
+    "grammar": ["〜んでしょ (right?)"]
+  },
+  {
+    "id": "ep04_007",
+    "timestamp": "129.85s",
+    "speaker": "ムーミンパパ",
+    "japanese": "そりゃそうだが",
+    "english": "Well, yes, but...",
+    "vocabUsed": [],
+    "grammar": ["そりゃ (that is)"]
+  },
+  {
+    "id": "ep04_008",
+    "timestamp": "130.91s",
+    "speaker": "ムーミンママ",
+    "japanese": "どこかへ着いたら上陸するわよね",
+    "english": "When we arrive somewhere, we'll go ashore, right?",
+    "vocabUsed": ["どこか", "着く", "上陸"],
+    "grammar": ["〜たら (when)", "〜わよね (feminine confirmation)"]
+  },
+  {
+    "id": "ep04_009",
+    "timestamp": "133.41s",
+    "speaker": "ムーミンパパ",
+    "japanese": "するだろうな",
+    "english": "We probably will.",
+    "vocabUsed": [],
+    "grammar": ["〜だろう (probably)"]
+  },
+  {
+    "id": "ep04_010",
+    "timestamp": "135.17s",
+    "speaker": "ムーミンママ",
+    "japanese": "だったら火を起こしたり、コーヒーが飲みたくなったり、パンケーキが食べたくなったりするわよね",
+    "english": "Then we'll want to make a fire, drink coffee, and eat pancakes, won't we?",
+    "vocabUsed": ["火", "起こす", "コーヒー", "飲む", "パンケーキ", "食べる"],
+    "grammar": ["〜たり〜たり (doing things like)", "〜たくなる (come to want)"]
+  },
+  {
+    "id": "ep04_011",
+    "timestamp": "141.92s",
+    "speaker": "ムーミンパパ",
+    "japanese": "だろうな、子供たちも行くんだから",
+    "english": "I suppose so, since the kids are coming too.",
+    "vocabUsed": ["子供", "行く"],
+    "grammar": ["〜んだから (because)"]
+  },
+  {
+    "id": "ep04_012",
+    "timestamp": "145.09s",
+    "speaker": "ムーミンママ",
+    "japanese": "これはそのために必要なものばかりよ",
+    "english": "All of this is necessary for that purpose.",
+    "vocabUsed": ["必要", "もの"],
+    "grammar": ["〜ばかり (only, nothing but)"]
+  },
+  {
+    "id": "ep04_013",
+    "timestamp": "147.88s",
+    "speaker": "ミー",
+    "japanese": "まだ行かないの?",
+    "english": "Are we still not leaving?",
+    "vocabUsed": ["まだ", "行く"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_014",
+    "timestamp": "153.49s",
+    "speaker": "ムーミンパパ",
+    "japanese": "何?",
+    "english": "What?",
+    "vocabUsed": ["何"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_015",
+    "timestamp": "182.60s",
+    "speaker": "フローレン",
+    "japanese": "気をつけないと今に落っこって怪我するわ",
+    "english": "If you're not careful, you'll fall and get hurt.",
+    "vocabUsed": ["気をつける", "落ちる", "怪我"],
+    "grammar": ["〜ないと (if not)", "今に (soon)"]
+  },
+  {
+    "id": "ep04_016",
+    "timestamp": "185.06s",
+    "speaker": "ムーミン",
+    "japanese": "平気だよ、それよりひとりフローレン",
+    "english": "I'm fine. More importantly, Floren, are you alone?",
+    "vocabUsed": ["平気", "ひとり"],
+    "grammar": ["それより (more importantly)"]
+  },
+  {
+    "id": "ep04_017",
+    "timestamp": "188.28s",
+    "speaker": "フローレン",
+    "japanese": "お兄さんやっぱり行かないって",
+    "english": "My brother says he's not going after all.",
+    "vocabUsed": ["お兄さん", "行く"],
+    "grammar": ["やっぱり (after all)", "〜って (quotation)"]
+  },
+  {
+    "id": "ep04_018",
+    "timestamp": "190.02s",
+    "speaker": "フローレン",
+    "japanese": "どうしても今日中に設計図を仕上げたいって言ってるわ",
+    "english": "He says he absolutely wants to finish the blueprints today.",
+    "vocabUsed": ["どうしても", "今日", "設計図", "仕上げる", "言う"],
+    "grammar": ["〜中に (within)", "〜たい (want to)"]
+  },
+  {
+    "id": "ep04_019",
+    "timestamp": "193.32s",
+    "speaker": "ムーミン",
+    "japanese": "そう、たまには船に乗るのも悪くないと思ったのに",
+    "english": "I see. I thought it wouldn't be bad to go on a boat once in a while.",
+    "vocabUsed": ["たまに", "船", "乗る", "悪い", "思う"],
+    "grammar": ["〜のに (even though)"]
+  },
+  {
+    "id": "ep04_020",
+    "timestamp": "202.58s",
+    "speaker": "スニフ",
+    "japanese": "ねえ、まだ出かけないの?",
+    "english": "Hey, are we still not leaving?",
+    "vocabUsed": ["まだ", "出かける"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_021",
+    "timestamp": "203.90s",
+    "speaker": "ムーミンママ",
+    "japanese": "もうすぐ支度ができるわよ",
+    "english": "We'll be ready soon.",
+    "vocabUsed": ["もうすぐ", "支度", "できる"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_022",
+    "timestamp": "207.07s",
+    "speaker": "スニフ",
+    "japanese": "それみんな持っていくの?",
+    "english": "Are you bringing all of that?",
+    "vocabUsed": ["みんな", "持っていく"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_023",
+    "timestamp": "212.41s",
+    "speaker": "ムーミンパパ",
+    "japanese": "そうだよ、これはママが集めた必要なものばかりさ",
+    "english": "Yes, all of this is necessary stuff that Mama gathered.",
+    "vocabUsed": ["ママ", "集める", "必要", "もの"],
+    "grammar": ["〜ばかり (only)"]
+  },
+  {
+    "id": "ep04_024",
+    "timestamp": "216.19s",
+    "speaker": "フローレン",
+    "japanese": "ねえムーミン、結局どこへ行くことにしたの?",
+    "english": "Hey Moomin, where did you decide to go after all?",
+    "vocabUsed": ["結局", "どこ", "行く", "決める"],
+    "grammar": ["〜ことにする (decide to)"]
+  },
+  {
+    "id": "ep04_025",
+    "timestamp": "220.06s",
+    "speaker": "ムーミン",
+    "japanese": "パパ決めたの?",
+    "english": "Did Papa decide?",
+    "vocabUsed": ["パパ", "決める"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_026",
+    "timestamp": "221.66s",
+    "speaker": "ムーミンパパ",
+    "japanese": "いや、まだだ",
+    "english": "No, not yet.",
+    "vocabUsed": ["まだ"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_027",
+    "timestamp": "223.23s",
+    "speaker": "ヘムレン",
+    "japanese": "珍しい花を見つけたんですか?",
+    "english": "Did you find a rare flower?",
+    "vocabUsed": ["珍しい", "花", "見つける"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_028",
+    "timestamp": "256.78s",
+    "speaker": "ヘムレン",
+    "japanese": "いやいや、この花はもう私のコレクションに入っている",
+    "english": "No, no, this flower is already in my collection.",
+    "vocabUsed": ["花", "私", "コレクション", "入る"],
+    "grammar": ["〜ている (state)"]
+  },
+  {
+    "id": "ep04_029",
+    "timestamp": "260.78s",
+    "speaker": "ヘムレン",
+    "japanese": "引っ越しですか、みなさん?",
+    "english": "Are you all moving?",
+    "vocabUsed": ["引っ越し", "みなさん"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_030",
+    "timestamp": "263.24s",
+    "speaker": "ムーミン",
+    "japanese": "船に乗るんですよ",
+    "english": "We're going on a boat.",
+    "vocabUsed": ["船", "乗る"],
+    "grammar": ["〜んです (explanatory)"]
+  },
+  {
+    "id": "ep04_031",
+    "timestamp": "264.60s",
+    "speaker": "ヘムレン",
+    "japanese": "ああ、例の船、まだ持ち主は現れませんか?",
+    "english": "Ah, that ship - the owner still hasn't appeared?",
+    "vocabUsed": ["例", "船", "持ち主", "現れる"],
+    "grammar": ["〜ません (negative polite)"]
+  },
+  {
+    "id": "ep04_032",
+    "timestamp": "268.18s",
+    "speaker": "ムーミンパパ",
+    "japanese": "ええ",
+    "english": "No, they haven't.",
+    "vocabUsed": [],
+    "grammar": []
+  },
+  {
+    "id": "ep04_033",
+    "timestamp": "268.50s",
+    "speaker": "ヘムレン",
+    "japanese": "それにしても船に乗るのになんでそんな荷物がいるんです?",
+    "english": "Even so, why do you need so much luggage just to go on a boat?",
+    "vocabUsed": ["船", "乗る", "荷物", "いる"],
+    "grammar": ["それにしても (even so)", "〜のに (for)"]
+  },
+  {
+    "id": "ep04_034",
+    "timestamp": "303.01s",
+    "speaker": "スノフキン",
+    "japanese": "ムーミンたち、まだ来てないのか?",
+    "english": "Moomin and the others haven't arrived yet?",
+    "vocabUsed": ["まだ", "来る"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_035",
+    "timestamp": "305.63s",
+    "speaker": "スニフ",
+    "japanese": "いや",
+    "english": "No.",
+    "vocabUsed": [],
+    "grammar": []
+  },
+  {
+    "id": "ep04_036",
+    "timestamp": "305.91s",
+    "speaker": "スノフキン",
+    "japanese": "絶好の航海日和だな",
+    "english": "It's perfect sailing weather.",
+    "vocabUsed": ["絶好", "航海", "日和"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_037",
+    "timestamp": "308.46s",
+    "speaker": "スニフ",
+    "japanese": "今日はどこへ行くのかな?",
+    "english": "I wonder where we're going today.",
+    "vocabUsed": ["今日", "どこ", "行く"],
+    "grammar": ["〜かな (I wonder)"]
+  },
+  {
+    "id": "ep04_038",
+    "timestamp": "311.28s",
+    "speaker": "スノフキン",
+    "japanese": "僕は知らない",
+    "english": "I don't know.",
+    "vocabUsed": ["僕", "知る"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_039",
+    "timestamp": "312.52s",
+    "speaker": "スニフ",
+    "japanese": "あんまり遠くは嫌だな",
+    "english": "I don't want to go too far.",
+    "vocabUsed": ["あんまり", "遠い", "嫌"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_040",
+    "timestamp": "314.66s",
+    "speaker": "スノフキン",
+    "japanese": "どうして?",
+    "english": "Why?",
+    "vocabUsed": [],
+    "grammar": []
+  },
+  {
+    "id": "ep04_041",
+    "timestamp": "317.13s",
+    "speaker": "スニフ",
+    "japanese": "僕、泳ぎ得意じゃないからね",
+    "english": "I'm not good at swimming.",
+    "vocabUsed": ["僕", "泳ぐ", "得意"],
+    "grammar": ["〜じゃない (not)"]
+  },
+  {
+    "id": "ep04_042",
+    "timestamp": "319.67s",
+    "speaker": "スニフ",
+    "japanese": "嵐になって船がひっくり返ったら大変なことになるもの",
+    "english": "If a storm comes and the boat flips over, it would be terrible.",
+    "vocabUsed": ["嵐", "船", "ひっくり返る", "大変"],
+    "grammar": ["〜たら (if)", "〜もの (because)"]
+  },
+  {
+    "id": "ep04_043",
+    "timestamp": "323.78s",
+    "speaker": "スノフキン",
+    "japanese": "嵐など来そうもないじゃないか",
+    "english": "It doesn't look like a storm is coming at all.",
+    "vocabUsed": ["嵐", "来る"],
+    "grammar": ["〜そうもない (unlikely)"]
+  },
+  {
+    "id": "ep04_044",
+    "timestamp": "333.43s",
+    "speaker": "ムーミンパパ",
+    "japanese": "さあ、みんな乗った乗った",
+    "english": "Alright, everyone get on, get on!",
+    "vocabUsed": ["みんな", "乗る"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_045",
+    "timestamp": "336.50s",
+    "speaker": "ムーミンパパ",
+    "japanese": "ママ、ミー、スナフキン、フローレン",
+    "english": "Mama, My, Snufkin, Floren.",
+    "vocabUsed": [],
+    "grammar": []
+  },
+  {
+    "id": "ep04_046",
+    "timestamp": "340.97s",
+    "speaker": "ムーミンパパ",
+    "japanese": "さあ、ヘムレンさん、乗ってください",
+    "english": "Now, Mr. Hemulen, please get on.",
+    "vocabUsed": ["乗る"],
+    "grammar": ["〜てください (please do)"]
+  },
+  {
+    "id": "ep04_047",
+    "timestamp": "344.41s",
+    "speaker": "ミー",
+    "japanese": "ヘムレンさんも行くの?",
+    "english": "Is Mr. Hemulen coming too?",
+    "vocabUsed": ["行く"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_048",
+    "timestamp": "346.41s",
+    "speaker": "ヘムレン",
+    "japanese": "そうじゃ、島があったら上陸するそうだから",
+    "english": "Yes, I heard we'll land if there's an island.",
+    "vocabUsed": ["島", "上陸"],
+    "grammar": ["〜そうだ (I heard)"]
+  },
+  {
+    "id": "ep04_049",
+    "timestamp": "349.39s",
+    "speaker": "ヘムレン",
+    "japanese": "そこで珍しい植物を採集するんじゃ",
+    "english": "I'll collect rare plants there.",
+    "vocabUsed": ["珍しい", "植物", "採集"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_050",
+    "timestamp": "357.95s",
+    "speaker": "ムーミン",
+    "japanese": "早く乗れよ",
+    "english": "Hurry up and get on!",
+    "vocabUsed": ["早い", "乗る"],
+    "grammar": ["〜よ (emphasis)"]
+  },
+  {
+    "id": "ep04_051",
+    "timestamp": "366.66s",
+    "speaker": "ミー",
+    "japanese": "満員だね",
+    "english": "It's full, isn't it?",
+    "vocabUsed": ["満員"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_052",
+    "timestamp": "368.49s",
+    "speaker": "ムーミン",
+    "japanese": "大丈夫、ほら、ここが空いてるよ",
+    "english": "It's fine. Look, there's space here.",
+    "vocabUsed": ["大丈夫", "空く"],
+    "grammar": ["〜ている (state)"]
+  },
+  {
+    "id": "ep04_053",
+    "timestamp": "371.65s",
+    "speaker": "ムーミン",
+    "japanese": "早くしろよ",
+    "english": "Hurry up!",
+    "vocabUsed": ["早い"],
+    "grammar": ["〜しろ (imperative)"]
+  },
+  {
+    "id": "ep04_054",
+    "timestamp": "373.65s",
+    "speaker": "スニフ",
+    "japanese": "僕が乗ったら沈みそうだよ",
+    "english": "If I get on, it looks like it'll sink.",
+    "vocabUsed": ["僕", "乗る", "沈む"],
+    "grammar": ["〜そう (looks like)"]
+  },
+  {
+    "id": "ep04_055",
+    "timestamp": "376.63s",
+    "speaker": "ムーミン",
+    "japanese": "バカなこと言うなよ、まだ一人や二人大丈夫だよ",
+    "english": "Don't say stupid things. One or two more people is still fine.",
+    "vocabUsed": ["バカ", "言う", "一人", "二人", "大丈夫"],
+    "grammar": ["〜なよ (don't do)"]
+  },
+  {
+    "id": "ep04_056",
+    "timestamp": "387.71s",
+    "speaker": "ムーミン",
+    "japanese": "大丈夫だよ、スニフ一人くらい、ねえ、パパ",
+    "english": "It's fine, just one Sniff. Right, Papa?",
+    "vocabUsed": ["大丈夫", "一人", "パパ"],
+    "grammar": ["〜くらい (about)"]
+  },
+  {
+    "id": "ep04_057",
+    "timestamp": "388.55s",
+    "speaker": "ムーミンパパ",
+    "japanese": "ああ、今日は波も穏やかだし",
+    "english": "Yes, the waves are calm today too.",
+    "vocabUsed": ["今日", "波", "穏やか"],
+    "grammar": ["〜だし (and also)"]
+  },
+  {
+    "id": "ep04_058",
+    "timestamp": "393.08s",
+    "speaker": "スニフ",
+    "japanese": "やっぱり僕やめる",
+    "english": "I think I'll pass after all.",
+    "vocabUsed": ["僕", "やめる"],
+    "grammar": ["やっぱり (after all)"]
+  },
+  {
+    "id": "ep04_059",
+    "timestamp": "395.62s",
+    "speaker": "ミー",
+    "japanese": "臆病なやつ",
+    "english": "Such a coward.",
+    "vocabUsed": ["臆病"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_060",
+    "timestamp": "397.10s",
+    "speaker": "ムーミンママ",
+    "japanese": "出発よ",
+    "english": "Let's depart!",
+    "vocabUsed": ["出発"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_061",
+    "timestamp": "398.68s",
+    "speaker": "ムーミン",
+    "japanese": "スニフ、出発するぞ",
+    "english": "Sniff, we're leaving!",
+    "vocabUsed": ["出発"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_062",
+    "timestamp": "402.87s",
+    "speaker": "スニフ",
+    "japanese": "僕は留守番をしてるよ、君たちの家を守ってあげる",
+    "english": "I'll watch the house. I'll protect your home for you.",
+    "vocabUsed": ["僕", "留守番", "家", "守る"],
+    "grammar": ["〜てあげる (do for someone)"]
+  },
+  {
+    "id": "ep04_063",
+    "timestamp": "407.57s",
+    "speaker": "スニフ",
+    "japanese": "だから安心して行ってらっしゃい",
+    "english": "So don't worry and have a safe trip.",
+    "vocabUsed": ["安心", "行く"],
+    "grammar": ["行ってらっしゃい (see you off)"]
+  },
+  {
+    "id": "ep04_064",
+    "timestamp": "409.99s",
+    "speaker": "ムーミンママ",
+    "japanese": "台所のテーブルの上にパンケーキがあるから、よかったら食べなさい",
+    "english": "There are pancakes on the kitchen table, so eat them if you'd like.",
+    "vocabUsed": ["台所", "テーブル", "パンケーキ", "食べる"],
+    "grammar": ["〜なさい (polite imperative)"]
+  },
+  {
+    "id": "ep04_065",
+    "timestamp": "415.33s",
+    "speaker": "スニフ",
+    "japanese": "ありがとう",
+    "english": "Thank you.",
+    "vocabUsed": [],
+    "grammar": []
+  },
+  {
+    "id": "ep04_066",
+    "timestamp": "424.99s",
+    "speaker": "フローレン",
+    "japanese": "スニフも乗ればよかったんだ",
+    "english": "Sniff should have gotten on too.",
+    "vocabUsed": ["乗る"],
+    "grammar": ["〜ばよかった (should have)"]
+  },
+  {
+    "id": "ep04_067",
+    "timestamp": "426.81s",
+    "speaker": "ミー",
+    "japanese": "スニフは泳げないのよ",
+    "english": "Sniff can't swim.",
+    "vocabUsed": ["泳ぐ"],
+    "grammar": ["〜のよ (explanatory, feminine)"]
+  },
+  {
+    "id": "ep04_068",
+    "timestamp": "428.65s",
+    "speaker": "フローレン",
+    "japanese": "私は泳げるけど",
+    "english": "I can swim, though.",
+    "vocabUsed": ["私", "泳ぐ"],
+    "grammar": ["〜けど (but)"]
+  },
+  {
+    "id": "ep04_069",
+    "timestamp": "429.97s",
+    "speaker": "ミー",
+    "japanese": "私もあんまり泳げないけど、何の心配もしてないわよ",
+    "english": "I can't swim very well either, but I'm not worried at all.",
+    "vocabUsed": ["私", "泳ぐ", "心配"],
+    "grammar": ["〜わよ (feminine assertion)"]
+  },
+  {
+    "id": "ep04_070",
+    "timestamp": "456.64s",
+    "speaker": "ムーミン",
+    "japanese": "海はいいね、ママ",
+    "english": "The sea is nice, isn't it, Mama?",
+    "vocabUsed": ["海", "ママ"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_071",
+    "timestamp": "458.58s",
+    "speaker": "ムーミンママ",
+    "japanese": "ええ",
+    "english": "Yes.",
+    "vocabUsed": [],
+    "grammar": []
+  },
+  {
+    "id": "ep04_072",
+    "timestamp": "473.31s",
+    "speaker": "ムーミンパパ",
+    "japanese": "うん、風がすっかりなくなったな",
+    "english": "Hmm, the wind has completely died down.",
+    "vocabUsed": ["風", "すっかり", "なくなる"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_073",
+    "timestamp": "476.52s",
+    "speaker": "ムーミン",
+    "japanese": "櫂を使おうよ、パパ",
+    "english": "Let's use the oars, Papa.",
+    "vocabUsed": ["櫂", "使う", "パパ"],
+    "grammar": ["〜よう (volitional)"]
+  },
+  {
+    "id": "ep04_074",
+    "timestamp": "479.33s",
+    "speaker": "ムーミンパパ",
+    "japanese": "そうだな、スナフキン、協力してくれ",
+    "english": "Good idea. Snufkin, help me out.",
+    "vocabUsed": ["協力"],
+    "grammar": ["〜てくれ (do for me)"]
+  },
+  {
+    "id": "ep04_075",
+    "timestamp": "483.41s",
+    "speaker": "スノフキン",
+    "japanese": "いいですよ",
+    "english": "Sure.",
+    "vocabUsed": [],
+    "grammar": []
+  },
+  {
+    "id": "ep04_076",
+    "timestamp": "489.28s",
+    "speaker": "ミー",
+    "japanese": "でももっと一生懸命漕いでみて",
+    "english": "But try rowing harder!",
+    "vocabUsed": ["一生懸命", "漕ぐ"],
+    "grammar": ["〜てみる (try doing)"]
+  },
+  {
+    "id": "ep04_077",
+    "timestamp": "491.68s",
+    "speaker": "ムーミンパパ",
+    "japanese": "やってるよ",
+    "english": "I am!",
+    "vocabUsed": ["やる"],
+    "grammar": ["〜ている (progressive)"]
+  },
+  {
+    "id": "ep04_078",
+    "timestamp": "493.97s",
+    "speaker": "ミー",
+    "japanese": "それで?全然動いてないじゃない",
+    "english": "And? We're not moving at all!",
+    "vocabUsed": ["全然", "動く"],
+    "grammar": ["〜じゃない (isn't it)"]
+  },
+  {
+    "id": "ep04_079",
+    "timestamp": "496.43s",
+    "speaker": "スノフキン",
+    "japanese": "動いてるよ、ゆっくりだけど",
+    "english": "We are moving, just slowly.",
+    "vocabUsed": ["動く", "ゆっくり"],
+    "grammar": ["〜だけど (but)"]
+  },
+  {
+    "id": "ep04_080",
+    "timestamp": "499.18s",
+    "speaker": "ミー",
+    "japanese": "これじゃどこへも行けないわ",
+    "english": "At this rate, we won't get anywhere!",
+    "vocabUsed": ["どこ", "行く"],
+    "grammar": ["〜へも〜ない (can't even go to)"]
+  },
+  {
+    "id": "ep04_081",
+    "timestamp": "500.90s",
+    "speaker": "ムーミンパパ",
+    "japanese": "分かってるよ、でもこれで精一杯なんだ",
+    "english": "I know, but this is the best we can do.",
+    "vocabUsed": ["分かる", "精一杯"],
+    "grammar": ["〜んだ (explanatory)"]
+  },
+  {
+    "id": "ep04_082",
+    "timestamp": "505.20s",
+    "speaker": "ヘムレン",
+    "japanese": "どこかについてくれないと植物など採集できないな",
+    "english": "If we don't arrive somewhere, I can't collect plants.",
+    "vocabUsed": ["どこか", "着く", "植物", "採集"],
+    "grammar": ["〜てくれないと (if you don't do for me)"]
+  },
+  {
+    "id": "ep04_083",
+    "timestamp": "509.83s",
+    "speaker": "ミー",
+    "japanese": "ヘムレンさん、諦めなさいよ、何にも見えないわ",
+    "english": "Mr. Hemulen, give up. We can't see anything.",
+    "vocabUsed": ["諦める", "何", "見える"],
+    "grammar": ["〜なさいよ (you should)", "〜わ (feminine)"]
+  },
+  {
+    "id": "ep04_084",
+    "timestamp": "513.44s",
+    "speaker": "ミー",
+    "japanese": "それにこのスピードじゃね",
+    "english": "And at this speed...",
+    "vocabUsed": ["スピード"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_085",
+    "timestamp": "515.28s",
+    "speaker": "ムーミンパパ",
+    "japanese": "ヘムレンさん、今に風が出ますよ",
+    "english": "Mr. Hemulen, the wind will pick up soon.",
+    "vocabUsed": ["今", "風", "出る"],
+    "grammar": ["今に (soon)"]
+  },
+  {
+    "id": "ep04_086",
+    "timestamp": "517.98s",
+    "speaker": "ムーミンパパ",
+    "japanese": "そうすればきっと一つくらい島が見つかります",
+    "english": "Then we'll surely find at least one island.",
+    "vocabUsed": ["きっと", "一つ", "島", "見つかる"],
+    "grammar": ["〜くらい (at least)"]
+  },
+  {
+    "id": "ep04_087",
+    "timestamp": "520.98s",
+    "speaker": "ムーミン",
+    "japanese": "そこに島があるよ、パパ",
+    "english": "There's an island over there, Papa.",
+    "vocabUsed": ["島", "パパ"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_088",
+    "timestamp": "525.00s",
+    "speaker": "ムーミンパパ",
+    "japanese": "あんな小さな島、どうしようもないよ",
+    "english": "An island that small is no use.",
+    "vocabUsed": ["小さい", "島"],
+    "grammar": ["どうしようもない (can't be helped)"]
+  },
+  {
+    "id": "ep04_089",
+    "timestamp": "535.30s",
+    "speaker": "フローレン",
+    "japanese": "本当だ",
+    "english": "You're right.",
+    "vocabUsed": ["本当"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_090",
+    "timestamp": "536.08s",
+    "speaker": "ムーミン",
+    "japanese": "櫂を漕いでいなくても動いてるぞ",
+    "english": "We're moving even without rowing!",
+    "vocabUsed": ["櫂", "漕ぐ", "動く"],
+    "grammar": ["〜ていなくても (even without doing)"]
+  },
+  {
+    "id": "ep04_091",
+    "timestamp": "552.29s",
+    "speaker": "ムーミンパパ",
+    "japanese": "風が出てきたんだよ",
+    "english": "The wind has picked up.",
+    "vocabUsed": ["風", "出る"],
+    "grammar": ["〜てきた (has started to)"]
+  },
+  {
+    "id": "ep04_092",
+    "timestamp": "553.79s",
+    "speaker": "ムーミン",
+    "japanese": "綺麗な島だよ、パパ",
+    "english": "It's a beautiful island, Papa.",
+    "vocabUsed": ["綺麗", "島", "パパ"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_093",
+    "timestamp": "561.68s",
+    "speaker": "ムーミンパパ",
+    "japanese": "船もつけやすいようになっている",
+    "english": "It looks easy to dock the boat too.",
+    "vocabUsed": ["船", "つける"],
+    "grammar": ["〜やすい (easy to)", "〜ようになっている (is set up so that)"]
+  },
+  {
+    "id": "ep04_094",
+    "timestamp": "563.78s",
+    "speaker": "ヘムレン",
+    "japanese": "ここなら珍しい植物が見つかりそうだ",
+    "english": "We might find rare plants here.",
+    "vocabUsed": ["珍しい", "植物", "見つかる"],
+    "grammar": ["〜そうだ (looks like)"]
+  },
+  {
+    "id": "ep04_095",
+    "timestamp": "566.84s",
+    "speaker": "ヘムレン",
+    "japanese": "パパ、ありがとう",
+    "english": "Thank you, Papa.",
+    "vocabUsed": ["パパ"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_096",
+    "timestamp": "568.04s",
+    "speaker": "ムーミンパパ",
+    "japanese": "お礼は植物を見つけてからでいいですよ",
+    "english": "You can thank me after you find some plants.",
+    "vocabUsed": ["お礼", "植物", "見つける"],
+    "grammar": ["〜てから (after doing)"]
+  },
+  {
+    "id": "ep04_097",
+    "timestamp": "571.13s",
+    "speaker": "ムーミンママ",
+    "japanese": "私、石でかまどを作るわ、みんなにコーヒーとパンケーキが出せる",
+    "english": "I'll make a stone stove. Then I can serve coffee and pancakes to everyone.",
+    "vocabUsed": ["私", "石", "かまど", "作る", "みんな", "コーヒー", "パンケーキ", "出す"],
+    "grammar": ["〜わ (feminine)"]
+  },
+  {
+    "id": "ep04_098",
+    "timestamp": "576.06s",
+    "speaker": "ムーミンママ",
+    "japanese": "子供たち、上陸したら薪を集めてきてちょうだい",
+    "english": "Children, please gather firewood after we land.",
+    "vocabUsed": ["子供", "上陸", "薪", "集める"],
+    "grammar": ["〜てちょうだい (please do)"]
+  },
+  {
+    "id": "ep04_099",
+    "timestamp": "580.48s",
+    "speaker": "ムーミン",
+    "japanese": "パパ、僕もスナフキンと持って降りていくよ",
+    "english": "Papa, I'll go down with Snufkin and carry things.",
+    "vocabUsed": ["パパ", "僕", "持つ", "降りる"],
+    "grammar": ["〜ていく (go and do)"]
+  },
+  {
+    "id": "ep04_100",
+    "timestamp": "584.04s",
+    "speaker": "ムーミンパパ",
+    "japanese": "よし!",
+    "english": "Good!",
+    "vocabUsed": [],
+    "grammar": []
+  },
+  {
+    "id": "ep04_101",
+    "timestamp": "598.54s",
+    "speaker": "ムーミンパパ",
+    "japanese": "全部役に立つな",
+    "english": "Everything is useful.",
+    "vocabUsed": ["全部", "役に立つ"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_102",
+    "timestamp": "600.08s",
+    "speaker": "ムーミンママ",
+    "japanese": "そうよ、ピクニックは楽しいものにしないとね",
+    "english": "That's right. We need to make the picnic enjoyable.",
+    "vocabUsed": ["ピクニック", "楽しい", "もの"],
+    "grammar": ["〜ないと (have to)"]
+  },
+  {
+    "id": "ep04_103",
+    "timestamp": "604.38s",
+    "speaker": "ムーミンパパ",
+    "japanese": "それにしても、この島はどういう島なんだろう",
+    "english": "Even so, I wonder what kind of island this is.",
+    "vocabUsed": ["島"],
+    "grammar": ["それにしても (even so)", "〜だろう (I wonder)"]
+  },
+  {
+    "id": "ep04_104",
+    "timestamp": "615.94s",
+    "speaker": "ムーミン",
+    "japanese": "何か手伝うことある?",
+    "english": "Is there anything I can help with?",
+    "vocabUsed": ["何か", "手伝う"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_105",
+    "timestamp": "616.78s",
+    "speaker": "ムーミンママ",
+    "japanese": "そうね",
+    "english": "Let me see...",
+    "vocabUsed": [],
+    "grammar": []
+  },
+  {
+    "id": "ep04_106",
+    "timestamp": "619.87s",
+    "speaker": "ムーミン",
+    "japanese": "僕、島の探検がしたいんだ",
+    "english": "I want to explore the island.",
+    "vocabUsed": ["僕", "島", "探検"],
+    "grammar": ["〜たい (want to)"]
+  },
+  {
+    "id": "ep04_107",
+    "timestamp": "622.30s",
+    "speaker": "ムーミンママ",
+    "japanese": "どうぞ、してらっしゃい",
+    "english": "Go ahead, enjoy yourself.",
+    "vocabUsed": [],
+    "grammar": ["〜てらっしゃい (go and do)"]
+  },
+  {
+    "id": "ep04_108",
+    "timestamp": "623.65s",
+    "speaker": "ムーミン",
+    "japanese": "うん、フローレンは?",
+    "english": "Okay. What about you, Floren?",
+    "vocabUsed": [],
+    "grammar": []
+  },
+  {
+    "id": "ep04_109",
+    "timestamp": "624.12s",
+    "speaker": "フローレン",
+    "japanese": "私はママのお手伝いをするわ",
+    "english": "I'll help Mama.",
+    "vocabUsed": ["私", "ママ", "手伝い"],
+    "grammar": ["〜わ (feminine)"]
+  },
+  {
+    "id": "ep04_110",
+    "timestamp": "626.08s",
+    "speaker": "ミー",
+    "japanese": "ママ、こんなにたくさん持ってきたわよ",
+    "english": "Mama, I brought this much!",
+    "vocabUsed": ["ママ", "たくさん", "持ってくる"],
+    "grammar": ["〜わよ (feminine emphasis)"]
+  },
+  {
+    "id": "ep04_111",
+    "timestamp": "629.02s",
+    "speaker": "ムーミンママ",
+    "japanese": "ありがとう、二人とも",
+    "english": "Thank you, both of you.",
+    "vocabUsed": ["二人"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_112",
+    "timestamp": "636.49s",
+    "speaker": "ムーミン",
+    "japanese": "この島には住んでる人はいないのかな?",
+    "english": "I wonder if anyone lives on this island?",
+    "vocabUsed": ["島", "住む", "人"],
+    "grammar": ["〜かな (I wonder)"]
+  },
+  {
+    "id": "ep04_113",
+    "timestamp": "639.34s",
+    "speaker": "スノフキン",
+    "japanese": "さあね、とにかく今のところは誰も見かけないね",
+    "english": "Who knows. Anyway, so far I haven't seen anyone.",
+    "vocabUsed": ["今", "誰", "見かける"],
+    "grammar": ["今のところ (so far)"]
+  },
+  {
+    "id": "ep04_114",
+    "timestamp": "643.00s",
+    "speaker": "ミー",
+    "japanese": "見たわ、私",
+    "english": "I saw someone.",
+    "vocabUsed": ["見る", "私"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_115",
+    "timestamp": "644.88s",
+    "speaker": "ムーミン",
+    "japanese": "え?誰を?",
+    "english": "Huh? Who?",
+    "vocabUsed": ["誰"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_116",
+    "timestamp": "647.07s",
+    "speaker": "ミー",
+    "japanese": "小さいやつを",
+    "english": "Something small.",
+    "vocabUsed": ["小さい"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_117",
+    "timestamp": "648.19s",
+    "speaker": "ムーミン",
+    "japanese": "小さいって、どのくらい?",
+    "english": "How small?",
+    "vocabUsed": ["小さい"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_118",
+    "timestamp": "650.69s",
+    "speaker": "ミー",
+    "japanese": "私くらいよ",
+    "english": "About my size.",
+    "vocabUsed": ["私"],
+    "grammar": ["〜くらい (about)"]
+  },
+  {
+    "id": "ep04_119",
+    "timestamp": "651.75s",
+    "speaker": "ムーミン",
+    "japanese": "どんなやつ?",
+    "english": "What kind?",
+    "vocabUsed": [],
+    "grammar": []
+  },
+  {
+    "id": "ep04_120",
+    "timestamp": "653.58s",
+    "speaker": "ミー",
+    "japanese": "よく見えなかった、だって、すぐに草の陰に隠れちゃったもの",
+    "english": "I couldn't see well. It quickly hid in the grass.",
+    "vocabUsed": ["見える", "草", "陰", "隠れる"],
+    "grammar": ["〜ちゃった (did unfortunately)"]
+  },
+  {
+    "id": "ep04_121",
+    "timestamp": "658.00s",
+    "speaker": "スノフキン",
+    "japanese": "ミーの話が本当なら、やっぱり誰かいるんだ",
+    "english": "If My's story is true, then someone must be here after all.",
+    "vocabUsed": ["話", "本当", "誰か"],
+    "grammar": ["〜なら (if)"]
+  },
+  {
+    "id": "ep04_122",
+    "timestamp": "661.62s",
+    "speaker": "ミー",
+    "japanese": "私を信用しないのね?",
+    "english": "You don't trust me?",
+    "vocabUsed": ["私", "信用"],
+    "grammar": ["〜のね (confirmation, feminine)"]
+  },
+  {
+    "id": "ep04_123",
+    "timestamp": "664.20s",
+    "speaker": "スノフキン",
+    "japanese": "そうじゃない、見間違いだってあるからね",
+    "english": "That's not it. It could have been a mistake.",
+    "vocabUsed": ["見間違い"],
+    "grammar": ["〜だって (even)"]
+  },
+  {
+    "id": "ep04_124",
+    "timestamp": "667.12s",
+    "speaker": "ヘムレン",
+    "japanese": "おしべが三つに、めしべが七つ、うーん、これは珍しい",
+    "english": "Three stamens and seven pistils... Hmm, this is rare.",
+    "vocabUsed": ["おしべ", "めしべ", "珍しい"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_125",
+    "timestamp": "677.70s",
+    "speaker": "ヘムレン",
+    "japanese": "ん?興味深い",
+    "english": "Hmm? Interesting.",
+    "vocabUsed": ["興味深い"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_126",
+    "timestamp": "705.86s",
+    "speaker": "ヘムレン",
+    "japanese": "こいつも珍しい、この島は珍しい植物ばかりだ",
+    "english": "This one is rare too. This island is full of rare plants.",
+    "vocabUsed": ["珍しい", "島", "植物"],
+    "grammar": ["〜ばかり (nothing but)"]
+  },
+  {
+    "id": "ep04_127",
+    "timestamp": "711.20s",
+    "speaker": "ヘムレン",
+    "japanese": "なんだあれは",
+    "english": "What's that?",
+    "vocabUsed": ["何"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_128",
+    "timestamp": "718.88s",
+    "speaker": "ヘムレン",
+    "japanese": "なんだ?気圧計じゃないか",
+    "english": "What? Isn't that a barometer?",
+    "vocabUsed": ["何", "気圧計"],
+    "grammar": ["〜じゃないか (isn't it)"]
+  },
+  {
+    "id": "ep04_129",
+    "timestamp": "731.15s",
+    "speaker": "ヘムレン",
+    "japanese": "おや?雨をさしてるぞ、壊れてるんじゃないのか?",
+    "english": "Huh? It's pointing to rain. Is it broken?",
+    "vocabUsed": ["雨", "壊れる"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_130",
+    "timestamp": "746.36s",
+    "speaker": "ヘムレン",
+    "japanese": "お前たち、こんなところで何してるんだ",
+    "english": "What are you all doing here?",
+    "vocabUsed": ["何"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_131",
+    "timestamp": "748.92s",
+    "speaker": "ヘムレン",
+    "japanese": "そうか、この気圧計はお前たちのものなんだな",
+    "english": "I see, this barometer belongs to you all.",
+    "vocabUsed": ["気圧計", "もの"],
+    "grammar": ["〜なんだ (explanatory)"]
+  },
+  {
+    "id": "ep04_132",
+    "timestamp": "753.82s",
+    "speaker": "ヘムレン",
+    "japanese": "な、なんだ、文句でもあるのか?あるなら言ってみろ",
+    "english": "Wh-what? Do you have a complaint? If so, say it!",
+    "vocabUsed": ["何", "文句", "言う"],
+    "grammar": ["〜てみろ (try doing, imperative)"]
+  },
+  {
+    "id": "ep04_133",
+    "timestamp": "769.74s",
+    "speaker": "スノフキン",
+    "japanese": "ミーが言ってたのは、ニョロニョロだよ、きっと",
+    "english": "What My was talking about must have been the Hattifatteners.",
+    "vocabUsed": ["言う", "きっと"],
+    "grammar": ["〜ていた (was doing)"]
+  },
+  {
+    "id": "ep04_134",
+    "timestamp": "770.28s",
+    "speaker": "ムーミン",
+    "japanese": "え?それじゃ、ここはお化け島か",
+    "english": "Huh? So this is a ghost island?",
+    "vocabUsed": ["お化け", "島"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_135",
+    "timestamp": "772.66s",
+    "speaker": "スノフキン",
+    "japanese": "お化けと言っても、ニョロニョロはおとなしい奴だから、どうってことない",
+    "english": "Even though they're called ghosts, Hattifatteners are quiet creatures, so it's no big deal.",
+    "vocabUsed": ["お化け", "言う", "おとなしい"],
+    "grammar": ["〜と言っても (even though called)", "どうってことない (no big deal)"]
+  },
+  {
+    "id": "ep04_136",
+    "timestamp": "777.01s",
+    "speaker": "ムーミン",
+    "japanese": "今、助けてくれって言ったな",
+    "english": "Just now, someone said 'help me.'",
+    "vocabUsed": ["今", "助ける", "言う"],
+    "grammar": ["〜てくれ (do for me)"]
+  },
+  {
+    "id": "ep04_137",
+    "timestamp": "781.87s",
+    "speaker": "スノフキン",
+    "japanese": "ヘムレンさんの声よ",
+    "english": "That's Mr. Hemulen's voice.",
+    "vocabUsed": ["声"],
+    "grammar": []
+  },
+  {
+    "id": "ep04_138",
+    "timestamp": "821.94s",
+    "speaker": "ヘムレン",
+    "japanese": "おい、助けてくれー",
+    "english": "Hey, help me!",
+    "vocabUsed": ["助ける"],
+    "grammar": ["〜てくれ (do for me)"]
+  },
+  {
+    "id": "ep04_139",
+    "timestamp": "825.44s",
+    "speaker": "スノフキン",
+    "japanese": "どうしておとなしいニョロニョロをこんなに怒らせたんですか?",
+    "english": "How did you make such quiet Hattifatteners this angry?",
+    "vocabUsed": ["おとなしい", "怒る"],
+    "grammar": ["〜させる (causative)"]
+  },
+  {
+    "id": "ep04_140",
+    "timestamp": "829.84s",
+    "speaker": "ヘムレン",
+    "japanese": "それがよくわからないんだが、何か気に入らないことがあったらしいよ",
+    "english": "I don't really understand, but apparently something bothered them.",
+    "vocabUsed": ["よく", "分かる", "何か", "気に入る"],
+    "grammar": ["〜らしい (apparently)"]
+  },
+  {
+    "id": "ep04_141",
+    "timestamp": "834.60s",
+    "speaker": "ムーミン",
+    "japanese": "何もしないのに、ニョロニョロが怒りますかね",
+    "english": "Would Hattifatteners get angry if you didn't do anything?",
+    "vocabUsed": ["何", "怒る"],
+    "grammar": ["〜のに (even though)"]
+  },
+  {
+    "id": "ep04_142",
+    "timestamp": "837.54s",
+    "speaker": "ヘムレン",
+    "japanese": "そうじゃな、気圧計を叩いたのがまずかったのかな",
+    "english": "Well, maybe hitting the barometer was a bad idea.",
+    "vocabUsed": ["気圧計", "叩く", "まずい"],
+    "grammar": ["〜のが (the act of doing)"]
+  }
+]

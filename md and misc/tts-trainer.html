@@ -1,0 +1,1217 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ムーミン TTS Trainer - VOICEVOX Audio Generator</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --bg-deep: #0a0a0f;
+      --bg-surface: #12121a;
+      --bg-elevated: #1a1a24;
+      --bg-hover: #22222e;
+      --border: #2a2a3a;
+      --text-primary: #e8e8f0;
+      --text-muted: #8888a0;
+      --accent-cyan: #00d4ff;
+      --accent-pink: #ff6090;
+      --accent-green: #00ff88;
+      --accent-orange: #ff9040;
+      --accent-purple: #a855f7;
+      --shadow-glow: 0 0 30px rgba(0, 212, 255, 0.15);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Zen Kaku Gothic New', sans-serif;
+      background: var(--bg-deep);
+      color: var(--text-primary);
+      min-height: 100vh;
+      line-height: 1.6;
+    }
+
+    .app {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h1 {
+      font-family: 'Space Mono', monospace;
+      font-size: 2rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-cyan), var(--accent-pink));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 0.5rem;
+    }
+
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+
+    .status-bar {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 1rem 1.5rem;
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      margin-bottom: 2rem;
+    }
+
+    .status-indicator {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: var(--text-muted);
+      transition: all 0.3s;
+    }
+
+    .status-indicator.connected {
+      background: var(--accent-green);
+      box-shadow: 0 0 10px var(--accent-green);
+    }
+
+    .status-indicator.error {
+      background: var(--accent-pink);
+      box-shadow: 0 0 10px var(--accent-pink);
+    }
+
+    .status-text {
+      flex: 1;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.85rem;
+    }
+
+    .btn {
+      font-family: 'Space Mono', monospace;
+      padding: 0.75rem 1.5rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--bg-elevated);
+      color: var(--text-primary);
+      cursor: pointer;
+      transition: all 0.2s;
+      font-size: 0.85rem;
+    }
+
+    .btn:hover {
+      background: var(--bg-hover);
+      border-color: var(--accent-cyan);
+    }
+
+    .btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--accent-cyan), var(--accent-purple));
+      border: none;
+      color: var(--bg-deep);
+      font-weight: 700;
+    }
+
+    .btn-primary:hover {
+      filter: brightness(1.1);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+
+    @media (max-width: 1000px) {
+      .grid { grid-template-columns: 1fr; }
+    }
+
+    .panel {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 1.5rem;
+    }
+
+    .panel-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .panel-title {
+      font-family: 'Space Mono', monospace;
+      font-size: 1.1rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .panel-title::before {
+      content: '';
+      display: inline-block;
+      width: 4px;
+      height: 1.2em;
+      background: var(--accent-cyan);
+      border-radius: 2px;
+    }
+
+    /* Character Mapping */
+    .character-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      max-height: 600px;
+      overflow-y: auto;
+    }
+
+    .character-item {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 1rem;
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      transition: all 0.2s;
+    }
+
+    .character-item:hover {
+      border-color: var(--accent-cyan);
+    }
+
+    .character-name {
+      min-width: 120px;
+      font-weight: 500;
+    }
+
+    .character-name .ja {
+      font-size: 1rem;
+    }
+
+    .character-name .en {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    .character-desc {
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      font-style: italic;
+      margin-top: 2px;
+    }
+
+    .speaker-select {
+      flex: 1;
+      padding: 0.5rem;
+      background: var(--bg-deep);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--text-primary);
+      font-family: inherit;
+      font-size: 0.85rem;
+    }
+
+    .speaker-select:focus {
+      outline: none;
+      border-color: var(--accent-cyan);
+    }
+
+    .speaker-select optgroup {
+      font-weight: bold;
+      color: var(--text-muted);
+    }
+
+    .speaker-select option {
+      padding: 4px;
+    }
+
+    .speaker-select option.recommended {
+      color: var(--accent-green);
+    }
+
+    .speaker-select option.sketchy {
+      color: var(--text-muted);
+    }
+
+    .preview-btn {
+      padding: 0.5rem 0.75rem;
+      background: transparent;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all 0.2s;
+      font-size: 0.9rem;
+    }
+
+    .preview-btn:hover {
+      color: var(--accent-cyan);
+      border-color: var(--accent-cyan);
+    }
+
+    .preview-btn:disabled {
+      opacity: 0.3;
+      cursor: not-allowed;
+    }
+
+    /* Character type badges */
+    .char-badge {
+      font-size: 0.65rem;
+      padding: 2px 6px;
+      border-radius: 4px;
+      margin-left: 6px;
+      font-weight: 500;
+    }
+
+    .char-badge.male {
+      background: rgba(0, 150, 255, 0.2);
+      color: #4da6ff;
+    }
+
+    .char-badge.female {
+      background: rgba(255, 100, 150, 0.2);
+      color: #ff6496;
+    }
+
+    .char-badge.child {
+      background: rgba(255, 200, 0, 0.2);
+      color: #ffc800;
+    }
+
+    /* Episode Selection */
+    .episode-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      gap: 0.75rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .episode-card {
+      padding: 1rem;
+      background: var(--bg-elevated);
+      border: 2px solid var(--border);
+      border-radius: 10px;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .episode-card:hover {
+      border-color: var(--accent-cyan);
+    }
+
+    .episode-card.selected {
+      border-color: var(--accent-cyan);
+      background: rgba(0, 212, 255, 0.1);
+    }
+
+    .episode-card .ep-num {
+      font-family: 'Space Mono', monospace;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--accent-cyan);
+    }
+
+    .episode-card .ep-title {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-top: 0.25rem;
+    }
+
+    /* Progress Section */
+    .progress-section {
+      margin-top: 2rem;
+    }
+
+    .progress-bar-container {
+      height: 8px;
+      background: var(--bg-deep);
+      border-radius: 4px;
+      overflow: hidden;
+      margin: 1rem 0;
+    }
+
+    .progress-bar {
+      height: 100%;
+      background: linear-gradient(90deg, var(--accent-cyan), var(--accent-green));
+      width: 0%;
+      transition: width 0.3s;
+    }
+
+    .progress-stats {
+      display: flex;
+      justify-content: space-between;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    /* Log Output */
+    .log-panel {
+      margin-top: 2rem;
+    }
+
+    .log-output {
+      background: var(--bg-deep);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem;
+      height: 200px;
+      overflow-y: auto;
+      font-family: 'Space Mono', monospace;
+      font-size: 0.75rem;
+      line-height: 1.8;
+    }
+
+    .log-entry {
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .log-entry .time {
+      color: var(--text-muted);
+    }
+
+    .log-entry.success .msg { color: var(--accent-green); }
+    .log-entry.error .msg { color: var(--accent-pink); }
+    .log-entry.info .msg { color: var(--accent-cyan); }
+    .log-entry.warn .msg { color: var(--accent-orange); }
+
+    /* Action Buttons */
+    .action-buttons {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    .action-buttons .btn {
+      flex: 1;
+    }
+
+    /* Audio Player Preview */
+    .audio-preview {
+      margin-top: 1rem;
+      padding: 1rem;
+      background: var(--bg-elevated);
+      border-radius: 8px;
+      display: none;
+    }
+
+    .audio-preview.visible {
+      display: block;
+    }
+
+    .audio-preview audio {
+      width: 100%;
+    }
+
+    .preview-text {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 0.5rem;
+      font-style: italic;
+    }
+
+    /* Stats Cards */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .stat-card {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .stat-value {
+      font-family: 'Space Mono', monospace;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--accent-cyan);
+    }
+
+    .stat-label {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-top: 0.25rem;
+    }
+
+    /* Quick recommendations panel */
+    .recommendations {
+      background: rgba(0, 255, 136, 0.05);
+      border: 1px solid rgba(0, 255, 136, 0.2);
+      border-radius: 10px;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .recommendations h4 {
+      font-size: 0.85rem;
+      color: var(--accent-green);
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .recommendations p {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin: 0;
+    }
+
+    .auto-assign-btn {
+      margin-top: 0.75rem;
+      background: rgba(0, 255, 136, 0.1);
+      border-color: var(--accent-green);
+      color: var(--accent-green);
+    }
+
+    .auto-assign-btn:hover {
+      background: rgba(0, 255, 136, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>ムーミン TTS Trainer</h1>
+      <p class="subtitle">VOICEVOX Audio Generator for Vocabulary Cards</p>
+    </header>
+
+    <div class="status-bar">
+      <div class="status-indicator" id="voicevox-status"></div>
+      <span class="status-text" id="voicevox-status-text">Checking VOICEVOX connection...</span>
+      <button class="btn" id="refresh-connection">Refresh</button>
+    </div>
+
+    <div class="grid">
+      <!-- Left Panel: Character Mapping -->
+      <div class="panel">
+        <div class="panel-header">
+          <h2 class="panel-title">Character → Speaker Mapping</h2>
+          <div style="display: flex; gap: 0.5rem;">
+            <button class="btn" id="save-mappings">Save</button>
+            <button class="btn" id="export-mappings" title="Export for command-line script">Export</button>
+          </div>
+        </div>
+
+        <div class="recommendations">
+          <h4>💡 Quick Setup</h4>
+          <p>Click below to auto-assign recommended voices to all characters. You can preview and adjust afterwards.</p>
+          <button class="btn auto-assign-btn" id="auto-assign">Auto-Assign Recommended Voices</button>
+        </div>
+
+        <div class="character-list" id="character-list">
+          <!-- Populated dynamically -->
+        </div>
+      </div>
+
+      <!-- Right Panel: Generation -->
+      <div class="panel">
+        <div class="panel-header">
+          <h2 class="panel-title">Audio Generation</h2>
+        </div>
+
+        <h3 style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1rem;">Select Episodes</h3>
+        <div class="episode-grid" id="episode-grid">
+          <!-- Populated dynamically -->
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-value" id="stat-total">0</div>
+            <div class="stat-label">Total Sentences</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value" id="stat-existing">0</div>
+            <div class="stat-label">Already Generated</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value" id="stat-pending">0</div>
+            <div class="stat-label">To Generate</div>
+          </div>
+        </div>
+
+        <div class="action-buttons">
+          <button class="btn btn-primary" id="start-generation" disabled>
+            Generate Audio
+          </button>
+          <button class="btn" id="stop-generation" disabled>
+            Stop
+          </button>
+        </div>
+
+        <div class="progress-section" id="progress-section" style="display: none;">
+          <div class="progress-bar-container">
+            <div class="progress-bar" id="progress-bar"></div>
+          </div>
+          <div class="progress-stats">
+            <span id="progress-current">0 / 0</span>
+            <span id="progress-percent">0%</span>
+          </div>
+        </div>
+
+        <div class="audio-preview" id="audio-preview">
+          <div class="preview-text" id="preview-text"></div>
+          <audio controls id="preview-audio"></audio>
+        </div>
+      </div>
+    </div>
+
+    <div class="log-panel panel">
+      <div class="panel-header">
+        <h2 class="panel-title">Log Output</h2>
+        <button class="btn" id="clear-log">Clear</button>
+      </div>
+      <div class="log-output" id="log-output"></div>
+    </div>
+  </div>
+
+  <script>
+    // ============================================
+    // VOICEVOX TTS Trainer
+    // ============================================
+
+    const VOICEVOX_BASE = 'http://localhost:50021';
+    
+    // Known characters from Moomin with descriptions and voice type hints
+    const KNOWN_CHARACTERS = [
+      { id: 'narrator', ja: 'ナレーター', en: 'Narrator', desc: 'Warm storytelling voice', type: 'neutral' },
+      { id: 'moomin', ja: 'ムーミン', en: 'Moomin', desc: 'Gentle young boy, kind-hearted', type: 'male-young' },
+      { id: 'moominpapa', ja: 'ムーミンパパ', en: 'Moominpapa', desc: 'Adventurous dad, dignified', type: 'male' },
+      { id: 'moominmama', ja: 'ムーミンママ', en: 'Moominmama', desc: 'Warm, nurturing mother', type: 'female' },
+      { id: 'snufkin', ja: 'スノフキン', en: 'Snufkin', desc: 'Cool wanderer, laid-back', type: 'male' },
+      { id: 'sniff', ja: 'スニフ', en: 'Sniff', desc: 'Cowardly, whiny, nervous', type: 'male-young' },
+      { id: 'littlemy', ja: 'ミー', en: 'Little My', desc: 'Tiny, fierce, sarcastic', type: 'child' },
+      { id: 'snorkmaiden', ja: 'フローレン', en: 'Snorkmaiden', desc: "Moomin's girlfriend, sweet", type: 'female-young' },
+      { id: 'snork', ja: 'スノーク', en: 'Snork', desc: 'Inventor brother, serious', type: 'male' },
+      { id: 'hemulen', ja: 'ヘムレン', en: 'Hemulen', desc: 'Pedantic collector, stuffy', type: 'male' },
+      { id: 'mystery', ja: '謎の生き物', en: 'Mystery Creature', desc: 'Transformed Moomin', type: 'male-young' },
+    ];
+
+    // Style patterns to identify sketchy/unusual voices
+    const SKETCHY_STYLES = [
+      'あまあま', 'ツンツン', 'セクシー', 'ささやき', 'ヒソヒソ', 
+      'びえーん', 'ぴえん', 'ため息', '怒り', '悲しみ',
+      'amaama', 'sexy', 'whisper'
+    ];
+
+    // Recommended speaker IDs for each character type
+    // These will be matched against available speakers
+    const RECOMMENDED_SPEAKERS = {
+      // Speaker name patterns that are generally good
+      goodSpeakers: [
+        '四国めたん', 'ずんだもん', '春日部つむぎ', '青山龍星', 
+        '冥鳴ひまり', '九州そら', 'もち子さん', 'No.7', '剣崎雌雄',
+        '玄野武宏', '白上虎太郎', '聖騎士 紅桜'
+      ],
+      // Speaker name patterns to avoid entirely
+      avoidSpeakers: [
+        '波音リツ' // Very robotic
+      ],
+      // Style names that are safe
+      goodStyles: [
+        'ノーマル', 'normal', '落ち着き', 'あたたか', 
+        '通常', 'トーク', 'まじめ'
+      ]
+    };
+
+    // Default recommendations per character
+    const DEFAULT_ASSIGNMENTS = {
+      'narrator': { speaker: 'ずんだもん', style: 'ノーマル' },
+      'moomin': { speaker: '四国めたん', style: 'ノーマル' },
+      'moominpapa': { speaker: '青山龍星', style: 'ノーマル' },
+      'moominmama': { speaker: '冥鳴ひまり', style: 'ノーマル' },
+      'snufkin': { speaker: 'No.7', style: 'ノーマル' },
+      'sniff': { speaker: '四国めたん', style: 'ノーマル' },  // Higher pitch option
+      'littlemy': { speaker: '春日部つむぎ', style: 'ノーマル' },
+      'snorkmaiden': { speaker: '春日部つむぎ', style: 'ノーマル' },
+      'snork': { speaker: '青山龍星', style: 'ノーマル' },
+      'hemulen': { speaker: '青山龍星', style: 'ノーマル' },
+      'mystery': { speaker: '四国めたん', style: 'ノーマル' }
+    };
+
+    // State
+    let voicevoxSpeakers = [];
+    let characterMappings = {};
+    let selectedEpisodes = new Set();
+    let episodesData = [];
+    let isGenerating = false;
+    let shouldStop = false;
+    let categorizedSpeakers = { recommended: [], normal: [], sketchy: [] };
+
+    // ============================================
+    // Speaker Categorization
+    // ============================================
+
+    function categorizeSpeakers(speakers) {
+      const result = { recommended: [], normal: [], sketchy: [] };
+
+      speakers.forEach(speaker => {
+        const isGoodSpeaker = RECOMMENDED_SPEAKERS.goodSpeakers.some(
+          name => speaker.name.includes(name)
+        );
+        const isAvoidSpeaker = RECOMMENDED_SPEAKERS.avoidSpeakers.some(
+          name => speaker.name.includes(name)
+        );
+
+        speaker.styles.forEach(style => {
+          const entry = {
+            id: style.id,
+            speakerName: speaker.name,
+            styleName: style.name,
+            label: `${speaker.name} (${style.name})`,
+            speakerUuid: speaker.speaker_uuid
+          };
+
+          const isSketchy = SKETCHY_STYLES.some(
+            pattern => style.name.toLowerCase().includes(pattern.toLowerCase())
+          );
+          const isGoodStyle = RECOMMENDED_SPEAKERS.goodStyles.some(
+            pattern => style.name.includes(pattern)
+          );
+
+          if (isAvoidSpeaker || isSketchy) {
+            result.sketchy.push(entry);
+          } else if (isGoodSpeaker && isGoodStyle) {
+            result.recommended.push(entry);
+          } else if (isGoodSpeaker || isGoodStyle) {
+            result.normal.push(entry);
+          } else {
+            result.normal.push(entry);
+          }
+        });
+      });
+
+      return result;
+    }
+
+    function findSpeakerId(speakerName, styleName) {
+      // Search through all categories
+      const allSpeakers = [
+        ...categorizedSpeakers.recommended,
+        ...categorizedSpeakers.normal,
+        ...categorizedSpeakers.sketchy
+      ];
+
+      // Try exact match first
+      let match = allSpeakers.find(s => 
+        s.speakerName === speakerName && s.styleName === styleName
+      );
+
+      // Try partial match on speaker name with preferred style
+      if (!match) {
+        match = allSpeakers.find(s => 
+          s.speakerName.includes(speakerName) && 
+          RECOMMENDED_SPEAKERS.goodStyles.some(gs => s.styleName.includes(gs))
+        );
+      }
+
+      // Try just speaker name
+      if (!match) {
+        match = allSpeakers.find(s => s.speakerName.includes(speakerName));
+      }
+
+      return match ? match.id : null;
+    }
+
+    // ============================================
+    // VOICEVOX API Functions
+    // ============================================
+
+    async function checkVoicevoxConnection() {
+      const statusEl = document.getElementById('voicevox-status');
+      const statusText = document.getElementById('voicevox-status-text');
+      
+      try {
+        const res = await fetch(`${VOICEVOX_BASE}/speakers`);
+        if (!res.ok) throw new Error('Failed to fetch speakers');
+        
+        voicevoxSpeakers = await res.json();
+        categorizedSpeakers = categorizeSpeakers(voicevoxSpeakers);
+        
+        statusEl.className = 'status-indicator connected';
+        const totalVoices = categorizedSpeakers.recommended.length + 
+                           categorizedSpeakers.normal.length + 
+                           categorizedSpeakers.sketchy.length;
+        statusText.textContent = `Connected - ${categorizedSpeakers.recommended.length} recommended, ${totalVoices} total voices`;
+        log('success', `VOICEVOX connected. ${categorizedSpeakers.recommended.length} recommended voices found.`);
+        
+        populateCharacterList();
+        return true;
+      } catch (e) {
+        statusEl.className = 'status-indicator error';
+        statusText.textContent = 'Not connected - Is VOICEVOX running?';
+        log('error', `Failed to connect to VOICEVOX: ${e.message}`);
+        return false;
+      }
+    }
+
+    async function generateAudio(text, speakerId) {
+      // Step 1: Create audio query
+      const queryRes = await fetch(
+        `${VOICEVOX_BASE}/audio_query?speaker=${speakerId}&text=${encodeURIComponent(text)}`,
+        { method: 'POST' }
+      );
+      if (!queryRes.ok) throw new Error('Failed to create audio query');
+      const query = await queryRes.json();
+
+      // Step 2: Synthesize
+      const synthRes = await fetch(
+        `${VOICEVOX_BASE}/synthesis?speaker=${speakerId}`,
+        {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(query)
+        }
+      );
+      if (!synthRes.ok) throw new Error('Synthesis failed');
+      
+      return await synthRes.blob();
+    }
+
+    // ============================================
+    // UI Population
+    // ============================================
+
+    function populateCharacterList() {
+      const container = document.getElementById('character-list');
+      
+      // Load saved mappings
+      const saved = localStorage.getItem('moomin-tts-mappings');
+      if (saved) {
+        characterMappings = JSON.parse(saved);
+      }
+
+      // Build speaker options HTML with categories
+      let speakerOptions = '<option value="">-- Select Speaker --</option>';
+      
+      if (categorizedSpeakers.recommended.length > 0) {
+        speakerOptions += '<optgroup label="✓ Recommended">';
+        categorizedSpeakers.recommended.forEach(s => {
+          speakerOptions += `<option value="${s.id}" class="recommended">${s.label}</option>`;
+        });
+        speakerOptions += '</optgroup>';
+      }
+
+      if (categorizedSpeakers.normal.length > 0) {
+        speakerOptions += '<optgroup label="○ Other Normal Voices">';
+        categorizedSpeakers.normal.forEach(s => {
+          speakerOptions += `<option value="${s.id}">${s.label}</option>`;
+        });
+        speakerOptions += '</optgroup>';
+      }
+
+      if (categorizedSpeakers.sketchy.length > 0) {
+        speakerOptions += '<optgroup label="⚠ Unusual Styles (breathy/emotional)">';
+        categorizedSpeakers.sketchy.forEach(s => {
+          speakerOptions += `<option value="${s.id}" class="sketchy">${s.label}</option>`;
+        });
+        speakerOptions += '</optgroup>';
+      }
+
+      container.innerHTML = KNOWN_CHARACTERS.map(char => {
+        const badgeClass = char.type.includes('female') ? 'female' : 
+                          char.type.includes('child') ? 'child' : 
+                          char.type.includes('male') ? 'male' : '';
+        const badgeText = char.type.includes('female') ? '♀' :
+                         char.type.includes('child') ? '子' :
+                         char.type.includes('male') ? '♂' : '';
+        
+        return `
+          <div class="character-item" data-char="${char.id}">
+            <div class="character-name">
+              <div class="ja">
+                ${char.ja}
+                ${badgeText ? `<span class="char-badge ${badgeClass}">${badgeText}</span>` : ''}
+              </div>
+              <div class="en">${char.en}</div>
+              <div class="character-desc">${char.desc}</div>
+            </div>
+            <select class="speaker-select" data-char="${char.id}">
+              ${speakerOptions}
+            </select>
+            <button class="preview-btn" data-char="${char.id}" title="Preview voice">
+              ▶
+            </button>
+          </div>
+        `;
+      }).join('');
+
+      // Set saved values
+      container.querySelectorAll('.speaker-select').forEach(sel => {
+        const charId = sel.dataset.char;
+        if (characterMappings[charId]) {
+          sel.value = characterMappings[charId];
+        }
+      });
+
+      // Event listeners
+      container.querySelectorAll('.speaker-select').forEach(sel => {
+        sel.addEventListener('change', () => {
+          characterMappings[sel.dataset.char] = sel.value;
+          updatePreviewButton(sel.dataset.char);
+        });
+      });
+
+      container.querySelectorAll('.preview-btn').forEach(btn => {
+        btn.addEventListener('click', () => previewCharacter(btn.dataset.char));
+        updatePreviewButton(btn.dataset.char);
+      });
+    }
+
+    function updatePreviewButton(charId) {
+      const btn = document.querySelector(`.preview-btn[data-char="${charId}"]`);
+      const speakerId = characterMappings[charId];
+      btn.disabled = !speakerId;
+    }
+
+    function autoAssignVoices() {
+      KNOWN_CHARACTERS.forEach(char => {
+        const assignment = DEFAULT_ASSIGNMENTS[char.id];
+        if (assignment) {
+          const speakerId = findSpeakerId(assignment.speaker, assignment.style);
+          if (speakerId) {
+            characterMappings[char.id] = speakerId;
+            const select = document.querySelector(`.speaker-select[data-char="${char.id}"]`);
+            if (select) {
+              select.value = speakerId;
+            }
+          }
+        }
+      });
+
+      log('success', 'Auto-assigned recommended voices to all characters');
+      
+      // Update all preview buttons
+      KNOWN_CHARACTERS.forEach(char => {
+        updatePreviewButton(char.id);
+      });
+    }
+
+    async function previewCharacter(charId) {
+      const speakerId = characterMappings[charId];
+      if (!speakerId) {
+        log('warn', `No speaker selected for ${charId}`);
+        return;
+      }
+
+      const char = KNOWN_CHARACTERS.find(c => c.id === charId);
+      
+      // Use character-appropriate test phrases
+      const testPhrases = {
+        'narrator': 'みなさんはムーミン谷のことを聞いたことがありますか。',
+        'moomin': '春だ！春が来たんだ！',
+        'moominpapa': '私は自分の若き日の思い出を書いているのです。',
+        'moominmama': 'さあ、冬眠明けのお料理を作りましょうか。',
+        'snufkin': 'やっぱりムーミン谷が一番だからね。',
+        'sniff': '山に登るのは何が面白いのさ。',
+        'littlemy': 'あんたの大声で目が覚めたのよ！',
+        'snorkmaiden': '私も乗りたい！',
+        'snork': '今年こそ僕は空飛ぶ船を作ってみせるぞ。',
+        'hemulen': 'パパやママは起きたかね。',
+        'mystery': '僕本当にムーミンなんだよ！'
+      };
+
+      const testText = testPhrases[charId] || 'こんにちは、私は' + char.ja + 'です。';
+
+      log('info', `Generating preview for ${char.ja}...`);
+      
+      try {
+        const blob = await generateAudio(testText, speakerId);
+        const url = URL.createObjectURL(blob);
+        
+        const previewEl = document.getElementById('audio-preview');
+        const audioEl = document.getElementById('preview-audio');
+        const textEl = document.getElementById('preview-text');
+        
+        textEl.textContent = `"${testText}"`;
+        audioEl.src = url;
+        previewEl.classList.add('visible');
+        audioEl.play();
+        
+        log('success', `Preview ready for ${char.ja}`);
+      } catch (e) {
+        log('error', `Preview failed: ${e.message}`);
+      }
+    }
+
+    async function loadEpisodes() {
+      try {
+        const res = await fetch('data/episodes/index.json');
+        const index = await res.json();
+        episodesData = index.episodes || [];
+        
+        const container = document.getElementById('episode-grid');
+        container.innerHTML = episodesData.map(ep => {
+          // Extract episode number from id like "ep01" -> "01" -> "1"
+          const epNum = ep.id.replace('ep', '').replace(/^0+/, '') || '0';
+          return `
+            <div class="episode-card" data-ep="${ep.id}">
+              <div class="ep-num">${epNum}</div>
+              <div class="ep-title">${ep.title}</div>
+            </div>
+          `;
+        }).join('');
+
+        container.querySelectorAll('.episode-card').forEach(card => {
+          card.addEventListener('click', () => {
+            const epId = card.dataset.ep;
+            if (selectedEpisodes.has(epId)) {
+              selectedEpisodes.delete(epId);
+              card.classList.remove('selected');
+            } else {
+              selectedEpisodes.add(epId);
+              card.classList.add('selected');
+            }
+            updateStats();
+          });
+        });
+
+        log('info', `Loaded ${episodesData.length} episodes`);
+      } catch (e) {
+        log('error', `Failed to load episodes: ${e.message}`);
+      }
+    }
+
+    async function updateStats() {
+      let totalSentences = 0;
+      let existingAudio = 0;
+
+      // Load the audio manifest to check for existing files
+      let manifest = { episodes: {} };
+      try {
+        const manifestRes = await fetch('audio/manifest.json');
+        if (manifestRes.ok) {
+          manifest = await manifestRes.json();
+        }
+      } catch (e) {
+        // Manifest doesn't exist yet
+      }
+
+      for (const epId of selectedEpisodes) {
+        try {
+          const res = await fetch(`data/episodes/${epId}/vocab.json`);
+          const vocab = await res.json();
+          const epManifest = manifest.episodes[epId] || {};
+          
+          vocab.forEach(word => {
+            if (word.examples) {
+              totalSentences += word.examples.length;
+              // Check each example against the manifest
+              word.examples.forEach((ex, idx) => {
+                const key = `${word.id}_${idx}`;
+                if (epManifest[key] === true) {
+                  existingAudio++;
+                }
+              });
+            }
+          });
+        } catch (e) {
+          // Ignore
+        }
+      }
+
+      document.getElementById('stat-total').textContent = totalSentences;
+      document.getElementById('stat-existing').textContent = existingAudio;
+      document.getElementById('stat-pending').textContent = totalSentences - existingAudio;
+
+      document.getElementById('start-generation').disabled = 
+        selectedEpisodes.size === 0 || totalSentences === 0;
+    }
+
+    // ============================================
+    // Audio Generation
+    // ============================================
+
+    async function startGeneration() {
+      if (isGenerating) return;
+      
+      // Check if narrator is assigned (minimum requirement)
+      if (!characterMappings['narrator']) {
+        log('error', 'Please assign at least the Narrator voice before generating');
+        return;
+      }
+      
+      isGenerating = true;
+      shouldStop = false;
+      
+      document.getElementById('start-generation').disabled = true;
+      document.getElementById('stop-generation').disabled = false;
+      document.getElementById('progress-section').style.display = 'block';
+
+      const allSentences = [];
+
+      // Collect all sentences
+      for (const epId of selectedEpisodes) {
+        try {
+          const res = await fetch(`data/episodes/${epId}/vocab.json`);
+          const vocab = await res.json();
+          
+          vocab.forEach(word => {
+            if (word.examples) {
+              word.examples.forEach((ex, idx) => {
+                allSentences.push({
+                  episodeId: epId,
+                  wordId: word.id,
+                  index: idx,
+                  text: ex.japanese,
+                  speaker: 'narrator'
+                });
+              });
+            }
+          });
+        } catch (e) {
+          log('error', `Failed to load vocab for ${epId}`);
+        }
+      }
+
+      log('info', `Starting generation of ${allSentences.length} audio files...`);
+
+      let completed = 0;
+      const total = allSentences.length;
+
+      for (const sentence of allSentences) {
+        if (shouldStop) {
+          log('warn', 'Generation stopped by user');
+          break;
+        }
+
+        const speakerId = characterMappings[sentence.speaker] || characterMappings['narrator'];
+        if (!speakerId) {
+          log('warn', `No speaker mapped for ${sentence.speaker}, skipping`);
+          completed++;
+          continue;
+        }
+
+        try {
+          const blob = await generateAudio(sentence.text, speakerId);
+          
+          const filename = `${sentence.episodeId}_${sentence.wordId}_${sentence.index}.wav`;
+          
+          log('success', `Generated: ${filename}`);
+          
+          completed++;
+          updateProgress(completed, total);
+          
+          await new Promise(r => setTimeout(r, 100));
+          
+        } catch (e) {
+          log('error', `Failed to generate audio for "${sentence.text.substring(0, 20)}...": ${e.message}`);
+          completed++;
+        }
+      }
+
+      isGenerating = false;
+      document.getElementById('start-generation').disabled = false;
+      document.getElementById('stop-generation').disabled = true;
+      
+      log('success', `Generation complete! ${completed}/${total} files processed.`);
+    }
+
+    function stopGeneration() {
+      shouldStop = true;
+      log('info', 'Stopping generation...');
+    }
+
+    function updateProgress(current, total) {
+      const percent = Math.round((current / total) * 100);
+      document.getElementById('progress-bar').style.width = `${percent}%`;
+      document.getElementById('progress-current').textContent = `${current} / ${total}`;
+      document.getElementById('progress-percent').textContent = `${percent}%`;
+    }
+
+    // ============================================
+    // Logging
+    // ============================================
+
+    function log(type, message) {
+      const container = document.getElementById('log-output');
+      const time = new Date().toLocaleTimeString();
+      
+      const entry = document.createElement('div');
+      entry.className = `log-entry ${type}`;
+      entry.innerHTML = `<span class="time">[${time}]</span> <span class="msg">${message}</span>`;
+      
+      container.appendChild(entry);
+      container.scrollTop = container.scrollHeight;
+    }
+
+    // ============================================
+    // Event Listeners
+    // ============================================
+
+    document.getElementById('refresh-connection').addEventListener('click', checkVoicevoxConnection);
+
+    document.getElementById('save-mappings').addEventListener('click', () => {
+      localStorage.setItem('moomin-tts-mappings', JSON.stringify(characterMappings));
+      log('success', 'Character mappings saved to browser!');
+    });
+
+    document.getElementById('export-mappings').addEventListener('click', () => {
+      const dataStr = JSON.stringify(characterMappings, null, 2);
+      const blob = new Blob([dataStr], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'speaker-mappings.json';
+      a.click();
+      URL.revokeObjectURL(url);
+      log('success', 'Exported speaker-mappings.json - save it to your audio/ folder for the command-line script');
+    });
+
+    document.getElementById('auto-assign').addEventListener('click', autoAssignVoices);
+
+    document.getElementById('start-generation').addEventListener('click', startGeneration);
+    document.getElementById('stop-generation').addEventListener('click', stopGeneration);
+
+    document.getElementById('clear-log').addEventListener('click', () => {
+      document.getElementById('log-output').innerHTML = '';
+    });
+
+    // ============================================
+    // Initialize
+    // ============================================
+
+    async function init() {
+      log('info', 'TTS Trainer initializing...');
+      await checkVoicevoxConnection();
+      await loadEpisodes();
+    }
+
+    init();
+  </script>
+</body>
+</html>

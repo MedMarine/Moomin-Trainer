@@ -1,0 +1,1321 @@
+/* ============================================================================
+ * Moomin Japanese Trainer - Styles
+ * v1.0: Dark theme, Japanese typography, SRS flashcards
+ * ============================================================================ */
+
+/* ============================================================================
+ * CSS Variables
+ * ============================================================================ */
+
+:root {
+  /* Backgrounds */
+  --bg-primary: #0d1117;
+  --bg-card: #161b22;
+  --bg-elevated: #21262d;
+  
+  /* Text */
+  --text-primary: #f0f6fc;
+  --text-secondary: #8b949e;
+  --text-muted: #6e7681;
+  
+  /* Accent - Moomin Blue */
+  --accent: #7eb8da;
+  --accent-bright: #a8d4f0;
+  
+  /* SRS Grade Colors */
+  --grade-again: #f85149;
+  --grade-hard: #d29922;
+  --grade-good: #3fb950;
+  --grade-easy: #58a6ff;
+  
+  /* Status */
+  --success: #3fb950;
+  --warning: #d29922;
+  --error: #f85149;
+  
+  /* Utility */
+  --border-subtle: rgba(240, 246, 252, 0.1);
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+}
+
+/* ============================================================================
+ * Base & Reset
+ * ============================================================================ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* ============================================================================
+ * Japanese Typography
+ * ============================================================================ */
+
+.japanese {
+  font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic Pro', 'Yu Gothic', sans-serif;
+  line-height: 1.8;
+}
+
+/* Furigana - hidden by default, shown with toggle */
+ruby {
+  ruby-align: center;
+}
+
+ruby rt {
+  font-size: 0.5em;
+  color: var(--text-muted);
+  visibility: hidden;
+}
+
+body.show-furigana ruby rt {
+  visibility: visible;
+}
+
+/* Large Japanese text for cards */
+.word-display {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--text-primary);
+}
+
+.word-pos {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-top: 0.5rem;
+}
+
+/* Example sentences */
+.example-ja {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--text-primary);
+  margin-bottom: 0.25rem;
+}
+
+.example-en {
+  font-size: 0.95rem;
+  color: var(--accent-bright);
+  margin-bottom: 0.25rem;
+}
+
+.example-note {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* ============================================================================
+ * Kanji Tooltips
+ * ============================================================================ */
+
+.kanji {
+  position: relative;
+  cursor: help;
+  border-bottom: 1px dotted var(--text-muted);
+}
+
+#tooltip {
+  position: fixed;
+  background: var(--bg-elevated);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-md);
+  padding: 8px 12px;
+  z-index: 1000;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s;
+  max-width: 200px;
+}
+
+#tooltip.visible {
+  opacity: 1;
+}
+
+.tooltip-reading {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1.1rem;
+  color: var(--accent-bright);
+  margin-bottom: 2px;
+}
+
+.tooltip-meaning {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+/* ============================================================================
+ * Flashcard System
+ * ============================================================================ */
+
+.flashcard {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  cursor: pointer;
+  transition: border-color 0.2s, transform 0.2s;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.flashcard:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.card-front,
+.card-back {
+  transition: opacity 0.2s;
+}
+
+.card-back {
+  display: none;
+}
+
+.flashcard.flipped .card-front {
+  display: none;
+}
+
+.flashcard.flipped .card-back {
+  display: block;
+}
+
+.flip-hint {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  margin-top: 1.5rem;
+  opacity: 0.7;
+}
+
+.flashcard.flipped .flip-hint {
+  display: none;
+}
+
+/* Card back content */
+.word-meaning {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--accent-bright);
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.examples {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.example {
+  background: var(--bg-elevated);
+  padding: 1rem;
+  border-radius: var(--radius-md);
+  border-left: 3px solid var(--accent);
+}
+
+.word-notes {
+  background: rgba(210, 153, 34, 0.1);
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius-md);
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  border-left: 3px solid var(--warning);
+}
+
+/* ============================================================================
+ * SRS Grade Buttons
+ * ============================================================================ */
+
+.grade-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.grade-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.75rem 0.5rem;
+  border: 2px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  background: var(--bg-elevated);
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.15s;
+}
+
+.grade-btn:hover {
+  transform: translateY(-2px);
+}
+
+.grade-btn.again {
+  border-color: var(--grade-again);
+  color: var(--grade-again);
+}
+
+.grade-btn.again:hover {
+  background: rgba(248, 81, 73, 0.15);
+}
+
+.grade-btn.hard {
+  border-color: var(--grade-hard);
+  color: var(--grade-hard);
+}
+
+.grade-btn.hard:hover {
+  background: rgba(210, 153, 34, 0.15);
+}
+
+.grade-btn.good {
+  border-color: var(--grade-good);
+  color: var(--grade-good);
+}
+
+.grade-btn.good:hover {
+  background: rgba(63, 185, 80, 0.15);
+}
+
+.grade-btn.easy {
+  border-color: var(--grade-easy);
+  color: var(--grade-easy);
+}
+
+.grade-btn.easy:hover {
+  background: rgba(88, 166, 255, 0.15);
+}
+
+.grade-label {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.grade-interval {
+  font-size: 0.75rem;
+  opacity: 0.8;
+  margin-top: 0.25rem;
+}
+
+/* Show Answer button */
+.show-answer-btn {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1.5rem;
+  background: var(--accent);
+  color: var(--bg-primary);
+  border: none;
+  border-radius: var(--radius-md);
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.show-answer-btn:hover {
+  background: var(--accent-bright);
+}
+
+/* ============================================================================
+ * Dashboard
+ * ============================================================================ */
+
+.dashboard {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.stats-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.stat-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 1.25rem;
+  text-align: center;
+}
+
+.stat-value {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--accent-bright);
+}
+
+.stat-label {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-top: 0.25rem;
+}
+
+.stat-card.new .stat-value { color: var(--grade-easy); }
+.stat-card.learning .stat-value { color: var(--grade-hard); }
+.stat-card.due .stat-value { color: var(--grade-good); }
+
+/* Start button */
+.start-btn {
+  display: block;
+  width: 100%;
+  padding: 1.25rem;
+  background: var(--accent);
+  color: var(--bg-primary);
+  border: none;
+  border-radius: var(--radius-md);
+  font-family: inherit;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.15s;
+}
+
+.start-btn:hover {
+  background: var(--accent-bright);
+  transform: translateY(-2px);
+}
+
+.start-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Streak display */
+.streak {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  color: var(--text-secondary);
+}
+
+.streak-icon {
+  font-size: 1.25rem;
+}
+
+.streak-count {
+  font-weight: 600;
+  color: var(--warning);
+}
+
+/* ============================================================================
+ * Review Session
+ * ============================================================================ */
+
+.review-session {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.review-counts {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.9rem;
+}
+
+.count-new { color: var(--grade-easy); }
+.count-learning { color: var(--grade-hard); }
+.count-due { color: var(--grade-good); }
+
+.review-close {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+}
+
+.review-close:hover {
+  color: var(--text-primary);
+}
+
+/* Progress bar */
+.progress-bar {
+  height: 4px;
+  background: var(--bg-elevated);
+  border-radius: 2px;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: var(--accent);
+  transition: width 0.3s;
+}
+
+/* ============================================================================
+ * Vocabulary Browser
+ * ============================================================================ */
+
+.vocab-browser {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.vocab-filters {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 0.5rem 1rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  color: var(--text-secondary);
+  font-family: inherit;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+  border-color: var(--accent);
+  color: var(--accent-bright);
+}
+
+.vocab-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.vocab-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: border-color 0.15s;
+}
+
+.vocab-item:hover {
+  border-color: var(--accent);
+}
+
+.vocab-word {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--accent-bright);
+  min-width: 80px;
+}
+
+.vocab-reading {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.vocab-meaning {
+  flex: 1;
+  color: var(--text-secondary);
+}
+
+.vocab-status {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--radius-sm);
+  font-weight: 500;
+}
+
+.vocab-status.new {
+  background: rgba(88, 166, 255, 0.15);
+  color: var(--grade-easy);
+}
+
+.vocab-status.learning {
+  background: rgba(210, 153, 34, 0.15);
+  color: var(--grade-hard);
+}
+
+.vocab-status.mature {
+  background: rgba(63, 185, 80, 0.15);
+  color: var(--grade-good);
+}
+
+/* ============================================================================
+ * Settings
+ * ============================================================================ */
+
+.settings {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.setting-group {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.setting-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.setting-row:last-child {
+  border-bottom: none;
+}
+
+.setting-label {
+  font-weight: 500;
+}
+
+.setting-desc {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* Toggle switch */
+.toggle {
+  position: relative;
+  width: 48px;
+  height: 26px;
+}
+
+.toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.toggle-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--bg-elevated);
+  border-radius: 13px;
+  transition: background 0.2s;
+}
+
+.toggle-slider::before {
+  content: '';
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  left: 3px;
+  bottom: 3px;
+  background: var(--text-primary);
+  border-radius: 50%;
+  transition: transform 0.2s;
+}
+
+.toggle input:checked + .toggle-slider {
+  background: var(--accent);
+}
+
+.toggle input:checked + .toggle-slider::before {
+  transform: translateX(22px);
+}
+
+/* Number input */
+.number-input {
+  width: 60px;
+  padding: 0.5rem;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  color: var(--text-primary);
+  font-family: inherit;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* ============================================================================
+ * Navigation
+ * ============================================================================ */
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.nav-btn {
+  padding: 0.5rem 1rem;
+  background: transparent;
+  border: none;
+  border-radius: var(--radius-md);
+  color: var(--text-secondary);
+  font-family: inherit;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.nav-btn:hover {
+  background: var(--bg-elevated);
+  color: var(--text-primary);
+}
+
+.nav-btn.active {
+  background: var(--accent);
+  color: var(--bg-primary);
+}
+
+/* ============================================================================
+ * Episode Selector
+ * ============================================================================ */
+
+.episode-selector {
+  margin-bottom: 1.5rem;
+}
+
+.episode-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: border-color 0.15s;
+}
+
+.episode-card:hover,
+.episode-card.selected {
+  border-color: var(--accent);
+}
+
+.episode-number {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--accent);
+  min-width: 40px;
+}
+
+.episode-info {
+  flex: 1;
+}
+
+.episode-title {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.episode-title-en {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.episode-stats {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+/* ============================================================================
+ * Utility Classes
+ * ============================================================================ */
+
+.hidden { display: none !important; }
+.text-center { text-align: center; }
+.text-muted { color: var(--text-muted); }
+.mb-1 { margin-bottom: 0.5rem; }
+.mb-2 { margin-bottom: 1rem; }
+.mb-3 { margin-bottom: 1.5rem; }
+
+/* ============================================================================
+ * Episode Study View
+ * ============================================================================ */
+
+.episode-study {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.episode-study-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.episode-study-header h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.episode-study-title {
+  flex: 1;
+}
+
+.episode-study-title h2 {
+  margin: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.episode-study-title p {
+  margin: 0.25rem 0 0 0;
+  font-size: 0.9rem;
+}
+
+.back-btn {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  color: var(--text-secondary);
+  padding: 0.5rem 1rem;
+  font-family: inherit;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.back-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent-bright);
+}
+
+.episode-stats-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.study-options {
+  margin-bottom: 2rem;
+}
+
+.study-options h3 {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+}
+
+.study-btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  color: var(--text-primary);
+  font-family: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.study-btn:hover {
+  border-color: var(--accent);
+  transform: translateX(4px);
+}
+
+.study-btn-icon {
+  font-size: 1.5rem;
+}
+
+.study-btn-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.study-btn-text strong {
+  font-size: 1rem;
+}
+
+.study-btn-text small {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.vocab-preview {
+  margin-bottom: 2rem;
+}
+
+.vocab-preview h3 {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+}
+
+.vocab-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 0.75rem;
+}
+
+.vocab-preview-item {
+  display: flex;
+  flex-direction: column;
+  padding: 0.75rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.vocab-preview-item:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.vocab-preview-word {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--accent-bright);
+}
+
+.vocab-preview-reading {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 0.25rem;
+}
+
+.vocab-preview-meaning {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 0.5rem;
+}
+
+/* ============================================================================
+ * Episode Vocabulary Browser
+ * ============================================================================ */
+
+.episode-vocab {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.vocab-search {
+  margin-bottom: 1rem;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  color: var(--text-primary);
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.search-input::placeholder {
+  color: var(--text-muted);
+}
+
+.vocab-list.detailed {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.vocab-detail-item {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.vocab-detail-item:hover {
+  border-color: var(--accent);
+}
+
+.vocab-detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+}
+
+.vocab-detail-word {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+}
+
+.vocab-detail-word .vocab-word {
+  font-size: 1.5rem;
+}
+
+.vocab-detail-meta {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.vocab-pos {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.vocab-jlpt {
+  font-size: 0.7rem;
+  padding: 0.15rem 0.4rem;
+  background: rgba(126, 184, 218, 0.15);
+  color: var(--accent);
+  border-radius: var(--radius-sm);
+  font-weight: 500;
+}
+
+.vocab-detail-meaning {
+  font-size: 1.1rem;
+  color: var(--accent-bright);
+  margin-bottom: 0.5rem;
+}
+
+.vocab-detail-notes {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  background: rgba(210, 153, 34, 0.1);
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--radius-sm);
+  border-left: 3px solid var(--warning);
+  margin-bottom: 0.75rem;
+}
+
+.vocab-detail-examples {
+  display: none;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.vocab-detail-item.expanded .vocab-detail-examples {
+  display: flex;
+}
+
+.vocab-detail-item.expanded {
+  background: var(--bg-elevated);
+}
+
+/* ============================================================================
+ * Audio Play Buttons
+ * ============================================================================ */
+
+.play-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  margin-right: 0.5rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 50%;
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: all 0.15s;
+  flex-shrink: 0;
+  vertical-align: middle;
+}
+
+.play-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: rgba(126, 184, 218, 0.1);
+}
+
+.play-btn.playing {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: rgba(126, 184, 218, 0.15);
+  animation: pulse 1s infinite;
+}
+
+.play-btn.error {
+  border-color: var(--error);
+  color: var(--error);
+  animation: shake 0.3s;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-3px); }
+  75% { transform: translateX(3px); }
+}
+
+/* Example with play button layout */
+.example-ja {
+  display: block;
+}
+
+.example-ja .play-btn {
+  float: left;
+  margin-top: 3px;
+  margin-right: 8px;
+}
+
+/* ============================================================================
+ * Responsive
+ * ============================================================================ */
+
+@media (max-width: 640px) {
+  .word-display {
+    font-size: 2rem;
+  }
+  
+  .stats-row,
+  .episode-stats-row {
+    grid-template-columns: 1fr;
+  }
+  
+  .grade-buttons {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .vocab-item {
+    flex-wrap: wrap;
+  }
+  
+  .vocab-meaning {
+    flex-basis: 100%;
+    margin-top: 0.5rem;
+  }
+  
+  .nav {
+    flex-wrap: wrap;
+  }
+  
+  .vocab-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .vocab-detail-header {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .vocab-detail-meta {
+    order: -1;
+  }
+}
+
+/* ============================================================================
+ * Card Icons - Visual Memory Aids
+ * ============================================================================ */
+
+/* Card icon container */
+.card-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  margin-bottom: 0.75rem;
+}
+
+.card-icon svg {
+  width: 64px;
+  height: 64px;
+  opacity: 0.85;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+/* Subtle animation on card hover */
+.flashcard:hover .card-icon svg {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+/* Placeholder for words without icons */
+.card-icon-placeholder {
+  height: 40px; /* Reduced height for placeholder */
+}
+
+/* Center the front content nicely with icon */
+.card-front {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  text-align: center;
+}
+
+/* Responsive adjustments for icons */
+@media (max-width: 640px) {
+  .card-icon {
+    height: 64px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-icon svg {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+/* ============================================================================
+ * Vocabulary Preview Popup
+ * ============================================================================ */
+
+.vocab-popup {
+  position: fixed;
+  background: var(--bg-elevated);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-lg);
+  padding: 1rem 1.25rem;
+  z-index: 1000;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity 0.15s ease, transform 0.15s ease;
+  max-width: 320px;
+  min-width: 200px;
+}
+
+.vocab-popup.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.vocab-popup-word {
+  font-size: 1.75rem;
+  font-weight: 500;
+  color: var(--accent-bright);
+  margin-bottom: 0.25rem;
+}
+
+.vocab-popup-reading {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.vocab-popup-meaning {
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.vocab-popup-pos {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+.vocab-popup-notes {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  background: rgba(210, 153, 34, 0.1);
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--radius-sm);
+  border-left: 3px solid var(--warning);
+  margin-bottom: 0.75rem;
+}
+
+.vocab-popup-example {
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.vocab-popup-example-ja {
+  font-size: 0.95rem;
+  color: var(--text-primary);
+  line-height: 1.6;
+  margin-bottom: 0.25rem;
+}
+
+.vocab-popup-example-en {
+  font-size: 0.85rem;
+  color: var(--accent);
+}
+
+/* Hint text at bottom */
+.vocab-popup::after {
+  content: 'Click for more examples';
+  display: block;
+  margin-top: 0.75rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--border-subtle);
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  text-align: center;
+}

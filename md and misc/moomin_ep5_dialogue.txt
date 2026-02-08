@@ -1,0 +1,1005 @@
+============================================================
+Dialogue Extraction - 05 ニョロニョロの秘密-480x360-avc1-mp4a.mp4
+Total lines: 257
+============================================================
+
+[34.17s - 37.92s]
+JA: コースコーツゾーン
+
+[121.71s - 126.78s]
+JA: そうだな、私が抑えてるからすまんがムーミン
+EN: That's right. I'm holding it down, so I'm sorry, Moomin.
+
+[126.78s - 127.22s]
+JA: わかった
+EN: I got it.
+
+[127.22s - 134.90s]
+JA: ムーミンたちはおばけのにょろにょろの集まっている島で
+EN: The Moomins met a sudden storm on the island where the ghosts were gathering.
+
+[134.90s - 137.26s]
+JA: 突然の嵐にあってしまいました
+
+[137.26s - 143.35s]
+JA: この調子ではとてもムーミン谷に帰るのは無理だと判断したパパは
+EN: At this rate, Papa, who decided that it was impossible to return to Moominvalley, decided to stay on this island for one night.
+
+[143.35s - 147.09s]
+JA: この島に一晩泊まる決心をしたのです
+
+[147.09s - 162.75s]
+JA: この気圧計が壊れてなかったら雨がいつ止むかわかるんじゃない?
+
+[163.42s - 166.39s]
+JA: もうそろそろ上がるんじゃないかな
+EN: I think it's about time to go up.
+
+[166.39s - 173.35s]
+JA: ヘムレンさん、雨が上がったらこの気圧計はにょろにょろに返したほうがいいんじゃありませんか?
+EN: Mr. Hemulen, shouldn't we return this pressure system to Nyoro Nyoro when the rain stops?
+
+[173.78s - 177.46s]
+JA: とんでもない、あいつら散々私を脅かしたんですよ
+EN: That's ridiculous! They've been threatening me a lot.
+
+[177.46s - 180.04s]
+JA: これはムーミン谷へ持って帰ります
+EN: I'll take this back to Moominvalley.
+
+[180.04s - 184.93s]
+JA: ヘムレンさんはこの島で貴重な植物を見つけたんでしょう?
+EN: Mr. Hemulen, you found a valuable plant on this island, right?
+
+[185.74s - 190.13s]
+JA: ムーミン谷に持って帰るのは植物だけで十分じゃありませんか?
+EN: Isn't it enough to take it back to Moominvalley just for plants?
+
+[191.35s - 194.13s]
+JA: 確かに珍しい植物は見つけた
+EN: Certainly I found a rare plant.
+
+[194.13s - 197.64s]
+JA: 特に最後に船のところで見つけたやつは
+EN: Especially the last one I found on the ship.
+
+[197.64s - 199.41s]
+JA: これはおしべが十分だった
+EN: Oshime is...
+
+[199.41s - 202.21s]
+JA: ユニフォンあって、めしべが三本
+EN: There are threeaching plants.
+
+[202.21s - 205.78s]
+JA: あ、ねえパパ
+EN: Hey, Papa...
+
+[205.78s - 207.12s]
+JA: 何ですか?
+EN: What's wrong?
+
+[207.89s - 214.30s]
+JA: パパは確か、私にあの船のもやい砂を木に結びつけてくれと言ったよね
+EN: You told me to tie up theitto on that ship to the tree, didn't you?
+
+[214.30s - 216.07s]
+JA: ええ、言いました
+EN: Yes, I did.
+
+[216.07s - 219.81s]
+JA: はあ、そうだ、私も確かに聞いた
+EN: Oh, I thought you used to do that.
+
+[219.81s - 221.69s]
+JA: さてと
+
+[221.69s - 224.78s]
+JA: 砂を結ばなかったんですか、ヘムレンさん?
+EN: You didn't tie up theitto, Mr. Hemulen?
+
+[225.53s - 229.16s]
+JA: いや、結んだと思うけど
+EN: Well, I really think I did...
+
+[229.36s - 233.69s]
+JA: 船が波にさらわれたら、私たち帰れなくなっちゃうわ
+EN: But if the ship is won over by the waves, how will you go home?
+
+[233.83s - 240.37s]
+JA: 林の近くまで引っ張り上げたんだから、波にさらわれるということはないと思うが
+EN: I pulled it up to the edge of the forest, so I don't think it'll be caught by the waves.
+
+[240.37s - 242.98s]
+JA: 僕見てくる
+EN: I'll go and see.
+
+[242.98s - 245.09s]
+JA: そうだな、その方がいい
+EN: That's right. That's better.
+
+[245.09s - 250.84s]
+JA: 確か、あの時、砂を結ぼうとしてこの花を見つけたんだ
+EN: I think I found this flower trying to tie the rope at that time.
+
+[250.84s - 252.84s]
+JA: だから私は
+EN: That's why I...
+
+[252.84s - 256.58s]
+JA: ムーミン
+EN: Moomin!
+
+[277.06s - 280.34s]
+JA: ヘムレンさんたら
+EN: Mr. Hemulen...
+
+[280.34s - 286.11s]
+JA: こんなところまで波が来るなんて、今は満潮なんだ
+EN: The waves are coming all the way to this place.
+
+[286.11s - 287.61s]
+JA: もうこれ以上波は来ない?
+EN: Won't there be any more waves?
+
+[287.61s - 288.69s]
+JA: 多分
+EN: Probably.
+
+[288.69s - 292.97s]
+JA: 雨だいぶ弱くなってきた
+EN: The rain has gotten a lot weaker.
+
+[293.17s - 304.61s]
+JA: うん、船はあったよ
+EN: Yes, there was a boat.
+
+[304.61s - 308.10s]
+JA: それで、砂は結んであったの?
+EN: So, did you tie the rope?
+
+[311.67s - 312.67s]
+JA: 結んであったよ
+EN: Yes, I tied it.
+
+[312.67s - 315.81s]
+JA: いや、よかった、ほっとしたよ
+EN: That's good. I'm relieved.
+
+[315.81s - 320.22s]
+JA: 雨がだいぶ小ぶりになってきたよ
+EN: The rain has gotten a lot smaller.
+
+[320.22s - 321.22s]
+JA: よかった
+EN: That's good.
+
+[342.12s - 344.80s]
+JA: そう、風もなくなった
+EN: That's right. There's no wind either.
+
+[344.80s - 349.28s]
+JA: さっきから雷の音も聞こえないわ
+EN: I can't even hear the sound of the thunder from earlier.
+
+[349.28s - 355.28s]
+JA: じゃあ、雨が上がったんなら、まだ寝るのには早いし、ちょっと散歩してこようかしら
+EN: Then, if the rain has gone up, it's still too early to sleep.
+
+[355.28s - 357.12s]
+JA: 夜はしばらくだよ
+EN: It's impossible to collect plants at night.
+
+[357.12s - 359.33s]
+JA: 植物採集は無理でしょ
+
+[359.33s - 361.33s]
+JA: もちろん、歩くだけさ
+EN: Of course. We can only walk.
+
+[361.33s - 366.08s]
+JA: 私も行こう
+EN: I'll go too.
+
+[366.08s - 368.08s]
+JA: ずーっとテントの中で退屈したわ
+EN: I've been bored in the tent all the time.
+
+[368.08s - 372.28s]
+JA: 私もちょっとだけ
+EN: I'll go too.
+
+[373.28s - 375.28s]
+JA: ヘムレンさんが
+EN: Mr. Hemulen...
+
+[375.28s - 378.09s]
+JA: 来た来た、奴らが来たぞ
+EN: They're coming. They're coming.
+
+[378.09s - 380.44s]
+JA: 奴らって?
+EN: They're coming. Look.
+
+[380.44s - 381.44s]
+JA: 奴らだよ、ほら
+
+[381.44s - 395.08s]
+JA: ニョロニョロだ、いっぱい来てる
+EN: There are a lot of them.
+
+[395.08s - 398.08s]
+JA: ずいぶんいるな、みんな光ってる
+EN: They're shining.
+
+[398.08s - 406.62s]
+JA: さっき雷が落ちたときに、ニョロニョロたちの体は電気を帯びたんだ
+EN: When the thunder fell just now,
+
+[406.62s - 410.42s]
+JA: 一体何をしに来たんだろう、こいつら
+EN: What on earth did they come here for?
+
+[410.42s - 413.76s]
+JA: 私たちを襲うつもりはなさそうに
+EN: They don't seem to want to attack us.
+
+[413.76s - 415.76s]
+JA: 考えられることは一つですね
+EN: There's only one thing we can think of.
+
+[415.76s - 418.35s]
+JA: なんだい、スナフキン
+EN: They came to get back their important thermometer.
+
+[418.35s - 422.35s]
+JA: 彼らは、自分たちの大事な気圧計を取り戻しに来たんですよ
+
+[422.35s - 427.96s]
+JA: そうだ、きっとそうだ
+EN: That's right. I'm sure that's right.
+
+[427.96s - 433.42s]
+JA: ヘムレンさん、気圧計をニョロニョロに返してやってください
+EN: Mr. Hemulen, please return the thermometer to Nyoro Nyoro.
+
+[433.42s - 435.80s]
+JA: うん、しかし
+EN: It seems that all the Nyoro Nyoro on this island have come here.
+
+[435.80s - 442.89s]
+JA: この島にいるニョロニョロたちが、全員ここへやってきてるようです
+EN: It's very important to them.
+
+[442.89s - 445.89s]
+JA: 彼らには、とても大事なものなんです、それは
+EN: It's very important.
+
+[445.89s - 453.76s]
+JA: ヘムレンさんが、ご自分でお返しになったらいかがです?
+
+[453.76s - 455.80s]
+JA: いや、私は
+EN: No, I...
+
+[455.80s - 458.57s]
+JA: まあ、いいでしょう
+EN: Well, that's fine.
+
+[458.57s - 461.10s]
+JA: パパ、僕が返してくるよ
+EN: Papa, I'll return it.
+
+[461.10s - 462.37s]
+JA: おお、そうか
+EN: Oh, I see.
+
+[462.37s - 468.40s]
+JA: 助けてね、ムーミン
+
+[468.40s - 469.40s]
+JA: 大丈夫だよ、ママ
+EN: It's all right, Mama.
+
+[469.40s - 471.42s]
+JA: ムーミンって、勇気があるのね
+
+[499.65s - 504.44s]
+JA: これ、君たちに返すからね
+EN: I'll return this to you.
+
+[539.21s - 542.21s]
+JA: まあ、かわいそうに、何かお薬をつけて
+EN: Oh, poor thing.
+
+[542.21s - 544.12s]
+JA: あっあっ
+EN: I'll go get some medicine.
+
+[544.12s - 545.12s]
+JA: こら、気をつけろ、ニョロニョロ
+EN: Hey, be careful, Nyoro Nyoro.
+
+[545.12s - 549.13s]
+JA: ニョロニョロ
+EN: Are you all right?
+
+[549.13s - 550.13s]
+JA: 大丈夫?
+
+[550.13s - 552.31s]
+JA: あいつ、君の顔にぶつかったろ
+EN: He hit your face, didn't he?
+
+[552.31s - 556.36s]
+JA: 大丈夫、勝っただけよ
+EN: It's just a scratch.
+
+[556.36s - 560.12s]
+JA: ああ、びっくりした
+EN: My hair...
+
+[560.12s - 567.69s]
+JA: 君の髪の毛
+EN: Oh, my hair.
+
+[567.69s - 574.04s]
+JA: あら、私の髪髪を貸して
+EN: Give me my hair.
+
+[574.04s - 580.26s]
+JA: ニョロニョロが、髪の毛にさわっちゃったのね
+EN: Nyoro Nyoro touched your hair, didn't she?
+
+[580.26s - 582.82s]
+JA: そんなに、心配することないのよ
+EN: You don't have to worry so much.
+
+[582.82s - 586.00s]
+JA: ひどいわ、ママのニョロニョロが、私にぶつかって
+EN: Nyoro Nyoro hit me.
+
+[586.00s - 589.55s]
+JA: はい、どうぞ
+EN: Here you go.
+
+[589.55s - 592.37s]
+JA: ああ、やっぱり
+EN: Oh, I knew it.
+
+[592.37s - 595.44s]
+JA: どうなの?
+EN: How is it?
+
+[595.44s - 597.44s]
+JA: ひどいわ、ひどいわ
+EN: It's terrible.
+
+[597.44s - 601.95s]
+JA: 大丈夫よ、髪の毛なんて、またすぐに生えてくるわ
+EN: Your hair will grow back soon.
+
+[601.95s - 602.95s]
+JA: そんなのだめよ
+EN: That's not good.
+
+[602.95s - 603.95s]
+JA: みんなに、こんなひどい頭
+EN: I was forced to see his terrible head.
+
+[603.95s - 604.95s]
+JA: 見られちゃったんですもの
+
+[604.95s - 609.34s]
+JA: ああ、もうおしまいだわ
+EN: It's all over now.
+
+[609.34s - 615.38s]
+JA: 僕は、僕は、暗くてよく見えなかったよ
+EN: I can't see well because it's dark.
+
+[615.38s - 624.58s]
+JA: やれやれ、やっとニョロニョロどもがいなくなったな
+EN: I think Nyoro Nyoro is finally gone.
+
+[624.58s - 629.29s]
+JA: おや、何を泣いてるのかね、フローレンは
+EN: Oh, what's she crying about, Floren?
+
+[750.05s - 755.52s]
+JA: そこはきっと、誰にも決して見つからない秘密の島なんだ
+EN: That must be a secret island that no one will ever find.
+
+[755.52s - 762.24s]
+JA: この奴らだな
+EN: That's who they are.
+
+[762.24s - 768.53s]
+JA: でも、あいつらから見れば、僕らは相当変な奴なんだぜ
+EN: But from their point of view, we're pretty weird.
+
+[768.53s - 781.36s]
+JA: よかったな
+EN: That's odd.
+
+[781.36s - 784.24s]
+JA: どうしてくれなかったの、スナフキン?
+EN: Why didn't you do it for me, Snufkin?
+
+[784.24s - 788.67s]
+JA: ごめん、でも、ミーは、いびきをかいて寝ていたから
+EN: Sorry, but Mii was snoring and sleeping.
+
+[788.67s - 791.67s]
+JA: まあ、失礼ね、私、いびきなんかかかない
+EN: How rude! I don't snore!
+
+[791.67s - 793.89s]
+JA: ごめん、聞き違えた
+EN: Sorry, I misheard.
+
+[793.89s - 798.41s]
+JA: 私は、ニョロニョロなど、二度と見たくないね
+EN: I don't want to see you snoring again.
+
+[798.41s - 799.41s]
+JA: 私も
+EN: Me neither.
+
+[799.41s - 802.16s]
+JA: そのスカーフ、とってもよく似合うよ
+EN: That scarf suits you very well.
+
+[802.16s - 804.21s]
+JA: ママに借りたの
+EN: I borrowed it from Mama.
+
+[804.21s - 806.71s]
+JA: ママは、何でも持ってるんだね
+EN: Mama has everything.
+
+[806.71s - 808.82s]
+JA: ええ、そうよ
+EN: Yes, that's right.
+
+[808.82s - 810.60s]
+JA: ありがとう
+EN: Thank you.
+
+[810.60s - 815.94s]
+JA: 今日は、本当に天気がよさそうだから、島の探検もゆっくりできるぞ
+EN: The weather looks really good today, so we can explore the island slowly.
+
+[815.94s - 819.18s]
+JA: 朝ごはんが済んだら、島の向こう側へ行きます
+EN: After breakfast, we'll go to the other side of the island.
+
+[819.18s - 823.20s]
+JA: ええ、きっと、あっちにも、珍しい植物があるな
+EN: I'm sure there are some rare plants over there.
+
+[823.20s - 842.91s]
+JA: 歩いてくださいよ
+EN: Please walk.
+
+[842.91s - 844.91s]
+JA: ああ、先に行ってくれ、ムーミー
+EN: Yes, go ahead, Moomin.
+
+[844.91s - 847.50s]
+JA: 面白い花が咲いている
+EN: There are some interesting flowers blooming.
+
+[847.50s - 849.61s]
+JA: じゃあ、先に行ってます
+EN: Then I'll go ahead.
+
+[849.61s - 861.35s]
+JA: こっちの海岸には、昨日の嵐で、いろいろなものが流れついていると思うよ
+EN: I think there are a lot of things flowing on this beach because of the storm yesterday.
+
+[861.35s - 864.36s]
+JA: 宝石なんか、流れついてないかしら
+EN: I wonder if there are any jewels flowing.
+
+[864.36s - 866.62s]
+JA: そりゃ、あるかもしれない
+EN: Maybe there are.
+
+[866.62s - 870.62s]
+JA: 海賊船が沈没して、そこに積んであった宝石なんかが
+EN: There are some jewels that were piled up when the pirate ship sank.
+
+[870.62s - 873.82s]
+JA: よし、私、宝石探しやるわ
+EN: All right.
+
+[873.82s - 874.96s]
+JA: やろうやろう
+EN: I'll look for the jewels.
+
+[874.96s - 885.10s]
+JA: あるわ
+EN: Let's do it.
+
+[885.10s - 886.98s]
+JA: ある
+EN: Yes, there are.
+
+[895.04s - 897.20s]
+JA: こんな箱だな
+EN: It's a big box.
+
+[897.20s - 900.49s]
+JA: 入ってるんだろ
+EN: I wonder what's inside.
+
+[900.49s - 901.96s]
+JA: 空っぽだ
+EN: It's empty.
+
+[901.96s - 903.96s]
+JA: ああ、こっちにおいで
+EN: Come here.
+
+[903.96s - 905.00s]
+JA: そうそう、こっち
+EN: Yes, this way.
+
+[905.00s - 917.48s]
+JA: よいしょ
+EN: All right.
+
+[917.48s - 919.81s]
+JA: そうでね、うちも今、すごい宝物が
+EN: That's right.
+
+[919.81s - 930.88s]
+JA: え、なんだこれは
+EN: I have a great treasure now.
+
+[930.88s - 944.09s]
+JA: ママにあげたら喜ぶわね
+EN: What's this?
+
+[944.09s - 959.00s]
+JA: きれいな貝殻なんて、全然ないわ
+EN: You'll be happy if you give it to Mama.
+
+[959.00s - 961.79s]
+JA: そんなことないわよ
+EN: There's no such thing as a beautiful shell.
+
+[961.79s - 962.79s]
+JA: 丁寧に探すの
+EN: Look carefully.
+
+[962.79s - 980.18s]
+JA: 海岸の掘ら穴にあったんだ
+
+[980.18s - 987.31s]
+JA: 見つけたんだ
+EN: It was in the hole on the coast.
+
+[987.31s - 989.87s]
+JA: 船で使う望遠鏡だよ
+EN: I found it.
+
+[989.87s - 990.98s]
+JA: パパにあげるんだ
+EN: It's a telescope used by a ship.
+
+[990.98s - 994.40s]
+JA: もの見つけたわね
+EN: I'll give it to Papa.
+
+[994.40s - 1000.26s]
+JA: おい、みんな、来てみろよ
+EN: Hey, everyone.
+
+[1000.26s - 1002.72s]
+JA: 面白いものがあるぞ
+EN: There's something interesting.
+
+[1002.72s - 1005.64s]
+JA: スナフキーも何か見つけたのね
+EN: Snufkin also found something.
+
+[1005.64s - 1020.50s]
+JA: スナフキー、女の人ね
+EN: Snufkin.
+
+[1020.50s - 1021.61s]
+JA: 死んでるの
+EN: Is she dead?
+
+[1021.61s - 1023.98s]
+JA: 初めから生きてはいないのさ
+EN: She hasn't been alive since the beginning.
+
+[1023.98s - 1025.38s]
+JA: 近くに行けばわかる
+EN: You'll know when you get closer.
+
+[1025.38s - 1040.23s]
+JA: 船は女王様かしら
+EN: Is that the Queen?
+
+[1040.23s - 1041.23s]
+JA: そうらしいね
+EN: It seems so.
+
+[1041.23s - 1044.59s]
+JA: こんなきれいな女の人見たことない
+EN: I've never seen such a beautiful woman.
+
+[1044.59s - 1045.59s]
+JA: ほんと
+EN: Really.
+
+[1045.59s - 1049.79s]
+JA: 私たちの船の舳先に取り付けるといいわ
+EN: It's good to attach it to the edge of our ship.
+
+[1049.79s - 1050.87s]
+JA: だめだよ
+EN: It's no good.
+
+[1050.87s - 1054.95s]
+JA: これは大きな船の先についていた飾りなんだ
+EN: This is a decoration that was attached to the end of a large ship.
+
+[1054.95s - 1057.00s]
+JA: その船沈んだのかしら
+EN: Did that ship sink?
+
+[1057.00s - 1058.33s]
+JA: そうだろうな
+EN: I wonder.
+
+[1058.33s - 1064.54s]
+JA: うちの前に飾っときたいわ
+EN: I want to decorate it in front of my house.
+
+[1064.54s - 1066.32s]
+JA: 足がないんだよ
+
+[1066.32s - 1068.32s]
+JA: なくたっていいの
+EN: It doesn't matter if you don't have legs.
+
+[1068.32s - 1076.80s]
+JA: 助けてくれ、誰か助けて
+
+[1076.80s - 1081.36s]
+JA: またヘムレンさんが何かやったんだな
+EN: Mr. Hemulen did something again.
+
+[1081.36s - 1084.36s]
+JA: 誰か来てくれ
+EN: Someone come here.
+
+[1084.36s - 1085.64s]
+JA: 今行きます
+EN: I'll go now.
+
+[1085.64s - 1098.05s]
+JA: この木の女王様、気に入った?
+EN: Did you like the Queen of this tree?
+
+[1098.05s - 1100.57s]
+JA: 知ってる?
+EN: Do you know?
+
+[1100.57s - 1103.00s]
+JA: この女の人には背中がないのよ
+EN: This woman has no back.
+
+[1103.00s - 1104.00s]
+JA: そんなことは
+EN: That's not true.
+
+[1104.00s - 1106.76s]
+JA: 何がそんなに気に入ったのかしら
+EN: What did you like so much?
+
+[1106.76s - 1111.78s]
+JA: 目?髪の毛?
+EN: Eyes?
+
+[1111.78s - 1113.72s]
+JA: うん
+EN: Hair?
+
+[1113.72s - 1118.18s]
+JA: 私は髪の毛がなくなっちゃったんですものね
+EN: I lost my hair.
+
+[1118.18s - 1120.52s]
+JA: 頼む、もう一駅だ
+EN: You lost your hair, didn't you?
+
+[1120.52s - 1122.52s]
+JA: それ、力入れて
+EN: Put your strength into it.
+
+[1122.52s - 1125.52s]
+JA: よいしょ、そうだ、もう一駅
+EN: That's right.
+
+[1128.52s - 1130.76s]
+JA: 重たいな、ヘムレンさん
+EN: It's heavy, Mr. Hemulen.
+
+[1132.76s - 1136.57s]
+JA: すまん、助かったよ、砂吹き
+
+[1136.57s - 1138.68s]
+JA: もう大丈夫だ
+EN: I'm fine now.
+
+[1138.68s - 1141.68s]
+JA: どうしてこんなところへ落っこちたんですか?
+EN: Why did you fall here?
+
+[1141.68s - 1142.73s]
+JA: それが分からない
+
+[1142.73s - 1144.73s]
+JA: 私は歩いていたんだ
+EN: I was walking.
+
+[1144.73s - 1145.73s]
+JA: そしたら落ちた
+
+[1145.73s - 1149.73s]
+JA: ヘムレンさんなら、ちゃんとあんなを見てても落ちたかもね
+
+[1149.73s - 1150.84s]
+JA: え?
+EN: You may have lost your hand by looking at that.
+
+[1150.84s - 1154.18s]
+JA: あっと、あれ、あれあれ
+EN: What?
+
+[1154.18s - 1155.39s]
+JA: どうしました?
+
+[1155.39s - 1157.39s]
+JA: えっとっとっとっと
+EN: Well...
+
+[1157.39s - 1158.39s]
+JA: どうしたんです?
+EN: What's wrong?
+
+[1158.39s - 1160.92s]
+JA: ああ、しまった
+EN: Oh, no.
+
+[1160.92s - 1163.92s]
+JA: だから何ですか、ヘムレンさん
+EN: What's wrong, Mr. Hemulen?
+
+[1163.92s - 1165.03s]
+JA: 言ってくださいよ
+EN: Please tell me.
+
+[1165.03s - 1169.17s]
+JA: どうなん、どうなん、ああ、しまった
+
+[1169.17s - 1171.89s]
+JA: 忘れてきたんですね
+EN: Oh, no.
+
+[1171.89s - 1176.55s]
+JA: そうなんだ、ああ、どうして私はこうなんだろう
+EN: Why am I like this?
+
+[1176.55s - 1181.55s]
+JA: ちゃんと持って出ようと横に置いといたのに忘れてしまってる
+EN: I've lost it.
+
+[1181.55s - 1182.66s]
+JA: うん?
+
+[1182.66s - 1186.18s]
+JA: 取りに行ってくれるのかい、スナッキン
+EN: Huh?
+
+[1186.18s - 1188.47s]
+JA: ええ、いるんでしょ、あれ
+EN: Yes.
+
+[1188.47s - 1194.64s]
+JA: いる、いるよ、あの中には貴重な植物がいっぱい詰まってるんだ
+EN: There are a lot of precious plants in it.
+
+[1194.64s - 1198.64s]
+JA: いや、ありがとう、ありがとう、お礼は何でもするよ
+
+[1198.64s - 1200.95s]
+JA: お礼なんか結構です
+EN: I don't need any thanks.
+
+[1200.95s - 1206.50s]
+JA: それよりムーミンは
+EN: By the way, where is Moomin?
+
+[1206.50s - 1208.64s]
+JA: やっと来たな、何してたんだ
+EN: What were you doing?
+
+[1208.64s - 1214.49s]
+JA: ムーミンね、あの木の女王様が好きになってしまって動けなかったのよ
+EN: The queen of that tree fell in love with him.
+
+[1214.49s - 1215.57s]
+JA: 何だって?
+EN: What?
+
+[1215.57s - 1218.57s]
+JA: 違うよ、僕はただちょっと綺麗だなと思って
+EN: I just thought it was a little beautiful.
+
+[1218.57s - 1223.80s]
+JA: ねえ、ムーミン、その話は後にして、ちょっと手伝ってくれないかな
+EN: Let's talk about that later.
+
+[1223.80s - 1225.91s]
+JA: ああ、もちろん手伝うよ
+EN: Can you help me a little?
+
+[1225.91s - 1230.18s]
+JA: 僕はこの穴を降りる、ヘムレンさんが動乱を落としたんだ
+EN: Mr. Hemulen dropped the Doran.
+
+[1230.18s - 1235.20s]
+JA: いや、私がこの穴に落ちたんだ、だから上がってくるときに、その
+EN: So when I come up, that...
+
+[1235.20s - 1238.20s]
+JA: しょうがないな、ヘムレンさん
+EN: I can't help it, Mr. Hemulen.
+
+[1238.20s - 1243.20s]
+JA: そうなんだ、なんとも申し訳ない、面目ない、すまん
+EN: I'm so sorry.
+
+[1243.20s - 1246.40s]
+JA: それじゃあ僕、降りるから、上がるとき手を貸してくれ
+EN: Then I'll get off.
+
+[1246.40s - 1247.68s]
+JA: 分かった
+EN: When you get off, lend me your hand.
+
+[1247.68s - 1249.40s]
+JA: 私も手伝う
+EN: All right.
+
+[1250.40s - 1253.57s]
+JA: 気をつけてな、どうかね、見つかったかな
+EN: Be careful.
+
+[1253.57s - 1255.72s]
+JA: まだ下まで降りてませんよ
+EN: Did you find it?
+
+[1255.72s - 1257.76s]
+JA: ああ、そうかそうか
+EN: Oh, I see.
+
+[1257.76s - 1259.78s]
+JA: あ、あったあった
+EN: Oh, I found it.
+
+[1259.78s - 1263.78s]
+JA: よかった、どうかね、スナフキン、中身は無事かね
+EN: How is it, Snufkin?
+
+[1263.78s - 1265.78s]
+JA: さあ、どうだか
+EN: Well, how is it?
+
+[1265.78s - 1275.12s]
+JA: スナフキン
+
+[1275.12s - 1278.55s]
+JA: ちょっと待ってくれ、今調べるから
+EN: Snufkin.
+
+[1278.55s - 1284.72s]
+JA: あらら、あれ私たちの船だわ
+EN: I'll check it out now.
+
+[1284.72s - 1287.40s]
+JA: おい
+EN: Oh, that's our ship.
+
+[1287.40s - 1304.00s]
+JA: パパを呼んできてくれ、早く
+EN: Hey.
+
+[1304.00s - 1308.22s]
+JA: 素晴らしい金鉱石だ、ムーミンパパ
+EN: That's a wonderful gold ore.
+
+[1308.22s - 1309.30s]
+JA: きっと驚くぞ
+EN: I'm sure he'll be surprised.
+
+[1309.30s - 1322.96s]
+JA: ムーミンパパ、この金塊はどうするつもりなんです?
+EN: Moomin's dad.
+
+[1322.96s - 1327.45s]
+JA: そうだな、我が家の花壇の周りに置いたら
+EN: If you put it around the flower bed of my house,
+
+[1327.45s - 1330.45s]
+JA: ピカピカ光ってきれいだろうと思ってるんだ
+EN: I think it'll be shiny and beautiful.
+
+[1330.45s - 1334.19s]
+JA: ねえ、ママ、それがいいだろ?
+EN: Isn't that good?
+
+[1334.19s - 1337.54s]
+JA: そうね、どきれいでしょうね
+EN: It must be beautiful.
+
+[1337.54s - 1346.06s]
+JA: ムーミンは私より好きな人ができたんだわ
+EN: Moomin has a person he likes more than me.
+
+[1346.06s - 1349.33s]
+JA: ねえ、フローレン、このガラス玉をあげるよ
+EN: I'll give you this glass ball.
+
+[1349.33s - 1350.57s]
+JA: 知らないわ
+EN: I don't know.
+
+[1350.57s - 1362.57s]
+JA: そのガラス玉なら、私がもらってあげてもいいわよ
+EN: If it's that glass ball, I can give it to you.
+
+[1362.57s - 1367.45s]
+JA: ムーミン一家の船の旅はこんな風にして終わりました
+EN: The journey of the family's ship ended like this.
+
+[1367.45s - 1372.69s]
+JA: でも、この次はちゃんと行く先を決めて出かけた方がいいと思いますよ
+EN: But next time, I think it's better to decide where to go and go out.
+
+[1372.69s - 1383.70s]
+JA: ねえ、ムーミンパパ
+EN: A large number of guests came to my house.
+
+[1383.70s - 1386.13s]
+JA: お客様が僕の家にやってきた
+
+[1386.13s - 1389.21s]
+JA: トフスラン、ビフスランっていう二人組なんだけど
+EN: It's a two-person group called Tofuslan and Bifuslan.
+
+[1389.21s - 1392.21s]
+JA: 大きなトランクを大事そうに持ち
+EN: They seem to hold a large trunk and are always afraid of something.
+
+[1392.21s - 1394.77s]
+JA: いつも何かに怯えている様子
+
+[1394.77s - 1397.46s]
+JA: 彼らは一体何者なんだろう?
+EN: Who are they?
+
+[1397.46s - 1400.64s]
+JA: 次回、楽しいムーミン一家第6話
+EN: The sixth episode of the Moomin family.
+
+[1400.64s - 1403.64s]
+JA: 小さな小さなお客様、お楽しみに!
+EN: Small, small guests.

@@ -1,0 +1,1806 @@
+[
+  {
+    "id": "春",
+    "word": "春",
+    "reading": "はる",
+    "pos": "noun",
+    "meaning": "spring (season)",
+    "notes": "One of four seasons. Spring in Japan runs from March to May.",
+    "jlpt": "N5",
+    "frequency": 6,
+    "examples": [
+      {
+        "japanese": "春だ！春が来たんだ！",
+        "english": "It's spring! Spring has come!",
+        "note": "だ (copula) + んだ (emphasis)"
+      },
+      {
+        "japanese": "暖かい春からこの物語を始めることにしましょう",
+        "english": "Let's start this story in warm spring.",
+        "note": "adjective + noun pattern"
+      }
+    ]
+  },
+  {
+    "id": "来る",
+    "word": "来る",
+    "reading": "くる",
+    "pos": "verb (irregular)",
+    "meaning": "to come",
+    "notes": "Irregular verb. Past: 来た (きた). Te-form: 来て (きて). Imperative: おいで.",
+    "jlpt": "N5",
+    "frequency": 12,
+    "examples": [
+      {
+        "japanese": "春が来たんだ！",
+        "english": "Spring has come!",
+        "note": "past tense (た-form)"
+      },
+      {
+        "japanese": "今年はずいぶん早く帰ってきたね",
+        "english": "You came back pretty early this year.",
+        "note": "帰って + きた (motion toward speaker)"
+      },
+      {
+        "japanese": "さあこっちにおいで",
+        "english": "Now come over here.",
+        "note": "おいで = polite imperative of 来る"
+      }
+    ]
+  },
+  {
+    "id": "眠る",
+    "word": "眠る",
+    "reading": "ねむる",
+    "pos": "verb (godan)",
+    "meaning": "to sleep",
+    "notes": "Intransitive verb. For 'to put to sleep,' use 寝かせる.",
+    "jlpt": "N4",
+    "frequency": 4,
+    "examples": [
+      {
+        "japanese": "ほらみんな眠っていますよ",
+        "english": "Look, everyone is sleeping.",
+        "note": "〜ている (progressive/state)"
+      },
+      {
+        "japanese": "この谷の住民たちは冬の間眠って過ごします",
+        "english": "The residents of this valley sleep through the winter.",
+        "note": "〜て過ごす (spend time doing)"
+      }
+    ]
+  },
+  {
+    "id": "起きる",
+    "word": "起きる",
+    "reading": "おきる",
+    "pos": "verb (ichidan)",
+    "meaning": "to wake up, to get up",
+    "notes": "Intransitive. Compare: 起こす (to wake someone up).",
+    "jlpt": "N5",
+    "frequency": 3,
+    "examples": [
+      {
+        "japanese": "起きたのね二人とも",
+        "english": "You both woke up, didn't you?",
+        "note": "past + explanatory のね"
+      },
+      {
+        "japanese": "やあミー君も起きてたのか",
+        "english": "Oh, Little My, you're awake too.",
+        "note": "〜ていた (past progressive state)"
+      }
+    ]
+  },
+  {
+    "id": "帽子",
+    "word": "帽子",
+    "reading": "ぼうし",
+    "pos": "noun",
+    "meaning": "hat, cap",
+    "notes": "A key item in Episode 1 - the mysterious magic hat.",
+    "jlpt": "N4",
+    "frequency": 10,
+    "examples": [
+      {
+        "japanese": "あれはシルクハットだ",
+        "english": "That's a top hat!",
+        "note": "シルクハット = silk hat / top hat"
+      },
+      {
+        "japanese": "この帽子パパのに似てるな",
+        "english": "This hat looks a lot like Dad's.",
+        "note": "〜に似ている (to resemble)"
+      },
+      {
+        "japanese": "残念だけどこの帽子は大きすぎる",
+        "english": "Unfortunately, this hat is too big.",
+        "note": "〜すぎる (too much)"
+      }
+    ]
+  },
+  {
+    "id": "冬",
+    "word": "冬",
+    "reading": "ふゆ",
+    "pos": "noun",
+    "meaning": "winter",
+    "notes": "One of four seasons. Moomin characters hibernate during winter.",
+    "jlpt": "N5",
+    "frequency": 4,
+    "examples": [
+      {
+        "japanese": "ムーミン谷は冬になるとすっかり雪で覆われてしまうんです",
+        "english": "Moominvalley gets completely covered in snow during winter.",
+        "note": "〜になると (when it becomes)"
+      },
+      {
+        "japanese": "みんなが雪の下で眠っている冬から始めるわけにはいかないので",
+        "english": "We can't start from winter when everyone is sleeping under the snow.",
+        "note": "〜わけにはいかない (cannot do)"
+      }
+    ]
+  },
+  {
+    "id": "冬眠",
+    "word": "冬眠",
+    "reading": "とうみん",
+    "pos": "noun/suru verb",
+    "meaning": "hibernation",
+    "notes": "冬 (winter) + 眠 (sleep). The Moomin family hibernates every winter.",
+    "jlpt": "N2",
+    "frequency": 3,
+    "examples": [
+      {
+        "japanese": "私どうしてこの家で冬眠してたの",
+        "english": "Why was I hibernating in this house?",
+        "note": "〜していた (past progressive)"
+      },
+      {
+        "japanese": "冬眠明けのお料理を作ることにしましょうか",
+        "english": "Shall we make some post-hibernation dishes?",
+        "note": "〜明け (after/post-)"
+      }
+    ]
+  },
+  {
+    "id": "谷",
+    "word": "谷",
+    "reading": "たに",
+    "pos": "noun",
+    "meaning": "valley",
+    "notes": "ムーミン谷 (Moomin Valley) is the setting of the story.",
+    "jlpt": "N3",
+    "frequency": 3,
+    "examples": [
+      {
+        "japanese": "みなさんはムーミン谷のことを聞いたことがありますか",
+        "english": "Have you all heard of Moomin Valley?",
+        "note": "〜のこと (about ~)"
+      },
+      {
+        "japanese": "この谷の住民たちは冬の間眠って過ごします",
+        "english": "The residents of this valley sleep through the winter.",
+        "note": "住民 = residents"
+      }
+    ]
+  },
+  {
+    "id": "雪",
+    "word": "雪",
+    "reading": "ゆき",
+    "pos": "noun",
+    "meaning": "snow",
+    "notes": "Common in winter scenes. 雪が降る = it snows.",
+    "jlpt": "N5",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "ムーミン谷は冬になるとすっかり雪で覆われてしまうんです",
+        "english": "Moominvalley gets completely covered in snow during winter.",
+        "note": "雪で覆われる (be covered with snow)"
+      }
+    ]
+  },
+  {
+    "id": "家",
+    "word": "家",
+    "reading": "いえ",
+    "pos": "noun",
+    "meaning": "house, home",
+    "notes": "Also read as うち when meaning 'my house/home'.",
+    "jlpt": "N5",
+    "frequency": 6,
+    "examples": [
+      {
+        "japanese": "これはムーミンの家です",
+        "english": "This is Moomin's house.",
+        "note": "possessive の"
+      },
+      {
+        "japanese": "私家でお姉ちゃんと一緒に寝てたはずだけど",
+        "english": "I should have been sleeping with my big sister at home.",
+        "note": "はず (should be/expectation)"
+      },
+      {
+        "japanese": "僕が家を出た時ママは起きてました",
+        "english": "When I left the house, Mama was awake.",
+        "note": "家を出る (leave the house)"
+      }
+    ]
+  },
+  {
+    "id": "物語",
+    "word": "物語",
+    "reading": "ものがたり",
+    "pos": "noun",
+    "meaning": "story, tale",
+    "notes": "物 (thing) + 語 (speak/tell). A narrative or story.",
+    "jlpt": "N3",
+    "frequency": 3,
+    "examples": [
+      {
+        "japanese": "これがこの物語の主人公ムーミントロール",
+        "english": "This is Moomintroll, the main character of this story.",
+        "note": "主人公 = main character/protagonist"
+      },
+      {
+        "japanese": "それではさっそく物語を始めることにします",
+        "english": "Now, let's promptly start the story.",
+        "note": "さっそく = promptly/at once"
+      }
+    ]
+  },
+  {
+    "id": "始める",
+    "word": "始める",
+    "reading": "はじめる",
+    "pos": "verb (ichidan)",
+    "meaning": "to begin, to start",
+    "notes": "Transitive. 始まる is the intransitive form.",
+    "jlpt": "N5",
+    "frequency": 3,
+    "examples": [
+      {
+        "japanese": "それではさっそく物語を始めることにします",
+        "english": "Now, let's promptly start the story.",
+        "note": "〜ことにする (decide to)"
+      },
+      {
+        "japanese": "暖かい春からこの物語を始めることにしましょう",
+        "english": "Let's start this story in warm spring.",
+        "note": "〜ましょう (let's)"
+      }
+    ]
+  },
+  {
+    "id": "聞く",
+    "word": "聞く",
+    "reading": "きく",
+    "pos": "verb (godan)",
+    "meaning": "to hear, to listen, to ask",
+    "notes": "Versatile verb. Context determines meaning.",
+    "jlpt": "N5",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "みなさんはムーミン谷のことを聞いたことがありますか",
+        "english": "Have you all heard of Moomin Valley?",
+        "note": "〜たことがある (have experienced)"
+      }
+    ]
+  },
+  {
+    "id": "見る",
+    "word": "見る",
+    "reading": "みる",
+    "pos": "verb (ichidan)",
+    "meaning": "to see, to look, to watch",
+    "notes": "One of the most common verbs. Te-form: 見て.",
+    "jlpt": "N5",
+    "frequency": 5,
+    "examples": [
+      {
+        "japanese": "うちに行ってお姉ちゃんが帰ってきてるかどうか見てくる",
+        "english": "I'm going home to see if big sister has come back.",
+        "note": "〜てくる (go and come back)"
+      },
+      {
+        "japanese": "でも見てくる",
+        "english": "But I'll check.",
+        "note": "見る used as 'check/verify'"
+      },
+      {
+        "japanese": "あなたは自分の顔鏡で見たことあるの",
+        "english": "Have you ever seen your own face in the mirror?",
+        "note": "〜たことある (have done before)"
+      }
+    ]
+  },
+  {
+    "id": "言う",
+    "word": "言う",
+    "reading": "いう",
+    "pos": "verb (godan)",
+    "meaning": "to say, to tell",
+    "notes": "One of the most common verbs. 〜と言う (called/named).",
+    "jlpt": "N5",
+    "frequency": 3,
+    "examples": [
+      {
+        "japanese": "この子は自分がムーミンだって言い張るんだよ",
+        "english": "This child insists they are Moomin.",
+        "note": "言い張る = to insist"
+      },
+      {
+        "japanese": "言ったでしょ静かにしてって",
+        "english": "I told you to be quiet.",
+        "note": "〜って (quotation marker, casual)"
+      }
+    ]
+  },
+  {
+    "id": "行く",
+    "word": "行く",
+    "reading": "いく",
+    "pos": "verb (godan)",
+    "meaning": "to go",
+    "notes": "Irregular te-form: 行って. Opposite of 来る.",
+    "jlpt": "N5",
+    "frequency": 6,
+    "examples": [
+      {
+        "japanese": "君もスノフキンに会いに行くの",
+        "english": "Are you going to see Snufkin too?",
+        "note": "〜に行く (go to do)"
+      },
+      {
+        "japanese": "お兄さん私ムーミンのところに遊びに行っていい",
+        "english": "Hey, can I go visit Moomin?",
+        "note": "遊びに行く (go to play/visit)"
+      },
+      {
+        "japanese": "去年の秋ミーのお姉ちゃんはお母さんのところへ行ったろ",
+        "english": "Last autumn, my big sister went to our mother, right?",
+        "note": "〜へ行く (go to a place)"
+      }
+    ]
+  },
+  {
+    "id": "帰る",
+    "word": "帰る",
+    "reading": "かえる",
+    "pos": "verb (godan)",
+    "meaning": "to return, to go home",
+    "notes": "Used when returning to one's home/base. Compare: 戻る.",
+    "jlpt": "N5",
+    "frequency": 5,
+    "examples": [
+      {
+        "japanese": "スノフキンが帰ってる",
+        "english": "Snufkin is back.",
+        "note": "〜ている (resultant state)"
+      },
+      {
+        "japanese": "今年はずいぶん早く帰ってきたね",
+        "english": "You came back pretty early this year.",
+        "note": "帰ってくる (come back here)"
+      },
+      {
+        "japanese": "ミムラが帰ってくるまでミーはずっとこの家にいていいんだよ",
+        "english": "Until Mimura comes back, I can stay in this house forever.",
+        "note": "〜まで (until)"
+      }
+    ]
+  },
+  {
+    "id": "忘れる",
+    "word": "忘れる",
+    "reading": "わすれる",
+    "pos": "verb (ichidan)",
+    "meaning": "to forget",
+    "notes": "Common verb. 忘れ物 = forgotten item.",
+    "jlpt": "N5",
+    "frequency": 3,
+    "examples": [
+      {
+        "japanese": "忘れちゃったの",
+        "english": "Did you forget?",
+        "note": "〜ちゃった (casual te-shimatta)"
+      },
+      {
+        "japanese": "4ヶ月も眠ると去年のことなんかみんな忘れちゃうんだなミーは",
+        "english": "If you sleep for four months, you forget everything from last year.",
+        "note": "〜と (conditional)"
+      }
+    ]
+  },
+  {
+    "id": "思い出す",
+    "word": "思い出す",
+    "reading": "おもいだす",
+    "pos": "verb (godan)",
+    "meaning": "to remember, to recall",
+    "notes": "思い (thought) + 出す (put out). To bring out a memory.",
+    "jlpt": "N4",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "なんとなく思い出してきた",
+        "english": "I'm starting to remember a little.",
+        "note": "〜てきた (gradual change)"
+      },
+      {
+        "japanese": "やっと思い出したらしいな",
+        "english": "It seems you've finally remembered.",
+        "note": "〜らしい (seems like)"
+      }
+    ]
+  },
+  {
+    "id": "覚えている",
+    "word": "覚えている",
+    "reading": "おぼえている",
+    "pos": "verb phrase",
+    "meaning": "to remember (state)",
+    "notes": "覚える = to memorize/learn. 覚えている = to remember (know).",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "覚えてることだってあるわ",
+        "english": "There are things I remember.",
+        "note": "〜だって (even)"
+      }
+    ]
+  },
+  {
+    "id": "大きい",
+    "word": "大きい",
+    "reading": "おおきい",
+    "pos": "i-adjective",
+    "meaning": "big, large",
+    "notes": "Basic size adjective. Adverb form: 大きく.",
+    "jlpt": "N5",
+    "frequency": 3,
+    "examples": [
+      {
+        "japanese": "ずいぶん大きいな",
+        "english": "It's quite big.",
+        "note": "ずいぶん = quite/considerably"
+      },
+      {
+        "japanese": "これは私の帽子より大きいよ",
+        "english": "This is bigger than my hat.",
+        "note": "〜より (comparison)"
+      },
+      {
+        "japanese": "残念だけどこの帽子は大きすぎる",
+        "english": "Unfortunately, this hat is too big.",
+        "note": "〜すぎる (too much)"
+      }
+    ]
+  },
+  {
+    "id": "面白い",
+    "word": "面白い",
+    "reading": "おもしろい",
+    "pos": "i-adjective",
+    "meaning": "interesting, fun",
+    "notes": "Can mean both intellectually interesting and fun/amusing.",
+    "jlpt": "N5",
+    "frequency": 4,
+    "examples": [
+      {
+        "japanese": "僕たち面白いことをするんだ",
+        "english": "We're going to do something fun.",
+        "note": "面白いこと = something interesting"
+      },
+      {
+        "japanese": "山に登るのは何が面白いのさ",
+        "english": "What's so fun about climbing a mountain?",
+        "note": "〜のは...の (nominalizing)"
+      },
+      {
+        "japanese": "さあスニフを起こして何か面白いことをしようよ",
+        "english": "Now let's wake up Sniff and do something fun.",
+        "note": "〜しよう (volitional)"
+      }
+    ]
+  },
+  {
+    "id": "寂しい",
+    "word": "寂しい",
+    "reading": "さびしい",
+    "pos": "i-adjective",
+    "meaning": "lonely, lonesome",
+    "notes": "Also written/pronounced さみしい. Describes emotional loneliness.",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "お姉ちゃんがいなくて寂しいからって冬眠する前の日ここへ来たんだぞ",
+        "english": "I came here the day before hibernating because I was lonely without my sister.",
+        "note": "〜からって (because, citing reason)"
+      }
+    ]
+  },
+  {
+    "id": "暖かい",
+    "word": "暖かい",
+    "reading": "あたたかい",
+    "pos": "i-adjective",
+    "meaning": "warm",
+    "notes": "For weather/temperature. Also 温かい for emotional warmth.",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "暖かい春からこの物語を始めることにしましょう",
+        "english": "Let's start this story in warm spring.",
+        "note": "暖かい modifies 春"
+      }
+    ]
+  },
+  {
+    "id": "早い",
+    "word": "早い",
+    "reading": "はやい",
+    "pos": "i-adjective",
+    "meaning": "early, fast",
+    "notes": "早い (early/fast) vs 速い (speedy). Often interchangeable.",
+    "jlpt": "N5",
+    "frequency": 3,
+    "examples": [
+      {
+        "japanese": "今年はずいぶん早く帰ってきたね",
+        "english": "You came back pretty early this year.",
+        "note": "早く (adverb form)"
+      },
+      {
+        "japanese": "縄梯子より階段の方が早いわ",
+        "english": "It's quicker to take the stairs than the rope ladder.",
+        "note": "〜より〜の方が (comparison)"
+      },
+      {
+        "japanese": "パパ早くこの雲に乗って",
+        "english": "Dad, quickly get on this cloud.",
+        "note": "早く as adverb 'quickly'"
+      }
+    ]
+  },
+  {
+    "id": "素晴らしい",
+    "word": "素晴らしい",
+    "reading": "すばらしい",
+    "pos": "i-adjective",
+    "meaning": "wonderful, amazing",
+    "notes": "Strong positive adjective. Very common in praise.",
+    "jlpt": "N4",
+    "frequency": 3,
+    "examples": [
+      {
+        "japanese": "素晴らしい眺めだろスニフ",
+        "english": "It's a wonderful view, isn't it, Sniff?",
+        "note": "〜だろ (right?/isn't it?)"
+      },
+      {
+        "japanese": "こんな素晴らしい天気だ",
+        "english": "The weather is amazing.",
+        "note": "こんな = such/like this"
+      },
+      {
+        "japanese": "夢を追うということは素晴らしいことさ",
+        "english": "Chasing a dream is a wonderful thing.",
+        "note": "〜ということ (the fact that)"
+      }
+    ]
+  },
+  {
+    "id": "残念",
+    "word": "残念",
+    "reading": "ざんねん",
+    "pos": "na-adjective",
+    "meaning": "unfortunate, regrettable",
+    "notes": "残念ながら = unfortunately. Very common expression.",
+    "jlpt": "N4",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "残念だけどこの帽子は大きすぎる",
+        "english": "Unfortunately, this hat is too big.",
+        "note": "残念だけど = unfortunately/but"
+      },
+      {
+        "japanese": "残念ねもっと遊びたかったのに",
+        "english": "What a shame, I wanted to play more.",
+        "note": "〜のに (even though)"
+      }
+    ]
+  },
+  {
+    "id": "本当",
+    "word": "本当",
+    "reading": "ほんとう",
+    "pos": "noun/na-adj",
+    "meaning": "truth, really",
+    "notes": "本当に = really. 本当？ = Really? Very common.",
+    "jlpt": "N5",
+    "frequency": 4,
+    "examples": [
+      {
+        "japanese": "本当に空飛ぶ船なんかできるのかな",
+        "english": "I wonder if a real flying ship can be made.",
+        "note": "本当に = really"
+      },
+      {
+        "japanese": "僕本当にムーミンなんだよ",
+        "english": "I'm really Moomin!",
+        "note": "なんだよ = emphatic explanation"
+      },
+      {
+        "japanese": "ねえ本当にあんた誰",
+        "english": "Hey, who are you really?",
+        "note": "本当に as emphasis"
+      }
+    ]
+  },
+  {
+    "id": "お姉ちゃん",
+    "word": "お姉ちゃん",
+    "reading": "おねえちゃん",
+    "pos": "noun",
+    "meaning": "big sister (informal)",
+    "notes": "Casual form. More formal: お姉さん (oneesan).",
+    "jlpt": "N5",
+    "frequency": 8,
+    "examples": [
+      {
+        "japanese": "私家でお姉ちゃんと一緒に寝てたはずだけど",
+        "english": "I should have been sleeping with my big sister at home.",
+        "note": "〜と一緒に (together with)"
+      },
+      {
+        "japanese": "去年の秋ミーのお姉ちゃんはお母さんのところへ行ったろ",
+        "english": "Last autumn, Little My's big sister went to their mother.",
+        "note": "ミーの (Little My's)"
+      },
+      {
+        "japanese": "うちに行ってお姉ちゃんが帰ってきてるかどうか見てくる",
+        "english": "I'm going home to see if big sister has come back.",
+        "note": "〜かどうか (whether or not)"
+      }
+    ]
+  },
+  {
+    "id": "お兄さん",
+    "word": "お兄さん",
+    "reading": "おにいさん",
+    "pos": "noun",
+    "meaning": "big brother",
+    "notes": "Casual: お兄ちゃん. Used for one's own brother or addressing young men.",
+    "jlpt": "N5",
+    "frequency": 4,
+    "examples": [
+      {
+        "japanese": "お兄さん私ムーミンのところに遊びに行っていい",
+        "english": "Hey, can I go visit Moomin?",
+        "note": "Asking brother for permission"
+      },
+      {
+        "japanese": "もちろんお兄さんは行かないわね",
+        "english": "Of course, big brother isn't going.",
+        "note": "わね (female sentence ending)"
+      }
+    ]
+  },
+  {
+    "id": "パパ",
+    "word": "パパ",
+    "reading": "パパ",
+    "pos": "noun",
+    "meaning": "papa, dad",
+    "notes": "Katakana word from English. ムーミンパパ = Moominpapa.",
+    "jlpt": "N5",
+    "frequency": 8,
+    "examples": [
+      {
+        "japanese": "そしてこれがムーミンパパ",
+        "english": "And this is Moomin Papa.",
+        "note": "Character introduction"
+      },
+      {
+        "japanese": "この帽子パパのに似てるな",
+        "english": "This hat looks a lot like Dad's.",
+        "note": "パパの = Dad's (possessive)"
+      },
+      {
+        "japanese": "どうしたのパパ",
+        "english": "What's wrong, Dad?",
+        "note": "どうしたの = What happened?"
+      }
+    ]
+  },
+  {
+    "id": "ママ",
+    "word": "ママ",
+    "reading": "ママ",
+    "pos": "noun",
+    "meaning": "mama, mom",
+    "notes": "Katakana word from English. ムーミンママ = Moominmama.",
+    "jlpt": "N5",
+    "frequency": 10,
+    "examples": [
+      {
+        "japanese": "これがムーミンママ",
+        "english": "This is Moomin Mama.",
+        "note": "Character introduction"
+      },
+      {
+        "japanese": "きっとムーミンママが何かおいしいものを作ってるんだね",
+        "english": "Moominmama is probably making something delicious.",
+        "note": "きっと = surely/probably"
+      },
+      {
+        "japanese": "僕をムーミンって呼んでよママ",
+        "english": "Call me Moomin, Mama.",
+        "note": "〜って呼ぶ (to call by name)"
+      }
+    ]
+  },
+  {
+    "id": "今年",
+    "word": "今年",
+    "reading": "ことし",
+    "pos": "noun",
+    "meaning": "this year",
+    "notes": "今 (now) + 年 (year). Compare: 去年 (last year), 来年 (next year).",
+    "jlpt": "N5",
+    "frequency": 4,
+    "examples": [
+      {
+        "japanese": "今年はずいぶん早く帰ってきたね",
+        "english": "You came back pretty early this year.",
+        "note": "ずいぶん = considerably"
+      },
+      {
+        "japanese": "今年あの山に登るのは僕たちが一番なんだぜ",
+        "english": "This year, we're the first ones to climb that mountain.",
+        "note": "一番 = first/best"
+      },
+      {
+        "japanese": "今年こそ僕は空飛ぶ船を作ってみせるぞ",
+        "english": "This year, I will definitely make a flying ship!",
+        "note": "こそ = emphasis (this year for sure)"
+      }
+    ]
+  },
+  {
+    "id": "去年",
+    "word": "去年",
+    "reading": "きょねん",
+    "pos": "noun",
+    "meaning": "last year",
+    "notes": "去 (go away) + 年 (year). The year that has passed.",
+    "jlpt": "N5",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "去年の秋ミーのお姉ちゃんはお母さんのところへ行ったろ",
+        "english": "Last autumn, Little My's big sister went to their mother.",
+        "note": "去年の秋 = last autumn"
+      },
+      {
+        "japanese": "4ヶ月も眠ると去年のことなんかみんな忘れちゃうんだな",
+        "english": "If you sleep for four months, you forget everything from last year.",
+        "note": "去年のこと = things from last year"
+      }
+    ]
+  },
+  {
+    "id": "山",
+    "word": "山",
+    "reading": "やま",
+    "pos": "noun",
+    "meaning": "mountain",
+    "notes": "Basic noun. 山に登る = to climb a mountain.",
+    "jlpt": "N5",
+    "frequency": 3,
+    "examples": [
+      {
+        "japanese": "山に登るのは何が面白いのさ",
+        "english": "What's so fun about climbing a mountain?",
+        "note": "山に登る (climb a mountain)"
+      },
+      {
+        "japanese": "今年あの山に登るのは僕たちが一番なんだぜ",
+        "english": "This year, we're the first ones to climb that mountain.",
+        "note": "あの山 = that mountain"
+      }
+    ]
+  },
+  {
+    "id": "海",
+    "word": "海",
+    "reading": "うみ",
+    "pos": "noun",
+    "meaning": "sea, ocean",
+    "notes": "Basic noun. 海へ行く = to go to the beach/sea.",
+    "jlpt": "N5",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "海が光ってる",
+        "english": "The sea is sparkling.",
+        "note": "〜ている (continuous state)"
+      },
+      {
+        "japanese": "海だってね",
+        "english": "And the sea too.",
+        "note": "だって = also/even"
+      }
+    ]
+  },
+  {
+    "id": "雲",
+    "word": "雲",
+    "reading": "くも",
+    "pos": "noun",
+    "meaning": "cloud",
+    "notes": "Appears in the magic hat scene where clouds form from the hat.",
+    "jlpt": "N4",
+    "frequency": 5,
+    "examples": [
+      {
+        "japanese": "何これ雲みたい",
+        "english": "What is this? It looks like a cloud.",
+        "note": "〜みたい (looks like)"
+      },
+      {
+        "japanese": "僕も知らないようちの中から雲が湧いてきたんだ",
+        "english": "I don't know either, a cloud has emerged from inside our house.",
+        "note": "湧いてきた = emerged/sprung up"
+      },
+      {
+        "japanese": "あらららら雲がなくなっちゃった",
+        "english": "Oh dear, the cloud has disappeared.",
+        "note": "なくなる = to disappear"
+      }
+    ]
+  },
+  {
+    "id": "旅",
+    "word": "旅",
+    "reading": "たび",
+    "pos": "noun",
+    "meaning": "trip, journey",
+    "notes": "旅行 (りょこう) is more common for 'travel'. 旅 is more poetic.",
+    "jlpt": "N4",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "南の方の旅はつまらなかったの",
+        "english": "Was the trip to the south boring?",
+        "note": "南の方 = the south"
+      },
+      {
+        "japanese": "旅の話をしてよ",
+        "english": "Tell me about your trip.",
+        "note": "旅の話 = stories of the trip"
+      }
+    ]
+  },
+  {
+    "id": "話",
+    "word": "話",
+    "reading": "はなし",
+    "pos": "noun",
+    "meaning": "story, talk, conversation",
+    "notes": "話す (to speak) → 話 (talk/story). Very common word.",
+    "jlpt": "N5",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "旅の話をしてよ",
+        "english": "Tell me about your trip.",
+        "note": "話をする = to tell/talk about"
+      },
+      {
+        "japanese": "あとでゆっくりとね",
+        "english": "Later, slowly.",
+        "note": "Response to request for stories"
+      }
+    ]
+  },
+  {
+    "id": "夢",
+    "word": "夢",
+    "reading": "ゆめ",
+    "pos": "noun",
+    "meaning": "dream",
+    "notes": "Both sleep dreams and life dreams/aspirations.",
+    "jlpt": "N4",
+    "frequency": 4,
+    "examples": [
+      {
+        "japanese": "夢ね兄さんは夢を追ってるんだわ",
+        "english": "A dream, huh? You're chasing a dream, brother.",
+        "note": "夢を追う = to chase a dream"
+      },
+      {
+        "japanese": "夢を追うということは素晴らしいことさ",
+        "english": "Chasing a dream is a wonderful thing.",
+        "note": "〜ということ (the fact that)"
+      },
+      {
+        "japanese": "僕食べ物の夢ならしょっちゅう見るよ",
+        "english": "Well, I often dream about food.",
+        "note": "夢を見る = to have a dream"
+      }
+    ]
+  },
+  {
+    "id": "船",
+    "word": "船",
+    "reading": "ふね",
+    "pos": "noun",
+    "meaning": "ship, boat",
+    "notes": "空飛ぶ船 = flying ship appears in Snorkmaiden's brother's dream.",
+    "jlpt": "N4",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "今年こそ僕は空飛ぶ船を作ってみせるぞ",
+        "english": "This year, I will definitely make a flying ship!",
+        "note": "空飛ぶ = sky-flying"
+      },
+      {
+        "japanese": "本当に空飛ぶ船なんかできるのかな",
+        "english": "I wonder if a real flying ship can be made.",
+        "note": "〜かな = I wonder if"
+      }
+    ]
+  },
+  {
+    "id": "作る",
+    "word": "作る",
+    "reading": "つくる",
+    "pos": "verb (godan)",
+    "meaning": "to make, to create",
+    "notes": "Very versatile. Used for food, things, situations.",
+    "jlpt": "N5",
+    "frequency": 3,
+    "examples": [
+      {
+        "japanese": "冬眠明けのお料理を作ることにしましょうか",
+        "english": "Shall we make some post-hibernation dishes?",
+        "note": "〜ことにする (decide to)"
+      },
+      {
+        "japanese": "今年こそ僕は空飛ぶ船を作ってみせるぞ",
+        "english": "This year, I will definitely make a flying ship!",
+        "note": "〜てみせる (will show by doing)"
+      },
+      {
+        "japanese": "きっとムーミンママが何かおいしいものを作ってるんだね",
+        "english": "Moominmama is probably making something delicious.",
+        "note": "何か = something"
+      }
+    ]
+  },
+  {
+    "id": "乗る",
+    "word": "乗る",
+    "reading": "のる",
+    "pos": "verb (godan)",
+    "meaning": "to ride, to get on",
+    "notes": "Used for vehicles, horses, etc. 〜に乗る pattern.",
+    "jlpt": "N5",
+    "frequency": 4,
+    "examples": [
+      {
+        "japanese": "私も乗りたい",
+        "english": "I want to ride it too.",
+        "note": "〜たい (want to)"
+      },
+      {
+        "japanese": "パパ早くこの雲に乗って",
+        "english": "Dad, quickly get on this cloud.",
+        "note": "〜に乗る (get on)"
+      },
+      {
+        "japanese": "どうしたの乗りたければ乗せてあげるよ",
+        "english": "What's wrong? If you want to ride, I can let you.",
+        "note": "〜ば (conditional)"
+      }
+    ]
+  },
+  {
+    "id": "飛ぶ",
+    "word": "飛ぶ",
+    "reading": "とぶ",
+    "pos": "verb (godan)",
+    "meaning": "to fly, to jump",
+    "notes": "Used for birds, planes, jumping. 空を飛ぶ = fly in the sky.",
+    "jlpt": "N4",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "子供たちのこと知ってるか空中を飛び回っているんだぞ",
+        "english": "Do you know about the kids? They are flying around in the air!",
+        "note": "飛び回る = fly around"
+      },
+      {
+        "japanese": "ねえスナフキンさっき飛行鬼が飛んでるのを見たよ",
+        "english": "Hey Snufkin, I saw a flying goblin earlier.",
+        "note": "飛行鬼 = The Hobgoblin"
+      }
+    ]
+  },
+  {
+    "id": "落ちる",
+    "word": "落ちる",
+    "reading": "おちる",
+    "pos": "verb (ichidan)",
+    "meaning": "to fall, to drop",
+    "notes": "Intransitive. Transitive: 落とす (to drop something).",
+    "jlpt": "N4",
+    "frequency": 3,
+    "examples": [
+      {
+        "japanese": "落っこちないように気をつけなさいって",
+        "english": "Be careful not to fall.",
+        "note": "落っこちる = casual for 落ちる"
+      },
+      {
+        "japanese": "落ちる落ちる死んじゃう",
+        "english": "I'm falling, I'm falling, I'm going to die!",
+        "note": "Repeated for emphasis/panic"
+      }
+    ]
+  },
+  {
+    "id": "登る",
+    "word": "登る",
+    "reading": "のぼる",
+    "pos": "verb (godan)",
+    "meaning": "to climb",
+    "notes": "山に登る = climb a mountain. 上る is similar but broader.",
+    "jlpt": "N4",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "山に登るのは何が面白いのさ",
+        "english": "What's so fun about climbing a mountain?",
+        "note": "〜に登る (climb onto)"
+      },
+      {
+        "japanese": "今年あの山に登るのは僕たちが一番なんだぜ",
+        "english": "This year, we're the first ones to climb that mountain.",
+        "note": "登るのは = climbing is"
+      }
+    ]
+  },
+  {
+    "id": "遊ぶ",
+    "word": "遊ぶ",
+    "reading": "あそぶ",
+    "pos": "verb (godan)",
+    "meaning": "to play",
+    "notes": "General play. 遊びに行く = go to play/visit someone.",
+    "jlpt": "N5",
+    "frequency": 4,
+    "examples": [
+      {
+        "japanese": "お兄さん私ムーミンのところに遊びに行っていい",
+        "english": "Hey, can I go visit Moomin?",
+        "note": "遊びに行く (go to play/visit)"
+      },
+      {
+        "japanese": "残念ねもっと遊びたかったのに",
+        "english": "What a shame, I wanted to play more.",
+        "note": "〜たかった (wanted to)"
+      },
+      {
+        "japanese": "また一緒に遊ぼうさあおいで",
+        "english": "Let's play together again, come on over.",
+        "note": "〜よう (volitional)"
+      }
+    ]
+  },
+  {
+    "id": "探す",
+    "word": "探す",
+    "reading": "さがす",
+    "pos": "verb (godan)",
+    "meaning": "to search, to look for",
+    "notes": "探す (look for) vs 見つける (find). Common pair.",
+    "jlpt": "N4",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "地下室は探したの",
+        "english": "Did you search the basement?",
+        "note": "Past tense question"
+      },
+      {
+        "japanese": "きっとあの帽子を探しているんだよ",
+        "english": "I'm sure it's looking for that hat.",
+        "note": "〜ている (progressive)"
+      }
+    ]
+  },
+  {
+    "id": "見つかる",
+    "word": "見つかる",
+    "reading": "みつかる",
+    "pos": "verb (godan)",
+    "meaning": "to be found",
+    "notes": "Intransitive. Transitive: 見つける (to find).",
+    "jlpt": "N4",
+    "frequency": 3,
+    "examples": [
+      {
+        "japanese": "見つかった",
+        "english": "Found it.",
+        "note": "Past tense = 'it was found'"
+      },
+      {
+        "japanese": "ムーミンがどうしても見つからないんです",
+        "english": "I just can't find Moomin.",
+        "note": "どうしても〜ない (no matter what)"
+      },
+      {
+        "japanese": "どうやら僕だけ見つからなかったようだね",
+        "english": "It seems I'm the only one who wasn't found.",
+        "note": "〜ようだ (it seems)"
+      }
+    ]
+  },
+  {
+    "id": "隠れる",
+    "word": "隠れる",
+    "reading": "かくれる",
+    "pos": "verb (ichidan)",
+    "meaning": "to hide (oneself)",
+    "notes": "Intransitive. かくれんぼ = hide and seek.",
+    "jlpt": "N4",
+    "frequency": 3,
+    "examples": [
+      {
+        "japanese": "あのどこか隠れるところありませんか",
+        "english": "Is there anywhere to hide?",
+        "note": "隠れるところ = place to hide"
+      },
+      {
+        "japanese": "君はムーミンがどこに隠れているか知っているのかい",
+        "english": "Do you know where Moomin is hiding?",
+        "note": "〜ているか (whether ~ing)"
+      }
+    ]
+  },
+  {
+    "id": "知る",
+    "word": "知る",
+    "reading": "しる",
+    "pos": "verb (godan)",
+    "meaning": "to know",
+    "notes": "知っている = know (state). 知らない = don't know.",
+    "jlpt": "N5",
+    "frequency": 5,
+    "examples": [
+      {
+        "japanese": "僕も知らないよ",
+        "english": "I don't know either.",
+        "note": "知らない = don't know"
+      },
+      {
+        "japanese": "おい知らないぞ落ちたって知らないぞ",
+        "english": "Hey, I don't know! If you fall, it's not my problem!",
+        "note": "知らない = 'not my problem'"
+      },
+      {
+        "japanese": "子供たちのこと知ってるか",
+        "english": "Do you know about the kids?",
+        "note": "知ってる = know (casual)"
+      }
+    ]
+  },
+  {
+    "id": "分かる",
+    "word": "分かる",
+    "reading": "わかる",
+    "pos": "verb (godan)",
+    "meaning": "to understand, to know",
+    "notes": "分かった = understood/got it. Very common response.",
+    "jlpt": "N5",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "分かったわ分かったから少し黙って落ち着いてちょうだい",
+        "english": "I understand, I understand, so be quiet and calm down a little.",
+        "note": "分かった = understood"
+      },
+      {
+        "japanese": "ママのこと分かってるんでしょ",
+        "english": "You know who Mama is, right?",
+        "note": "分かってる = you know/understand"
+      }
+    ]
+  },
+  {
+    "id": "待つ",
+    "word": "待つ",
+    "reading": "まつ",
+    "pos": "verb (godan)",
+    "meaning": "to wait",
+    "notes": "〜を待つ = wait for. ちょっと待って = wait a moment.",
+    "jlpt": "N5",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "おい待て降りてこい",
+        "english": "Hey, wait, come down!",
+        "note": "待て = imperative (wait!)"
+      },
+      {
+        "japanese": "おい待て僕の雲待ってくれ",
+        "english": "Hey wait, my cloud, wait for me!",
+        "note": "待ってくれ = please wait"
+      }
+    ]
+  },
+  {
+    "id": "呼ぶ",
+    "word": "呼ぶ",
+    "reading": "よぶ",
+    "pos": "verb (godan)",
+    "meaning": "to call",
+    "notes": "〜と呼ぶ = to call (by name). 呼んで = call me.",
+    "jlpt": "N4",
+    "frequency": 3,
+    "examples": [
+      {
+        "japanese": "ムーミンって呼んで",
+        "english": "Call me Moomin.",
+        "note": "〜って呼ぶ (call someone ~)"
+      },
+      {
+        "japanese": "どうして僕のこと呼んでくれないの",
+        "english": "Why won't you call me?",
+        "note": "〜てくれない (won't do for me)"
+      }
+    ]
+  },
+  {
+    "id": "捨てる",
+    "word": "捨てる",
+    "reading": "すてる",
+    "pos": "verb (ichidan)",
+    "meaning": "to throw away, to discard",
+    "notes": "Common verb for disposing of things. ゴミを捨てる = throw away trash.",
+    "jlpt": "N4",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "それじゃあ捨てちゃおうか",
+        "english": "Then shall we throw it away?",
+        "note": "〜ちゃう = casual 〜てしまう"
+      },
+      {
+        "japanese": "拾ったものを捨てただけさ",
+        "english": "I just threw away what I picked up.",
+        "note": "拾う = to pick up"
+      }
+    ]
+  },
+  {
+    "id": "僕",
+    "word": "僕",
+    "reading": "ぼく",
+    "pos": "pronoun",
+    "meaning": "I, me (male)",
+    "notes": "Masculine first person. Used by boys and some adult men.",
+    "jlpt": "N5",
+    "frequency": 25,
+    "examples": [
+      {
+        "japanese": "僕はムーミントロール",
+        "english": "I'm Moomintroll.",
+        "note": "Self-introduction"
+      },
+      {
+        "japanese": "僕たち面白いことをするんだ",
+        "english": "We're going to do something fun.",
+        "note": "僕たち = we (male speaker)"
+      },
+      {
+        "japanese": "僕本当にムーミンなんだよ",
+        "english": "I'm really Moomin!",
+        "note": "Emphatic statement"
+      }
+    ]
+  },
+  {
+    "id": "私",
+    "word": "私",
+    "reading": "わたし",
+    "pos": "pronoun",
+    "meaning": "I, me",
+    "notes": "Neutral/feminine first person. Most common for women.",
+    "jlpt": "N5",
+    "frequency": 8,
+    "examples": [
+      {
+        "japanese": "私どうしてこの家で冬眠してたの",
+        "english": "Why was I hibernating in this house?",
+        "note": "Little My speaking"
+      },
+      {
+        "japanese": "私も乗りたい",
+        "english": "I want to ride it too.",
+        "note": "私も = me too"
+      },
+      {
+        "japanese": "私が自分の子供を間違えるはずはありません",
+        "english": "I would never mistake my own child.",
+        "note": "Moominmama speaking"
+      }
+    ]
+  },
+  {
+    "id": "みんな",
+    "word": "みんな",
+    "reading": "みんな",
+    "pos": "pronoun",
+    "meaning": "everyone, all",
+    "notes": "Informal. More formal: 皆さん (minasan).",
+    "jlpt": "N5",
+    "frequency": 5,
+    "examples": [
+      {
+        "japanese": "ほらみんな眠っていますよ",
+        "english": "Look, everyone is sleeping.",
+        "note": "みんな as subject"
+      },
+      {
+        "japanese": "みなさんはムーミン谷のことを聞いたことがありますか",
+        "english": "Have you all heard of Moomin Valley?",
+        "note": "みなさん = polite 'everyone'"
+      },
+      {
+        "japanese": "さあさあみんなお食事しましょうね",
+        "english": "Alright everyone, let's have a meal.",
+        "note": "Addressing a group"
+      }
+    ]
+  },
+  {
+    "id": "ここ",
+    "word": "ここ",
+    "reading": "ここ",
+    "pos": "pronoun",
+    "meaning": "here, this place",
+    "notes": "Location demonstrative. ここ/そこ/あそこ (here/there/over there).",
+    "jlpt": "N5",
+    "frequency": 4,
+    "examples": [
+      {
+        "japanese": "私しばらくここにいてもいい",
+        "english": "Can I stay here for a while?",
+        "note": "ここに = at here"
+      },
+      {
+        "japanese": "ここにいるよ",
+        "english": "I'm right here.",
+        "note": "ここに + いる (be at)"
+      }
+    ]
+  },
+  {
+    "id": "そこ",
+    "word": "そこ",
+    "reading": "そこ",
+    "pos": "pronoun",
+    "meaning": "there, that place",
+    "notes": "Mid-distance demonstrative. Near the listener.",
+    "jlpt": "N5",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "そんなものできるもんですか",
+        "english": "Can such a thing really be done?",
+        "note": "そんな = such (that kind of)"
+      }
+    ]
+  },
+  {
+    "id": "あそこ",
+    "word": "あそこ",
+    "reading": "あそこ",
+    "pos": "pronoun",
+    "meaning": "over there",
+    "notes": "Far demonstrative. Distant from both speaker and listener.",
+    "jlpt": "N5",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "あそこからムーミン谷が全部見えるぞ",
+        "english": "From up there, you can see all of Moominvalley.",
+        "note": "あそこから = from over there"
+      },
+      {
+        "japanese": "あそこ",
+        "english": "Over there.",
+        "note": "Short answer pointing"
+      }
+    ]
+  },
+  {
+    "id": "何",
+    "word": "何",
+    "reading": "なに/なん",
+    "pos": "pronoun",
+    "meaning": "what",
+    "notes": "Read なに before consonants, なん before d/n/です.",
+    "jlpt": "N5",
+    "frequency": 8,
+    "examples": [
+      {
+        "japanese": "何だろうこれは",
+        "english": "I wonder what this is.",
+        "note": "何だろう = what could it be"
+      },
+      {
+        "japanese": "山に登るのは何が面白いのさ",
+        "english": "What's so fun about climbing a mountain?",
+        "note": "何が = what (subject)"
+      },
+      {
+        "japanese": "何を",
+        "english": "What?",
+        "note": "Short question"
+      }
+    ]
+  },
+  {
+    "id": "誰",
+    "word": "誰",
+    "reading": "だれ",
+    "pos": "pronoun",
+    "meaning": "who",
+    "notes": "Question word for people. 誰か = someone.",
+    "jlpt": "N5",
+    "frequency": 5,
+    "examples": [
+      {
+        "japanese": "誰かが落としていったんだろう",
+        "english": "Someone must have dropped it.",
+        "note": "誰か = someone"
+      },
+      {
+        "japanese": "君は誰だ",
+        "english": "Who are you?",
+        "note": "Direct question"
+      },
+      {
+        "japanese": "誰だここでゆで卵を食べたのは",
+        "english": "Who ate a boiled egg here?",
+        "note": "Topic fronting for emphasis"
+      }
+    ]
+  },
+  {
+    "id": "どこ",
+    "word": "どこ",
+    "reading": "どこ",
+    "pos": "pronoun",
+    "meaning": "where",
+    "notes": "Question word for place. どこか = somewhere.",
+    "jlpt": "N5",
+    "frequency": 3,
+    "examples": [
+      {
+        "japanese": "どこ",
+        "english": "Where?",
+        "note": "Short question"
+      },
+      {
+        "japanese": "ムーミンおまえは一体どこに隠れていたんだ",
+        "english": "Moomin, where on earth have you been hiding?",
+        "note": "一体 = on earth (emphasis)"
+      },
+      {
+        "japanese": "あのどこか隠れるところありませんか",
+        "english": "Is there anywhere to hide?",
+        "note": "どこか = somewhere"
+      }
+    ]
+  },
+  {
+    "id": "一番",
+    "word": "一番",
+    "reading": "いちばん",
+    "pos": "adverb/noun",
+    "meaning": "first, best, most",
+    "notes": "Superlative marker. 一番好き = like the most.",
+    "jlpt": "N5",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "今年あの山に登るのは僕たちが一番なんだぜ",
+        "english": "This year, we're the first ones to climb that mountain.",
+        "note": "一番 = first"
+      },
+      {
+        "japanese": "やっぱりムーミン谷が一番だからね",
+        "english": "After all, Moominvalley is the best.",
+        "note": "一番 = the best"
+      }
+    ]
+  },
+  {
+    "id": "今",
+    "word": "今",
+    "reading": "いま",
+    "pos": "noun/adverb",
+    "meaning": "now",
+    "notes": "今日 (today), 今週 (this week), 今月 (this month).",
+    "jlpt": "N5",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "今はいないわね",
+        "english": "He's not here now.",
+        "note": "今は = as for now"
+      },
+      {
+        "japanese": "今誰か笑わなかったかい",
+        "english": "Didn't someone just laugh?",
+        "note": "今 = just now"
+      }
+    ]
+  },
+  {
+    "id": "もう",
+    "word": "もう",
+    "reading": "もう",
+    "pos": "adverb",
+    "meaning": "already, soon, more",
+    "notes": "Context-dependent. もう一度 = one more time.",
+    "jlpt": "N5",
+    "frequency": 4,
+    "examples": [
+      {
+        "japanese": "もう一回だな",
+        "english": "One more time.",
+        "note": "もう一回 = one more time"
+      },
+      {
+        "japanese": "もう帰らなくちゃ",
+        "english": "I have to go home now.",
+        "note": "もう = already/now"
+      },
+      {
+        "japanese": "もう降りたほうがいい",
+        "english": "You should probably come down now.",
+        "note": "もう = by now"
+      }
+    ]
+  },
+  {
+    "id": "まだ",
+    "word": "まだ",
+    "reading": "まだ",
+    "pos": "adverb",
+    "meaning": "still, yet",
+    "notes": "まだ〜ない = not yet. まだいる = still here.",
+    "jlpt": "N5",
+    "frequency": 4,
+    "examples": [
+      {
+        "japanese": "あいつはまだ寝てるよきっと",
+        "english": "He's probably still asleep.",
+        "note": "まだ = still"
+      },
+      {
+        "japanese": "まだ帰ってないと思うよ",
+        "english": "I don't think she is back yet.",
+        "note": "まだ〜ない = not yet"
+      },
+      {
+        "japanese": "僕はまだ眠いよ",
+        "english": "I'm still sleepy.",
+        "note": "まだ = still"
+      }
+    ]
+  },
+  {
+    "id": "とても",
+    "word": "とても",
+    "reading": "とても",
+    "pos": "adverb",
+    "meaning": "very, much",
+    "notes": "Emphasizes degree. Similar to すごく (casual).",
+    "jlpt": "N5",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "だからパパの書く物語はとても長い長いものになりそうでした",
+        "english": "That's why the story Papa writes seems to be quite long.",
+        "note": "とても長い = very long"
+      }
+    ]
+  },
+  {
+    "id": "ちょっと",
+    "word": "ちょっと",
+    "reading": "ちょっと",
+    "pos": "adverb",
+    "meaning": "a little, somewhat",
+    "notes": "Also used as softener: ちょっと待って. Very common.",
+    "jlpt": "N5",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "ムーミンちょっとこっちにおいで",
+        "english": "Moomin, come here for a moment.",
+        "note": "ちょっと = a moment"
+      },
+      {
+        "japanese": "ムーミンはしかし心の中でちょっぴり惜しいなと思いました",
+        "english": "However, Moomin felt a little regretful inside.",
+        "note": "ちょっぴり = a tiny bit"
+      }
+    ]
+  },
+  {
+    "id": "ずっと",
+    "word": "ずっと",
+    "reading": "ずっと",
+    "pos": "adverb",
+    "meaning": "all the time, much (more)",
+    "notes": "Emphasizes duration or degree of comparison.",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "ミムラが帰ってくるまでミーはずっとこの家にいていいんだよ",
+        "english": "Until Mimura comes back, you can stay in this house forever.",
+        "note": "ずっと = the whole time"
+      }
+    ]
+  },
+  {
+    "id": "あ",
+    "word": "ああ",
+    "reading": "ああ",
+    "pos": "interjection",
+    "meaning": "ah, oh",
+    "notes": "General interjection of realization or agreement.",
+    "jlpt": "N5",
+    "frequency": 6,
+    "examples": [
+      {
+        "japanese": "ああ楽しかった",
+        "english": "Ah, that was fun.",
+        "note": "Expression of satisfaction"
+      },
+      {
+        "japanese": "ああ待て",
+        "english": "Ah, wait!",
+        "note": "Interjection before command"
+      }
+    ]
+  },
+  {
+    "id": "さあ",
+    "word": "さあ",
+    "reading": "さあ",
+    "pos": "interjection",
+    "meaning": "well, now then, come on",
+    "notes": "Used to prompt action or express uncertainty.",
+    "jlpt": "N4",
+    "frequency": 5,
+    "examples": [
+      {
+        "japanese": "さあ降りなさいムーミン",
+        "english": "Now, come down, Moomin.",
+        "note": "Prompting action"
+      },
+      {
+        "japanese": "さあこっちにおいで",
+        "english": "Now come over here.",
+        "note": "Encouragement"
+      },
+      {
+        "japanese": "さあスニフを起こして何か面白いことをしようよ",
+        "english": "Now let's wake up Sniff and do something fun.",
+        "note": "Starting proposal"
+      }
+    ]
+  },
+  {
+    "id": "やあ",
+    "word": "やあ",
+    "reading": "やあ",
+    "pos": "interjection",
+    "meaning": "hey, hi",
+    "notes": "Casual greeting. Masculine.",
+    "jlpt": "N4",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "やあミー君も起きてたのか",
+        "english": "Oh, Little My, you're awake too.",
+        "note": "Casual greeting"
+      },
+      {
+        "japanese": "やあ",
+        "english": "Hey.",
+        "note": "Simple greeting"
+      }
+    ]
+  },
+  {
+    "id": "すごい",
+    "word": "すごい",
+    "reading": "すごい",
+    "pos": "i-adjective",
+    "meaning": "amazing, great",
+    "notes": "Very common in casual speech. すごく as adverb.",
+    "jlpt": "N5",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "わあ素敵",
+        "english": "Wow, amazing!",
+        "note": "Exclamation of wonder"
+      }
+    ]
+  },
+  {
+    "id": "危ない",
+    "word": "危ない",
+    "reading": "あぶない",
+    "pos": "i-adjective",
+    "meaning": "dangerous",
+    "notes": "Used as warning: 危ない！= Watch out!",
+    "jlpt": "N4",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "危ない触るな爆発したらどうするんだ",
+        "english": "It's dangerous, don't touch it! What if it explodes?",
+        "note": "Warning"
+      },
+      {
+        "japanese": "早く乗らないと危ないパパ",
+        "english": "You have to get on quick, it's dangerous, Dad!",
+        "note": "危ない as predicate"
+      }
+    ]
+  },
+  {
+    "id": "かくれんぼ",
+    "word": "かくれんぼ",
+    "reading": "かくれんぼ",
+    "pos": "noun",
+    "meaning": "hide and seek",
+    "notes": "Children's game. かくれんぼをする = play hide and seek.",
+    "jlpt": "N3",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "かくれんぼよ",
+        "english": "It's hide and seek.",
+        "note": "Explaining the game"
+      },
+      {
+        "japanese": "ムーミンはかくれんぼの天才ね",
+        "english": "Moomin is a hide-and-seek genius, isn't he?",
+        "note": "〜の天才 = genius at"
+      }
+    ]
+  }
+]

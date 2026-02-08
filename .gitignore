@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Generated files
+audio/temp/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temporary files
+*.tmp
+*.bak
+
+# Local development
+.env
+.env.local
+
+# Build artifacts
+dist/
+build/

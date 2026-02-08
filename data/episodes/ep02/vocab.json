@@ -1,0 +1,1175 @@
+[
+  {
+    "id": "孤独",
+    "word": "孤独",
+    "reading": "こどく",
+    "pos": "noun/na-adjective",
+    "meaning": "loneliness, solitude",
+    "notes": "Describes being alone. Used to characterize Snufkin's personality.",
+    "jlpt": "N2",
+    "frequency": 3,
+    "examples": [
+      {
+        "japanese": "孤独を愛するスナフキン",
+        "english": "Snufkin who loves solitude",
+        "note": "〜を愛する (to love)"
+      }
+    ]
+  },
+  {
+    "id": "愛する",
+    "word": "愛する",
+    "reading": "あいする",
+    "pos": "verb (suru)",
+    "meaning": "to love",
+    "notes": "More formal than 好き. Used for deep love or passion.",
+    "jlpt": "N3",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "あの人は孤独を愛してるのね",
+        "english": "That person loves solitude, doesn't he?",
+        "note": "〜のね (seeking confirmation)"
+      }
+    ]
+  },
+  {
+    "id": "川",
+    "word": "川",
+    "reading": "かわ",
+    "pos": "noun",
+    "meaning": "river",
+    "notes": "The magic hat was thrown in the river in episode 1.",
+    "jlpt": "N5",
+    "frequency": 5,
+    "examples": [
+      {
+        "japanese": "川に捨てたんだろ",
+        "english": "You threw it in the river, right?",
+        "note": "〜に (into)"
+      }
+    ]
+  },
+  {
+    "id": "約束",
+    "word": "約束",
+    "reading": "やくそく",
+    "pos": "noun/suru verb",
+    "meaning": "promise, appointment",
+    "notes": "約束する = to promise. 約束を守る = to keep a promise.",
+    "jlpt": "N4",
+    "frequency": 4,
+    "examples": [
+      {
+        "japanese": "約束したでしょ",
+        "english": "You promised, didn't you?",
+        "note": "〜でしょ (right?)"
+      }
+    ]
+  },
+  {
+    "id": "貝殻",
+    "word": "貝殻",
+    "reading": "かいがら",
+    "pos": "noun",
+    "meaning": "seashell",
+    "notes": "貝 (shellfish) + 殻 (shell). The group goes to pick shells.",
+    "jlpt": "N2",
+    "frequency": 3,
+    "examples": [
+      {
+        "japanese": "貝殻を拾いに行くって",
+        "english": "You said you'd go pick up shells",
+        "note": "〜を拾う (to pick up)"
+      }
+    ]
+  },
+  {
+    "id": "海岸",
+    "word": "海岸",
+    "reading": "かいがん",
+    "pos": "noun",
+    "meaning": "coast, beach, seashore",
+    "notes": "海 (sea) + 岸 (shore).",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "海岸へ行かなくてはいけないの",
+        "english": "You have to go to the beach",
+        "note": "〜なくてはいけない (must)"
+      }
+    ]
+  },
+  {
+    "id": "羨ましい",
+    "word": "羨ましい",
+    "reading": "うらやましい",
+    "pos": "i-adjective",
+    "meaning": "envious, jealous",
+    "notes": "〜が羨ましい = to be envious of ~.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "スナフキンが羨ましいな",
+        "english": "I'm jealous of Snufkin",
+        "note": "〜が羨ましい (envious of)"
+      }
+    ]
+  },
+  {
+    "id": "変",
+    "word": "変",
+    "reading": "へん",
+    "pos": "na-adjective",
+    "meaning": "strange, weird",
+    "notes": "Common adjective for describing odd things.",
+    "jlpt": "N4",
+    "frequency": 3,
+    "examples": [
+      {
+        "japanese": "あの帽子変な帽子だったね",
+        "english": "That hat was a strange hat, wasn't it?",
+        "note": "変な (strange)"
+      }
+    ]
+  },
+  {
+    "id": "惜しい",
+    "word": "惜しい",
+    "reading": "おしい",
+    "pos": "i-adjective",
+    "meaning": "regrettable, a shame, close",
+    "notes": "Expresses that something is a pity or almost happened.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "惜しかったな",
+        "english": "That's a shame",
+        "note": "〜かった (past adjective)"
+      }
+    ]
+  },
+  {
+    "id": "大変",
+    "word": "大変",
+    "reading": "たいへん",
+    "pos": "na-adjective/adverb",
+    "meaning": "terrible, serious; very",
+    "notes": "As na-adj: terrible/serious. As adverb: very.",
+    "jlpt": "N4",
+    "frequency": 3,
+    "examples": [
+      {
+        "japanese": "フローレンが大変よ",
+        "english": "Floren is in trouble!",
+        "note": "大変 as 'in trouble'"
+      }
+    ]
+  },
+  {
+    "id": "頑張る",
+    "word": "頑張る",
+    "reading": "がんばる",
+    "pos": "verb (godan)",
+    "meaning": "to do one's best, to hang in there",
+    "notes": "頑張って! = Good luck!/Hang in there!",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "もう少し頑張って",
+        "english": "Hang in there a little more!",
+        "note": "〜て (encouragement)"
+      }
+    ]
+  },
+  {
+    "id": "伸ばす",
+    "word": "伸ばす",
+    "reading": "のばす",
+    "pos": "verb (godan)",
+    "meaning": "to extend, to stretch out",
+    "notes": "手を伸ばす = to reach out one's hand.",
+    "jlpt": "N3",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "手を伸ばしてスニフ",
+        "english": "Reach out your hand, Sniff!",
+        "note": "手を伸ばす (reach out)"
+      }
+    ]
+  },
+  {
+    "id": "弱虫",
+    "word": "弱虫",
+    "reading": "よわむし",
+    "pos": "noun",
+    "meaning": "coward, weakling",
+    "notes": "弱 (weak) + 虫 (bug). Childish insult.",
+    "jlpt": "N2",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "降りなさい弱虫",
+        "english": "Get down, coward!",
+        "note": "〜なさい (command)"
+      }
+    ]
+  },
+  {
+    "id": "助ける",
+    "word": "助ける",
+    "reading": "たすける",
+    "pos": "verb (ichidan)",
+    "meaning": "to help, to save, to rescue",
+    "notes": "助けて! = Help!",
+    "jlpt": "N4",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "助けて助けて",
+        "english": "Help! Help!",
+        "note": "〜て (request)"
+      }
+    ]
+  },
+  {
+    "id": "引っ張る",
+    "word": "引っ張る",
+    "reading": "ひっぱる",
+    "pos": "verb (godan)",
+    "meaning": "to pull, to drag",
+    "notes": "強調 of 引く. Means to pull with force.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "さあ引っ張るぞ",
+        "english": "Okay, I'm going to pull!",
+        "note": "ぞ (masculine emphasis)"
+      }
+    ]
+  },
+  {
+    "id": "秘密",
+    "word": "秘密",
+    "reading": "ひみつ",
+    "pos": "noun",
+    "meaning": "secret",
+    "notes": "秘密を守る = to keep a secret.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "秘密を守ってくれよ",
+        "english": "Keep it a secret",
+        "note": "〜を守る (to keep/protect)"
+      }
+    ]
+  },
+  {
+    "id": "守る",
+    "word": "守る",
+    "reading": "まもる",
+    "pos": "verb (godan)",
+    "meaning": "to protect, to keep (a promise/secret)",
+    "notes": "約束を守る = keep promise. 秘密を守る = keep secret.",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "秘密を守ってくれよムーミン",
+        "english": "Keep it a secret, Moomin",
+        "note": "〜てくれ (do for me)"
+      }
+    ]
+  },
+  {
+    "id": "島",
+    "word": "島",
+    "reading": "しま",
+    "pos": "noun",
+    "meaning": "island",
+    "notes": "The hat is found on a small island downstream.",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "川下の小さな島にひっかかっている",
+        "english": "It's stuck on a small island downstream",
+        "note": "〜にひっかかる (get caught on)"
+      }
+    ]
+  },
+  {
+    "id": "川下",
+    "word": "川下",
+    "reading": "かわしも",
+    "pos": "noun",
+    "meaning": "downstream",
+    "notes": "川 (river) + 下 (down). Opposite: 川上 (upstream).",
+    "jlpt": "N2",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "川下の小さな島",
+        "english": "a small island downstream",
+        "note": "〜の (possessive)"
+      }
+    ]
+  },
+  {
+    "id": "起きる",
+    "word": "起きる",
+    "reading": "おきる",
+    "pos": "verb (ichidan)",
+    "meaning": "to happen, to occur; to wake up",
+    "notes": "Dual meaning: events happen, or person wakes up.",
+    "jlpt": "N5",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "大変なことが起きているんだ",
+        "english": "Something serious is happening",
+        "note": "〜が起きる (something happens)"
+      }
+    ]
+  },
+  {
+    "id": "残念",
+    "word": "残念",
+    "reading": "ざんねん",
+    "pos": "na-adjective",
+    "meaning": "unfortunate, regrettable",
+    "notes": "残念ながら = unfortunately.",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "捨てたことなんとなく残念だと思ってた",
+        "english": "I somehow felt it was a shame to throw it away",
+        "note": "残念だ (it's a shame)"
+      }
+    ]
+  },
+  {
+    "id": "悪い",
+    "word": "悪い",
+    "reading": "わるい",
+    "pos": "i-adjective",
+    "meaning": "bad, wrong",
+    "notes": "Common adjective. Also used for apologies: 悪いね = sorry.",
+    "jlpt": "N5",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "捨てたところが悪かったよ",
+        "english": "The place where you threw it was bad",
+        "note": "〜ところ (the place where)"
+      }
+    ]
+  },
+  {
+    "id": "とにかく",
+    "word": "とにかく",
+    "reading": "とにかく",
+    "pos": "adverb",
+    "meaning": "anyway, in any case",
+    "notes": "Used to change topic or emphasize action regardless of circumstances.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "とにかく行ってみよう",
+        "english": "Anyway, let's go check it out",
+        "note": "〜てみる (try doing)"
+      }
+    ]
+  },
+  {
+    "id": "色",
+    "word": "色",
+    "reading": "いろ",
+    "pos": "noun",
+    "meaning": "color",
+    "notes": "Basic vocabulary. Often combined: 赤い色 (red color).",
+    "jlpt": "N5",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "水の色が変わってる",
+        "english": "The color of the water has changed",
+        "note": "〜が変わる (to change)"
+      }
+    ]
+  },
+  {
+    "id": "赤い",
+    "word": "赤い",
+    "reading": "あかい",
+    "pos": "i-adjective",
+    "meaning": "red",
+    "notes": "One of the basic color adjectives.",
+    "jlpt": "N5",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "どうして赤い色が出てるんだ",
+        "english": "Why is there red color coming out?",
+        "note": "〜が出る (come out)"
+      }
+    ]
+  },
+  {
+    "id": "別",
+    "word": "別",
+    "reading": "べつ",
+    "pos": "noun/na-adjective",
+    "meaning": "different, another, separate",
+    "notes": "別の = another. 別々に = separately.",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "何か別のものに変わった",
+        "english": "It turned into something else",
+        "note": "別の (different/another)"
+      }
+    ]
+  },
+  {
+    "id": "船",
+    "word": "船",
+    "reading": "ふね",
+    "pos": "noun",
+    "meaning": "boat, ship",
+    "notes": "They wish they had a boat to reach the hat.",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "船があるといいのにな",
+        "english": "I wish we had a boat",
+        "note": "〜といいのに (I wish)"
+      }
+    ]
+  },
+  {
+    "id": "平気",
+    "word": "平気",
+    "reading": "へいき",
+    "pos": "na-adjective",
+    "meaning": "fine, okay, calm",
+    "notes": "平気です = I'm fine. Shows composure.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "平気平気",
+        "english": "I'm fine, I'm fine",
+        "note": "Repeated for emphasis"
+      }
+    ]
+  },
+  {
+    "id": "場所",
+    "word": "場所",
+    "reading": "ばしょ",
+    "pos": "noun",
+    "meaning": "place, location",
+    "notes": "Common word for location.",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "いい加減な場所には置けない",
+        "english": "We can't put it in just any place",
+        "note": "いい加減な (careless/random)"
+      }
+    ]
+  },
+  {
+    "id": "置く",
+    "word": "置く",
+    "reading": "おく",
+    "pos": "verb (godan)",
+    "meaning": "to put, to place",
+    "notes": "〜ておく = do and leave (in preparation).",
+    "jlpt": "N4",
+    "frequency": 3,
+    "examples": [
+      {
+        "japanese": "いい加減な場所には置けない",
+        "english": "We can't put it in just any place",
+        "note": "〜に置く (put at)"
+      }
+    ]
+  },
+  {
+    "id": "甘い",
+    "word": "甘い",
+    "reading": "あまい",
+    "pos": "i-adjective",
+    "meaning": "sweet",
+    "notes": "For taste. Also figuratively: naive, lenient.",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "甘いキイチゴのジュース",
+        "english": "sweet raspberry juice",
+        "note": "甘い (sweet)"
+      }
+    ]
+  },
+  {
+    "id": "井戸",
+    "word": "井戸",
+    "reading": "いど",
+    "pos": "noun",
+    "meaning": "well (water well)",
+    "notes": "Traditional water source. Contrasted with river water.",
+    "jlpt": "N2",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "もし井戸の水だったら",
+        "english": "If it were well water...",
+        "note": "もし〜たら (if)"
+      }
+    ]
+  },
+  {
+    "id": "試す",
+    "word": "試す",
+    "reading": "ためす",
+    "pos": "verb (godan)",
+    "meaning": "to try, to test",
+    "notes": "試してみる = to try and see.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "色々試してみる必要がある",
+        "english": "We need to try various things",
+        "note": "〜てみる (try doing)"
+      }
+    ]
+  },
+  {
+    "id": "必要",
+    "word": "必要",
+    "reading": "ひつよう",
+    "pos": "noun/na-adjective",
+    "meaning": "necessary, need",
+    "notes": "必要がある = there is a need. 必要ない = no need.",
+    "jlpt": "N4",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "試してみる必要があるね",
+        "english": "We need to try",
+        "note": "必要がある (need to)"
+      }
+    ]
+  },
+  {
+    "id": "眠い",
+    "word": "眠い",
+    "reading": "ねむい",
+    "pos": "i-adjective",
+    "meaning": "sleepy",
+    "notes": "Describes feeling sleepy. Related: 眠る (to sleep).",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "ずいぶん眠たそうね",
+        "english": "You look pretty sleepy",
+        "note": "〜そう (looks like)"
+      }
+    ]
+  },
+  {
+    "id": "夜中",
+    "word": "夜中",
+    "reading": "よなか",
+    "pos": "noun",
+    "meaning": "middle of the night",
+    "notes": "夜 (night) + 中 (middle).",
+    "jlpt": "N4",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "夜中に目が覚めちゃった",
+        "english": "I woke up in the middle of the night",
+        "note": "目が覚める (to wake up)"
+      }
+    ]
+  },
+  {
+    "id": "嘘つき",
+    "word": "嘘つき",
+    "reading": "うそつき",
+    "pos": "noun",
+    "meaning": "liar",
+    "notes": "嘘 (lie) + つき (one who tells). Name-calling.",
+    "jlpt": "N3",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "嘘つき",
+        "english": "Liar!",
+        "note": "Used as accusation"
+      }
+    ]
+  },
+  {
+    "id": "口笛",
+    "word": "口笛",
+    "reading": "くちぶえ",
+    "pos": "noun",
+    "meaning": "whistle (with lips)",
+    "notes": "口 (mouth) + 笛 (flute/whistle). Snufkin's signature.",
+    "jlpt": "N2",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "スナフキンの口笛で目が覚めた",
+        "english": "I woke up from Snufkin's whistle",
+        "note": "〜で (by means of)"
+      }
+    ]
+  },
+  {
+    "id": "寝ぼける",
+    "word": "寝ぼける",
+    "reading": "ねぼける",
+    "pos": "verb (ichidan)",
+    "meaning": "to be half asleep, to be drowsy",
+    "notes": "State between sleep and wakefulness.",
+    "jlpt": "N2",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "ミーは寝ぼけてるんだ",
+        "english": "My, you were half asleep",
+        "note": "〜ている (state)"
+      }
+    ]
+  },
+  {
+    "id": "うるさい",
+    "word": "うるさい",
+    "reading": "うるさい",
+    "pos": "i-adjective",
+    "meaning": "noisy, annoying; shut up",
+    "notes": "Can mean noisy or as interjection 'be quiet!'",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "うるさい",
+        "english": "Be quiet!",
+        "note": "As interjection"
+      }
+    ]
+  },
+  {
+    "id": "隠す",
+    "word": "隠す",
+    "reading": "かくす",
+    "pos": "verb (godan)",
+    "meaning": "to hide (something)",
+    "notes": "Transitive. 隠れる = to hide oneself (intrans).",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "ムーミンは何を隠してるんだい",
+        "english": "What are you hiding, Moomin?",
+        "note": "〜ている (progressive)"
+      }
+    ]
+  },
+  {
+    "id": "飛行鬼",
+    "word": "飛行鬼",
+    "reading": "ひこうき",
+    "pos": "noun",
+    "meaning": "Hobgoblin (character name)",
+    "notes": "飛行 (flight) + 鬼 (demon). Owner of the magic hat.",
+    "jlpt": "N/A",
+    "frequency": 5,
+    "examples": [
+      {
+        "japanese": "あの帽子誰のものだか分かった。飛行鬼",
+        "english": "I found out whose hat that is. The Hobgoblin.",
+        "note": "Character name"
+      }
+    ]
+  },
+  {
+    "id": "空",
+    "word": "空",
+    "reading": "そら",
+    "pos": "noun",
+    "meaning": "sky",
+    "notes": "Basic nature vocabulary.",
+    "jlpt": "N5",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "飛行鬼って空を飛ぶ鬼だね",
+        "english": "The Hobgoblin is a demon that flies in the sky",
+        "note": "空を飛ぶ (fly in the sky)"
+      }
+    ]
+  },
+  {
+    "id": "鬼",
+    "word": "鬼",
+    "reading": "おに",
+    "pos": "noun",
+    "meaning": "demon, ogre",
+    "notes": "Japanese folklore creature. Part of 飛行鬼.",
+    "jlpt": "N3",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "優しい鬼だね",
+        "english": "He's a kind demon, isn't he?",
+        "note": "〜だね (isn't it)"
+      }
+    ]
+  },
+  {
+    "id": "氷",
+    "word": "氷",
+    "reading": "こおり",
+    "pos": "noun",
+    "meaning": "ice",
+    "notes": "The Hobgoblin rides on black ice.",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "黒い氷に乗ってね",
+        "english": "Riding on black ice",
+        "note": "〜に乗る (ride on)"
+      }
+    ]
+  },
+  {
+    "id": "ルビー",
+    "word": "ルビー",
+    "reading": "ルビー",
+    "pos": "noun",
+    "meaning": "ruby",
+    "notes": "The Hobgoblin's obsession. Searches the universe for rubies.",
+    "jlpt": "N/A",
+    "frequency": 3,
+    "examples": [
+      {
+        "japanese": "飛行鬼はルビーに目がないんだって",
+        "english": "The Hobgoblin has a weakness for rubies",
+        "note": "〜に目がない (have weakness for)"
+      }
+    ]
+  },
+  {
+    "id": "目がない",
+    "word": "目がない",
+    "reading": "めがない",
+    "pos": "expression",
+    "meaning": "to have a weakness for, to be crazy about",
+    "notes": "Idiomatic expression. 〜に目がない = can't resist ~.",
+    "jlpt": "N2",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "飛行鬼はルビーに目がない",
+        "english": "The Hobgoblin has a weakness for rubies",
+        "note": "〜に目がない (crazy about)"
+      }
+    ]
+  },
+  {
+    "id": "世界中",
+    "word": "世界中",
+    "reading": "せかいじゅう",
+    "pos": "noun",
+    "meaning": "all over the world",
+    "notes": "世界 (world) + 中 (throughout).",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "素晴らしいルビーを探して世界中",
+        "english": "Searching all over the world for wonderful rubies",
+        "note": "世界中 (around the world)"
+      }
+    ]
+  },
+  {
+    "id": "宇宙",
+    "word": "宇宙",
+    "reading": "うちゅう",
+    "pos": "noun",
+    "meaning": "universe, space",
+    "notes": "Outer space. The Hobgoblin even searches space.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "宇宙までも探し回っている",
+        "english": "Even searching around the universe",
+        "note": "〜まで (even to)"
+      }
+    ]
+  },
+  {
+    "id": "落とす",
+    "word": "落とす",
+    "reading": "おとす",
+    "pos": "verb (godan)",
+    "meaning": "to drop (something)",
+    "notes": "Transitive. Intransitive: 落ちる (to fall).",
+    "jlpt": "N4",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "どうして帽子を落としたんだろう",
+        "english": "I wonder why he dropped the hat",
+        "note": "〜を落とす (drop something)"
+      }
+    ]
+  },
+  {
+    "id": "地下室",
+    "word": "地下室",
+    "reading": "ちかしつ",
+    "pos": "noun",
+    "meaning": "basement, cellar",
+    "notes": "地下 (underground) + 室 (room). Where the hat is kept.",
+    "jlpt": "N2",
+    "frequency": 4,
+    "examples": [
+      {
+        "japanese": "どこに置いたの？地下室",
+        "english": "Where did you put it? The basement.",
+        "note": "Short answer"
+      }
+    ]
+  },
+  {
+    "id": "種",
+    "word": "種",
+    "reading": "たね",
+    "pos": "noun",
+    "meaning": "seed",
+    "notes": "My puts a seed in the hat, causing a tree to grow.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "魔法の帽子に種を入れただけよ",
+        "english": "I just put a seed in the magic hat!",
+        "note": "〜を入れる (put in)"
+      }
+    ]
+  },
+  {
+    "id": "魔法",
+    "word": "魔法",
+    "reading": "まほう",
+    "pos": "noun",
+    "meaning": "magic",
+    "notes": "魔法の帽子 = the magic hat (episode title).",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "魔法の帽子に種を入れた",
+        "english": "I put a seed in the magic hat",
+        "note": "魔法の (magic, attributive)"
+      }
+    ]
+  },
+  {
+    "id": "木",
+    "word": "木",
+    "reading": "き",
+    "pos": "noun",
+    "meaning": "tree, wood",
+    "notes": "A giant tree grows from the seed in the hat.",
+    "jlpt": "N5",
+    "frequency": 3,
+    "examples": [
+      {
+        "japanese": "地下室に木が生えてるの",
+        "english": "A tree is growing in the basement!",
+        "note": "木が生える (tree grows)"
+      }
+    ]
+  },
+  {
+    "id": "生える",
+    "word": "生える",
+    "reading": "はえる",
+    "pos": "verb (ichidan)",
+    "meaning": "to grow (plants, hair, etc.)",
+    "notes": "Intransitive. For plants growing from ground.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "地下室に木が生えてる",
+        "english": "A tree is growing in the basement",
+        "note": "〜が生える (something grows)"
+      }
+    ]
+  },
+  {
+    "id": "手遅れ",
+    "word": "手遅れ",
+    "reading": "ておくれ",
+    "pos": "noun",
+    "meaning": "too late",
+    "notes": "手 (hand) + 遅れ (delay). When time has passed.",
+    "jlpt": "N2",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "手遅れにならないうちに",
+        "english": "Before it's too late",
+        "note": "〜ないうちに (before)"
+      }
+    ]
+  },
+  {
+    "id": "知らせる",
+    "word": "知らせる",
+    "reading": "しらせる",
+    "pos": "verb (ichidan)",
+    "meaning": "to inform, to notify",
+    "notes": "Transitive form of 知る. To let someone know.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "パパに知らせなくては",
+        "english": "I have to tell Papa",
+        "note": "〜なくては (must)"
+      }
+    ]
+  },
+  {
+    "id": "ひどい",
+    "word": "ひどい",
+    "reading": "ひどい",
+    "pos": "i-adjective",
+    "meaning": "terrible, awful",
+    "notes": "Describes something bad or harsh.",
+    "jlpt": "N4",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "ひどいことになった",
+        "english": "This has become terrible",
+        "note": "〜になる (become)"
+      }
+    ]
+  },
+  {
+    "id": "閉じ込める",
+    "word": "閉じ込める",
+    "reading": "とじこめる",
+    "pos": "verb (ichidan)",
+    "meaning": "to lock in, to trap",
+    "notes": "閉じる (close) + 込める (put in). To trap inside.",
+    "jlpt": "N2",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "みんな閉じ込められたのか",
+        "english": "Did everyone get trapped?",
+        "note": "〜られる (passive)"
+      }
+    ]
+  },
+  {
+    "id": "助け出す",
+    "word": "助け出す",
+    "reading": "たすけだす",
+    "pos": "verb (godan)",
+    "meaning": "to rescue, to save",
+    "notes": "助ける (help) + 出す (take out). To rescue from danger.",
+    "jlpt": "N2",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "助け出さないと",
+        "english": "We have to rescue them!",
+        "note": "〜ないと (must)"
+      }
+    ]
+  },
+  {
+    "id": "切る",
+    "word": "切る",
+    "reading": "きる",
+    "pos": "verb (godan)",
+    "meaning": "to cut",
+    "notes": "Common verb. 木を切る = cut a tree.",
+    "jlpt": "N5",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "木を切りたいけど",
+        "english": "I want to cut the tree, but...",
+        "note": "〜たい (want to)"
+      }
+    ]
+  },
+  {
+    "id": "ノコギリ",
+    "word": "ノコギリ",
+    "reading": "ノコギリ",
+    "pos": "noun",
+    "meaning": "saw (tool)",
+    "notes": "Carpentry tool for cutting wood.",
+    "jlpt": "N2",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "ノコギリや斧は中にある",
+        "english": "The saw and axe are inside",
+        "note": "〜や (and)"
+      }
+    ]
+  },
+  {
+    "id": "斧",
+    "word": "斧",
+    "reading": "おの",
+    "pos": "noun",
+    "meaning": "axe",
+    "notes": "Tool for chopping wood.",
+    "jlpt": "N1",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "ノコギリや斧は中にある",
+        "english": "The saw and axe are inside",
+        "note": "Listing tools"
+      }
+    ]
+  },
+  {
+    "id": "現象",
+    "word": "現象",
+    "reading": "げんしょう",
+    "pos": "noun",
+    "meaning": "phenomenon",
+    "notes": "Used for unusual occurrences.",
+    "jlpt": "N2",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "この現象は私の帽子が原因だ",
+        "english": "This phenomenon was caused by my hat",
+        "note": "〜が原因 (is the cause)"
+      }
+    ]
+  },
+  {
+    "id": "原因",
+    "word": "原因",
+    "reading": "げんいん",
+    "pos": "noun",
+    "meaning": "cause, origin",
+    "notes": "〜が原因 = ~ is the cause.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "私の帽子が原因だな",
+        "english": "My hat is the cause",
+        "note": "〜が原因 (is the cause)"
+      }
+    ]
+  },
+  {
+    "id": "片付ける",
+    "word": "片付ける",
+    "reading": "かたづける",
+    "pos": "verb (ichidan)",
+    "meaning": "to tidy up, to put away, to take care of",
+    "notes": "Can mean cleaning up or dealing with something.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "ではこの木を片付けよう",
+        "english": "Well then, let me take care of this tree",
+        "note": "〜よう (volitional)"
+      }
+    ]
+  },
+  {
+    "id": "優しい",
+    "word": "優しい",
+    "reading": "やさしい",
+    "pos": "i-adjective",
+    "meaning": "kind, gentle",
+    "notes": "Describes kindness. Different from 易しい (easy).",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "優しい鬼だね",
+        "english": "He's a kind demon, isn't he?",
+        "note": "優しい (kind)"
+      }
+    ]
+  },
+  {
+    "id": "難破船",
+    "word": "難破船",
+    "reading": "なんぱせん",
+    "pos": "noun",
+    "meaning": "shipwreck",
+    "notes": "難破 (shipwreck) + 船 (ship). Preview of next episode.",
+    "jlpt": "N1",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "浜で見つけた難破船",
+        "english": "The Shipwreck Found on the Beach",
+        "note": "Next episode title"
+      }
+    ]
+  },
+  {
+    "id": "浜",
+    "word": "浜",
+    "reading": "はま",
+    "pos": "noun",
+    "meaning": "beach, seashore",
+    "notes": "Alternative to 海岸. Often used in place names.",
+    "jlpt": "N2",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "浜で見つけた難破船",
+        "english": "The shipwreck found on the beach",
+        "note": "〜で見つける (find at)"
+      }
+    ]
+  }
+]

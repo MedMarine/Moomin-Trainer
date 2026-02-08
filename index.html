@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    script-src 'self';
+    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+    font-src 'self' https://fonts.gstatic.com;
+    img-src 'self' data:;
+    media-src 'self';
+    connect-src 'self';
+  ">
+  <title>ムーミン日本語トレーナー</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <button class="nav-btn active" data-view="dashboard">Dashboard</button>
+    <button class="nav-btn" data-view="review">Review</button>
+    <button class="nav-btn" data-view="browse">Browse</button>
+    <button class="nav-btn" data-view="settings">Settings</button>
+  </nav>
+
+  <!-- Main Content -->
+  <main id="app">
+    <!-- Dashboard View -->
+    <div id="view-dashboard" class="view dashboard">
+      <div class="streak">
+        <span class="streak-icon">🔥</span>
+        <span><span class="streak-count" id="streak-count">0</span> day streak</span>
+      </div>
+      
+      <div class="stats-row">
+        <div class="stat-card new">
+          <div class="stat-value" id="stat-new">0</div>
+          <div class="stat-label">New</div>
+        </div>
+        <div class="stat-card learning">
+          <div class="stat-value" id="stat-learning">0</div>
+          <div class="stat-label">Learning</div>
+        </div>
+        <div class="stat-card due">
+          <div class="stat-value" id="stat-due">0</div>
+          <div class="stat-label">Due</div>
+        </div>
+      </div>
+      
+      <button class="start-btn" id="start-review">
+        Start Review
+      </button>
+      
+      <div class="episode-selector mb-3" style="margin-top: 2rem;">
+        <h3 class="text-muted mb-1" style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em;">Episodes</h3>
+        <div id="episode-list">
+          <!-- Episodes loaded dynamically -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Review View -->
+    <div id="view-review" class="view review-session hidden">
+      <div class="review-header">
+        <div class="review-counts">
+          <span class="count-new">New: <span id="review-new">0</span></span>
+          <span class="count-learning">Learning: <span id="review-learning">0</span></span>
+          <span class="count-due">Due: <span id="review-due">0</span></span>
+        </div>
+        <button class="review-close" id="close-review">×</button>
+      </div>
+      
+      <div class="progress-bar">
+        <div class="progress-fill" id="review-progress" style="width: 0%"></div>
+      </div>
+      
+      <div id="card-container">
+        <!-- Current card rendered here -->
+      </div>
+      
+      <button class="show-answer-btn" id="show-answer">
+        Show Answer
+      </button>
+      
+      <div class="grade-buttons hidden" id="grade-buttons">
+        <button class="grade-btn again" data-grade="0">
+          <span class="grade-label">Again</span>
+          <span class="grade-interval">1m</span>
+        </button>
+        <button class="grade-btn hard" data-grade="1">
+          <span class="grade-label">Hard</span>
+          <span class="grade-interval">10m</span>
+        </button>
+        <button class="grade-btn good" data-grade="2">
+          <span class="grade-label">Good</span>
+          <span class="grade-interval">1d</span>
+        </button>
+        <button class="grade-btn easy" data-grade="3">
+          <span class="grade-label">Easy</span>
+          <span class="grade-interval">4d</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Browse View -->
+    <div id="view-browse" class="view vocab-browser hidden">
+      <div class="vocab-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="new">New</button>
+        <button class="filter-btn" data-filter="learning">Learning</button>
+        <button class="filter-btn" data-filter="mature">Mature</button>
+      </div>
+      
+      <div class="vocab-list" id="vocab-list">
+        <!-- Vocabulary items rendered here -->
+      </div>
+    </div>
+
+    <!-- Settings View -->
+    <div id="view-settings" class="view settings hidden">
+      <div class="setting-group">
+        <div class="setting-row">
+          <div>
+            <div class="setting-label">Show Furigana</div>
+            <div class="setting-desc">Display readings above kanji</div>
+          </div>
+          <label class="toggle">
+            <input type="checkbox" id="setting-furigana">
+            <span class="toggle-slider"></span>
+          </label>
+        </div>
+        
+        <div class="setting-row">
+          <div>
+            <div class="setting-label">New Cards/Day</div>
+            <div class="setting-desc">Maximum new cards per day</div>
+          </div>
+          <input type="number" class="number-input" id="setting-new-per-day" value="20" min="1" max="100">
+        </div>
+      </div>
+      
+      <div class="setting-group">
+        <div class="setting-row">
+          <div>
+            <div class="setting-label">Export Progress</div>
+            <div class="setting-desc">Download your data as JSON</div>
+          </div>
+          <button class="filter-btn" id="export-btn">Export</button>
+        </div>
+        
+        <div class="setting-row">
+          <div>
+            <div class="setting-label">Import Progress</div>
+            <div class="setting-desc">Restore from backup file</div>
+          </div>
+          <button class="filter-btn" id="import-btn">Import</button>
+          <input type="file" id="import-file" accept=".json" style="display: none;">
+        </div>
+        
+        <div class="setting-row">
+          <div>
+            <div class="setting-label">Reset All Data</div>
+            <div class="setting-desc" style="color: var(--error);">This cannot be undone!</div>
+          </div>
+          <button class="filter-btn" id="reset-btn" style="border-color: var(--error); color: var(--error);">Reset</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Kanji Tooltip (global, positioned dynamically) -->
+  <div id="tooltip">
+    <div class="tooltip-reading"></div>
+    <div class="tooltip-meaning"></div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/storage.js"></script>
+  <script src="js/srs.js"></script>
+  <script src="js/tooltips.js"></script>
+  <script src="js/icons.js"></script>
+  <script src="js/cards.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,1487 @@
+[
+  {
+    "id": "ep02_001",
+    "timestamp": "40.49s",
+    "speaker": "ナレーター",
+    "japanese": "今年も川のほとりにテントを張りました",
+    "english": "This year too, a tent was set up by the riverside.",
+    "vocabUsed": ["今年", "川", "テント"],
+    "grammar": ["〜も (also)", "〜ました (polite past)"]
+  },
+  {
+    "id": "ep02_002",
+    "timestamp": "113.28s",
+    "speaker": "ナレーター",
+    "japanese": "それが孤独を愛するスナフキンの冬までの住居になるのです",
+    "english": "This becomes Snufkin's dwelling until winter - he who loves solitude.",
+    "vocabUsed": ["孤独", "愛する", "冬", "住居"],
+    "grammar": ["〜を愛する (to love)", "〜になる (to become)", "〜のです (explanatory)"]
+  },
+  {
+    "id": "ep02_003",
+    "timestamp": "120.20s",
+    "speaker": "ナレーター",
+    "japanese": "孤独を知らないムーミンはスナフキンが大好きです",
+    "english": "Moomin, who doesn't know loneliness, loves Snufkin very much.",
+    "vocabUsed": ["孤独", "知る", "大好き"],
+    "grammar": ["〜を知らない (doesn't know)", "が大好き (really likes)"]
+  },
+  {
+    "id": "ep02_004",
+    "timestamp": "127.46s",
+    "speaker": "ムーミン",
+    "japanese": "スナフキン",
+    "english": "Snufkin!",
+    "vocabUsed": [],
+    "grammar": []
+  },
+  {
+    "id": "ep02_005",
+    "timestamp": "130.94s",
+    "speaker": "フローレン",
+    "japanese": "いないわ",
+    "english": "He's not here.",
+    "vocabUsed": [],
+    "grammar": ["いない (not present)", "わ (feminine ending)"]
+  },
+  {
+    "id": "ep02_006",
+    "timestamp": "132.19s",
+    "speaker": "ムーミン",
+    "japanese": "きっとまた一人でどこか歩き回ってるんだ",
+    "english": "He's probably walking around alone somewhere again.",
+    "vocabUsed": ["きっと", "一人", "どこか", "歩く"],
+    "grammar": ["きっと (surely/probably)", "〜回る (do around)", "〜ている (progressive)"]
+  },
+  {
+    "id": "ep02_007",
+    "timestamp": "136.41s",
+    "speaker": "フローレン",
+    "japanese": "あの人は孤独を愛してるのね",
+    "english": "That person loves solitude, doesn't he?",
+    "vocabUsed": ["あの人", "孤独", "愛する"],
+    "grammar": ["〜のね (seeking confirmation)"]
+  },
+  {
+    "id": "ep02_008",
+    "timestamp": "139.95s",
+    "speaker": "ムーミン",
+    "japanese": "僕だってたまには一人で歩くよ",
+    "english": "Even I walk alone sometimes.",
+    "vocabUsed": ["僕", "たまに", "一人", "歩く"],
+    "grammar": ["〜だって (even)", "たまには (sometimes)"]
+  },
+  {
+    "id": "ep02_009",
+    "timestamp": "141.95s",
+    "speaker": "フローレン",
+    "japanese": "それじゃあ私たちだけで行きましょう",
+    "english": "Then let's go just the two of us.",
+    "vocabUsed": ["私たち", "行く"],
+    "grammar": ["〜だけで (just/only)", "〜ましょう (let's)"]
+  },
+  {
+    "id": "ep02_010",
+    "timestamp": "145.30s",
+    "speaker": "ムーミン",
+    "japanese": "明日にしないかフローレン",
+    "english": "How about tomorrow, Floren?",
+    "vocabUsed": ["明日"],
+    "grammar": ["〜にする (decide on)", "〜ないか (negative question/suggestion)"]
+  },
+  {
+    "id": "ep02_011",
+    "timestamp": "147.30s",
+    "speaker": "フローレン",
+    "japanese": "約束したでしょ",
+    "english": "You promised, didn't you?",
+    "vocabUsed": ["約束"],
+    "grammar": ["〜でしょ (right?/didn't you?)"]
+  },
+  {
+    "id": "ep02_012",
+    "timestamp": "149.75s",
+    "speaker": "ミー",
+    "japanese": "そうよ約束したわムーミン貝殻を拾いに行くって",
+    "english": "That's right, you promised Moomin - to go pick up shells.",
+    "vocabUsed": ["約束", "貝殻", "拾う", "行く"],
+    "grammar": ["〜って (quotation)", "〜に行く (go to do)"]
+  },
+  {
+    "id": "ep02_013",
+    "timestamp": "153.75s",
+    "speaker": "ムーミン",
+    "japanese": "僕ミーとはそんな約束しないぞ",
+    "english": "I didn't make that kind of promise with you, My!",
+    "vocabUsed": ["僕", "約束"],
+    "grammar": ["〜とは (with)", "そんな (that kind of)", "ぞ (emphatic)"]
+  },
+  {
+    "id": "ep02_014",
+    "timestamp": "155.75s",
+    "speaker": "ミー",
+    "japanese": "もちろんフローレンとよ",
+    "english": "Of course, with Floren!",
+    "vocabUsed": [],
+    "grammar": ["もちろん (of course)", "〜と (with)"]
+  },
+  {
+    "id": "ep02_015",
+    "timestamp": "157.75s",
+    "speaker": "ミー",
+    "japanese": "だからあんたはこれから海岸へ行かなくてはいけないの",
+    "english": "So you have to go to the beach from now.",
+    "vocabUsed": ["海岸", "行く"],
+    "grammar": ["だから (therefore)", "〜なくてはいけない (must)"]
+  },
+  {
+    "id": "ep02_016",
+    "timestamp": "161.75s",
+    "speaker": "ミー",
+    "japanese": "そして私も行くの",
+    "english": "And I'm going too.",
+    "vocabUsed": ["私", "行く"],
+    "grammar": ["そして (and then)", "〜の (explanatory feminine)"]
+  },
+  {
+    "id": "ep02_017",
+    "timestamp": "163.75s",
+    "speaker": "フローレン",
+    "japanese": "スニフよ",
+    "english": "It's Sniff!",
+    "vocabUsed": [],
+    "grammar": ["よ (emphatic)"]
+  },
+  {
+    "id": "ep02_018",
+    "timestamp": "170.61s",
+    "speaker": "スニフ",
+    "japanese": "どこに行くんだい君たち",
+    "english": "Where are you guys going?",
+    "vocabUsed": ["どこ", "行く"],
+    "grammar": ["〜んだい (casual question)"]
+  },
+  {
+    "id": "ep02_019",
+    "timestamp": "173.96s",
+    "speaker": "ムーミン",
+    "japanese": "スナフキンが羨ましいな",
+    "english": "I'm jealous of Snufkin.",
+    "vocabUsed": ["羨ましい"],
+    "grammar": ["〜が羨ましい (envious of)"]
+  },
+  {
+    "id": "ep02_020",
+    "timestamp": "175.96s",
+    "speaker": "スニフ",
+    "japanese": "どうして",
+    "english": "Why?",
+    "vocabUsed": ["どうして"],
+    "grammar": []
+  },
+  {
+    "id": "ep02_021",
+    "timestamp": "176.96s",
+    "speaker": "ムーミン",
+    "japanese": "どうしても",
+    "english": "Just because.",
+    "vocabUsed": [],
+    "grammar": ["どうしても (no matter what/anyway)"]
+  },
+  {
+    "id": "ep02_022",
+    "timestamp": "177.96s",
+    "speaker": "スニフ",
+    "japanese": "スナフキンどこ行ったのかな",
+    "english": "I wonder where Snufkin went.",
+    "vocabUsed": ["どこ", "行く"],
+    "grammar": ["〜のかな (I wonder if)"]
+  },
+  {
+    "id": "ep02_023",
+    "timestamp": "187.84s",
+    "speaker": "スニフ",
+    "japanese": "この間みたいな何か面白いもん落ちてないかな",
+    "english": "I wonder if something interesting fell like the other day.",
+    "vocabUsed": ["この間", "面白い", "落ちる"],
+    "grammar": ["〜みたいな (like)", "〜かな (I wonder)"]
+  },
+  {
+    "id": "ep02_024",
+    "timestamp": "191.84s",
+    "speaker": "ムーミン",
+    "japanese": "あの帽子変な帽子だったね",
+    "english": "That hat was a strange hat, wasn't it?",
+    "vocabUsed": ["帽子", "変"],
+    "grammar": ["〜だったね (was, seeking agreement)"]
+  },
+  {
+    "id": "ep02_025",
+    "timestamp": "195.00s",
+    "speaker": "スニフ",
+    "japanese": "川に捨てたんだろ",
+    "english": "You threw it in the river, right?",
+    "vocabUsed": ["川", "捨てる"],
+    "grammar": ["〜んだろ (you did, right?)"]
+  },
+  {
+    "id": "ep02_026",
+    "timestamp": "197.00s",
+    "speaker": "ムーミン",
+    "japanese": "うん",
+    "english": "Yeah.",
+    "vocabUsed": [],
+    "grammar": ["うん (casual yes)"]
+  },
+  {
+    "id": "ep02_027",
+    "timestamp": "198.35s",
+    "speaker": "スニフ",
+    "japanese": "惜しかったな",
+    "english": "That's a shame.",
+    "vocabUsed": ["惜しい"],
+    "grammar": ["〜かった (past adjective)", "な (male emphasis)"]
+  },
+  {
+    "id": "ep02_028",
+    "timestamp": "199.35s",
+    "speaker": "ムーミン",
+    "japanese": "だって僕あの帽子の中に隠れたんで変な姿に変わっちゃったんだぞ",
+    "english": "But I hid in that hat and turned into a strange shape!",
+    "vocabUsed": ["僕", "帽子", "隠れる", "変", "姿", "変わる"],
+    "grammar": ["だって (but/because)", "〜ちゃった (casual past completion)"]
+  },
+  {
+    "id": "ep02_029",
+    "timestamp": "204.35s",
+    "speaker": "スニフ",
+    "japanese": "卵の殻がクモに変わったね",
+    "english": "The eggshell turned into a spider.",
+    "vocabUsed": ["卵", "殻", "変わる"],
+    "grammar": ["〜に変わる (change into)"]
+  },
+  {
+    "id": "ep02_030",
+    "timestamp": "206.35s",
+    "speaker": "ムーミン",
+    "japanese": "あれは楽しかった",
+    "english": "That was fun.",
+    "vocabUsed": ["楽しい"],
+    "grammar": ["〜かった (past adjective)"]
+  },
+  {
+    "id": "ep02_031",
+    "timestamp": "209.93s",
+    "speaker": "スニフ",
+    "japanese": "僕貝殻拾おうっと",
+    "english": "I'm going to pick up shells.",
+    "vocabUsed": ["僕", "貝殻", "拾う"],
+    "grammar": ["〜おうっと (casual volitional)"]
+  },
+  {
+    "id": "ep02_032",
+    "timestamp": "211.93s",
+    "speaker": "ミー",
+    "japanese": "フローレンが大変よ",
+    "english": "Floren is in trouble!",
+    "vocabUsed": ["大変"],
+    "grammar": ["大変 (terrible/serious)", "よ (emphatic)"]
+  },
+  {
+    "id": "ep02_033",
+    "timestamp": "243.30s",
+    "speaker": "ムーミン",
+    "japanese": "フローレンがどうしたって",
+    "english": "What happened to Floren?",
+    "vocabUsed": [],
+    "grammar": ["どうした (what happened)", "〜って (quotation)"]
+  },
+  {
+    "id": "ep02_034",
+    "timestamp": "245.90s",
+    "speaker": "ミー",
+    "japanese": "私と貝殻拾っててアリ地獄の巣に気がつかずに落ちてしまったのよ",
+    "english": "While picking up shells with me, she fell into an antlion's pit without noticing!",
+    "vocabUsed": ["私", "貝殻", "拾う", "巣", "気がつく", "落ちる"],
+    "grammar": ["〜てしまう (completion/regret)", "〜ずに (without doing)"]
+  },
+  {
+    "id": "ep02_035",
+    "timestamp": "250.90s",
+    "speaker": "ムーミン",
+    "japanese": "こっちよ",
+    "english": "This way!",
+    "vocabUsed": ["こっち"],
+    "grammar": []
+  },
+  {
+    "id": "ep02_036",
+    "timestamp": "253.12s",
+    "speaker": "ムーミン",
+    "japanese": "もう少しもう少し頑張って",
+    "english": "Hang in there, just a little more!",
+    "vocabUsed": ["もう少し", "頑張る"],
+    "grammar": ["〜て (request/encouragement)"]
+  },
+  {
+    "id": "ep02_037",
+    "timestamp": "255.12s",
+    "speaker": "ムーミン",
+    "japanese": "手を伸ばしてスニフ",
+    "english": "Reach out your hand, Sniff!",
+    "vocabUsed": ["手", "伸ばす"],
+    "grammar": ["〜を伸ばす (to extend)"]
+  },
+  {
+    "id": "ep02_038",
+    "timestamp": "257.12s",
+    "speaker": "フローレン",
+    "japanese": "もっと手を伸ばしてちょうだい",
+    "english": "Please reach out your hand more!",
+    "vocabUsed": ["もっと", "手", "伸ばす"],
+    "grammar": ["〜てちょうだい (please do for me)"]
+  },
+  {
+    "id": "ep02_039",
+    "timestamp": "264.11s",
+    "speaker": "アリ地獄",
+    "japanese": "俺の巣を壊そうっていうのかお前",
+    "english": "Are you trying to destroy my nest?",
+    "vocabUsed": ["俺", "巣", "壊す"],
+    "grammar": ["〜しようっていうのか (are you saying you'll)", "お前 (you, rough)"]
+  },
+  {
+    "id": "ep02_040",
+    "timestamp": "266.11s",
+    "speaker": "ムーミン",
+    "japanese": "ごめんね",
+    "english": "Sorry!",
+    "vocabUsed": [],
+    "grammar": ["ごめんね (casual apology)"]
+  },
+  {
+    "id": "ep02_041",
+    "timestamp": "268.87s",
+    "speaker": "アリ地獄",
+    "japanese": "そう騒ぎ立てるんじゃ俺の大好物のアリどもが寄りつかんじゃないか",
+    "english": "If you make such a fuss, the ants I love won't come near!",
+    "vocabUsed": ["騒ぐ", "大好物", "寄りつく"],
+    "grammar": ["〜んじゃ (if)", "〜じゃないか (won't they?)"]
+  },
+  {
+    "id": "ep02_042",
+    "timestamp": "281.46s",
+    "speaker": "スニフ",
+    "japanese": "手が届かないんだよムーミン",
+    "english": "I can't reach, Moomin!",
+    "vocabUsed": ["手", "届く"],
+    "grammar": ["〜が届かない (cannot reach)"]
+  },
+  {
+    "id": "ep02_043",
+    "timestamp": "283.46s",
+    "speaker": "アリ地獄",
+    "japanese": "今日の昼飯はアリじゃなくていいんだ",
+    "english": "Today's lunch doesn't have to be ants.",
+    "vocabUsed": ["今日", "昼飯"],
+    "grammar": ["〜じゃなくていい (doesn't have to be)"]
+  },
+  {
+    "id": "ep02_044",
+    "timestamp": "288.94s",
+    "speaker": "ムーミン",
+    "japanese": "スニフ中に入ってくれ",
+    "english": "Sniff, get in there!",
+    "vocabUsed": ["中", "入る"],
+    "grammar": ["〜てくれ (do for me, command)"]
+  },
+  {
+    "id": "ep02_045",
+    "timestamp": "290.94s",
+    "speaker": "スニフ",
+    "japanese": "僕が",
+    "english": "Me?",
+    "vocabUsed": ["僕"],
+    "grammar": ["が (subject marker with emphasis)"]
+  },
+  {
+    "id": "ep02_046",
+    "timestamp": "291.94s",
+    "speaker": "ムーミン",
+    "japanese": "大丈夫だって絶対手を離さないから",
+    "english": "It's okay, I'll definitely not let go of your hand!",
+    "vocabUsed": ["大丈夫", "絶対", "手", "離す"],
+    "grammar": ["〜だって (I'm telling you)", "絶対〜ない (definitely won't)"]
+  },
+  {
+    "id": "ep02_047",
+    "timestamp": "294.94s",
+    "speaker": "ミー",
+    "japanese": "あんたは体が長くてちょうどいいの",
+    "english": "You have a long body, so you're perfect for this!",
+    "vocabUsed": ["体", "長い", "ちょうどいい"],
+    "grammar": ["〜くて (te-form of adjective)"]
+  },
+  {
+    "id": "ep02_048",
+    "timestamp": "296.94s",
+    "speaker": "ミー",
+    "japanese": "入んなさい",
+    "english": "Get in!",
+    "vocabUsed": ["入る"],
+    "grammar": ["〜なさい (imperative, polite command)"]
+  },
+  {
+    "id": "ep02_049",
+    "timestamp": "297.94s",
+    "speaker": "アリ地獄",
+    "japanese": "決めた俺は食うぞ",
+    "english": "I've decided - I'm going to eat!",
+    "vocabUsed": ["決める", "俺", "食う"],
+    "grammar": ["決めた (decided)", "ぞ (masculine emphasis)"]
+  },
+  {
+    "id": "ep02_050",
+    "timestamp": "301.94s",
+    "speaker": "ムーミン",
+    "japanese": "スニフ早く",
+    "english": "Sniff, hurry!",
+    "vocabUsed": ["早い"],
+    "grammar": ["早く (quickly)"]
+  },
+  {
+    "id": "ep02_051",
+    "timestamp": "302.94s",
+    "speaker": "スニフ",
+    "japanese": "でも僕",
+    "english": "But I...",
+    "vocabUsed": ["僕"],
+    "grammar": ["でも (but)"]
+  },
+  {
+    "id": "ep02_052",
+    "timestamp": "303.94s",
+    "speaker": "ミー",
+    "japanese": "降りなさい弱虫",
+    "english": "Get down, coward!",
+    "vocabUsed": ["降りる", "弱虫"],
+    "grammar": ["〜なさい (imperative)"]
+  },
+  {
+    "id": "ep02_053",
+    "timestamp": "305.94s",
+    "speaker": "スニフ",
+    "japanese": "そう僕弱虫だから",
+    "english": "That's right, I'm a coward, so...",
+    "vocabUsed": ["僕", "弱虫"],
+    "grammar": ["〜だから (because)"]
+  },
+  {
+    "id": "ep02_054",
+    "timestamp": "308.94s",
+    "speaker": "フローレン",
+    "japanese": "助けて助けて",
+    "english": "Help! Help!",
+    "vocabUsed": ["助ける"],
+    "grammar": ["〜て (request)"]
+  },
+  {
+    "id": "ep02_055",
+    "timestamp": "310.94s",
+    "speaker": "ムーミン",
+    "japanese": "スニフの足につかまって",
+    "english": "Grab onto Sniff's leg!",
+    "vocabUsed": ["足", "つかまる"],
+    "grammar": ["〜につかまる (grab onto)"]
+  },
+  {
+    "id": "ep02_056",
+    "timestamp": "315.53s",
+    "speaker": "ムーミン",
+    "japanese": "さあ引っ張るぞ",
+    "english": "Okay, I'm going to pull!",
+    "vocabUsed": ["さあ", "引っ張る"],
+    "grammar": ["さあ (well then)", "ぞ (masculine emphasis)"]
+  },
+  {
+    "id": "ep02_057",
+    "timestamp": "323.89s",
+    "speaker": "フローレン",
+    "japanese": "どこに行ってたのスナフキン",
+    "english": "Where have you been, Snufkin?",
+    "vocabUsed": ["どこ", "行く"],
+    "grammar": ["〜ていた (past progressive)", "の (question)"]
+  },
+  {
+    "id": "ep02_058",
+    "timestamp": "365.44s",
+    "speaker": "スナフキン",
+    "japanese": "秘密を守ってくれよムーミン",
+    "english": "Keep it a secret, Moomin.",
+    "vocabUsed": ["秘密", "守る"],
+    "grammar": ["〜を守る (to keep/protect)", "〜てくれ (do for me)"]
+  },
+  {
+    "id": "ep02_059",
+    "timestamp": "367.44s",
+    "speaker": "ムーミン",
+    "japanese": "もちろん",
+    "english": "Of course.",
+    "vocabUsed": [],
+    "grammar": ["もちろん (of course)"]
+  },
+  {
+    "id": "ep02_060",
+    "timestamp": "368.44s",
+    "speaker": "スナフキン",
+    "japanese": "あの帽子が川下の小さな島にひっかかっている",
+    "english": "That hat is stuck on a small island downstream.",
+    "vocabUsed": ["帽子", "川下", "小さい", "島"],
+    "grammar": ["〜にひっかかる (get caught on)"]
+  },
+  {
+    "id": "ep02_061",
+    "timestamp": "372.63s",
+    "speaker": "ムーミン",
+    "japanese": "すごい",
+    "english": "Wow!",
+    "vocabUsed": ["すごい"],
+    "grammar": []
+  },
+  {
+    "id": "ep02_062",
+    "timestamp": "373.63s",
+    "speaker": "スナフキン",
+    "japanese": "それでちょっと大変なことが起きているんだ",
+    "english": "And something serious is happening because of it.",
+    "vocabUsed": ["ちょっと", "大変", "起きる"],
+    "grammar": ["〜が起きる (something happens)"]
+  },
+  {
+    "id": "ep02_063",
+    "timestamp": "375.63s",
+    "speaker": "ムーミン",
+    "japanese": "聞かなくっちゃ",
+    "english": "I have to hear about this!",
+    "vocabUsed": ["聞く"],
+    "grammar": ["〜なくっちゃ (casual must)"]
+  },
+  {
+    "id": "ep02_064",
+    "timestamp": "377.92s",
+    "speaker": "ムーミン",
+    "japanese": "あの帽子捨てたことなんとなく残念だと思ってたんだ",
+    "english": "I somehow felt it was a shame to throw that hat away.",
+    "vocabUsed": ["帽子", "捨てる", "残念", "思う"],
+    "grammar": ["なんとなく (somehow)", "〜と思っていた (was thinking)"]
+  },
+  {
+    "id": "ep02_065",
+    "timestamp": "386.42s",
+    "speaker": "スナフキン",
+    "japanese": "捨てたところが悪かったよ",
+    "english": "The place where you threw it away was bad.",
+    "vocabUsed": ["捨てる", "悪い"],
+    "grammar": ["〜ところ (the place where)"]
+  },
+  {
+    "id": "ep02_066",
+    "timestamp": "388.42s",
+    "speaker": "ムーミン",
+    "japanese": "とにかく行ってみよう",
+    "english": "Anyway, let's go check it out.",
+    "vocabUsed": ["とにかく", "行く"],
+    "grammar": ["とにかく (anyway)", "〜てみる (try doing)"]
+  },
+  {
+    "id": "ep02_067",
+    "timestamp": "390.42s",
+    "speaker": "スナフキン",
+    "japanese": "あの岩の枯れ木のところに帽子がひっかかっているんだ",
+    "english": "The hat is caught on the dead tree by that rock.",
+    "vocabUsed": ["岩", "枯れ木", "帽子"],
+    "grammar": ["〜にひっかかる (get caught on)"]
+  },
+  {
+    "id": "ep02_068",
+    "timestamp": "404.40s",
+    "speaker": "ムーミン",
+    "japanese": "よく見えないけど水の色が変わってるのは分かる",
+    "english": "I can't see well, but I can tell the color of the water has changed.",
+    "vocabUsed": ["見える", "水", "色", "変わる", "分かる"],
+    "grammar": ["〜けど (but)", "〜のは分かる (can tell that)"]
+  },
+  {
+    "id": "ep02_069",
+    "timestamp": "408.40s",
+    "speaker": "スナフキン",
+    "japanese": "どうして赤い色が出てるんだ",
+    "english": "Why is there red color coming out?",
+    "vocabUsed": ["赤い", "色", "出る"],
+    "grammar": ["どうして (why)", "〜が出る (come out)"]
+  },
+  {
+    "id": "ep02_070",
+    "timestamp": "410.40s",
+    "speaker": "ムーミン",
+    "japanese": "つまり帽子の中に入った水が何か別のものに変わったんだろう",
+    "english": "In other words, the water that went into the hat turned into something else.",
+    "vocabUsed": ["帽子", "中", "入る", "水", "別", "変わる"],
+    "grammar": ["つまり (in other words)", "〜に変わる (change into)"]
+  },
+  {
+    "id": "ep02_071",
+    "timestamp": "415.40s",
+    "speaker": "スナフキン",
+    "japanese": "よし取ってこよう",
+    "english": "Alright, let's go get it.",
+    "vocabUsed": ["取る"],
+    "grammar": ["よし (alright)", "〜てくる (go and come back)"]
+  },
+  {
+    "id": "ep02_072",
+    "timestamp": "416.40s",
+    "speaker": "ムーミン",
+    "japanese": "船があるといいのにな",
+    "english": "I wish we had a boat.",
+    "vocabUsed": ["船"],
+    "grammar": ["〜といいのに (I wish)", "な (emphasis)"]
+  },
+  {
+    "id": "ep02_073",
+    "timestamp": "419.40s",
+    "speaker": "スナフキン",
+    "japanese": "大丈夫かい",
+    "english": "Are you okay?",
+    "vocabUsed": ["大丈夫"],
+    "grammar": ["〜かい (casual question)"]
+  },
+  {
+    "id": "ep02_074",
+    "timestamp": "421.01s",
+    "speaker": "ムーミン",
+    "japanese": "平気平気",
+    "english": "I'm fine, I'm fine.",
+    "vocabUsed": ["平気"],
+    "grammar": ["平気 (fine/okay)"]
+  },
+  {
+    "id": "ep02_075",
+    "timestamp": "423.01s",
+    "speaker": "ムーミン",
+    "japanese": "あったかい",
+    "english": "It's warm!",
+    "vocabUsed": ["暖かい"],
+    "grammar": ["あったかい (casual for 暖かい)"]
+  },
+  {
+    "id": "ep02_076",
+    "timestamp": "429.99s",
+    "speaker": "スナフキン",
+    "japanese": "この帽子どうしよう",
+    "english": "What should we do with this hat?",
+    "vocabUsed": ["帽子"],
+    "grammar": ["どうしよう (what should we do)"]
+  },
+  {
+    "id": "ep02_077",
+    "timestamp": "459.61s",
+    "speaker": "ムーミン",
+    "japanese": "いい加減な場所には置けないよ",
+    "english": "We can't put it in just any place.",
+    "vocabUsed": ["いい加減", "場所", "置く"],
+    "grammar": ["〜には〜ない (cannot do in/at)"]
+  },
+  {
+    "id": "ep02_078",
+    "timestamp": "461.61s",
+    "speaker": "スナフキン",
+    "japanese": "この中に何が入るか分からないからね",
+    "english": "Because we don't know what might go in it.",
+    "vocabUsed": ["中", "何", "入る", "分かる"],
+    "grammar": ["〜か分からない (don't know if/what)"]
+  },
+  {
+    "id": "ep02_079",
+    "timestamp": "464.61s",
+    "speaker": "ムーミン",
+    "japanese": "水を入れさえすればいつでも甘いキイチゴのジュースが飲めるんだ",
+    "english": "If we just put water in, we can drink sweet raspberry juice anytime!",
+    "vocabUsed": ["水", "入れる", "いつでも", "甘い", "飲む"],
+    "grammar": ["〜さえすれば (if only)", "〜が飲める (can drink)"]
+  },
+  {
+    "id": "ep02_080",
+    "timestamp": "469.61s",
+    "speaker": "スナフキン",
+    "japanese": "それは分からないぞ",
+    "english": "We don't know that for sure.",
+    "vocabUsed": ["分かる"],
+    "grammar": ["ぞ (masculine emphasis)"]
+  },
+  {
+    "id": "ep02_081",
+    "timestamp": "471.61s",
+    "speaker": "スナフキン",
+    "japanese": "川の水だからジュースに変わったのかもしれない",
+    "english": "It might have changed to juice because it was river water.",
+    "vocabUsed": ["川", "水", "変わる"],
+    "grammar": ["〜だから (because)", "〜かもしれない (might)"]
+  },
+  {
+    "id": "ep02_082",
+    "timestamp": "473.61s",
+    "speaker": "ムーミン",
+    "japanese": "もし井戸の水だったら",
+    "english": "If it were well water...",
+    "vocabUsed": ["井戸", "水"],
+    "grammar": ["もし〜たら (if)"]
+  },
+  {
+    "id": "ep02_083",
+    "timestamp": "475.61s",
+    "speaker": "スナフキン",
+    "japanese": "色々試してみる必要があるね",
+    "english": "We need to try various things.",
+    "vocabUsed": ["色々", "試す", "必要"],
+    "grammar": ["〜てみる (try doing)", "必要がある (need to)"]
+  },
+  {
+    "id": "ep02_084",
+    "timestamp": "478.74s",
+    "speaker": "ムーミンママ",
+    "japanese": "ずいぶん眠たそうね",
+    "english": "You look pretty sleepy.",
+    "vocabUsed": ["ずいぶん", "眠い"],
+    "grammar": ["〜そう (looks like)"]
+  },
+  {
+    "id": "ep02_085",
+    "timestamp": "498.43s",
+    "speaker": "ムーミン",
+    "japanese": "夜中に目が覚めちゃったから本を読んでたんだ",
+    "english": "I woke up in the middle of the night so I was reading a book.",
+    "vocabUsed": ["夜中", "目が覚める", "本", "読む"],
+    "grammar": ["〜ちゃった (casual completion)", "〜ていた (past progressive)"]
+  },
+  {
+    "id": "ep02_086",
+    "timestamp": "501.43s",
+    "speaker": "ミー",
+    "japanese": "嘘つき",
+    "english": "Liar!",
+    "vocabUsed": ["嘘つき"],
+    "grammar": []
+  },
+  {
+    "id": "ep02_087",
+    "timestamp": "502.43s",
+    "speaker": "ムーミン",
+    "japanese": "何？",
+    "english": "What?",
+    "vocabUsed": ["何"],
+    "grammar": []
+  },
+  {
+    "id": "ep02_088",
+    "timestamp": "503.43s",
+    "speaker": "ミー",
+    "japanese": "嘘つき",
+    "english": "Liar!",
+    "vocabUsed": [],
+    "grammar": []
+  },
+  {
+    "id": "ep02_089",
+    "timestamp": "504.43s",
+    "speaker": "ミー",
+    "japanese": "私知ってるもん",
+    "english": "I know what happened!",
+    "vocabUsed": ["私", "知る"],
+    "grammar": ["〜もん (because, childish)"]
+  },
+  {
+    "id": "ep02_090",
+    "timestamp": "505.43s",
+    "speaker": "ムーミン",
+    "japanese": "ミー何知ってるんだ",
+    "english": "What do you know, My?",
+    "vocabUsed": ["何", "知る"],
+    "grammar": ["〜んだ (explanatory)"]
+  },
+  {
+    "id": "ep02_091",
+    "timestamp": "507.43s",
+    "speaker": "ミー",
+    "japanese": "昨日の夜中にスナフキンが来たもん",
+    "english": "Snufkin came in the middle of the night yesterday!",
+    "vocabUsed": ["昨日", "夜中", "来る"],
+    "grammar": ["〜もん (I'm telling you)"]
+  },
+  {
+    "id": "ep02_092",
+    "timestamp": "511.59s",
+    "speaker": "ミー",
+    "japanese": "私スナフキンの口笛で目が覚めたんだもん",
+    "english": "I woke up from Snufkin's whistle!",
+    "vocabUsed": ["私", "口笛", "目が覚める"],
+    "grammar": ["〜で (by means of)", "〜んだもん (explaining with emphasis)"]
+  },
+  {
+    "id": "ep02_093",
+    "timestamp": "514.01s",
+    "speaker": "ムーミン",
+    "japanese": "ミーは寝ぼけてるんだ",
+    "english": "My, you were half asleep.",
+    "vocabUsed": ["寝ぼける"],
+    "grammar": ["〜ている (state)"]
+  },
+  {
+    "id": "ep02_094",
+    "timestamp": "516.01s",
+    "speaker": "ムーミン",
+    "japanese": "スナフキンなんか来るもんか",
+    "english": "Snufkin wouldn't come!",
+    "vocabUsed": ["来る"],
+    "grammar": ["〜なんか (something like)", "〜もんか (no way)"]
+  },
+  {
+    "id": "ep02_095",
+    "timestamp": "518.01s",
+    "speaker": "ムーミン",
+    "japanese": "ごちそうさま",
+    "english": "Thanks for the meal.",
+    "vocabUsed": [],
+    "grammar": ["ごちそうさま (thanks for the meal)"]
+  },
+  {
+    "id": "ep02_096",
+    "timestamp": "519.01s",
+    "speaker": "ミー",
+    "japanese": "二人で出かけたもん",
+    "english": "The two of you went out!",
+    "vocabUsed": ["二人", "出かける"],
+    "grammar": ["〜で (with)", "〜もん (emphatic)"]
+  },
+  {
+    "id": "ep02_097",
+    "timestamp": "523.25s",
+    "speaker": "ミー",
+    "japanese": "来てるもん",
+    "english": "He did come!",
+    "vocabUsed": ["来る"],
+    "grammar": ["〜ている (resultant state)"]
+  },
+  {
+    "id": "ep02_098",
+    "timestamp": "524.34s",
+    "speaker": "ムーミン",
+    "japanese": "うるさい",
+    "english": "Be quiet!",
+    "vocabUsed": ["うるさい"],
+    "grammar": []
+  },
+  {
+    "id": "ep02_099",
+    "timestamp": "525.34s",
+    "speaker": "ムーミン",
+    "japanese": "変なこと喋ったらもう遊んでやらないぞ",
+    "english": "If you say weird things, I won't play with you anymore!",
+    "vocabUsed": ["変", "喋る", "遊ぶ"],
+    "grammar": ["〜たら (if)", "〜てやらない (won't do for you)"]
+  },
+  {
+    "id": "ep02_100",
+    "timestamp": "528.34s",
+    "speaker": "ムーミンパパ",
+    "japanese": "ムーミンは何を隠してるんだい",
+    "english": "What are you hiding, Moomin?",
+    "vocabUsed": ["何", "隠す"],
+    "grammar": ["〜ている (progressive)", "〜んだい (casual question)"]
+  },
+  {
+    "id": "ep02_101",
+    "timestamp": "531.60s",
+    "speaker": "ムーミン",
+    "japanese": "大したことないの",
+    "english": "It's nothing serious.",
+    "vocabUsed": ["大したこと"],
+    "grammar": ["大したことない (nothing important)"]
+  },
+  {
+    "id": "ep02_102",
+    "timestamp": "532.60s",
+    "speaker": "ムーミン",
+    "japanese": "聞かないでくれるパパ",
+    "english": "Please don't ask, Papa.",
+    "vocabUsed": ["聞く", "パパ"],
+    "grammar": ["〜ないでくれる (please don't)"]
+  },
+  {
+    "id": "ep02_103",
+    "timestamp": "534.60s",
+    "speaker": "ムーミンママ",
+    "japanese": "ムーミン出かけたのね",
+    "english": "Moomin went out, didn't he?",
+    "vocabUsed": ["出かける"],
+    "grammar": ["〜のね (seeking confirmation)"]
+  },
+  {
+    "id": "ep02_104",
+    "timestamp": "539.10s",
+    "speaker": "ミー",
+    "japanese": "私をのけ者にしようったってそうはいかないわよ",
+    "english": "Even if you try to leave me out, that's not going to happen!",
+    "vocabUsed": ["私", "のけ者"],
+    "grammar": ["〜ようったって (even if you try)", "そうはいかない (that won't happen)"]
+  },
+  {
+    "id": "ep02_105",
+    "timestamp": "550.80s",
+    "speaker": "スナフキン",
+    "japanese": "あの帽子誰のものだか分かった",
+    "english": "I found out whose hat that is.",
+    "vocabUsed": ["帽子", "誰", "分かる"],
+    "grammar": ["〜だか (whether)", "〜のもの (belonging to)"]
+  },
+  {
+    "id": "ep02_106",
+    "timestamp": "565.61s",
+    "speaker": "ムーミン",
+    "japanese": "え？誰の？",
+    "english": "Huh? Whose?",
+    "vocabUsed": ["誰"],
+    "grammar": []
+  },
+  {
+    "id": "ep02_107",
+    "timestamp": "566.61s",
+    "speaker": "スナフキン",
+    "japanese": "飛行鬼",
+    "english": "The Hobgoblin.",
+    "vocabUsed": ["飛行鬼"],
+    "grammar": []
+  },
+  {
+    "id": "ep02_108",
+    "timestamp": "567.61s",
+    "speaker": "ムーミン",
+    "japanese": "飛行鬼？",
+    "english": "The Hobgoblin?",
+    "vocabUsed": [],
+    "grammar": []
+  },
+  {
+    "id": "ep02_109",
+    "timestamp": "568.61s",
+    "speaker": "スナフキン",
+    "japanese": "さっきヘムレンさんに会ったんだ",
+    "english": "I met Mr. Hemulen earlier.",
+    "vocabUsed": ["さっき", "会う"],
+    "grammar": ["〜に会う (meet someone)"]
+  },
+  {
+    "id": "ep02_110",
+    "timestamp": "570.61s",
+    "speaker": "スナフキン",
+    "japanese": "ヘムレンさんは前に飛行鬼を見たことがあるんだってさ",
+    "english": "Mr. Hemulen said he's seen the Hobgoblin before.",
+    "vocabUsed": ["前", "見る"],
+    "grammar": ["〜たことがある (have experienced)", "〜んだって (I heard that)"]
+  },
+  {
+    "id": "ep02_111",
+    "timestamp": "573.61s",
+    "speaker": "ムーミン",
+    "japanese": "飛行鬼って空を飛ぶ鬼だね",
+    "english": "The Hobgoblin is a demon that flies in the sky, right?",
+    "vocabUsed": ["空", "飛ぶ", "鬼"],
+    "grammar": ["〜って (is called/means)"]
+  },
+  {
+    "id": "ep02_112",
+    "timestamp": "576.61s",
+    "speaker": "スナフキン",
+    "japanese": "黒い氷に乗ってね",
+    "english": "Riding on black ice.",
+    "vocabUsed": ["黒い", "氷", "乗る"],
+    "grammar": ["〜に乗る (ride on)"]
+  },
+  {
+    "id": "ep02_113",
+    "timestamp": "578.61s",
+    "speaker": "スナフキン",
+    "japanese": "飛行鬼はルビーに目がないんだって",
+    "english": "The Hobgoblin has a weakness for rubies, they say.",
+    "vocabUsed": ["ルビー", "目がない"],
+    "grammar": ["〜に目がない (have a weakness for)", "〜んだって (they say)"]
+  },
+  {
+    "id": "ep02_114",
+    "timestamp": "582.22s",
+    "speaker": "スナフキン",
+    "japanese": "素晴らしいルビーを探して世界中いや宇宙までも探し回っているんだ",
+    "english": "He's searching all over the world, no, even the universe for wonderful rubies.",
+    "vocabUsed": ["素晴らしい", "ルビー", "探す", "世界中", "宇宙"],
+    "grammar": ["〜を探して (searching for)", "〜回る (do around)"]
+  },
+  {
+    "id": "ep02_115",
+    "timestamp": "588.22s",
+    "speaker": "ムーミン",
+    "japanese": "どうして帽子を落としたんだろう",
+    "english": "I wonder why he dropped the hat.",
+    "vocabUsed": ["帽子", "落とす"],
+    "grammar": ["どうして (why)", "〜んだろう (I wonder)"]
+  },
+  {
+    "id": "ep02_116",
+    "timestamp": "593.67s",
+    "speaker": "スナフキン",
+    "japanese": "きっとこのムーミン谷でもルビーを探していて落としたんじゃないか",
+    "english": "He was probably looking for rubies in Moomin Valley too and dropped it.",
+    "vocabUsed": ["きっと", "谷", "ルビー", "探す", "落とす"],
+    "grammar": ["〜ていて (while doing)", "〜んじゃないか (isn't it that)"]
+  },
+  {
+    "id": "ep02_117",
+    "timestamp": "598.67s",
+    "speaker": "ムーミン",
+    "japanese": "この帽子のこと忘れてるのかな",
+    "english": "I wonder if he's forgotten about this hat.",
+    "vocabUsed": ["帽子", "忘れる"],
+    "grammar": ["〜のかな (I wonder if)"]
+  },
+  {
+    "id": "ep02_118",
+    "timestamp": "600.67s",
+    "speaker": "スナフキン",
+    "japanese": "さあね",
+    "english": "Who knows.",
+    "vocabUsed": [],
+    "grammar": ["さあね (who knows)"]
+  },
+  {
+    "id": "ep02_119",
+    "timestamp": "602.83s",
+    "speaker": "ミー",
+    "japanese": "落とすとどこに落としたか分からないんじゃないの？",
+    "english": "When you drop something, don't you forget where you dropped it?",
+    "vocabUsed": ["落とす", "どこ", "分かる"],
+    "grammar": ["〜と (when)", "〜んじゃないの (isn't it that)"]
+  },
+  {
+    "id": "ep02_120",
+    "timestamp": "606.83s",
+    "speaker": "スナフキン",
+    "japanese": "そうかもしれないなきっと",
+    "english": "That might be the case.",
+    "vocabUsed": [],
+    "grammar": ["〜かもしれない (might be)"]
+  },
+  {
+    "id": "ep02_121",
+    "timestamp": "608.83s",
+    "speaker": "ムーミン",
+    "japanese": "よし",
+    "english": "Alright!",
+    "vocabUsed": [],
+    "grammar": ["よし (alright/okay)"]
+  },
+  {
+    "id": "ep02_122",
+    "timestamp": "609.83s",
+    "speaker": "ムーミン",
+    "japanese": "それじゃあ僕この帽子でやってみたいことがある",
+    "english": "In that case, there's something I want to try with this hat.",
+    "vocabUsed": ["僕", "帽子"],
+    "grammar": ["〜てみたい (want to try)"]
+  },
+  {
+    "id": "ep02_123",
+    "timestamp": "612.83s",
+    "speaker": "ミー",
+    "japanese": "やってみたいこと？",
+    "english": "Something you want to try?",
+    "vocabUsed": [],
+    "grammar": []
+  },
+  {
+    "id": "ep02_124",
+    "timestamp": "614.83s",
+    "speaker": "スナフキン",
+    "japanese": "何？",
+    "english": "What?",
+    "vocabUsed": [],
+    "grammar": []
+  },
+  {
+    "id": "ep02_125",
+    "timestamp": "907.58s",
+    "speaker": "ムーミン",
+    "japanese": "さっき飛行鬼が飛んでいるのを見たよ",
+    "english": "I just saw the Hobgoblin flying.",
+    "vocabUsed": ["さっき", "飛行鬼", "飛ぶ", "見る"],
+    "grammar": ["〜のを見る (see someone doing)"]
+  },
+  {
+    "id": "ep02_126",
+    "timestamp": "910.58s",
+    "speaker": "スナフキン",
+    "japanese": "あれは間違いなくそうだ",
+    "english": "That was definitely him.",
+    "vocabUsed": ["間違いない"],
+    "grammar": ["間違いなく (definitely)"]
+  },
+  {
+    "id": "ep02_127",
+    "timestamp": "912.58s",
+    "speaker": "ムーミン",
+    "japanese": "あの帽子を探してるのかな",
+    "english": "I wonder if he's looking for that hat.",
+    "vocabUsed": ["帽子", "探す"],
+    "grammar": ["〜のかな (I wonder)"]
+  },
+  {
+    "id": "ep02_128",
+    "timestamp": "914.58s",
+    "speaker": "スナフキン",
+    "japanese": "多分ね",
+    "english": "Probably.",
+    "vocabUsed": ["多分"],
+    "grammar": []
+  },
+  {
+    "id": "ep02_129",
+    "timestamp": "915.58s",
+    "speaker": "ムーミン",
+    "japanese": "どこに置いたの？あれ",
+    "english": "Where did you put it?",
+    "vocabUsed": ["どこ", "置く"],
+    "grammar": ["〜の (question)"]
+  },
+  {
+    "id": "ep02_130",
+    "timestamp": "917.58s",
+    "speaker": "スナフキン",
+    "japanese": "地下室",
+    "english": "The basement.",
+    "vocabUsed": ["地下室"],
+    "grammar": []
+  },
+  {
+    "id": "ep02_131",
+    "timestamp": "918.58s",
+    "speaker": "ムーミン",
+    "japanese": "大丈夫かな",
+    "english": "I wonder if it's okay.",
+    "vocabUsed": ["大丈夫"],
+    "grammar": ["〜かな (I wonder)"]
+  },
+  {
+    "id": "ep02_132",
+    "timestamp": "921.18s",
+    "speaker": "スナフキン",
+    "japanese": "大丈夫さ僕とミーだけしか知らないところに置いてあるんだ",
+    "english": "It's fine. It's in a place that only My and I know about.",
+    "vocabUsed": ["大丈夫", "僕", "知る", "置く"],
+    "grammar": ["〜だけしか〜ない (only)", "〜てある (is placed)"]
+  },
+  {
+    "id": "ep02_133",
+    "timestamp": "975.38s",
+    "speaker": "ミー",
+    "japanese": "今にこのうちですごいことが起こりそうなの",
+    "english": "Something amazing is about to happen in this house!",
+    "vocabUsed": ["今に", "すごい", "起こる"],
+    "grammar": ["今に (soon)", "〜そう (looks like)"]
+  },
+  {
+    "id": "ep02_134",
+    "timestamp": "978.38s",
+    "speaker": "ムーミンママ",
+    "japanese": "すごいことって？",
+    "english": "Something amazing?",
+    "vocabUsed": [],
+    "grammar": ["〜って (quotation/what do you mean)"]
+  },
+  {
+    "id": "ep02_135",
+    "timestamp": "980.38s",
+    "speaker": "ミー",
+    "japanese": "地下室に木が生えてるの",
+    "english": "A tree is growing in the basement!",
+    "vocabUsed": ["地下室", "木", "生える"],
+    "grammar": ["〜ている (progressive)"]
+  },
+  {
+    "id": "ep02_136",
+    "timestamp": "982.38s",
+    "speaker": "ムーミンママ",
+    "japanese": "まあすごいわね",
+    "english": "My, that's amazing!",
+    "vocabUsed": ["すごい"],
+    "grammar": ["まあ (expression of surprise)", "〜わね (feminine)"]
+  },
+  {
+    "id": "ep02_137",
+    "timestamp": "993.74s",
+    "speaker": "ミー",
+    "japanese": "そうよ今にこのうちより大きくなるわ",
+    "english": "That's right, it'll soon be bigger than this house!",
+    "vocabUsed": ["今に", "大きい"],
+    "grammar": ["〜より (than)", "〜くなる (become)"]
+  },
+  {
+    "id": "ep02_138",
+    "timestamp": "993.74s",
+    "speaker": "ムーミンママ",
+    "japanese": "いったいあなた何をしたの？",
+    "english": "What on earth did you do?",
+    "vocabUsed": ["一体", "何"],
+    "grammar": ["いったい (on earth)", "〜の (question)"]
+  },
+  {
+    "id": "ep02_139",
+    "timestamp": "995.74s",
+    "speaker": "ミー",
+    "japanese": "魔法の帽子に種を入れただけよ",
+    "english": "I just put a seed in the magic hat!",
+    "vocabUsed": ["魔法", "帽子", "種", "入れる"],
+    "grammar": ["〜だけ (just/only)"]
+  },
+  {
+    "id": "ep02_140",
+    "timestamp": "998.74s",
+    "speaker": "ムーミンママ",
+    "japanese": "あの帽子は捨てたはずよ",
+    "english": "That hat should have been thrown away!",
+    "vocabUsed": ["帽子", "捨てる"],
+    "grammar": ["〜はず (should be)"]
+  },
+  {
+    "id": "ep02_141",
+    "timestamp": "1001.06s",
+    "speaker": "ミー",
+    "japanese": "川の中から拾ってきたのこの地下室にあるわ",
+    "english": "They picked it up from the river and it's in the basement!",
+    "vocabUsed": ["川", "中", "拾う", "地下室"],
+    "grammar": ["〜てくる (go and bring back)"]
+  },
+  {
+    "id": "ep02_142",
+    "timestamp": "1005.06s",
+    "speaker": "ムーミンママ",
+    "japanese": "なんてこと",
+    "english": "Oh my!",
+    "vocabUsed": [],
+    "grammar": ["なんてこと (what a thing/oh my)"]
+  },
+  {
+    "id": "ep02_143",
+    "timestamp": "1007.54s",
+    "speaker": "ムーミンママ",
+    "japanese": "ひどいことにならないうちにパパに知らせなくては",
+    "english": "I have to tell Papa before things get terrible!",
+    "vocabUsed": ["ひどい", "パパ", "知らせる"],
+    "grammar": ["〜ないうちに (before)", "〜なくては (must)"]
+  },
+  {
+    "id": "ep02_144",
+    "timestamp": "1040.96s",
+    "speaker": "ムーミンママ",
+    "japanese": "お仕事中ごめんなさいパパ",
+    "english": "Sorry for interrupting your work, Papa.",
+    "vocabUsed": ["仕事", "中", "パパ"],
+    "grammar": ["〜中 (during)"]
+  },
+  {
+    "id": "ep02_145",
+    "timestamp": "1042.99s",
+    "speaker": "ムーミンパパ",
+    "japanese": "何ですママ？",
+    "english": "What is it, Mama?",
+    "vocabUsed": ["何", "ママ"],
+    "grammar": ["何です (polite question)"]
+  },
+  {
+    "id": "ep02_146",
+    "timestamp": "1049.76s",
+    "speaker": "ムーミンママ",
+    "japanese": "ええパパに下まで来てもらいたいの",
+    "english": "I want you to come downstairs.",
+    "vocabUsed": ["パパ", "下", "来る"],
+    "grammar": ["〜てもらいたい (want someone to do)"]
+  },
+  {
+    "id": "ep02_147",
+    "timestamp": "1052.76s",
+    "speaker": "ムーミンママ",
+    "japanese": "ちょっと見ていただきたいものがあるんですよ",
+    "english": "There's something I'd like you to see.",
+    "vocabUsed": ["ちょっと", "見る"],
+    "grammar": ["〜ていただきたい (want you to, humble)", "〜んです (explanatory)"]
+  },
+  {
+    "id": "ep02_148",
+    "timestamp": "1055.76s",
+    "speaker": "ムーミンママ",
+    "japanese": "手遅れにならないうちに",
+    "english": "Before it's too late.",
+    "vocabUsed": ["手遅れ"],
+    "grammar": ["〜ないうちに (before)"]
+  },
+  {
+    "id": "ep02_149",
+    "timestamp": "1057.76s",
+    "speaker": "ムーミンパパ",
+    "japanese": "手遅れ？",
+    "english": "Too late?",
+    "vocabUsed": [],
+    "grammar": []
+  },
+  {
+    "id": "ep02_150",
+    "timestamp": "1125.11s",
+    "speaker": "ムーミン",
+    "japanese": "ひどいことになった",
+    "english": "This has become terrible.",
+    "vocabUsed": ["ひどい"],
+    "grammar": ["〜になる (become)"]
+  },
+  {
+    "id": "ep02_151",
+    "timestamp": "1196.45s",
+    "speaker": "スナフキン",
+    "japanese": "みんな閉じ込められたのか",
+    "english": "Did everyone get trapped?",
+    "vocabUsed": ["みんな", "閉じ込める"],
+    "grammar": ["〜られる (passive)"]
+  },
+  {
+    "id": "ep02_152",
+    "timestamp": "1202.10s",
+    "speaker": "ムーミン",
+    "japanese": "助け出さないと",
+    "english": "We have to rescue them!",
+    "vocabUsed": ["助け出す"],
+    "grammar": ["〜ないと (must)"]
+  },
+  {
+    "id": "ep02_153",
+    "timestamp": "1204.10s",
+    "speaker": "スナフキン",
+    "japanese": "木を切りたいけどノコギリや斧は中にあるし",
+    "english": "I want to cut the tree, but the saw and axe are inside.",
+    "vocabUsed": ["木", "切る", "ノコギリ", "斧", "中"],
+    "grammar": ["〜たい (want to)", "〜けど (but)", "〜し (and moreover)"]
+  },
+  {
+    "id": "ep02_154",
+    "timestamp": "1207.10s",
+    "speaker": "ムーミン",
+    "japanese": "これじゃ中に入れない",
+    "english": "This way we can't get inside.",
+    "vocabUsed": ["中", "入る"],
+    "grammar": ["これじゃ (this way)", "〜れない (cannot)"]
+  },
+  {
+    "id": "ep02_155",
+    "timestamp": "1209.10s",
+    "speaker": "スナフキン",
+    "japanese": "よし誰か助けを呼んでこよう",
+    "english": "Alright, let's go call someone for help.",
+    "vocabUsed": ["誰か", "助け", "呼ぶ"],
+    "grammar": ["〜てくる (go and come back)"]
+  },
+  {
+    "id": "ep02_156",
+    "timestamp": "1211.10s",
+    "speaker": "飛行鬼",
+    "japanese": "その必要はない",
+    "english": "There's no need for that.",
+    "vocabUsed": ["必要"],
+    "grammar": ["〜はない (there is no)"]
+  },
+  {
+    "id": "ep02_157",
+    "timestamp": "1221.98s",
+    "speaker": "飛行鬼",
+    "japanese": "そうだ",
+    "english": "That's right.",
+    "vocabUsed": [],
+    "grammar": []
+  },
+  {
+    "id": "ep02_158",
+    "timestamp": "1222.98s",
+    "speaker": "飛行鬼",
+    "japanese": "この現象は私の帽子が原因だな",
+    "english": "This phenomenon was caused by my hat.",
+    "vocabUsed": ["現象", "私", "帽子", "原因"],
+    "grammar": ["〜が原因 (is the cause)"]
+  },
+  {
+    "id": "ep02_159",
+    "timestamp": "1225.98s",
+    "speaker": "ムーミン",
+    "japanese": "そうです僕が山で拾ったんです",
+    "english": "Yes, I picked it up on the mountain.",
+    "vocabUsed": ["僕", "山", "拾う"],
+    "grammar": ["〜んです (explanatory)"]
+  },
+  {
+    "id": "ep02_160",
+    "timestamp": "1229.30s",
+    "speaker": "飛行鬼",
+    "japanese": "それはありがとう",
+    "english": "Thank you for that.",
+    "vocabUsed": [],
+    "grammar": []
+  },
+  {
+    "id": "ep02_161",
+    "timestamp": "1234.49s",
+    "speaker": "飛行鬼",
+    "japanese": "ではこの木を片付けよう",
+    "english": "Well then, let me take care of this tree.",
+    "vocabUsed": ["木", "片付ける"],
+    "grammar": ["では (well then)", "〜よう (volitional)"]
+  },
+  {
+    "id": "ep02_162",
+    "timestamp": "1338.58s",
+    "speaker": "ムーミン",
+    "japanese": "優しい鬼だね",
+    "english": "He's a kind demon, isn't he?",
+    "vocabUsed": ["優しい", "鬼"],
+    "grammar": ["〜だね (isn't it)"]
+  },
+  {
+    "id": "ep02_163",
+    "timestamp": "1398.70s",
+    "speaker": "ナレーター",
+    "japanese": "次回楽しいムーミン一家",
+    "english": "Next time on Moomin Family.",
+    "vocabUsed": ["次回"],
+    "grammar": ["次回 (next time)"]
+  },
+  {
+    "id": "ep02_164",
+    "timestamp": "1400.70s",
+    "speaker": "ナレーター",
+    "japanese": "浜で見つけた難破船",
+    "english": "The Shipwreck Found on the Beach.",
+    "vocabUsed": ["浜", "見つける", "難破船"],
+    "grammar": ["〜で見つける (find at)"]
+  },
+  {
+    "id": "ep02_165",
+    "timestamp": "1402.70s",
+    "speaker": "ナレーター",
+    "japanese": "お楽しみに",
+    "english": "Look forward to it!",
+    "vocabUsed": [],
+    "grammar": ["お楽しみに (please look forward to it)"]
+  }
+]

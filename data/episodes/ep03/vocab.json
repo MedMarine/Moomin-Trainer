@@ -1,0 +1,2007 @@
+[
+  {
+    "id": "事件",
+    "word": "事件",
+    "reading": "じけん",
+    "pos": "noun",
+    "meaning": "incident, event, case",
+    "notes": "Used for noteworthy events, often negative. 事件が起きる = an incident occurs.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "何の事件も起こらないように思われたのですが",
+        "english": "It seemed like nothing eventful would happen, but...",
+        "note": "何の〜も〜ない (no ~ at all)"
+      }
+    ]
+  },
+  {
+    "id": "焼く",
+    "word": "焼く",
+    "reading": "やく",
+    "pos": "verb (godan)",
+    "meaning": "to bake, to grill, to cook",
+    "notes": "Used for cooking with dry heat. パンケーキを焼く = cook pancakes.",
+    "jlpt": "N4",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "見ればわかるでしょ?これから焼くのよ",
+        "english": "Can't you see? I'm about to cook them now.",
+        "note": "〜のよ (explanatory, feminine)"
+      }
+    ]
+  },
+  {
+    "id": "設計図",
+    "word": "設計図",
+    "reading": "せっけいず",
+    "pos": "noun",
+    "meaning": "blueprint, design plan",
+    "notes": "設計 (design) + 図 (diagram). Technical drawings.",
+    "jlpt": "N2",
+    "frequency": 3,
+    "examples": [
+      {
+        "japanese": "大事な設計図でしょ?",
+        "english": "That's an important blueprint, isn't it?",
+        "note": "大事な (important)"
+      },
+      {
+        "japanese": "もう一度設計図を見直してみると",
+        "english": "When I looked at the blueprint again...",
+        "note": "見直す = to look again, review"
+      }
+    ]
+  },
+  {
+    "id": "失敗",
+    "word": "失敗",
+    "reading": "しっぱい",
+    "pos": "noun/suru verb",
+    "meaning": "failure, mistake",
+    "notes": "Opposite of 成功 (success). 失敗する = to fail.",
+    "jlpt": "N3",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "ああ、失敗だ!僕には才能がないんだ!",
+        "english": "Ah, it's a failure! I have no talent!",
+        "note": "〜んだ (explanatory)"
+      }
+    ]
+  },
+  {
+    "id": "才能",
+    "word": "才能",
+    "reading": "さいのう",
+    "pos": "noun",
+    "meaning": "talent, ability",
+    "notes": "Natural aptitude for something. 才能がある = have talent.",
+    "jlpt": "N2",
+    "frequency": 4,
+    "examples": [
+      {
+        "japanese": "僕には才能がないんだ!",
+        "english": "I have no talent!",
+        "note": "〜がない (don't have)"
+      },
+      {
+        "japanese": "僕には発明の才能なんてないんだ!",
+        "english": "I don't have any talent for invention!",
+        "note": "〜の才能 (talent for)"
+      },
+      {
+        "japanese": "私には文学的才能など全くないんだ",
+        "english": "I have no literary talent whatsoever.",
+        "note": "文学的才能 (literary talent)"
+      }
+    ]
+  },
+  {
+    "id": "陸",
+    "word": "陸",
+    "reading": "りく",
+    "pos": "noun",
+    "meaning": "land, ground",
+    "notes": "Contrast with 海 (sea). 陸上 = on land.",
+    "jlpt": "N3",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "お兄さんは前に、陸を走る船を作ったじゃない",
+        "english": "But brother, you made a land-sailing ship before, didn't you?",
+        "note": "陸を走る (runs on land)"
+      }
+    ]
+  },
+  {
+    "id": "自信",
+    "word": "自信",
+    "reading": "じしん",
+    "pos": "noun",
+    "meaning": "self-confidence",
+    "notes": "自 (self) + 信 (believe). 自信がある = have confidence.",
+    "jlpt": "N3",
+    "frequency": 6,
+    "examples": [
+      {
+        "japanese": "もっと自信を持って、お兄さん",
+        "english": "Have more confidence, brother.",
+        "note": "自信を持つ (have confidence)"
+      },
+      {
+        "japanese": "パパはいつも自信満々だよ",
+        "english": "Papa is always full of confidence.",
+        "note": "自信満々 (full of confidence)"
+      },
+      {
+        "japanese": "急に自信がなくなってしまったのです",
+        "english": "I suddenly lost all my confidence.",
+        "note": "自信がなくなる (lose confidence)"
+      }
+    ]
+  },
+  {
+    "id": "発明",
+    "word": "発明",
+    "reading": "はつめい",
+    "pos": "noun/suru verb",
+    "meaning": "invention",
+    "notes": "発明する = to invent. 発明家 = inventor.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "僕には、発明の才能なんてないんだ!",
+        "english": "I don't have any talent for invention!",
+        "note": "発明の才能 (talent for invention)"
+      }
+    ]
+  },
+  {
+    "id": "食堂",
+    "word": "食堂",
+    "reading": "しょくどう",
+    "pos": "noun",
+    "meaning": "dining room, cafeteria",
+    "notes": "食 (eat) + 堂 (hall). Place for eating.",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "ミーも食堂へ行きなさい",
+        "english": "My, go to the dining room too.",
+        "note": "〜へ行く (go to)"
+      }
+    ]
+  },
+  {
+    "id": "泣く",
+    "word": "泣く",
+    "reading": "なく",
+    "pos": "verb (godan)",
+    "meaning": "to cry, to weep",
+    "notes": "For emotional crying. 泣いている = is crying.",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "フローレン泣いてた?",
+        "english": "Was Floren crying?",
+        "note": "〜ていた (past progressive)"
+      }
+    ]
+  },
+  {
+    "id": "取り戻す",
+    "word": "取り戻す",
+    "reading": "とりもどす",
+    "pos": "verb (godan)",
+    "meaning": "to regain, to get back",
+    "notes": "取る (take) + 戻す (return). To recover something lost.",
+    "jlpt": "N2",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "お兄さんも今に自信を取り戻すから",
+        "english": "Her brother will regain his confidence soon.",
+        "note": "今に = soon"
+      },
+      {
+        "japanese": "どうやって自信を取り戻したらいいんでしょう",
+        "english": "How can I regain my confidence?",
+        "note": "〜たらいい (how to)"
+      }
+    ]
+  },
+  {
+    "id": "作り出す",
+    "word": "作り出す",
+    "reading": "つくりだす",
+    "pos": "verb (godan)",
+    "meaning": "to create, to produce",
+    "notes": "作る (make) + 出す (put out). To create something new.",
+    "jlpt": "N2",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "物を新しく作り出す人は、時々そうなるらしいよ",
+        "english": "People who create new things apparently go through this sometimes.",
+        "note": "新しく作り出す (create anew)"
+      }
+    ]
+  },
+  {
+    "id": "小説",
+    "word": "小説",
+    "reading": "しょうせつ",
+    "pos": "noun",
+    "meaning": "novel",
+    "notes": "Written fiction. 小説家 = novelist.",
+    "jlpt": "N4",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "パパは小説を書いてるんでしょ?",
+        "english": "Papa is writing a novel, right?",
+        "note": "〜んでしょ (right?)"
+      },
+      {
+        "japanese": "もう小説を書くのはやめるべきだ",
+        "english": "I should stop writing novels.",
+        "note": "〜べき (should)"
+      }
+    ]
+  },
+  {
+    "id": "朝",
+    "word": "朝",
+    "reading": "あさ",
+    "pos": "noun",
+    "meaning": "morning",
+    "notes": "Basic time word. 朝ごはん = breakfast.",
+    "jlpt": "N5",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "朝になると太陽が東の空に昇った",
+        "english": "When morning came, the sun rose in the eastern sky.",
+        "note": "朝になる (morning comes)"
+      }
+    ]
+  },
+  {
+    "id": "太陽",
+    "word": "太陽",
+    "reading": "たいよう",
+    "pos": "noun",
+    "meaning": "sun",
+    "notes": "The sun specifically. 日 is more general for sun/day.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "朝になると太陽が東の空に昇った",
+        "english": "When morning came, the sun rose in the eastern sky.",
+        "note": "太陽が昇る (sun rises)"
+      }
+    ]
+  },
+  {
+    "id": "東",
+    "word": "東",
+    "reading": "ひがし",
+    "pos": "noun",
+    "meaning": "east",
+    "notes": "Cardinal direction. 東京 = Tokyo (eastern capital).",
+    "jlpt": "N5",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "太陽が東の空に昇った",
+        "english": "The sun rose in the eastern sky.",
+        "note": "東の空 (eastern sky)"
+      }
+    ]
+  },
+  {
+    "id": "昇る",
+    "word": "昇る",
+    "reading": "のぼる",
+    "pos": "verb (godan)",
+    "meaning": "to rise (sun), to ascend",
+    "notes": "For sun rising. Compare: 登る (climb mountain).",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "太陽が東の空に昇った",
+        "english": "The sun rose in the eastern sky.",
+        "note": "太陽が昇る (sun rises)"
+      }
+    ]
+  },
+  {
+    "id": "明るい",
+    "word": "明るい",
+    "reading": "あかるい",
+    "pos": "i-adjective",
+    "meaning": "bright, light",
+    "notes": "Opposite of 暗い (dark). Also: cheerful personality.",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "そしてあたりが明るくなった",
+        "english": "And the surroundings became bright.",
+        "note": "明るくなる (become bright)"
+      }
+    ]
+  },
+  {
+    "id": "当たり前",
+    "word": "当たり前",
+    "reading": "あたりまえ",
+    "pos": "noun/na-adjective",
+    "meaning": "natural, obvious, matter of course",
+    "notes": "Something expected or taken for granted.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "こんな当たり前のことを書いて",
+        "english": "Writing such obvious things...",
+        "note": "当たり前のこと (obvious things)"
+      }
+    ]
+  },
+  {
+    "id": "恥ずかしい",
+    "word": "恥ずかしい",
+    "reading": "はずかしい",
+    "pos": "i-adjective",
+    "meaning": "embarrassing, ashamed",
+    "notes": "Feeling of shame or embarrassment.",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "よく恥ずかしくないな",
+        "english": "Aren't you embarrassed?",
+        "note": "よく〜ない (how can you not)"
+      }
+    ]
+  },
+  {
+    "id": "文学的",
+    "word": "文学的",
+    "reading": "ぶんがくてき",
+    "pos": "na-adjective",
+    "meaning": "literary",
+    "notes": "文学 (literature) + 的 (like). Related to literature.",
+    "jlpt": "N2",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "私には文学的才能など全くないんだ",
+        "english": "I have no literary talent whatsoever.",
+        "note": "全く〜ない (not at all)"
+      }
+    ]
+  },
+  {
+    "id": "全く",
+    "word": "全く",
+    "reading": "まったく",
+    "pos": "adverb",
+    "meaning": "completely, entirely; not at all (with negative)",
+    "notes": "With negative: not at all. Alone: completely.",
+    "jlpt": "N3",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "私には文学的才能など全くないんだ",
+        "english": "I have no literary talent whatsoever.",
+        "note": "全く〜ない (not at all)"
+      },
+      {
+        "japanese": "全く楽しくないんだよ、今は",
+        "english": "It's not fun at all anymore.",
+        "note": "全く〜ない (not at all)"
+      }
+    ]
+  },
+  {
+    "id": "想像力",
+    "word": "想像力",
+    "reading": "そうぞうりょく",
+    "pos": "noun",
+    "meaning": "imagination",
+    "notes": "想像 (imagination) + 力 (power). Creative ability.",
+    "jlpt": "N2",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "想像力もない、感受性も衰えてる",
+        "english": "I have no imagination, my sensitivity has declined.",
+        "note": "〜もない (don't have ~ either)"
+      }
+    ]
+  },
+  {
+    "id": "感受性",
+    "word": "感受性",
+    "reading": "かんじゅせい",
+    "pos": "noun",
+    "meaning": "sensitivity, sensibility",
+    "notes": "Emotional or artistic sensitivity.",
+    "jlpt": "N1",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "感受性も衰えてる",
+        "english": "My sensitivity has declined.",
+        "note": "感受性が衰える (sensitivity declines)"
+      }
+    ]
+  },
+  {
+    "id": "衰える",
+    "word": "衰える",
+    "reading": "おとろえる",
+    "pos": "verb (ichidan)",
+    "meaning": "to decline, to weaken",
+    "notes": "Used for gradual weakening of ability, health, etc.",
+    "jlpt": "N2",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "感受性も衰えてる",
+        "english": "My sensitivity has declined.",
+        "note": "〜ている (state)"
+      }
+    ]
+  },
+  {
+    "id": "調子",
+    "word": "調子",
+    "reading": "ちょうし",
+    "pos": "noun",
+    "meaning": "condition, tone, rhythm",
+    "notes": "調子がいい = in good form. 調子が出る = get into the groove.",
+    "jlpt": "N3",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "今調子が出てきたところだから",
+        "english": "I'm just getting into the groove now...",
+        "note": "調子が出る (get into rhythm)"
+      },
+      {
+        "japanese": "あの調子じゃ、海まで流れ出て",
+        "english": "At that rate, it might flow all the way to the sea...",
+        "note": "あの調子 (at that rate)"
+      }
+    ]
+  },
+  {
+    "id": "後で",
+    "word": "後で",
+    "reading": "あとで",
+    "pos": "adverb",
+    "meaning": "later, afterwards",
+    "notes": "Common time expression. 後で話そう = let's talk later.",
+    "jlpt": "N5",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "後でいただく",
+        "english": "I'll eat later.",
+        "note": "いただく = polite form of 食べる"
+      }
+    ]
+  },
+  {
+    "id": "聞き違い",
+    "word": "聞き違い",
+    "reading": "ききちがい",
+    "pos": "noun",
+    "meaning": "mishearing",
+    "notes": "聞く (hear) + 違い (difference). Hearing incorrectly.",
+    "jlpt": "N2",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "きっと僕の聞き違いだ",
+        "english": "It must have been my imagination.",
+        "note": "聞き違い = mishearing"
+      }
+    ]
+  },
+  {
+    "id": "探検",
+    "word": "探検",
+    "reading": "たんけん",
+    "pos": "noun/suru verb",
+    "meaning": "exploration, expedition",
+    "notes": "探検する = to explore. 探検家 = explorer.",
+    "jlpt": "N2",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "僕はスノフキンとちょっと探検に行くんだ",
+        "english": "I'm going on a little exploration with Snufkin.",
+        "note": "探検に行く (go exploring)"
+      }
+    ]
+  },
+  {
+    "id": "遅い",
+    "word": "遅い",
+    "reading": "おそい",
+    "pos": "i-adjective",
+    "meaning": "late, slow",
+    "notes": "Opposite of 早い. 遅れる = to be late (verb).",
+    "jlpt": "N5",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "遅かったな、今日は来ないのかと思った",
+        "english": "You're late, I thought you weren't coming today.",
+        "note": "〜かと思う (thought that)"
+      }
+    ]
+  },
+  {
+    "id": "笹舟",
+    "word": "笹舟",
+    "reading": "ささぶね",
+    "pos": "noun",
+    "meaning": "bamboo leaf boat",
+    "notes": "笹 (bamboo grass) + 舟 (boat). Traditional toy.",
+    "jlpt": "N/A",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "笹舟だよ、まるで本物の船のように流れていくぜ",
+        "english": "It's a bamboo leaf boat. It flows along just like a real ship.",
+        "note": "まるで〜のように (just like)"
+      }
+    ]
+  },
+  {
+    "id": "本物",
+    "word": "本物",
+    "reading": "ほんもの",
+    "pos": "noun",
+    "meaning": "real thing, genuine article",
+    "notes": "Opposite of 偽物 (fake). 本物の = genuine.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "まるで本物の船のように流れていくぜ",
+        "english": "It flows along just like a real ship.",
+        "note": "本物の船 (real ship)"
+      }
+    ]
+  },
+  {
+    "id": "流れる",
+    "word": "流れる",
+    "reading": "ながれる",
+    "pos": "verb (ichidan)",
+    "meaning": "to flow, to stream",
+    "notes": "Intransitive. 流す = to let flow (transitive).",
+    "jlpt": "N3",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "まるで本物の船のように流れていくぜ",
+        "english": "It flows along just like a real ship.",
+        "note": "流れていく (flows away)"
+      },
+      {
+        "japanese": "知らない国まで行ってしまうぞ",
+        "english": "It might even reach an unknown country.",
+        "note": "After 流れる context"
+      }
+    ]
+  },
+  {
+    "id": "国",
+    "word": "国",
+    "reading": "くに",
+    "pos": "noun",
+    "meaning": "country, nation",
+    "notes": "Basic vocabulary. 外国 = foreign country.",
+    "jlpt": "N5",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "知らない国まで行ってしまうぞ",
+        "english": "It might even reach an unknown country.",
+        "note": "知らない国 (unknown country)"
+      }
+    ]
+  },
+  {
+    "id": "楽しい",
+    "word": "楽しい",
+    "reading": "たのしい",
+    "pos": "i-adjective",
+    "meaning": "fun, enjoyable",
+    "notes": "Basic emotion word. 楽しむ = to enjoy (verb).",
+    "jlpt": "N5",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "それで旅をするのも楽しそうだね",
+        "english": "Traveling like that sounds fun.",
+        "note": "楽しそう (looks fun)"
+      },
+      {
+        "japanese": "全く楽しくないんだよ、今は",
+        "english": "It's not fun at all anymore.",
+        "note": "楽しくない (not fun)"
+      }
+    ]
+  },
+  {
+    "id": "一緒",
+    "word": "一緒",
+    "reading": "いっしょ",
+    "pos": "noun/adverb",
+    "meaning": "together",
+    "notes": "一緒に = together with. Very common.",
+    "jlpt": "N5",
+    "frequency": 4,
+    "examples": [
+      {
+        "japanese": "ミーやフローレンも一緒に行きたそうだったけど",
+        "english": "My and Floren looked like they wanted to come too.",
+        "note": "一緒に行く (go together)"
+      },
+      {
+        "japanese": "私も一緒に行くって",
+        "english": "I'm coming along too!",
+        "note": "一緒に (together)"
+      }
+    ]
+  },
+  {
+    "id": "諦める",
+    "word": "諦める",
+    "reading": "あきらめる",
+    "pos": "verb (ichidan)",
+    "meaning": "to give up, to abandon",
+    "notes": "To stop trying. 諦めないで = don't give up.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "ミーは簡単には諦めないさ、ほら",
+        "english": "My won't give up easily. Look.",
+        "note": "簡単に諦める (give up easily)"
+      }
+    ]
+  },
+  {
+    "id": "簡単",
+    "word": "簡単",
+    "reading": "かんたん",
+    "pos": "na-adjective",
+    "meaning": "easy, simple",
+    "notes": "Opposite of 難しい (difficult). 簡単に = easily.",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "ミーは簡単には諦めないさ",
+        "english": "My won't give up easily.",
+        "note": "簡単には〜ない (won't easily)"
+      }
+    ]
+  },
+  {
+    "id": "無理",
+    "word": "無理",
+    "reading": "むり",
+    "pos": "noun/na-adjective",
+    "meaning": "impossible, unreasonable",
+    "notes": "無理だ = it's impossible. 無理しないで = don't overdo it.",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "ムーミンが言った通り、みんなで登るのは無理だな",
+        "english": "As Moomin said, it's impossible for everyone to climb.",
+        "note": "〜は無理 (is impossible)"
+      }
+    ]
+  },
+  {
+    "id": "入り口",
+    "word": "入り口",
+    "reading": "いりぐち",
+    "pos": "noun",
+    "meaning": "entrance",
+    "notes": "入る (enter) + 口 (opening). Opposite: 出口 (exit).",
+    "jlpt": "N4",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "君たちはホラ穴の入り口で待ってろ",
+        "english": "You all wait at the cave entrance.",
+        "note": "入り口で (at the entrance)"
+      }
+    ]
+  },
+  {
+    "id": "先",
+    "word": "先",
+    "reading": "さき",
+    "pos": "noun",
+    "meaning": "ahead, future, tip",
+    "notes": "この先 = from here on. 先に = first/ahead.",
+    "jlpt": "N4",
+    "frequency": 3,
+    "examples": [
+      {
+        "japanese": "この先をもう少し行ったところだ",
+        "english": "It's just a little further ahead.",
+        "note": "この先 (up ahead)"
+      },
+      {
+        "japanese": "どっちが先に降りる?",
+        "english": "Who goes down first?",
+        "note": "先に (first)"
+      }
+    ]
+  },
+  {
+    "id": "縦穴",
+    "word": "縦穴",
+    "reading": "たてあな",
+    "pos": "noun",
+    "meaning": "vertical shaft, pit",
+    "notes": "縦 (vertical) + 穴 (hole). A vertical opening.",
+    "jlpt": "N/A",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "うん、縦穴を見つけたんだ",
+        "english": "Yeah, we found a vertical shaft.",
+        "note": "縦穴を見つける (find a shaft)"
+      }
+    ]
+  },
+  {
+    "id": "つながる",
+    "word": "つながる",
+    "reading": "つながる",
+    "pos": "verb (godan)",
+    "meaning": "to be connected, to lead to",
+    "notes": "Intransitive. つなげる = to connect (transitive).",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "本当にホラ穴につながってるのかしら?",
+        "english": "I wonder if it really connects to the cave?",
+        "note": "〜につながる (connect to)"
+      }
+    ]
+  },
+  {
+    "id": "確かめる",
+    "word": "確かめる",
+    "reading": "たしかめる",
+    "pos": "verb (ichidan)",
+    "meaning": "to confirm, to verify",
+    "notes": "確か (certain) + める. To make sure.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "それを確かめてみるのさ",
+        "english": "That's what we're going to find out.",
+        "note": "〜てみる (try to)"
+      }
+    ]
+  },
+  {
+    "id": "臆病",
+    "word": "臆病",
+    "reading": "おくびょう",
+    "pos": "noun/na-adjective",
+    "meaning": "cowardly, timid",
+    "notes": "臆病者 = coward. Describes fearful personality.",
+    "jlpt": "N2",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "臆病なのね",
+        "english": "You're such a coward.",
+        "note": "臆病な (cowardly)"
+      },
+      {
+        "japanese": "臆病ね",
+        "english": "Such a coward.",
+        "note": "Abbreviated expression"
+      }
+    ]
+  },
+  {
+    "id": "心細い",
+    "word": "心細い",
+    "reading": "こころぼそい",
+    "pos": "i-adjective",
+    "meaning": "anxious, uneasy, lonely",
+    "notes": "心 (heart) + 細い (thin). Feeling insecure.",
+    "jlpt": "N2",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "この二人が何だか心細そうだから",
+        "english": "These two look worried...",
+        "note": "心細そう (looks anxious)"
+      }
+    ]
+  },
+  {
+    "id": "怖い",
+    "word": "怖い",
+    "reading": "こわい",
+    "pos": "i-adjective",
+    "meaning": "scary, frightening",
+    "notes": "Basic emotion word. 怖がる = to be scared (verb).",
+    "jlpt": "N4",
+    "frequency": 3,
+    "examples": [
+      {
+        "japanese": "何だか怖いわ",
+        "english": "It's kind of scary.",
+        "note": "何だか (somehow)"
+      },
+      {
+        "japanese": "だから怖いの",
+        "english": "That's why it's scary.",
+        "note": "だから (that's why)"
+      }
+    ]
+  },
+  {
+    "id": "気をつける",
+    "word": "気をつける",
+    "reading": "きをつける",
+    "pos": "expression",
+    "meaning": "to be careful, to pay attention",
+    "notes": "気をつけて! = Be careful! Very common phrase.",
+    "jlpt": "N4",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "気をつけなくっちゃ",
+        "english": "We have to be careful.",
+        "note": "〜なくちゃ (have to)"
+      },
+      {
+        "japanese": "それじゃ、気をつけて降りろよ",
+        "english": "Then be careful going down.",
+        "note": "気をつけて (carefully)"
+      }
+    ]
+  },
+  {
+    "id": "馬鹿",
+    "word": "馬鹿",
+    "reading": "ばか",
+    "pos": "noun/na-adjective",
+    "meaning": "fool, idiot, stupid",
+    "notes": "Common insult. 馬鹿にする = to make fun of.",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "馬鹿ね、ここには誰も住んでないのよ",
+        "english": "Don't be silly, nobody lives here.",
+        "note": "馬鹿ね (silly/foolish)"
+      }
+    ]
+  },
+  {
+    "id": "住む",
+    "word": "住む",
+    "reading": "すむ",
+    "pos": "verb (godan)",
+    "meaning": "to live, to reside",
+    "notes": "住んでいる = is living. 住所 = address.",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "ここには誰も住んでないのよ",
+        "english": "Nobody lives here.",
+        "note": "誰も〜ない (nobody)"
+      }
+    ]
+  },
+  {
+    "id": "屋根",
+    "word": "屋根",
+    "reading": "やね",
+    "pos": "noun",
+    "meaning": "roof",
+    "notes": "Building part. 屋根の上 = on the roof.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "この辺がホラ穴の屋根になるんだね",
+        "english": "This area must be the roof of the cave.",
+        "note": "〜の屋根 (roof of)"
+      }
+    ]
+  },
+  {
+    "id": "辺",
+    "word": "辺",
+    "reading": "へん",
+    "pos": "noun/suffix",
+    "meaning": "area, vicinity",
+    "notes": "この辺 = around here. 〜辺り = around.",
+    "jlpt": "N3",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "この辺がホラ穴の屋根になるんだね",
+        "english": "This area must be the roof of the cave.",
+        "note": "この辺 (this area)"
+      },
+      {
+        "japanese": "この辺にしては珍しい貝殻がたくさんあるね",
+        "english": "There are a lot of rare shells around here.",
+        "note": "〜にしては (for this area)"
+      }
+    ]
+  },
+  {
+    "id": "初めて",
+    "word": "初めて",
+    "reading": "はじめて",
+    "pos": "adverb",
+    "meaning": "for the first time",
+    "notes": "初めて〜する = do for the first time.",
+    "jlpt": "N5",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "こんな貝殻初めてだよ",
+        "english": "I've never seen a shell like this before!",
+        "note": "初めて (first time)"
+      }
+    ]
+  },
+  {
+    "id": "珍しい",
+    "word": "珍しい",
+    "reading": "めずらしい",
+    "pos": "i-adjective",
+    "meaning": "rare, unusual",
+    "notes": "珍しく = unusually. 珍しいこと = rare occurrence.",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "この辺にしては珍しい貝殻がたくさんあるね",
+        "english": "There are a lot of rare shells around here.",
+        "note": "珍しい貝殻 (rare shells)"
+      }
+    ]
+  },
+  {
+    "id": "たくさん",
+    "word": "たくさん",
+    "reading": "たくさん",
+    "pos": "adverb/noun",
+    "meaning": "a lot, many, much",
+    "notes": "Very common quantity word.",
+    "jlpt": "N5",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "珍しい貝殻がたくさんあるね",
+        "english": "There are a lot of rare shells.",
+        "note": "たくさんある (there are many)"
+      }
+    ]
+  },
+  {
+    "id": "退屈",
+    "word": "退屈",
+    "reading": "たいくつ",
+    "pos": "noun/na-adjective",
+    "meaning": "boredom, tedious",
+    "notes": "退屈する = to get bored. 退屈な = boring.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "退屈なら貝殻拾いでもすればいいのに",
+        "english": "If she was bored she should have just picked shells.",
+        "note": "退屈なら (if bored)"
+      }
+    ]
+  },
+  {
+    "id": "拾う",
+    "word": "拾う",
+    "reading": "ひろう",
+    "pos": "verb (godan)",
+    "meaning": "to pick up, to gather",
+    "notes": "物を拾う = pick something up. 貝殻拾い = shell gathering.",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "退屈なら貝殻拾いでもすればいいのに",
+        "english": "If she was bored she should have just picked shells.",
+        "note": "貝殻拾い (shell picking)"
+      }
+    ]
+  },
+  {
+    "id": "戻る",
+    "word": "戻る",
+    "reading": "もどる",
+    "pos": "verb (godan)",
+    "meaning": "to return, to go back",
+    "notes": "Intransitive. 戻す = to return something (transitive).",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "おい、ミー、戻ってこい、危ないぞ",
+        "english": "Hey, My, come back, it's dangerous!",
+        "note": "戻ってくる (come back)"
+      }
+    ]
+  },
+  {
+    "id": "勝手",
+    "word": "勝手",
+    "reading": "かって",
+    "pos": "noun/na-adjective",
+    "meaning": "selfish, arbitrary, as one pleases",
+    "notes": "勝手に = without permission. 勝手な = selfish.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "勝手に黙って先に行ったくせに",
+        "english": "You went ahead without saying anything!",
+        "note": "勝手に (without permission)"
+      }
+    ]
+  },
+  {
+    "id": "黙る",
+    "word": "黙る",
+    "reading": "だまる",
+    "pos": "verb (godan)",
+    "meaning": "to be silent, to shut up",
+    "notes": "黙って = silently. 黙れ = shut up (command).",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "勝手に黙って先に行った",
+        "english": "You went ahead without saying anything.",
+        "note": "黙って (silently)"
+      }
+    ]
+  },
+  {
+    "id": "連れる",
+    "word": "連れる",
+    "reading": "つれる",
+    "pos": "verb (ichidan)",
+    "meaning": "to take (someone), to bring along",
+    "notes": "連れていく = to take someone. 連れてくる = to bring someone.",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "何なら連れてってやってもいいぜ",
+        "english": "If you want, I can take you with me.",
+        "note": "連れていく (take along)"
+      }
+    ]
+  },
+  {
+    "id": "暗い",
+    "word": "暗い",
+    "reading": "くらい",
+    "pos": "i-adjective",
+    "meaning": "dark",
+    "notes": "Opposite of 明るい (bright). Also: gloomy (personality).",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "暗くて危ないな",
+        "english": "It's dark and dangerous.",
+        "note": "暗くて (dark and)"
+      }
+    ]
+  },
+  {
+    "id": "手",
+    "word": "手",
+    "reading": "て",
+    "pos": "noun",
+    "meaning": "hand",
+    "notes": "Basic body part. 手を繋ぐ = hold hands.",
+    "jlpt": "N5",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "手を繋ごうね",
+        "english": "Let's hold hands.",
+        "note": "手を繋ぐ (hold hands)"
+      }
+    ]
+  },
+  {
+    "id": "繋ぐ",
+    "word": "繋ぐ",
+    "reading": "つなぐ",
+    "pos": "verb (godan)",
+    "meaning": "to connect, to link, to hold (hands)",
+    "notes": "手を繋ぐ = hold hands. 繋がる = to be connected.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "手を繋ごうね",
+        "english": "Let's hold hands.",
+        "note": "〜よう (volitional)"
+      }
+    ]
+  },
+  {
+    "id": "降りる",
+    "word": "降りる",
+    "reading": "おりる",
+    "pos": "verb (ichidan)",
+    "meaning": "to descend, to get off",
+    "notes": "Opposite of 乗る. 電車を降りる = get off the train.",
+    "jlpt": "N4",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "どっちが先に降りる?",
+        "english": "Who goes down first?",
+        "note": "先に降りる (go down first)"
+      },
+      {
+        "japanese": "気をつけて降りろよ",
+        "english": "Be careful going down.",
+        "note": "降りろ (imperative)"
+      }
+    ]
+  },
+  {
+    "id": "ゆっくり",
+    "word": "ゆっくり",
+    "reading": "ゆっくり",
+    "pos": "adverb",
+    "meaning": "slowly, at ease",
+    "notes": "ゆっくりする = to take it easy. Very common.",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "ゆっくり、ゆっくり、何も急ぐことはないさ",
+        "english": "Slowly, slowly, there's no need to rush.",
+        "note": "ゆっくり (slowly)"
+      }
+    ]
+  },
+  {
+    "id": "急ぐ",
+    "word": "急ぐ",
+    "reading": "いそぐ",
+    "pos": "verb (godan)",
+    "meaning": "to hurry, to rush",
+    "notes": "急いで = hurry up. 急ぐ必要はない = no need to rush.",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "何も急ぐことはないさ",
+        "english": "There's no need to rush.",
+        "note": "〜ことはない (no need to)"
+      }
+    ]
+  },
+  {
+    "id": "昼寝",
+    "word": "昼寝",
+    "reading": "ひるね",
+    "pos": "noun/suru verb",
+    "meaning": "nap, afternoon nap",
+    "notes": "昼 (noon) + 寝 (sleep). 昼寝する = take a nap.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "ヘムレンさんがこんなところで昼寝していたんだ",
+        "english": "Mr. Hemulen was taking a nap in a place like this.",
+        "note": "昼寝する (take a nap)"
+      }
+    ]
+  },
+  {
+    "id": "驚く",
+    "word": "驚く",
+    "reading": "おどろく",
+    "pos": "verb (godan)",
+    "meaning": "to be surprised",
+    "notes": "驚いた! = I'm surprised! 驚かす = to surprise someone.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "いや、驚いたのなんのって",
+        "english": "Well, was I ever surprised!",
+        "note": "驚いた (was surprised)"
+      }
+    ]
+  },
+  {
+    "id": "実は",
+    "word": "実は",
+    "reading": "じつは",
+    "pos": "adverb",
+    "meaning": "actually, to tell the truth",
+    "notes": "Used to reveal something. 実は〜 = actually...",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "実はこのところ私はすっかり落ち込んでるんだ",
+        "english": "Actually, I've been feeling really down lately.",
+        "note": "実は (actually)"
+      }
+    ]
+  },
+  {
+    "id": "すっかり",
+    "word": "すっかり",
+    "reading": "すっかり",
+    "pos": "adverb",
+    "meaning": "completely, entirely",
+    "notes": "Emphasizes completeness. すっかり忘れた = completely forgot.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "私はすっかり落ち込んでるんだ",
+        "english": "I've been feeling really down.",
+        "note": "すっかり (completely)"
+      }
+    ]
+  },
+  {
+    "id": "落ち込む",
+    "word": "落ち込む",
+    "reading": "おちこむ",
+    "pos": "verb (godan)",
+    "meaning": "to feel depressed, to be down",
+    "notes": "落ちる (fall) + 込む (into). Emotional depression.",
+    "jlpt": "N2",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "私はすっかり落ち込んでるんだ",
+        "english": "I've been feeling really down.",
+        "note": "落ち込む (feel down)"
+      },
+      {
+        "japanese": "じゃあ、落ち込んでる理由は何です?",
+        "english": "Then what's the reason you're feeling down?",
+        "note": "落ち込んでる (are depressed)"
+      }
+    ]
+  },
+  {
+    "id": "切手",
+    "word": "切手",
+    "reading": "きって",
+    "pos": "noun",
+    "meaning": "stamp (postage)",
+    "notes": "切手を集める = collect stamps. ヘムレンさん's hobby.",
+    "jlpt": "N4",
+    "frequency": 4,
+    "examples": [
+      {
+        "japanese": "あの大事な切手のコレクションを盗まれたんですか?",
+        "english": "Was your precious stamp collection stolen?",
+        "note": "切手のコレクション (stamp collection)"
+      },
+      {
+        "japanese": "あの切手のコレクションのせいだ",
+        "english": "It's because of that stamp collection.",
+        "note": "〜のせい (because of)"
+      }
+    ]
+  },
+  {
+    "id": "盗む",
+    "word": "盗む",
+    "reading": "ぬすむ",
+    "pos": "verb (godan)",
+    "meaning": "to steal",
+    "notes": "盗まれる = to be stolen (passive). 泥棒 = thief.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "切手のコレクションを盗まれたんですか?",
+        "english": "Was your stamp collection stolen?",
+        "note": "〜られる (passive)"
+      }
+    ]
+  },
+  {
+    "id": "一枚",
+    "word": "一枚",
+    "reading": "いちまい",
+    "pos": "counter",
+    "meaning": "one sheet/piece",
+    "notes": "Counter for flat things. 切手一枚 = one stamp.",
+    "jlpt": "N5",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "欠けた切手は一枚もない",
+        "english": "Not a single stamp is missing.",
+        "note": "一枚も〜ない (not even one)"
+      }
+    ]
+  },
+  {
+    "id": "完璧",
+    "word": "完璧",
+    "reading": "かんぺき",
+    "pos": "noun/na-adjective",
+    "meaning": "perfect, flawless",
+    "notes": "完璧な = perfect. 完璧に = perfectly.",
+    "jlpt": "N2",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "欠けた切手は一枚もない、完璧なコレクションだ",
+        "english": "Not a single stamp is missing, it's a perfect collection.",
+        "note": "完璧な (perfect)"
+      }
+    ]
+  },
+  {
+    "id": "理由",
+    "word": "理由",
+    "reading": "りゆう",
+    "pos": "noun",
+    "meaning": "reason",
+    "notes": "理由がある = there is a reason. 理由で = for the reason.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "落ち込んでる理由は何です?",
+        "english": "What's the reason you're feeling down?",
+        "note": "〜理由 (reason for)"
+      }
+    ]
+  },
+  {
+    "id": "世界",
+    "word": "世界",
+    "reading": "せかい",
+    "pos": "noun",
+    "meaning": "world",
+    "notes": "世界で一番 = best in the world. 世界中 = all over the world.",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "私のコレクションは世界で一番だ",
+        "english": "My collection is the best in the world.",
+        "note": "世界で一番 (best in the world)"
+      }
+    ]
+  },
+  {
+    "id": "長い",
+    "word": "長い",
+    "reading": "ながい",
+    "pos": "i-adjective",
+    "meaning": "long",
+    "notes": "For length and time. 長い間 = for a long time.",
+    "jlpt": "N5",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "長い間情熱を傾けて集めた",
+        "english": "I spent a long time passionately gathering.",
+        "note": "長い間 (for a long time)"
+      }
+    ]
+  },
+  {
+    "id": "情熱",
+    "word": "情熱",
+    "reading": "じょうねつ",
+    "pos": "noun",
+    "meaning": "passion, enthusiasm",
+    "notes": "情熱を傾ける = pour one's passion into.",
+    "jlpt": "N2",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "長い間情熱を傾けて集めた",
+        "english": "I spent a long time passionately gathering.",
+        "note": "情熱を傾ける (pour passion into)"
+      },
+      {
+        "japanese": "一生懸命情熱を込めて切手を集めている人",
+        "english": "Someone passionately collecting stamps.",
+        "note": "情熱を込めて (with passion)"
+      }
+    ]
+  },
+  {
+    "id": "集める",
+    "word": "集める",
+    "reading": "あつめる",
+    "pos": "verb (ichidan)",
+    "meaning": "to collect, to gather",
+    "notes": "Transitive. 集まる = to gather (intransitive).",
+    "jlpt": "N4",
+    "frequency": 3,
+    "examples": [
+      {
+        "japanese": "情熱を傾けて集めた素晴らしいコレクションだ",
+        "english": "It's a wonderful collection I passionately gathered.",
+        "note": "〜を集める (collect)"
+      },
+      {
+        "japanese": "切手の代わりに何か他のものを集めるんです",
+        "english": "Instead of stamps, you should collect something else.",
+        "note": "〜を集める (collect)"
+      }
+    ]
+  },
+  {
+    "id": "若い",
+    "word": "若い",
+    "reading": "わかい",
+    "pos": "i-adjective",
+    "meaning": "young",
+    "notes": "Opposite of 年寄り (old). 若者 = young person.",
+    "jlpt": "N5",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "君たちみたいな若い人たちには分からないだろうな",
+        "english": "Young people like you probably wouldn't understand.",
+        "note": "若い人 (young people)"
+      }
+    ]
+  },
+  {
+    "id": "一体",
+    "word": "一体",
+    "reading": "いったい",
+    "pos": "adverb",
+    "meaning": "what on earth, the heck",
+    "notes": "Adds emphasis to questions. 一体何が = what on earth.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "私は一体何をしたらいいんだ?",
+        "english": "What on earth should I do?",
+        "note": "一体〜 (what on earth)"
+      }
+    ]
+  },
+  {
+    "id": "一生懸命",
+    "word": "一生懸命",
+    "reading": "いっしょうけんめい",
+    "pos": "adverb/na-adjective",
+    "meaning": "with all one's might, hard",
+    "notes": "Working very hard. 一生懸命に = earnestly.",
+    "jlpt": "N3",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "一生懸命情熱を込めて切手を集めている人",
+        "english": "Someone earnestly and passionately collecting stamps.",
+        "note": "一生懸命 (with all one's might)"
+      },
+      {
+        "japanese": "目的に向かって一生懸命やってる時は",
+        "english": "When you're working hard toward a goal...",
+        "note": "一生懸命やる (work hard)"
+      }
+    ]
+  },
+  {
+    "id": "持つ",
+    "word": "持つ",
+    "reading": "もつ",
+    "pos": "verb (godan)",
+    "meaning": "to hold, to have, to own",
+    "notes": "持っている = have/own. 自信を持つ = have confidence.",
+    "jlpt": "N5",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "もっと自信を持って",
+        "english": "Have more confidence.",
+        "note": "自信を持つ (have confidence)"
+      },
+      {
+        "japanese": "今はただ切手を持ってるだけの人になった",
+        "english": "Now you've become just someone who has stamps.",
+        "note": "持っている (have/own)"
+      }
+    ]
+  },
+  {
+    "id": "目的",
+    "word": "目的",
+    "reading": "もくてき",
+    "pos": "noun",
+    "meaning": "purpose, goal, objective",
+    "notes": "目的がある = have a purpose. 目的地 = destination.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "目的に向かって一生懸命やってる時は",
+        "english": "When you're working hard toward a goal...",
+        "note": "目的に向かって (toward a goal)"
+      }
+    ]
+  },
+  {
+    "id": "苦しい",
+    "word": "苦しい",
+    "reading": "くるしい",
+    "pos": "i-adjective",
+    "meaning": "painful, difficult, hard",
+    "notes": "Physical or emotional difficulty. 苦しむ = to suffer.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "苦しいこともあるけど本当は楽しいんだね",
+        "english": "There are hard times, but it's actually fun.",
+        "note": "苦しいこと (difficult things)"
+      }
+    ]
+  },
+  {
+    "id": "努力",
+    "word": "努力",
+    "reading": "どりょく",
+    "pos": "noun/suru verb",
+    "meaning": "effort, endeavor",
+    "notes": "努力する = to make an effort. 努力家 = hard worker.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "努力して自分で見つけるしかないでしょう",
+        "english": "You'll probably just have to work hard and find it yourself.",
+        "note": "努力して (by making effort)"
+      }
+    ]
+  },
+  {
+    "id": "自分",
+    "word": "自分",
+    "reading": "じぶん",
+    "pos": "pronoun",
+    "meaning": "oneself, myself",
+    "notes": "Reflexive pronoun. 自分で = by oneself.",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "努力して自分で見つけるしかない",
+        "english": "You just have to work hard and find it yourself.",
+        "note": "自分で (by oneself)"
+      }
+    ]
+  },
+  {
+    "id": "見つける",
+    "word": "見つける",
+    "reading": "みつける",
+    "pos": "verb (ichidan)",
+    "meaning": "to find, to discover",
+    "notes": "Transitive. 見つかる = to be found (intransitive).",
+    "jlpt": "N4",
+    "frequency": 3,
+    "examples": [
+      {
+        "japanese": "縦穴を見つけたんだ",
+        "english": "We found a vertical shaft.",
+        "note": "〜を見つける (find)"
+      },
+      {
+        "japanese": "パパ、海岸まで来てください、船を見つけたんです",
+        "english": "Papa, please come to the beach, we found a ship!",
+        "note": "船を見つける (find a ship)"
+      }
+    ]
+  },
+  {
+    "id": "壊れる",
+    "word": "壊れる",
+    "reading": "こわれる",
+    "pos": "verb (ichidan)",
+    "meaning": "to break, to be broken",
+    "notes": "Intransitive. 壊す = to break (transitive).",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "壊れたボートでも流れ着いたのかい?",
+        "english": "Did a broken boat wash ashore?",
+        "note": "壊れた (broken)"
+      }
+    ]
+  },
+  {
+    "id": "流れ着く",
+    "word": "流れ着く",
+    "reading": "ながれつく",
+    "pos": "verb (godan)",
+    "meaning": "to drift ashore, to wash up",
+    "notes": "流れる (flow) + 着く (arrive). To arrive by drifting.",
+    "jlpt": "N2",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "壊れたボートでも流れ着いたのかい?",
+        "english": "Did a broken boat wash ashore?",
+        "note": "流れ着く (wash ashore)"
+      }
+    ]
+  },
+  {
+    "id": "立派",
+    "word": "立派",
+    "reading": "りっぱ",
+    "pos": "na-adjective",
+    "meaning": "splendid, fine, impressive",
+    "notes": "Describes something admirable or magnificent.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "もっと立派な船です、白い帆のついた",
+        "english": "It's a finer ship, with white sails.",
+        "note": "立派な (splendid)"
+      }
+    ]
+  },
+  {
+    "id": "白い",
+    "word": "白い",
+    "reading": "しろい",
+    "pos": "i-adjective",
+    "meaning": "white",
+    "notes": "Basic color adjective. 白 = white (noun).",
+    "jlpt": "N5",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "白い帆のついた",
+        "english": "With white sails.",
+        "note": "白い帆 (white sails)"
+      }
+    ]
+  },
+  {
+    "id": "帆",
+    "word": "帆",
+    "reading": "ほ",
+    "pos": "noun",
+    "meaning": "sail",
+    "notes": "Ship's sail. 帆船 = sailboat.",
+    "jlpt": "N2",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "白い帆のついた",
+        "english": "With white sails.",
+        "note": "帆のついた (with sails)"
+      },
+      {
+        "japanese": "船に帆を張って",
+        "english": "Setting the sails on the ship.",
+        "note": "帆を張る (set sails)"
+      }
+    ]
+  },
+  {
+    "id": "早速",
+    "word": "早速",
+    "reading": "さっそく",
+    "pos": "adverb",
+    "meaning": "at once, immediately",
+    "notes": "Used when starting something promptly.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "それじゃあ、早速修理に取り掛かろう",
+        "english": "Well then, let's get started on repairs right away.",
+        "note": "早速 (right away)"
+      }
+    ]
+  },
+  {
+    "id": "修理",
+    "word": "修理",
+    "reading": "しゅうり",
+    "pos": "noun/suru verb",
+    "meaning": "repair, fixing",
+    "notes": "修理する = to repair. 修理中 = under repair.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "早速修理に取り掛かろう",
+        "english": "Let's get started on repairs right away.",
+        "note": "修理に取り掛かる (start repairs)"
+      }
+    ]
+  },
+  {
+    "id": "取り掛かる",
+    "word": "取り掛かる",
+    "reading": "とりかかる",
+    "pos": "verb (godan)",
+    "meaning": "to begin, to start working on",
+    "notes": "取る (take) + 掛かる (hang on). To commence work.",
+    "jlpt": "N2",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "修理に取り掛かろう",
+        "english": "Let's start on the repairs.",
+        "note": "〜に取り掛かる (start on)"
+      }
+    ]
+  },
+  {
+    "id": "動く",
+    "word": "動く",
+    "reading": "うごく",
+    "pos": "verb (godan)",
+    "meaning": "to move",
+    "notes": "Intransitive. 動かす = to move something (transitive).",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "本当に船が動くようになったら",
+        "english": "If the ship really starts working...",
+        "note": "動くようになる (come to move)"
+      }
+    ]
+  },
+  {
+    "id": "代わり",
+    "word": "代わり",
+    "reading": "かわり",
+    "pos": "noun",
+    "meaning": "substitute, instead",
+    "notes": "〜の代わりに = instead of. 代わる = to replace.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "切手の代わりに何か他のものを集めるんです",
+        "english": "Instead of stamps, you should collect something else.",
+        "note": "〜の代わりに (instead of)"
+      }
+    ]
+  },
+  {
+    "id": "他",
+    "word": "他",
+    "reading": "ほか",
+    "pos": "noun",
+    "meaning": "other, another",
+    "notes": "他の = other. 他に = besides, in addition.",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "何か他のものを集めるんです",
+        "english": "Collect something else.",
+        "note": "他のもの (something else)"
+      }
+    ]
+  },
+  {
+    "id": "何でも",
+    "word": "何でも",
+    "reading": "なんでも",
+    "pos": "pronoun",
+    "meaning": "anything, whatever",
+    "notes": "何 (what) + でも (even). Anything at all.",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "何でもあるでしょう",
+        "english": "There's all sorts of things.",
+        "note": "何でもある (there's anything)"
+      }
+    ]
+  },
+  {
+    "id": "蝶々",
+    "word": "蝶々",
+    "reading": "ちょうちょう",
+    "pos": "noun",
+    "meaning": "butterfly",
+    "notes": "Also written 蝶. Common insect.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "蝶々なんかどうです",
+        "english": "How about butterflies?",
+        "note": "〜なんかどう (how about)"
+      }
+    ]
+  },
+  {
+    "id": "決める",
+    "word": "決める",
+    "reading": "きめる",
+    "pos": "verb (ichidan)",
+    "meaning": "to decide",
+    "notes": "Transitive. 決まる = to be decided (intransitive).",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "コレクションを決めたよ",
+        "english": "I've decided on a collection.",
+        "note": "〜を決める (decide on)"
+      }
+    ]
+  },
+  {
+    "id": "植物",
+    "word": "植物",
+    "reading": "しょくぶつ",
+    "pos": "noun",
+    "meaning": "plant, vegetation",
+    "notes": "植物園 = botanical garden. 植物学 = botany.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "植物にした、これはハマナス",
+        "english": "I chose plants. This is a beach rose.",
+        "note": "植物にする (choose plants)"
+      }
+    ]
+  },
+  {
+    "id": "第一",
+    "word": "第一",
+    "reading": "だいいち",
+    "pos": "noun/adverb",
+    "meaning": "first, number one",
+    "notes": "第一号 = number one/first item. 第一に = firstly.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "私のコレクション第一号だ",
+        "english": "This is the first item in my collection.",
+        "note": "第一号 (number one)"
+      }
+    ]
+  },
+  {
+    "id": "新しい",
+    "word": "新しい",
+    "reading": "あたらしい",
+    "pos": "i-adjective",
+    "meaning": "new",
+    "notes": "Opposite of 古い (old). Basic adjective.",
+    "jlpt": "N5",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "物を新しく作り出す人は",
+        "english": "People who create new things...",
+        "note": "新しく (newly)"
+      },
+      {
+        "japanese": "空飛ぶ船の新しいアイデアがひらめいたんだ",
+        "english": "I got a new idea for the flying ship.",
+        "note": "新しいアイデア (new idea)"
+      }
+    ]
+  },
+  {
+    "id": "完成",
+    "word": "完成",
+    "reading": "かんせい",
+    "pos": "noun/suru verb",
+    "meaning": "completion, perfection",
+    "notes": "完成する = to complete. 完成品 = finished product.",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "今度こそ完成するぞ",
+        "english": "This time I'll definitely complete it!",
+        "note": "完成する (complete)"
+      }
+    ]
+  },
+  {
+    "id": "仕上げる",
+    "word": "仕上げる",
+    "reading": "しあげる",
+    "pos": "verb (ichidan)",
+    "meaning": "to finish, to complete",
+    "notes": "仕上がる = to be finished (intransitive). Final touches.",
+    "jlpt": "N2",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "みんなで仕上げた船に帆を張って",
+        "english": "Setting sails on the ship we all finished together.",
+        "note": "仕上げる (finish/complete)"
+      }
+    ]
+  },
+  {
+    "id": "漕ぐ",
+    "word": "漕ぐ",
+    "reading": "こぐ",
+    "pos": "verb (godan)",
+    "meaning": "to row, to paddle",
+    "notes": "ボートを漕ぐ = row a boat. 自転車を漕ぐ = pedal a bike.",
+    "jlpt": "N2",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "大海原へと漕ぎ出した",
+        "english": "Rowing out to the open sea.",
+        "note": "漕ぎ出す (row out)"
+      }
+    ]
+  }
+]
