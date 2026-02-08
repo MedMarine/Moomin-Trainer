@@ -40,18 +40,22 @@
         <span><span class="streak-count" id="streak-count">0</span> day streak</span>
       </div>
       
-      <div class="stats-row">
+      <div class="stats-row four-col">
         <div class="stat-card new">
           <div class="stat-value" id="stat-new">0</div>
           <div class="stat-label">New</div>
+        </div>
+        <div class="stat-card due">
+          <div class="stat-value" id="stat-due">0</div>
+          <div class="stat-label">Due Today</div>
         </div>
         <div class="stat-card learning">
           <div class="stat-value" id="stat-learning">0</div>
           <div class="stat-label">Learning</div>
         </div>
-        <div class="stat-card due">
-          <div class="stat-value" id="stat-due">0</div>
-          <div class="stat-label">Due</div>
+        <div class="stat-card mastered">
+          <div class="stat-value" id="stat-mastered">0</div>
+          <div class="stat-label">Mastered</div>
         </div>
       </div>
       
@@ -61,6 +65,7 @@
       
       <div class="episode-selector mb-3" style="margin-top: 2rem;">
         <h3 class="text-muted mb-1" style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em;">Episodes</h3>
+        <p class="episode-help-text">Toggle episodes on/off to add vocabulary to your flashcard deck</p>
         <div id="episode-list">
           <!-- Episodes loaded dynamically -->
         </div>
@@ -116,7 +121,8 @@
         <button class="filter-btn active" data-filter="all">All</button>
         <button class="filter-btn" data-filter="new">New</button>
         <button class="filter-btn" data-filter="learning">Learning</button>
-        <button class="filter-btn" data-filter="mature">Mature</button>
+        <button class="filter-btn" data-filter="review">Review</button>
+        <button class="filter-btn" data-filter="mastered">Mastered</button>
       </div>
       
       <div class="vocab-list" id="vocab-list">

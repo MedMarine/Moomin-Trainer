@@ -1319,3 +1319,299 @@ body.show-furigana ruby rt {
   color: var(--text-muted);
   text-align: center;
 }
+
+/* ============================================================================
+ * Episode Activation System
+ * ============================================================================ */
+
+/* Help text under episodes header */
+.episode-help-text {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+  margin-top: -0.25rem;
+}
+
+/* Episode card with toggle - override existing styles */
+.episode-card {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+  margin-bottom: 0.5rem;
+}
+
+.episode-card:hover {
+  border-color: var(--accent);
+}
+
+.episode-card.active {
+  border-color: var(--accent);
+  background: rgba(126, 184, 218, 0.05);
+}
+
+.episode-card.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Episode toggle switch (mini version) */
+.episode-toggle {
+  position: relative;
+  width: 36px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.episode-toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.episode-toggle-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: 10px;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.episode-toggle-slider::before {
+  content: '';
+  position: absolute;
+  height: 14px;
+  width: 14px;
+  left: 2px;
+  bottom: 2px;
+  background: var(--text-muted);
+  border-radius: 50%;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.episode-toggle input:checked + .episode-toggle-slider {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.episode-toggle input:checked + .episode-toggle-slider::before {
+  transform: translateX(16px);
+  background: var(--bg-primary);
+}
+
+/* Mini stats in episode card */
+.episode-mini-stats {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: auto;
+}
+
+.mini-stat {
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.15rem 0.4rem;
+  border-radius: var(--radius-sm);
+  min-width: 24px;
+  text-align: center;
+}
+
+.mini-stat.new {
+  background: rgba(88, 166, 255, 0.15);
+  color: var(--grade-easy);
+}
+
+.mini-stat.learning {
+  background: rgba(210, 153, 34, 0.15);
+  color: var(--grade-hard);
+}
+
+.mini-stat.mastered {
+  background: rgba(63, 185, 80, 0.15);
+  color: var(--grade-good);
+}
+
+/* ============================================================================
+ * Four-Column Stats Row
+ * ============================================================================ */
+
+.stats-row.four-col {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.75rem;
+}
+
+.stats-row.four-col .stat-card {
+  padding: 1rem 0.5rem;
+}
+
+.stats-row.four-col .stat-value {
+  font-size: 1.5rem;
+}
+
+.stats-row.four-col .stat-label {
+  font-size: 0.75rem;
+}
+
+.stat-card.mastered .stat-value { 
+  color: var(--success); 
+}
+
+/* ============================================================================
+ * Episode Activation Banner (in episode detail view)
+ * ============================================================================ */
+
+.episode-activation-banner {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  background: var(--bg-card);
+  border: 2px dashed var(--border-subtle);
+  border-radius: var(--radius-md);
+  margin-bottom: 1.5rem;
+  transition: all 0.2s;
+}
+
+.episode-activation-banner.active {
+  border-style: solid;
+  border-color: var(--accent);
+  background: rgba(126, 184, 218, 0.05);
+}
+
+.activation-toggle {
+  position: relative;
+  width: 48px;
+  height: 26px;
+  flex-shrink: 0;
+}
+
+.activation-toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.activation-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: 13px;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.activation-slider::before {
+  content: '';
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  left: 2px;
+  bottom: 2px;
+  background: var(--text-muted);
+  border-radius: 50%;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.activation-toggle input:checked + .activation-slider {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.activation-toggle input:checked + .activation-slider::before {
+  transform: translateX(22px);
+  background: var(--bg-primary);
+}
+
+.activation-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.activation-text strong {
+  font-size: 0.95rem;
+  color: var(--text-primary);
+}
+
+.activation-text small {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* ============================================================================
+ * Episode Stats Grid (4 columns in episode detail)
+ * ============================================================================ */
+
+.episode-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.episode-stats-grid .stat-card {
+  padding: 1rem 0.5rem;
+}
+
+.episode-stats-grid .stat-value {
+  font-size: 1.5rem;
+}
+
+.episode-stats-grid .stat-label {
+  font-size: 0.75rem;
+}
+
+.stat-card.review .stat-value {
+  color: var(--accent-bright);
+}
+
+/* Review status color */
+.vocab-status.review {
+  background: rgba(126, 184, 218, 0.15);
+  color: var(--accent);
+}
+
+/* ============================================================================
+ * Responsive Adjustments for 4-column layouts
+ * ============================================================================ */
+
+@media (max-width: 640px) {
+  .stats-row.four-col,
+  .episode-stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .episode-card {
+    flex-wrap: wrap;
+  }
+  
+  .episode-mini-stats {
+    flex-basis: 100%;
+    margin-top: 0.5rem;
+    margin-left: 0;
+    justify-content: flex-start;
+    padding-left: calc(36px + 40px + 1.5rem);
+  }
+  
+  .episode-activation-banner {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .activation-text {
+    align-items: center;
+  }
+}

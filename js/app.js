@@ -41,7 +41,7 @@ const App = (function() {
     // Load saved settings
     applySettings();
 
-    // Load episode data
+    // Load episode data (we load all available episodes, but only ACTIVE ones count toward review)
     const episodes = Storage.get('EPISODES') || ['ep01'];
     for (const ep of episodes) {
       await Cards.loadEpisodeData(ep);
@@ -128,44 +128,85 @@ const App = (function() {
   }
 
   /**
+   * Get vocabulary only from ACTIVE episodes
+   */
+  function getActiveVocab() {
+    const activeEpisodes = Storage.getActiveEpisodes();
+    const allVocab = Cards.getVocab();
+    
+    return allVocab.filter(word => {
+      // Check if any of the word's episodes are active
+      if (word.episodes) {
+        return word.episodes.some(ep => activeEpisodes.includes(ep));
+      }
+      return false;
+    });
+  }
+
+  /**
    * Update dashboard statistics
+   * Categories:
+   * - New: Cards never reviewed (due === null)
+   * - Due Today: Graduated cards (step = -1) that are due now
+   * - Learning: Cards in learning phase (step >= 0) - shows total, not just due
+   * - Mastered: Cards with interval >= 21 days
    */
   function updateDashboard() {
-    const vocab = Cards.getVocab();
+    const vocab = getActiveVocab();  // Only count ACTIVE episode vocab
     const settings = Storage.get('SETTINGS');
     const progress = Storage.get('PROGRESS');
 
     let newCount = 0;
-    let learningCount = 0;
-    let dueCount = 0;
+    let learningCount = 0;  // All cards in learning phase
+    let dueCount = 0;       // Graduated cards due today
+    let masteredCount = 0;  // Cards with interval >= 21 days
 
     vocab.forEach(word => {
       const cardState = Storage.getCard(`vocab_${word.id}`);
       
       if (!cardState || cardState.due === null) {
+        // Never reviewed
         newCount++;
       } else if (SRS.isLearning(cardState)) {
-        if (SRS.isDue(cardState)) learningCount++;
-      } else if (SRS.isDue(cardState)) {
-        dueCount++;
+        // In learning phase (step >= 0)
+        learningCount++;
+      } else {
+        // Graduated (step = -1)
+        if (SRS.isMature(cardState)) {
+          masteredCount++;
+        }
+        if (SRS.isDue(cardState)) {
+          dueCount++;
+        }
       }
     });
 
-    // Cap new cards at daily limit
-    newCount = Math.min(newCount, settings.newPerDay || 20);
+    // Cap new cards at daily limit for display
+    const newToday = Math.min(newCount, settings.newPerDay || 20);
 
     // Update display
-    document.getElementById('stat-new').textContent = newCount;
+    document.getElementById('stat-new').textContent = newToday;
     document.getElementById('stat-learning').textContent = learningCount;
     document.getElementById('stat-due').textContent = dueCount;
+    document.getElementById('stat-mastered').textContent = masteredCount;
     document.getElementById('streak-count').textContent = progress.streak.current || 0;
 
     // Enable/disable start button
     const startBtn = document.getElementById('start-review');
-    const totalCards = newCount + learningCount + dueCount;
-    startBtn.disabled = totalCards === 0;
-    startBtn.textContent = totalCards > 0 
-      ? `Start Review (${totalCards} cards)` 
+    
+    // Count cards actually ready for review: new (capped), learning (if due), and due
+    let learningDueCount = 0;
+    vocab.forEach(word => {
+      const cardState = Storage.getCard(`vocab_${word.id}`);
+      if (cardState && SRS.isLearning(cardState) && SRS.isDue(cardState)) {
+        learningDueCount++;
+      }
+    });
+    
+    const totalReady = newToday + learningDueCount + dueCount;
+    startBtn.disabled = totalReady === 0;
+    startBtn.textContent = totalReady > 0 
+      ? `Start Review (${totalReady} cards)` 
       : 'No cards due';
 
     // Update episode list
@@ -173,7 +214,7 @@ const App = (function() {
   }
 
   /**
-   * Update episode list in dashboard
+   * Update episode list in dashboard with activation checkboxes
    */
   async function updateEpisodeList() {
     const container = document.getElementById('episode-list');
@@ -181,28 +222,81 @@ const App = (function() {
     try {
       const response = await fetch('data/episodes/index.json');
       const data = await response.json();
+      const activeEpisodes = Storage.getActiveEpisodes();
       
       let html = '';
-      data.episodes.forEach(ep => {
+      data.episodes.forEach((ep, index) => {
+        const isActive = activeEpisodes.includes(ep.id);
+        const isFirstEpisode = index === 0;
+        
+        // Calculate stats for this episode
+        const epVocab = Cards.getVocabByEpisode(ep.id);
+        let epNew = 0, epLearning = 0, epMastered = 0;
+        epVocab.forEach(word => {
+          const cardState = Storage.getCard(`vocab_${word.id}`);
+          if (!cardState || cardState.due === null) {
+            epNew++;
+          } else if (SRS.isLearning(cardState)) {
+            epLearning++;
+          } else if (SRS.isMature(cardState)) {
+            epMastered++;
+          }
+        });
+        
         html += `
-          <div class="episode-card ${ep.available ? '' : 'disabled'}" data-episode="${escapeHtml(ep.id)}">
+          <div class="episode-card ${ep.available ? '' : 'disabled'} ${isActive ? 'active' : ''}" data-episode="${escapeHtml(ep.id)}">
+            <label class="episode-toggle" onclick="event.stopPropagation();">
+              <input type="checkbox" 
+                class="episode-checkbox" 
+                data-episode="${escapeHtml(ep.id)}"
+                ${isActive ? 'checked' : ''}
+                ${!ep.available ? 'disabled' : ''}
+                title="${isActive ? 'Remove from flashcard deck' : 'Add to flashcard deck'}">
+              <span class="episode-toggle-slider"></span>
+            </label>
             <span class="episode-number">${escapeHtml(String(ep.id).replace('ep', ''))}</span>
             <div class="episode-info">
               <div class="episode-title">${escapeHtml(ep.title)}</div>
               <div class="episode-title-en">${escapeHtml(ep.titleEn)}</div>
             </div>
-            <div class="episode-stats">${escapeHtml(ep.vocabCount)} words</div>
+            <div class="episode-mini-stats">
+              <span class="mini-stat new" title="New words">${epNew}</span>
+              <span class="mini-stat learning" title="Learning">${epLearning}</span>
+              <span class="mini-stat mastered" title="Mastered">${epMastered}</span>
+            </div>
           </div>
         `;
       });
       
       container.innerHTML = html;
       
-      // Add click handlers for episode cards
+      // Add click handlers for episode cards (to view details)
       container.querySelectorAll('.episode-card:not(.disabled)').forEach(card => {
-        card.addEventListener('click', () => {
+        card.addEventListener('click', (e) => {
+          // Don't trigger if clicking the checkbox/toggle
+          if (e.target.closest('.episode-toggle')) return;
+          
           const episodeId = card.dataset.episode;
           showEpisodeStudy(episodeId);
+        });
+      });
+      
+      // Add change handlers for checkboxes
+      container.querySelectorAll('.episode-checkbox').forEach(checkbox => {
+        checkbox.addEventListener('change', (e) => {
+          const episodeId = checkbox.dataset.episode;
+          const isActive = checkbox.checked;
+          
+          Storage.setEpisodeActive(episodeId, isActive);
+          
+          // Update the card visual state
+          const card = checkbox.closest('.episode-card');
+          if (card) {
+            card.classList.toggle('active', isActive);
+          }
+          
+          // Refresh dashboard stats
+          updateDashboard();
         });
       });
     } catch (e) {
@@ -230,17 +324,20 @@ const App = (function() {
 
     // Get vocabulary for this episode
     const vocab = Cards.getVocabByEpisode(episodeId);
+    const isActive = Storage.isEpisodeActive(episodeId);
     
     // Calculate stats for this episode
-    let newCount = 0, learningCount = 0, masteredCount = 0;
+    let newCount = 0, learningCount = 0, reviewCount = 0, masteredCount = 0;
     vocab.forEach(word => {
       const cardState = Storage.getCard(`vocab_${word.id}`);
       if (!cardState || cardState.due === null) {
         newCount++;
       } else if (SRS.isLearning(cardState)) {
         learningCount++;
-      } else {
+      } else if (SRS.isMature(cardState)) {
         masteredCount++;
+      } else {
+        reviewCount++;  // Graduated but not yet mature
       }
     });
 
@@ -263,7 +360,18 @@ const App = (function() {
         </div>
       </div>
       
-      <div class="episode-stats-row">
+      <div class="episode-activation-banner ${isActive ? 'active' : ''}">
+        <label class="activation-toggle">
+          <input type="checkbox" id="episode-active-toggle" ${isActive ? 'checked' : ''}>
+          <span class="activation-slider"></span>
+        </label>
+        <div class="activation-text">
+          <strong>${isActive ? 'Active in Flashcard Deck' : 'Not in Flashcard Deck'}</strong>
+          <small>${isActive ? 'Words from this episode will appear in daily reviews' : 'Enable to add these words to your daily reviews'}</small>
+        </div>
+      </div>
+      
+      <div class="episode-stats-grid">
         <div class="stat-card new">
           <div class="stat-value">${newCount}</div>
           <div class="stat-label">New</div>
@@ -272,7 +380,11 @@ const App = (function() {
           <div class="stat-value">${learningCount}</div>
           <div class="stat-label">Learning</div>
         </div>
-        <div class="stat-card due">
+        <div class="stat-card review">
+          <div class="stat-value">${reviewCount}</div>
+          <div class="stat-label">Review</div>
+        </div>
+        <div class="stat-card mastered">
           <div class="stat-value">${masteredCount}</div>
           <div class="stat-label">Mastered</div>
         </div>
@@ -334,6 +446,18 @@ const App = (function() {
       showEpisodeVocabBrowser();
     });
 
+    // Episode activation toggle
+    document.getElementById('episode-active-toggle').addEventListener('change', (e) => {
+      const newIsActive = e.target.checked;
+      Storage.setEpisodeActive(episodeId, newIsActive);
+      
+      // Update banner visual
+      const banner = document.querySelector('.episode-activation-banner');
+      banner.classList.toggle('active', newIsActive);
+      banner.querySelector('strong').textContent = newIsActive ? 'Active in Flashcard Deck' : 'Not in Flashcard Deck';
+      banner.querySelector('small').textContent = newIsActive ? 'Words from this episode will appear in daily reviews' : 'Enable to add these words to your daily reviews';
+    });
+
     // Add hover handlers for vocab preview items (show popup on hover)
     setupVocabPreviewHovers(studyView);
   }
@@ -344,7 +468,7 @@ const App = (function() {
   function renderVocabPreview(vocab) {
     return vocab.map(word => {
       const cardState = Storage.getCard(`vocab_${word.id}`);
-      const status = cardState ? SRS.getStatus(cardState) : 'new';
+      const status = getCardStatusLabel(cardState);
       return `
         <div class="vocab-preview-item" data-word-id="${escapeHtml(word.id)}">
           <span class="vocab-preview-word japanese">${escapeHtml(word.word)}</span>
@@ -354,6 +478,16 @@ const App = (function() {
         </div>
       `;
     }).join('');
+  }
+
+  /**
+   * Get a human-readable status label for a card
+   */
+  function getCardStatusLabel(cardState) {
+    if (!cardState || cardState.due === null) return 'new';
+    if (SRS.isLearning(cardState)) return 'learning';
+    if (SRS.isMature(cardState)) return 'mastered';
+    return 'review';
   }
 
   /**
@@ -460,7 +594,7 @@ const App = (function() {
    */
   function renderDetailedVocabItem(word) {
     const cardState = Storage.getCard(`vocab_${word.id}`);
-    const status = cardState ? SRS.getStatus(cardState) : 'new';
+    const status = getCardStatusLabel(cardState);
     const episodeId = currentEpisode || (word.episodes && word.episodes[0]) || 'ep01';
     
     let examplesHtml = '';
@@ -672,10 +806,10 @@ const App = (function() {
   }
 
   /**
-   * Start a review session
+   * Start a review session (from dashboard - uses only ACTIVE episodes)
    */
   function startReview() {
-    const vocab = Cards.getVocab();
+    const vocab = getActiveVocab();  // Only ACTIVE episode vocab
     const settings = Storage.get('SETTINGS');
     
     reviewQueue = [];
@@ -712,6 +846,9 @@ const App = (function() {
       total: reviewQueue.length,
       completed: 0
     };
+
+    // Clear episode context for dashboard reviews
+    currentEpisode = null;
 
     // Show review view
     showView('review');
@@ -933,14 +1070,14 @@ const App = (function() {
    * Update the vocabulary browser view
    */
   function updateBrowseView(filter = 'all') {
-    const vocab = Cards.getVocab();
+    const vocab = getActiveVocab();  // Only show ACTIVE episode vocab in browse
     const container = document.getElementById('vocab-list');
 
     const filtered = vocab.filter(word => {
       if (filter === 'all') return true;
       
       const cardState = Storage.getCard(`vocab_${word.id}`);
-      const status = cardState ? SRS.getStatus(cardState) : 'new';
+      const status = getCardStatusLabel(cardState);
       
       return status === filter;
     });

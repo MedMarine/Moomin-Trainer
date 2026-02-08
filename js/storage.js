@@ -8,7 +8,8 @@ const Storage = (function() {
     CARDS: 'moomin_cards',
     PROGRESS: 'moomin_progress',
     SETTINGS: 'moomin_settings',
-    EPISODES: 'moomin_episodes'
+    EPISODES: 'moomin_episodes',
+    ACTIVE_EPISODES: 'moomin_active_episodes'  // NEW: tracks which episodes are enabled for review
   };
 
   // Default values
@@ -30,7 +31,8 @@ const Storage = (function() {
       }
     },
     cards: {},
-    episodes: ['ep01']
+    episodes: ['ep01'],
+    active_episodes: ['ep01']  // Only ep01 active by default
   };
 
   /**
@@ -88,6 +90,36 @@ const Storage = (function() {
       id,
       ...state
     }));
+  }
+
+  /**
+   * Check if an episode is active (enabled for flashcard review)
+   */
+  function isEpisodeActive(episodeId) {
+    const active = get('ACTIVE_EPISODES');
+    return active.includes(episodeId);
+  }
+
+  /**
+   * Set episode active state
+   */
+  function setEpisodeActive(episodeId, isActive) {
+    let active = get('ACTIVE_EPISODES');
+    
+    if (isActive && !active.includes(episodeId)) {
+      active.push(episodeId);
+    } else if (!isActive) {
+      active = active.filter(ep => ep !== episodeId);
+    }
+    
+    return set('ACTIVE_EPISODES', active);
+  }
+
+  /**
+   * Get all active episodes
+   */
+  function getActiveEpisodes() {
+    return get('ACTIVE_EPISODES');
   }
 
   /**
@@ -152,7 +184,7 @@ const Storage = (function() {
 
     Object.values(cards).forEach(card => {
       if (card.reps > 0) learned++;
-      if (card.interval >= 21) mature++;
+      if (card.scheduledDays >= 21) mature++;
     });
 
     progress.stats.cardsLearned = learned;
@@ -165,12 +197,13 @@ const Storage = (function() {
    */
   function exportAll() {
     return {
-      version: '1.0',
+      version: '1.1',
       exported: new Date().toISOString(),
       cards: get('CARDS'),
       progress: get('PROGRESS'),
       settings: get('SETTINGS'),
-      episodes: get('EPISODES')
+      episodes: get('EPISODES'),
+      activeEpisodes: get('ACTIVE_EPISODES')
     };
   }
 
@@ -189,7 +222,7 @@ const Storage = (function() {
     }
 
     // Only allow expected keys (prevent prototype pollution)
-    const allowedKeys = ['cards', 'progress', 'settings', 'episodes', 'version', 'exported'];
+    const allowedKeys = ['cards', 'progress', 'settings', 'episodes', 'activeEpisodes', 'version', 'exported'];
     const dataKeys = Object.keys(data);
     const unexpectedKeys = dataKeys.filter(k => !allowedKeys.includes(k));
     if (unexpectedKeys.length > 0) {
@@ -243,10 +276,22 @@ const Storage = (function() {
         .slice(0, 100); // Max 100 episodes
     }
 
+    // Validate activeEpisodes array if present
+    if (data.activeEpisodes) {
+      if (!Array.isArray(data.activeEpisodes)) {
+        throw new Error('Invalid backup file: activeEpisodes must be an array');
+      }
+      data.activeEpisodes = data.activeEpisodes
+        .filter(ep => typeof ep === 'string')
+        .map(ep => ep.replace(/[^a-zA-Z0-9_-]/g, '').substring(0, 20))
+        .slice(0, 100);
+    }
+
     if (data.cards) set('CARDS', data.cards);
     if (data.progress) set('PROGRESS', data.progress);
     if (data.settings) set('SETTINGS', data.settings);
     if (data.episodes) set('EPISODES', data.episodes);
+    if (data.activeEpisodes) set('ACTIVE_EPISODES', data.activeEpisodes);
 
     return true;
   }
@@ -268,6 +313,9 @@ const Storage = (function() {
     getCard,
     setCard,
     getAllCards,
+    isEpisodeActive,
+    setEpisodeActive,
+    getActiveEpisodes,
     updateStreak,
     incrementReviews,
     updateCardCounts,
