@@ -156,6 +156,15 @@ const Tooltips = (function() {
   }
 
   /**
+   * Get reading for a kanji character (public API for other modules)
+   * @param {string} char - Single kanji character
+   * @returns {string} Primary reading or '?' if not found
+   */
+  function getKanjiReading(char) {
+    return getReading(char);
+  }
+
+  /**
    * Get meaning from kanji dictionary
    */
   function getMeaning(char) {
@@ -181,6 +190,7 @@ const Tooltips = (function() {
     init,
     loadKanjiData,
     toggleFurigana,
-    hideTooltip
+    hideTooltip,
+    getKanjiReading
   };
 })();

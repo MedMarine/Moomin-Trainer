@@ -343,17 +343,39 @@ const Cards = (function() {
   }
 
   /**
-   * Format Japanese text, wrapping kanji with tooltip spans
+   * Format Japanese text, wrapping kanji with tooltip spans and optional furigana
+   * @param {string} text - Japanese text to format
+   * @param {boolean} addFurigana - Whether to add ruby/rt furigana tags
    */
-  function formatJapanese(text) {
+  function formatJapanese(text, addFurigana = true) {
     if (!text) return '';
     
     // Match kanji characters
     const kanjiRegex = /[\u4e00-\u9faf\u3400-\u4dbf]/g;
     
     return text.replace(kanjiRegex, (kanji) => {
+      if (addFurigana) {
+        // Get reading from kanji data via Tooltips module
+        const reading = getKanjiReading(kanji);
+        if (reading && reading !== '?') {
+          return `<ruby><span class="kanji">${kanji}</span><rt>${reading}</rt></ruby>`;
+        }
+      }
       return `<span class="kanji">${kanji}</span>`;
     });
+  }
+
+  /**
+   * Get the primary reading for a kanji character
+   * @param {string} kanji - Single kanji character
+   * @returns {string} Reading or '?' if not found
+   */
+  function getKanjiReading(kanji) {
+    // Access kanji data loaded by Tooltips module
+    if (typeof Tooltips !== 'undefined' && Tooltips.getKanjiReading) {
+      return Tooltips.getKanjiReading(kanji);
+    }
+    return '?';
   }
 
   /**

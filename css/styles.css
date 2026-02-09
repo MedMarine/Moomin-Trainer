@@ -101,9 +101,14 @@ body.show-furigana ruby rt {
 .example-ja {
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 1.1rem;
-  line-height: 1.7;
+  line-height: 2.2; /* Increased to make room for furigana */
   color: var(--text-primary);
   margin-bottom: 0.25rem;
+}
+
+/* Furigana in example sentences - slightly larger than default for readability */
+.example-ja ruby rt {
+  font-size: 0.55em;
 }
 
 .example-en {
