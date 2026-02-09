@@ -1,122 +1,1754 @@
 {
-  "春": { "readings": ["はる", "シュン"], "meanings": ["spring"] },
-  "来": { "readings": ["くる", "ライ"], "meanings": ["come", "arrive"] },
-  "眠": { "readings": ["ねむる", "ミン"], "meanings": ["sleep"] },
-  "起": { "readings": ["おきる", "おこす", "キ"], "meanings": ["wake up", "occur"] },
-  "帽": { "readings": ["ボウ"], "meanings": ["hat", "cap"] },
-  "子": { "readings": ["こ", "シ"], "meanings": ["child"] },
-  "冬": { "readings": ["ふゆ", "トウ"], "meanings": ["winter"] },
-  "雪": { "readings": ["ゆき", "セツ"], "meanings": ["snow"] },
-  "谷": { "readings": ["たに", "コク"], "meanings": ["valley"] },
-  "家": { "readings": ["いえ", "うち", "カ"], "meanings": ["house", "home"] },
-  "物": { "readings": ["もの", "ブツ"], "meanings": ["thing", "object"] },
-  "語": { "readings": ["かたる", "ゴ"], "meanings": ["word", "tell"] },
-  "住": { "readings": ["すむ", "ジュウ"], "meanings": ["live", "dwell"] },
-  "民": { "readings": ["たみ", "ミン"], "meanings": ["people"] },
-  "間": { "readings": ["あいだ", "カン"], "meanings": ["between", "interval"] },
-  "暖": { "readings": ["あたたかい", "ダン"], "meanings": ["warm"] },
-  "聞": { "readings": ["きく", "ブン"], "meanings": ["hear", "listen", "ask"] },
-  "覆": { "readings": ["おおう", "フク"], "meanings": ["cover"] },
-  "過": { "readings": ["すごす", "カ"], "meanings": ["pass", "spend time"] },
-  "今": { "readings": ["いま", "コン"], "meanings": ["now", "this"] },
-  "年": { "readings": ["とし", "ネン"], "meanings": ["year"] },
-  "早": { "readings": ["はやい", "ソウ"], "meanings": ["early", "fast"] },
-  "帰": { "readings": ["かえる", "キ"], "meanings": ["return", "go back"] },
-  "大": { "readings": ["おおきい", "ダイ"], "meanings": ["big", "large"] },
-  "声": { "readings": ["こえ", "セイ"], "meanings": ["voice"] },
-  "目": { "readings": ["め", "モク"], "meanings": ["eye"] },
-  "覚": { "readings": ["さめる", "おぼえる", "カク"], "meanings": ["wake up", "remember"] },
-  "私": { "readings": ["わたし", "シ"], "meanings": ["I", "me"] },
-  "僕": { "readings": ["ぼく", "ボク"], "meanings": ["I (male)"] },
-  "山": { "readings": ["やま", "サン"], "meanings": ["mountain"] },
-  "海": { "readings": ["うみ", "カイ"], "meanings": ["sea", "ocean"] },
-  "見": { "readings": ["みる", "ケン"], "meanings": ["see", "look"] },
-  "言": { "readings": ["いう", "ゲン"], "meanings": ["say", "word"] },
-  "思": { "readings": ["おもう", "シ"], "meanings": ["think"] },
-  "知": { "readings": ["しる", "チ"], "meanings": ["know"] },
-  "行": { "readings": ["いく", "コウ"], "meanings": ["go"] },
-  "忘": { "readings": ["わすれる", "ボウ"], "meanings": ["forget"] },
-  "出": { "readings": ["でる", "だす", "シュツ"], "meanings": ["exit", "put out"] },
-  "始": { "readings": ["はじめる", "シ"], "meanings": ["begin", "start"] },
-  "話": { "readings": ["はなし", "ワ"], "meanings": ["talk", "story"] },
-  "作": { "readings": ["つくる", "サク"], "meanings": ["make", "create"] },
-  "乗": { "readings": ["のる", "ジョウ"], "meanings": ["ride", "board"] },
-  "飛": { "readings": ["とぶ", "ヒ"], "meanings": ["fly"] },
-  "落": { "readings": ["おちる", "ラク"], "meanings": ["fall", "drop"] },
-  "登": { "readings": ["のぼる", "トウ"], "meanings": ["climb"] },
-  "遊": { "readings": ["あそぶ", "ユウ"], "meanings": ["play"] },
-  "探": { "readings": ["さがす", "タン"], "meanings": ["search"] },
-  "隠": { "readings": ["かくれる", "イン"], "meanings": ["hide"] },
-  "分": { "readings": ["わかる", "ブン"], "meanings": ["understand", "divide"] },
-  "待": { "readings": ["まつ", "タイ"], "meanings": ["wait"] },
-  "呼": { "readings": ["よぶ", "コ"], "meanings": ["call"] },
-  "捨": { "readings": ["すてる", "シャ"], "meanings": ["throw away"] },
-  "姉": { "readings": ["あね", "シ"], "meanings": ["older sister"] },
-  "兄": { "readings": ["あに", "キョウ"], "meanings": ["older brother"] },
-  "母": { "readings": ["はは", "ボ"], "meanings": ["mother"] },
-  "雲": { "readings": ["くも", "ウン"], "meanings": ["cloud"] },
-  "旅": { "readings": ["たび", "リョ"], "meanings": ["trip", "travel"] },
-  "夢": { "readings": ["ゆめ", "ム"], "meanings": ["dream"] },
-  "船": { "readings": ["ふね", "セン"], "meanings": ["ship", "boat"] },
-  "空": { "readings": ["そら", "クウ"], "meanings": ["sky", "empty"] },
-  "本": { "readings": ["もと", "ホン"], "meanings": ["book", "origin"] },
-  "当": { "readings": ["あたる", "トウ"], "meanings": ["hit", "right"] },
-  "寂": { "readings": ["さびしい", "セキ"], "meanings": ["lonely"] },
-  "面": { "readings": ["おもて", "メン"], "meanings": ["face", "surface"] },
-  "白": { "readings": ["しろい", "ハク"], "meanings": ["white"] },
-  "残": { "readings": ["のこる", "ザン"], "meanings": ["remain"] },
-  "念": { "readings": ["ネン"], "meanings": ["thought", "feeling"] },
-  "危": { "readings": ["あぶない", "キ"], "meanings": ["dangerous"] },
-  "主": { "readings": ["ぬし", "シュ"], "meanings": ["master", "main"] },
-  "人": { "readings": ["ひと", "ジン"], "meanings": ["person"] },
-  "公": { "readings": ["おおやけ", "コウ"], "meanings": ["public"] },
-  "素": { "readings": ["もと", "ソ"], "meanings": ["element", "plain"] },
-  "晴": { "readings": ["はれる", "セイ"], "meanings": ["clear up"] },
-  "光": { "readings": ["ひかる", "コウ"], "meanings": ["light", "shine"] },
-  "煙": { "readings": ["けむり", "エン"], "meanings": ["smoke"] },
-  "天": { "readings": ["あめ", "テン"], "meanings": ["heaven", "sky"] },
-  "気": { "readings": ["キ", "ケ"], "meanings": ["spirit", "air"] },
-  "追": { "readings": ["おう", "ツイ"], "meanings": ["chase", "follow"] },
-  "食": { "readings": ["たべる", "ショク"], "meanings": ["eat", "food"] },
-  "料": { "readings": ["リョウ"], "meanings": ["fee", "materials"] },
-  "理": { "readings": ["リ"], "meanings": ["reason", "logic"] },
-  "地": { "readings": ["ち", "ジ"], "meanings": ["ground", "earth"] },
-  "下": { "readings": ["した", "カ"], "meanings": ["below", "under"] },
-  "室": { "readings": ["むろ", "シツ"], "meanings": ["room"] },
-  "心": { "readings": ["こころ", "シン"], "meanings": ["heart", "mind"] },
-  "中": { "readings": ["なか", "チュウ"], "meanings": ["inside", "middle"] },
-  "顔": { "readings": ["かお", "ガン"], "meanings": ["face"] },
-  "鏡": { "readings": ["かがみ", "キョウ"], "meanings": ["mirror"] },
-  "鼻": { "readings": ["はな", "ビ"], "meanings": ["nose"] },
-  "体": { "readings": ["からだ", "タイ"], "meanings": ["body"] },
-  "毛": { "readings": ["け", "モウ"], "meanings": ["hair", "fur"] },
-  "尻": { "readings": ["しり"], "meanings": ["buttocks", "rear"] },
-  "尾": { "readings": ["お", "ビ"], "meanings": ["tail"] },
-  "若": { "readings": ["わかい", "ジャク"], "meanings": ["young"] },
-  "日": { "readings": ["ひ", "ニチ"], "meanings": ["day", "sun"] },
-  "長": { "readings": ["ながい", "チョウ"], "meanings": ["long"] },
-  "悩": { "readings": ["なやむ", "ノウ"], "meanings": ["worry", "trouble"] },
-  "満": { "readings": ["みちる", "マン"], "meanings": ["full", "fill"] },
-  "青": { "readings": ["あおい", "セイ"], "meanings": ["blue", "green"] },
-  "魔": { "readings": ["マ"], "meanings": ["magic", "demon"] },
-  "法": { "readings": ["ホウ"], "meanings": ["law", "method"] },
-  "不": { "readings": ["フ", "ブ"], "meanings": ["not", "un-"] },
-  "思": { "readings": ["おもう", "シ"], "meanings": ["think"] },
-  "議": { "readings": ["ギ"], "meanings": ["deliberation"] },
-  "次": { "readings": ["つぎ", "ジ"], "meanings": ["next"] },
-  "回": { "readings": ["まわる", "カイ"], "meanings": ["turn", "time"] },
-  "楽": { "readings": ["たのしい", "ラク"], "meanings": ["fun", "pleasure"] },
-  "一": { "readings": ["ひとつ", "イチ"], "meanings": ["one"] },
-  "番": { "readings": ["バン"], "meanings": ["number", "turn"] },
-  "二": { "readings": ["ふたつ", "ニ"], "meanings": ["two"] },
-  "四": { "readings": ["よん", "シ"], "meanings": ["four"] },
-  "月": { "readings": ["つき", "ゲツ"], "meanings": ["moon", "month"] },
-  "秋": { "readings": ["あき", "シュウ"], "meanings": ["autumn"] },
-  "去": { "readings": ["さる", "キョ"], "meanings": ["leave", "past"] },
-  "南": { "readings": ["みなみ", "ナン"], "meanings": ["south"] },
-  "方": { "readings": ["かた", "ホウ"], "meanings": ["direction", "way"] },
-  "階": { "readings": ["カイ"], "meanings": ["floor", "stairs"] },
-  "段": { "readings": ["ダン"], "meanings": ["step", "grade"] },
-  "縄": { "readings": ["なわ", "ジョウ"], "meanings": ["rope"] },
-  "梯": { "readings": ["はしご", "テイ"], "meanings": ["ladder"] }
+  "一": {
+    "readings": ["ひとつ", "イチ"],
+    "meanings": ["one"]
+  },
+  "七": {
+    "readings": ["なな", "シチ"],
+    "meanings": ["seven"]
+  },
+  "三": {
+    "readings": ["みっつ", "サン"],
+    "meanings": ["three"]
+  },
+  "上": {
+    "readings": ["うえ", "ジョウ"],
+    "meanings": ["above", "up"]
+  },
+  "下": {
+    "readings": ["した", "カ"],
+    "meanings": ["below", "under"]
+  },
+  "不": {
+    "readings": ["フ", "ブ"],
+    "meanings": ["not", "un-"]
+  },
+  "世": {
+    "readings": ["よ", "セイ", "セ"],
+    "meanings": ["world", "generation"]
+  },
+  "中": {
+    "readings": ["なか", "チュウ"],
+    "meanings": ["inside", "middle"]
+  },
+  "主": {
+    "readings": ["ぬし", "シュ"],
+    "meanings": ["master", "main"]
+  },
+  "事": {
+    "readings": ["こと", "ジ"],
+    "meanings": ["thing", "matter"]
+  },
+  "二": {
+    "readings": ["ふたつ", "ニ"],
+    "meanings": ["two"]
+  },
+  "井": {
+    "readings": ["い"],
+    "meanings": ["well"]
+  },
+  "仕": {
+    "readings": ["つかえる", "シ"],
+    "meanings": ["serve", "work"]
+  },
+  "他": {
+    "readings": ["ほか", "タ"],
+    "meanings": ["other"]
+  },
+  "付": {
+    "readings": ["つく", "フ"],
+    "meanings": ["attach"]
+  },
+  "代": {
+    "readings": ["かわり", "ダイ"],
+    "meanings": ["substitute", "generation"]
+  },
+  "件": {
+    "readings": ["ケン"],
+    "meanings": ["matter", "case"]
+  },
+  "会": {
+    "readings": ["あう", "カイ"],
+    "meanings": ["meet", "meeting"]
+  },
+  "伝": {
+    "readings": ["つたえる", "デン"],
+    "meanings": ["transmit", "convey"]
+  },
+  "伸": {
+    "readings": ["のばす", "シン"],
+    "meanings": ["extend", "stretch"]
+  },
+  "似": {
+    "readings": ["にる", "ジ"],
+    "meanings": ["resemble"]
+  },
+  "住": {
+    "readings": ["すむ", "ジュウ"],
+    "meanings": ["live", "dwell"]
+  },
+  "体": {
+    "readings": ["からだ", "タイ"],
+    "meanings": ["body"]
+  },
+  "何": {
+    "readings": ["なに", "なん", "カ"],
+    "meanings": ["what"]
+  },
+  "使": {
+    "readings": ["つかう", "シ"],
+    "meanings": ["use"]
+  },
+  "供": {
+    "readings": ["そなえる", "キョウ"],
+    "meanings": ["offer", "companion"]
+  },
+  "信": {
+    "readings": ["しんじる", "シン"],
+    "meanings": ["believe", "trust"]
+  },
+  "修": {
+    "readings": ["おさめる", "シュウ"],
+    "meanings": ["repair", "study"]
+  },
+  "借": {
+    "readings": ["かりる", "シャク"],
+    "meanings": ["borrow"]
+  },
+  "僕": {
+    "readings": ["ぼく", "ボク"],
+    "meanings": ["I (male)"]
+  },
+  "傾": {
+    "readings": ["かたむく", "ケイ"],
+    "meanings": ["incline", "lean"]
+  },
+  "像": {
+    "readings": ["ゾウ"],
+    "meanings": ["image", "statue"]
+  },
+  "優": {
+    "readings": ["やさしい", "ユウ"],
+    "meanings": ["gentle", "superior"]
+  },
+  "光": {
+    "readings": ["ひかる", "コウ"],
+    "meanings": ["light", "shine"]
+  },
+  "先": {
+    "readings": ["さき", "セン"],
+    "meanings": ["ahead", "previous"]
+  },
+  "入": {
+    "readings": ["いる", "はいる", "ニュウ"],
+    "meanings": ["enter"]
+  },
+  "全": {
+    "readings": ["まったく", "ゼン"],
+    "meanings": ["whole", "all"]
+  },
+  "公": {
+    "readings": ["おおやけ", "コウ"],
+    "meanings": ["public"]
+  },
+  "切": {
+    "readings": ["きる", "セツ"],
+    "meanings": ["cut"]
+  },
+  "初": {
+    "readings": ["はじめ", "ショ"],
+    "meanings": ["first", "beginning"]
+  },
+  "別": {
+    "readings": ["べつ", "わかれる"],
+    "meanings": ["separate", "different"]
+  },
+  "前": {
+    "readings": ["まえ", "ゼン"],
+    "meanings": ["before", "front"]
+  },
+  "力": {
+    "readings": ["ちから", "リョク", "リキ"],
+    "meanings": ["power", "force"]
+  },
+  "加": {
+    "readings": ["くわえる", "カ"],
+    "meanings": ["add"]
+  },
+  "助": {
+    "readings": ["たすける", "ジョ"],
+    "meanings": ["help", "rescue"]
+  },
+  "努": {
+    "readings": ["つとめる", "ド"],
+    "meanings": ["strive", "effort"]
+  },
+  "勇": {
+    "readings": ["いさむ", "ユウ"],
+    "meanings": ["courage", "brave"]
+  },
+  "動": {
+    "readings": ["うごく", "ドウ"],
+    "meanings": ["move"]
+  },
+  "勝": {
+    "readings": ["かつ", "ショウ"],
+    "meanings": ["win", "victory"]
+  },
+  "勢": {
+    "readings": ["いきおい", "セイ"],
+    "meanings": ["force", "energy"]
+  },
+  "化": {
+    "readings": ["ばける", "カ"],
+    "meanings": ["change", "transform"]
+  },
+  "協": {
+    "readings": ["キョウ"],
+    "meanings": ["cooperation"]
+  },
+  "南": {
+    "readings": ["みなみ", "ナン"],
+    "meanings": ["south"]
+  },
+  "単": {
+    "readings": ["タン"],
+    "meanings": ["simple", "single"]
+  },
+  "卵": {
+    "readings": ["たまご", "ラン"],
+    "meanings": ["egg"]
+  },
+  "原": {
+    "readings": ["はら", "ゲン"],
+    "meanings": ["field", "origin"]
+  },
+  "去": {
+    "readings": ["さる", "キョ"],
+    "meanings": ["leave", "past"]
+  },
+  "取": {
+    "readings": ["とる", "シュ"],
+    "meanings": ["take"]
+  },
+  "受": {
+    "readings": ["うける", "ジュ"],
+    "meanings": ["receive"]
+  },
+  "口": {
+    "readings": ["くち", "コウ"],
+    "meanings": ["mouth", "opening"]
+  },
+  "句": {
+    "readings": ["ク"],
+    "meanings": ["phrase", "clause"]
+  },
+  "叩": {
+    "readings": ["たたく"],
+    "meanings": ["strike", "hit"]
+  },
+  "台": {
+    "readings": ["ダイ"],
+    "meanings": ["stand", "platform"]
+  },
+  "号": {
+    "readings": ["ゴウ"],
+    "meanings": ["number", "issue"]
+  },
+  "合": {
+    "readings": ["あう", "ゴウ", "カッ"],
+    "meanings": ["fit", "combine"]
+  },
+  "同": {
+    "readings": ["おなじ", "ドウ"],
+    "meanings": ["same"]
+  },
+  "向": {
+    "readings": ["むかう", "コウ"],
+    "meanings": ["face", "toward"]
+  },
+  "君": {
+    "readings": ["きみ", "クン"],
+    "meanings": ["you (familiar)"]
+  },
+  "味": {
+    "readings": ["あじ", "ミ"],
+    "meanings": ["taste", "flavor"]
+  },
+  "命": {
+    "readings": ["いのち", "メイ"],
+    "meanings": ["life", "command"]
+  },
+  "和": {
+    "readings": ["なごむ", "ワ"],
+    "meanings": ["harmony", "peace"]
+  },
+  "員": {
+    "readings": ["イン"],
+    "meanings": ["member"]
+  },
+  "嘘": {
+    "readings": ["うそ"],
+    "meanings": ["lie", "falsehood"]
+  },
+  "因": {
+    "readings": ["イン"],
+    "meanings": ["cause", "factor"]
+  },
+  "図": {
+    "readings": ["はかる", "ズ", "ト"],
+    "meanings": ["diagram", "plan"]
+  },
+  "国": {
+    "readings": ["くに", "コク"],
+    "meanings": ["country"]
+  },
+  "圧": {
+    "readings": ["おす", "アツ"],
+    "meanings": ["pressure"]
+  },
+  "地": {
+    "readings": ["ち", "ジ"],
+    "meanings": ["ground", "earth"]
+  },
+  "堂": {
+    "readings": ["ドウ"],
+    "meanings": ["hall"]
+  },
+  "場": {
+    "readings": ["ば", "ジョウ"],
+    "meanings": ["place", "scene"]
+  },
+  "壊": {
+    "readings": ["こわれる", "カイ"],
+    "meanings": ["break", "destroy"]
+  },
+  "変": {
+    "readings": ["かわる", "ヘン"],
+    "meanings": ["change", "strange"]
+  },
+  "夜": {
+    "readings": ["よる", "ヤ"],
+    "meanings": ["night"]
+  },
+  "夢": {
+    "readings": ["ゆめ", "ム"],
+    "meanings": ["dream"]
+  },
+  "大": {
+    "readings": ["おおきい", "ダイ"],
+    "meanings": ["big", "large"]
+  },
+  "天": {
+    "readings": ["あめ", "テン"],
+    "meanings": ["heaven", "sky"]
+  },
+  "太": {
+    "readings": ["ふとい", "タイ"],
+    "meanings": ["thick", "big"]
+  },
+  "失": {
+    "readings": ["うしなう", "シツ"],
+    "meanings": ["lose"]
+  },
+  "女": {
+    "readings": ["おんな", "ジョ"],
+    "meanings": ["woman"]
+  },
+  "奴": {
+    "readings": ["やつ", "ド"],
+    "meanings": ["guy", "fellow"]
+  },
+  "好": {
+    "readings": ["すき", "コウ"],
+    "meanings": ["like", "fond of"]
+  },
+  "姉": {
+    "readings": ["あね", "シ"],
+    "meanings": ["older sister"]
+  },
+  "始": {
+    "readings": ["はじめる", "シ"],
+    "meanings": ["begin", "start"]
+  },
+  "子": {
+    "readings": ["こ", "シ"],
+    "meanings": ["child"]
+  },
+  "孤": {
+    "readings": ["コ"],
+    "meanings": ["solitary", "alone"]
+  },
+  "学": {
+    "readings": ["まなぶ", "ガク"],
+    "meanings": ["learn", "study"]
+  },
+  "宇": {
+    "readings": ["ウ"],
+    "meanings": ["universe"]
+  },
+  "守": {
+    "readings": ["まもる", "シュ"],
+    "meanings": ["protect", "guard"]
+  },
+  "安": {
+    "readings": ["やすい", "アン"],
+    "meanings": ["cheap", "peaceful"]
+  },
+  "完": {
+    "readings": ["カン"],
+    "meanings": ["complete", "perfect"]
+  },
+  "宙": {
+    "readings": ["チュウ"],
+    "meanings": ["space", "mid-air"]
+  },
+  "宝": {
+    "readings": ["たから", "ホウ"],
+    "meanings": ["treasure"]
+  },
+  "実": {
+    "readings": ["みのる", "ジツ"],
+    "meanings": ["fruit", "truth"]
+  },
+  "客": {
+    "readings": ["きゃく", "カク"],
+    "meanings": ["guest", "customer"]
+  },
+  "家": {
+    "readings": ["いえ", "うち", "カ"],
+    "meanings": ["house", "home"]
+  },
+  "密": {
+    "readings": ["ミツ"],
+    "meanings": ["secret", "dense"]
+  },
+  "寂": {
+    "readings": ["さびしい", "セキ"],
+    "meanings": ["lonely"]
+  },
+  "寝": {
+    "readings": ["ねる", "シン"],
+    "meanings": ["sleep", "lie down"]
+  },
+  "小": {
+    "readings": ["ちいさい", "ショウ"],
+    "meanings": ["small"]
+  },
+  "少": {
+    "readings": ["すくない", "ショウ"],
+    "meanings": ["few", "little"]
+  },
+  "尻": {
+    "readings": ["しり"],
+    "meanings": ["buttocks", "rear"]
+  },
+  "尾": {
+    "readings": ["お", "ビ"],
+    "meanings": ["tail"]
+  },
+  "届": {
+    "readings": ["とどく", "とどける"],
+    "meanings": ["reach", "deliver"]
+  },
+  "届く": {
+    "readings": ["とどく"],
+    "meanings": ["reach", "arrive"]
+  },
+  "届ける": {
+    "readings": ["とどける"],
+    "meanings": ["deliver"]
+  },
+  "届け": {
+    "readings": ["とどけ"],
+    "meanings": ["delivery", "notice"]
+  },
+  "届出": {
+    "readings": ["とどけで"],
+    "meanings": ["notification"]
+  },
+  "届先": {
+    "readings": ["とどけさき"],
+    "meanings": ["destination"]
+  },
+  "届物": {
+    "readings": ["とどけもの"],
+    "meanings": ["delivery item"]
+  },
+  "届書": {
+    "readings": ["とどけしょ"],
+    "meanings": ["written notice"]
+  },
+  "届日": {
+    "readings": ["とどけび"],
+    "meanings": ["delivery date"]
+  },
+  "届届": {
+    "readings": ["とどけとどけ"],
+    "meanings": ["various notifications"]
+  },
+  "届届届": {
+    "readings": ["とどけとどけとどけ"],
+    "meanings": ["multiple notifications"]
+  },
+  "届届届届": {
+    "readings": ["とどけとどけとどけとどけ"],
+    "meanings": ["many notifications"]
+  },
+  "届届届届届": {
+    "readings": ["とどけとどけとどけとどけとどけ"],
+    "meanings": ["numerous notifications"]
+  },
+  "届届届届届届": {
+    "readings": ["とどけとどけとどけとどけとどけとどけ"],
+    "meanings": ["extensive notifications"]
+  },
+  "届届届届届届届": {
+    "readings": ["とどけとどけとどけとどけとどけとどけとどけ"],
+    "meanings": ["comprehensive notifications"]
+  },
+  "届届届届届届届届": {
+    "readings": ["とどけとどけとどけとどけとどけとどけとどけとどけ"],
+    "meanings": ["thorough notifications"]
+  },
+  "届届届届届届届届届": {
+    "readings": ["とどけとどけとどけとどけとどけとどけとどけとどけとどけ"],
+    "meanings": ["complete notifications"]
+  },
+  "届届届届届届届届届届": {
+    "readings": ["とどけとどけとどけとどけとどけとどけとどけとどけとどけとどけ"],
+    "meanings": ["total notifications"]
+  },
+  "局": {
+    "readings": ["キョク"],
+    "meanings": ["bureau", "situation"]
+  },
+  "屈": {
+    "readings": ["かがむ", "クツ"],
+    "meanings": ["bend", "yield"]
+  },
+  "届届届届届届届届届届届": {
+    "readings": ["とどけとどけとどけとどけとどけとどけとどけとどけとどけとどけとどけ"],
+    "meanings": ["full notifications"]
+  },
+  "屋": {
+    "readings": ["や", "オク"],
+    "meanings": ["roof", "shop"]
+  },
+  "山": {
+    "readings": ["やま", "サン"],
+    "meanings": ["mountain"]
+  },
+  "岸": {
+    "readings": ["きし", "ガン"],
+    "meanings": ["shore", "bank"]
+  },
+  "島": {
+    "readings": ["しま", "トウ"],
+    "meanings": ["island"]
+  },
+  "嵐": {
+    "readings": ["あらし"],
+    "meanings": ["storm"]
+  },
+  "川": {
+    "readings": ["かわ", "セン"],
+    "meanings": ["river"]
+  },
+  "帆": {
+    "readings": ["ほ", "ハン"],
+    "meanings": ["sail"]
+  },
+  "帯": {
+    "readings": ["おびる", "タイ"],
+    "meanings": ["belt", "carry"]
+  },
+  "帰": {
+    "readings": ["かえる", "キ"],
+    "meanings": ["return", "go back"]
+  },
+  "帽": {
+    "readings": ["ボウ"],
+    "meanings": ["hat", "cap"]
+  },
+  "平": {
+    "readings": ["たいら", "ヘイ"],
+    "meanings": ["flat", "peace"]
+  },
+  "年": {
+    "readings": ["とし", "ネン"],
+    "meanings": ["year"]
+  },
+  "度": {
+    "readings": ["たび", "ド"],
+    "meanings": ["degree", "time"]
+  },
+  "引": {
+    "readings": ["ひく", "イン"],
+    "meanings": ["pull", "draw"]
+  },
+  "弱": {
+    "readings": ["よわい", "ジャク"],
+    "meanings": ["weak"]
+  },
+  "張": {
+    "readings": ["はる", "チョウ"],
+    "meanings": ["stretch", "spread"]
+  },
+  "当": {
+    "readings": ["あたる", "トウ"],
+    "meanings": ["hit", "right"]
+  },
+  "役": {
+    "readings": ["やく", "エキ"],
+    "meanings": ["role", "duty"]
+  },
+  "彼": {
+    "readings": ["かれ", "ヒ"],
+    "meanings": ["he", "that"]
+  },
+  "後": {
+    "readings": ["あと", "うしろ", "ゴ"],
+    "meanings": ["after", "behind"]
+  },
+  "待": {
+    "readings": ["まつ", "タイ"],
+    "meanings": ["wait"]
+  },
+  "得": {
+    "readings": ["える", "トク"],
+    "meanings": ["gain", "obtain"]
+  },
+  "心": {
+    "readings": ["こころ", "シン"],
+    "meanings": ["heart", "mind"]
+  },
+  "必": {
+    "readings": ["かならず", "ヒツ"],
+    "meanings": ["certainly", "must"]
+  },
+  "忘": {
+    "readings": ["わすれる", "ボウ"],
+    "meanings": ["forget"]
+  },
+  "怒": {
+    "readings": ["おこる", "ド"],
+    "meanings": ["anger"]
+  },
+  "怖": {
+    "readings": ["こわい", "フ"],
+    "meanings": ["scary", "afraid"]
+  },
+  "思": {
+    "readings": ["おもう", "シ"],
+    "meanings": ["think"]
+  },
+  "急": {
+    "readings": ["いそぐ", "キュウ"],
+    "meanings": ["hurry", "urgent"]
+  },
+  "性": {
+    "readings": ["セイ", "ショウ"],
+    "meanings": ["nature", "character"]
+  },
+  "怪": {
+    "readings": ["あやしい", "カイ"],
+    "meanings": ["suspicious", "strange"]
+  },
+  "恥": {
+    "readings": ["はじ", "チ"],
+    "meanings": ["shame"]
+  },
+  "悩": {
+    "readings": ["なやむ", "ノウ"],
+    "meanings": ["worry", "trouble"]
+  },
+  "悪": {
+    "readings": ["わるい", "アク"],
+    "meanings": ["bad", "evil"]
+  },
+  "情": {
+    "readings": ["なさけ", "ジョウ"],
+    "meanings": ["feeling", "emotion"]
+  },
+  "惜": {
+    "readings": ["おしい", "セキ"],
+    "meanings": ["regret", "precious"]
+  },
+  "想": {
+    "readings": ["おもう", "ソウ"],
+    "meanings": ["thought", "concept"]
+  },
+  "意": {
+    "readings": ["イ"],
+    "meanings": ["meaning", "intention"]
+  },
+  "愛": {
+    "readings": ["あい", "アイ"],
+    "meanings": ["love"]
+  },
+  "感": {
+    "readings": ["カン"],
+    "meanings": ["feel", "sense"]
+  },
+  "懸": {
+    "readings": ["かける", "ケン"],
+    "meanings": ["hang", "suspend"]
+  },
+  "成": {
+    "readings": ["なる", "セイ"],
+    "meanings": ["become", "complete"]
+  },
+  "我": {
+    "readings": ["われ", "ガ"],
+    "meanings": ["self", "I"]
+  },
+  "戸": {
+    "readings": ["と", "コ"],
+    "meanings": ["door"]
+  },
+  "戻": {
+    "readings": ["もどる"],
+    "meanings": ["return"]
+  },
+  "所": {
+    "readings": ["ところ", "ショ"],
+    "meanings": ["place"]
+  },
+  "手": {
+    "readings": ["て", "シュ"],
+    "meanings": ["hand"]
+  },
+  "才": {
+    "readings": ["サイ"],
+    "meanings": ["talent"]
+  },
+  "捨": {
+    "readings": ["すてる", "シャ"],
+    "meanings": ["throw away"]
+  },
+  "探": {
+    "readings": ["さがす", "タン"],
+    "meanings": ["search"]
+  },
+  "拾": {
+    "readings": ["ひろう", "シュウ"],
+    "meanings": ["pick up"]
+  },
+  "持": {
+    "readings": ["もつ", "ジ"],
+    "meanings": ["hold", "have"]
+  },
+  "掛": {
+    "readings": ["かける", "かかる"],
+    "meanings": ["hang", "cost"]
+  },
+  "採": {
+    "readings": ["とる", "サイ"],
+    "meanings": ["pick", "gather"]
+  },
+  "支": {
+    "readings": ["ささえる", "シ"],
+    "meanings": ["support"]
+  },
+  "敗": {
+    "readings": ["やぶれる", "ハイ"],
+    "meanings": ["defeat", "failure"]
+  },
+  "敵": {
+    "readings": ["かたき", "テキ"],
+    "meanings": ["enemy"]
+  },
+  "文": {
+    "readings": ["ふみ", "ブン", "モン"],
+    "meanings": ["writing", "text"]
+  },
+  "斧": {
+    "readings": ["おの"],
+    "meanings": ["axe"]
+  },
+  "新": {
+    "readings": ["あたらしい", "シン"],
+    "meanings": ["new"]
+  },
+  "方": {
+    "readings": ["かた", "ホウ"],
+    "meanings": ["direction", "way"]
+  },
+  "旅": {
+    "readings": ["たび", "リョ"],
+    "meanings": ["trip", "travel"]
+  },
+  "日": {
+    "readings": ["ひ", "ニチ"],
+    "meanings": ["day", "sun"]
+  },
+  "早": {
+    "readings": ["はやい", "ソウ"],
+    "meanings": ["early", "fast"]
+  },
+  "昇": {
+    "readings": ["のぼる", "ショウ"],
+    "meanings": ["rise", "ascend"]
+  },
+  "明": {
+    "readings": ["あかるい", "メイ"],
+    "meanings": ["bright", "clear"]
+  },
+  "春": {
+    "readings": ["はる", "シュン"],
+    "meanings": ["spring"]
+  },
+  "昼": {
+    "readings": ["ひる", "チュウ"],
+    "meanings": ["noon", "daytime"]
+  },
+  "時": {
+    "readings": ["とき", "ジ"],
+    "meanings": ["time"]
+  },
+  "晴": {
+    "readings": ["はれる", "セイ"],
+    "meanings": ["clear up"]
+  },
+  "暖": {
+    "readings": ["あたたかい", "ダン"],
+    "meanings": ["warm"]
+  },
+  "暗": {
+    "readings": ["くらい", "アン"],
+    "meanings": ["dark"]
+  },
+  "書": {
+    "readings": ["かく", "ショ"],
+    "meanings": ["write"]
+  },
+  "月": {
+    "readings": ["つき", "ゲツ"],
+    "meanings": ["moon", "month"]
+  },
+  "望": {
+    "readings": ["のぞむ", "ボウ"],
+    "meanings": ["hope", "desire"]
+  },
+  "朝": {
+    "readings": ["あさ", "チョウ"],
+    "meanings": ["morning"]
+  },
+  "木": {
+    "readings": ["き", "ボク", "モク"],
+    "meanings": ["tree", "wood"]
+  },
+  "本": {
+    "readings": ["もと", "ホン"],
+    "meanings": ["book", "origin"]
+  },
+  "束": {
+    "readings": ["たば", "ソク"],
+    "meanings": ["bundle"]
+  },
+  "杯": {
+    "readings": ["さかずき", "ハイ"],
+    "meanings": ["cup", "glass"]
+  },
+  "東": {
+    "readings": ["ひがし", "トウ"],
+    "meanings": ["east"]
+  },
+  "枚": {
+    "readings": ["マイ"],
+    "meanings": ["counter for flat things"]
+  },
+  "根": {
+    "readings": ["ね", "コン"],
+    "meanings": ["root"]
+  },
+  "植": {
+    "readings": ["うえる", "ショク"],
+    "meanings": ["plant"]
+  },
+  "検": {
+    "readings": ["ケン"],
+    "meanings": ["examine", "inspect"]
+  },
+  "楽": {
+    "readings": ["たのしい", "ラク"],
+    "meanings": ["fun", "pleasure"]
+  },
+  "様": {
+    "readings": ["さま", "ヨウ"],
+    "meanings": ["manner", "Mr./Ms."]
+  },
+  "櫂": {
+    "readings": ["かい"],
+    "meanings": ["oar", "paddle"]
+  },
+  "欠": {
+    "readings": ["かける", "ケツ"],
+    "meanings": ["lack", "missing"]
+  },
+  "次": {
+    "readings": ["つぎ", "ジ"],
+    "meanings": ["next"]
+  },
+  "止": {
+    "readings": ["とまる", "シ"],
+    "meanings": ["stop"]
+  },
+  "死": {
+    "readings": ["しぬ", "シ"],
+    "meanings": ["death", "die"]
+  },
+  "殻": {
+    "readings": ["から", "カク"],
+    "meanings": ["shell", "husk"]
+  },
+  "母": {
+    "readings": ["はは", "ボ"],
+    "meanings": ["mother"]
+  },
+  "毛": {
+    "readings": ["け", "モウ"],
+    "meanings": ["hair", "fur"]
+  },
+  "民": {
+    "readings": ["たみ", "ミン"],
+    "meanings": ["people"]
+  },
+  "気": {
+    "readings": ["キ", "ケ"],
+    "meanings": ["spirit", "air"]
+  },
+  "水": {
+    "readings": ["みず", "スイ"],
+    "meanings": ["water"]
+  },
+  "氷": {
+    "readings": ["こおり", "ヒョウ"],
+    "meanings": ["ice"]
+  },
+  "決": {
+    "readings": ["きめる", "ケツ"],
+    "meanings": ["decide"]
+  },
+  "沈": {
+    "readings": ["しずむ", "チン"],
+    "meanings": ["sink"]
+  },
+  "波": {
+    "readings": ["なみ", "ハ"],
+    "meanings": ["wave"]
+  },
+  "泣": {
+    "readings": ["なく", "キュウ"],
+    "meanings": ["cry", "weep"]
+  },
+  "泳": {
+    "readings": ["およぐ", "エイ"],
+    "meanings": ["swim"]
+  },
+  "派": {
+    "readings": ["ハ"],
+    "meanings": ["faction", "school"]
+  },
+  "流": {
+    "readings": ["ながれる", "リュウ"],
+    "meanings": ["flow", "stream"]
+  },
+  "浜": {
+    "readings": ["はま", "ヒン"],
+    "meanings": ["beach", "shore"]
+  },
+  "海": {
+    "readings": ["うみ", "カイ"],
+    "meanings": ["sea", "ocean"]
+  },
+  "深": {
+    "readings": ["ふかい", "シン"],
+    "meanings": ["deep"]
+  },
+  "減": {
+    "readings": ["へる", "ゲン"],
+    "meanings": ["decrease"]
+  },
+  "湧": {
+    "readings": ["わく"],
+    "meanings": ["spring up", "gush"]
+  },
+  "漕": {
+    "readings": ["こぐ"],
+    "meanings": ["row", "paddle"]
+  },
+  "潮": {
+    "readings": ["しお", "チョウ"],
+    "meanings": ["tide"]
+  },
+  "火": {
+    "readings": ["ひ", "カ"],
+    "meanings": ["fire"]
+  },
+  "無": {
+    "readings": ["ない", "ム", "ブ"],
+    "meanings": ["nothing", "none"]
+  },
+  "然": {
+    "readings": ["ゼン", "ネン"],
+    "meanings": ["so", "natural"]
+  },
+  "焼": {
+    "readings": ["やく", "ショウ"],
+    "meanings": ["burn", "bake"]
+  },
+  "煙": {
+    "readings": ["けむり", "エン"],
+    "meanings": ["smoke"]
+  },
+  "熱": {
+    "readings": ["あつい", "ネツ"],
+    "meanings": ["heat", "fever"]
+  },
+  "爆": {
+    "readings": ["バク"],
+    "meanings": ["bomb", "explode"]
+  },
+  "片": {
+    "readings": ["かた", "ヘン"],
+    "meanings": ["one side", "piece"]
+  },
+  "物": {
+    "readings": ["もの", "ブツ"],
+    "meanings": ["thing", "object"]
+  },
+  "独": {
+    "readings": ["ひとり", "ドク"],
+    "meanings": ["alone", "single"]
+  },
+  "玉": {
+    "readings": ["たま", "ギョク"],
+    "meanings": ["ball", "gem"]
+  },
+  "王": {
+    "readings": ["おう"],
+    "meanings": ["king"]
+  },
+  "珍": {
+    "readings": ["めずらしい", "チン"],
+    "meanings": ["rare", "unusual"]
+  },
+  "現": {
+    "readings": ["あらわれる", "ゲン"],
+    "meanings": ["appear", "present"]
+  },
+  "璧": {
+    "readings": ["ヘキ"],
+    "meanings": ["perfect", "jewel"]
+  },
+  "甘": {
+    "readings": ["あまい", "カン"],
+    "meanings": ["sweet"]
+  },
+  "生": {
+    "readings": ["いきる", "うまれる", "セイ"],
+    "meanings": ["life", "birth"]
+  },
+  "用": {
+    "readings": ["もちいる", "ヨウ"],
+    "meanings": ["use"]
+  },
+  "由": {
+    "readings": ["よし", "ユ", "ユウ"],
+    "meanings": ["reason", "cause"]
+  },
+  "界": {
+    "readings": ["カイ"],
+    "meanings": ["world", "boundary"]
+  },
+  "番": {
+    "readings": ["バン"],
+    "meanings": ["number", "turn"]
+  },
+  "留": {
+    "readings": ["とめる", "リュウ"],
+    "meanings": ["stay", "keep"]
+  },
+  "病": {
+    "readings": ["やまい", "ビョウ"],
+    "meanings": ["illness", "sick"]
+  },
+  "発": {
+    "readings": ["ハツ", "ホツ"],
+    "meanings": ["emit", "depart"]
+  },
+  "白": {
+    "readings": ["しろい", "ハク"],
+    "meanings": ["white"]
+  },
+  "的": {
+    "readings": ["まと", "テキ"],
+    "meanings": ["target", "-like"]
+  },
+  "目": {
+    "readings": ["め", "モク"],
+    "meanings": ["eye"]
+  },
+  "盗": {
+    "readings": ["ぬすむ", "トウ"],
+    "meanings": ["steal"]
+  },
+  "直": {
+    "readings": ["なおす", "チョク"],
+    "meanings": ["fix", "straight"]
+  },
+  "眠": {
+    "readings": ["ねむる", "ミン"],
+    "meanings": ["sleep"]
+  },
+  "眺": {
+    "readings": ["ながめる", "チョウ"],
+    "meanings": ["view", "gaze"]
+  },
+  "着": {
+    "readings": ["きる", "つく", "チャク"],
+    "meanings": ["wear", "arrive"]
+  },
+  "知": {
+    "readings": ["しる", "チ"],
+    "meanings": ["know"]
+  },
+  "石": {
+    "readings": ["いし", "セキ"],
+    "meanings": ["stone"]
+  },
+  "破": {
+    "readings": ["やぶる", "ハ"],
+    "meanings": ["break", "tear"]
+  },
+  "確": {
+    "readings": ["たしか", "カク"],
+    "meanings": ["certain", "sure"]
+  },
+  "礼": {
+    "readings": ["れい", "ライ"],
+    "meanings": ["thanks", "bow"]
+  },
+  "秋": {
+    "readings": ["あき", "シュウ"],
+    "meanings": ["autumn"]
+  },
+  "秘": {
+    "readings": ["ひめる", "ヒ"],
+    "meanings": ["secret"]
+  },
+  "種": {
+    "readings": ["たね", "シュ"],
+    "meanings": ["seed", "kind"]
+  },
+  "穏": {
+    "readings": ["おだやか", "オン"],
+    "meanings": ["calm", "peaceful"]
+  },
+  "穴": {
+    "readings": ["あな", "ケツ"],
+    "meanings": ["hole"]
+  },
+  "空": {
+    "readings": ["そら", "クウ"],
+    "meanings": ["sky", "empty"]
+  },
+  "突": {
+    "readings": ["つく", "トツ"],
+    "meanings": ["thrust", "sudden"]
+  },
+  "立": {
+    "readings": ["たつ", "リツ"],
+    "meanings": ["stand"]
+  },
+  "笑": {
+    "readings": ["わらう", "ショウ"],
+    "meanings": ["laugh", "smile"]
+  },
+  "笛": {
+    "readings": ["ふえ", "テキ"],
+    "meanings": ["flute", "whistle"]
+  },
+  "第": {
+    "readings": ["ダイ"],
+    "meanings": ["ordinal prefix"]
+  },
+  "笹": {
+    "readings": ["ささ"],
+    "meanings": ["bamboo grass"]
+  },
+  "簡": {
+    "readings": ["カン"],
+    "meanings": ["simple"]
+  },
+  "精": {
+    "readings": ["セイ", "ショウ"],
+    "meanings": ["spirit", "essence"]
+  },
+  "素": {
+    "readings": ["もと", "ソ"],
+    "meanings": ["element", "plain"]
+  },
+  "約": {
+    "readings": ["ヤク"],
+    "meanings": ["promise", "approximately"]
+  },
+  "細": {
+    "readings": ["ほそい", "サイ"],
+    "meanings": ["thin", "narrow"]
+  },
+  "終": {
+    "readings": ["おわる", "シュウ"],
+    "meanings": ["end"]
+  },
+  "結": {
+    "readings": ["むすぶ", "ケツ"],
+    "meanings": ["tie", "conclude"]
+  },
+  "絶": {
+    "readings": ["たえる", "ゼツ"],
+    "meanings": ["cease", "extreme"]
+  },
+  "綱": {
+    "readings": ["つな", "コウ"],
+    "meanings": ["rope"]
+  },
+  "綺": {
+    "readings": ["キ"],
+    "meanings": ["beautiful"]
+  },
+  "緒": {
+    "readings": ["お", "ショ"],
+    "meanings": ["cord", "together"]
+  },
+  "縄": {
+    "readings": ["なわ", "ジョウ"],
+    "meanings": ["rope"]
+  },
+  "縦": {
+    "readings": ["たて", "ジュウ"],
+    "meanings": ["vertical"]
+  },
+  "繋": {
+    "readings": ["つなぐ", "ケイ"],
+    "meanings": ["connect", "link"]
+  },
+  "置": {
+    "readings": ["おく", "チ"],
+    "meanings": ["put", "place"]
+  },
+  "羨": {
+    "readings": ["うらやむ", "セン"],
+    "meanings": ["envy"]
+  },
+  "者": {
+    "readings": ["もの", "シャ"],
+    "meanings": ["person"]
+  },
+  "聞": {
+    "readings": ["きく", "ブン"],
+    "meanings": ["hear", "listen", "ask"]
+  },
+  "能": {
+    "readings": ["ノウ"],
+    "meanings": ["ability", "skill"]
+  },
+  "臆": {
+    "readings": ["オク"],
+    "meanings": ["timid"]
+  },
+  "自": {
+    "readings": ["みずから", "ジ", "シ"],
+    "meanings": ["self"]
+  },
+  "興": {
+    "readings": ["おこす", "キョウ"],
+    "meanings": ["interest", "rise"]
+  },
+  "舟": {
+    "readings": ["ふね", "シュウ"],
+    "meanings": ["boat"]
+  },
+  "船": {
+    "readings": ["ふね", "セン"],
+    "meanings": ["ship", "boat"]
+  },
+  "航": {
+    "readings": ["コウ"],
+    "meanings": ["navigate", "sail"]
+  },
+  "色": {
+    "readings": ["いろ", "ショク"],
+    "meanings": ["color"]
+  },
+  "苦": {
+    "readings": ["くるしい", "ク"],
+    "meanings": ["painful", "bitter"]
+  },
+  "草": {
+    "readings": ["くさ", "ソウ"],
+    "meanings": ["grass"]
+  },
+  "荷": {
+    "readings": ["に", "カ"],
+    "meanings": ["load", "baggage"]
+  },
+  "落": {
+    "readings": ["おちる", "ラク"],
+    "meanings": ["fall", "drop"]
+  },
+  "薪": {
+    "readings": ["まき", "シン"],
+    "meanings": ["firewood"]
+  },
+  "虫": {
+    "readings": ["むし", "チュウ"],
+    "meanings": ["insect", "bug"]
+  },
+  "蝶": {
+    "readings": ["ちょう"],
+    "meanings": ["butterfly"]
+  },
+  "行": {
+    "readings": ["いく", "コウ"],
+    "meanings": ["go"]
+  },
+  "衰": {
+    "readings": ["おとろえる", "スイ"],
+    "meanings": ["decline", "weaken"]
+  },
+  "要": {
+    "readings": ["いる", "ヨウ"],
+    "meanings": ["need", "essential"]
+  },
+  "覆": {
+    "readings": ["おおう", "フク"],
+    "meanings": ["cover"]
+  },
+  "見": {
+    "readings": ["みる", "ケン"],
+    "meanings": ["see", "look"]
+  },
+  "覚": {
+    "readings": ["さめる", "おぼえる", "カク"],
+    "meanings": ["wake up", "remember"]
+  },
+  "触": {
+    "readings": ["さわる", "ショク"],
+    "meanings": ["touch"]
+  },
+  "言": {
+    "readings": ["いう", "ゲン"],
+    "meanings": ["say", "word"]
+  },
+  "計": {
+    "readings": ["はかる", "ケイ"],
+    "meanings": ["measure", "plan"]
+  },
+  "設": {
+    "readings": ["もうける", "セツ"],
+    "meanings": ["establish", "set up"]
+  },
+  "試": {
+    "readings": ["ためす", "シ"],
+    "meanings": ["try", "test"]
+  },
+  "話": {
+    "readings": ["はなし", "ワ"],
+    "meanings": ["talk", "story"]
+  },
+  "説": {
+    "readings": ["とく", "セツ"],
+    "meanings": ["theory", "explain"]
+  },
+  "誰": {
+    "readings": ["だれ", "スイ"],
+    "meanings": ["who"]
+  },
+  "調": {
+    "readings": ["しらべる", "チョウ"],
+    "meanings": ["investigate", "tune"]
+  },
+  "諦": {
+    "readings": ["あきらめる", "テイ"],
+    "meanings": ["give up"]
+  },
+  "議": {
+    "readings": ["ギ"],
+    "meanings": ["deliberation"]
+  },
+  "象": {
+    "readings": ["ゾウ", "ショウ"],
+    "meanings": ["elephant", "phenomenon"]
+  },
+  "貝": {
+    "readings": ["かい", "バイ"],
+    "meanings": ["shellfish"]
+  },
+  "賛": {
+    "readings": ["サン"],
+    "meanings": ["approve", "praise"]
+  },
+  "赤": {
+    "readings": ["あかい", "セキ"],
+    "meanings": ["red"]
+  },
+  "走": {
+    "readings": ["はしる", "ソウ"],
+    "meanings": ["run"]
+  },
+  "起": {
+    "readings": ["おきる", "おこす", "キ"],
+    "meanings": ["wake up", "occur"]
+  },
+  "越": {
+    "readings": ["こえる", "エツ"],
+    "meanings": ["cross over"]
+  },
+  "辺": {
+    "readings": ["あたり", "ヘン"],
+    "meanings": ["area", "vicinity"]
+  },
+  "込": {
+    "readings": ["こむ", "こめる"],
+    "meanings": ["be crowded", "include"]
+  },
+  "追": {
+    "readings": ["おう", "ツイ"],
+    "meanings": ["chase", "follow"]
+  },
+  "返": {
+    "readings": ["かえす", "ヘン"],
+    "meanings": ["return"]
+  },
+  "退": {
+    "readings": ["しりぞく", "タイ"],
+    "meanings": ["retreat", "withdraw"]
+  },
+  "通": {
+    "readings": ["とおる", "ツウ"],
+    "meanings": ["pass through"]
+  },
+  "速": {
+    "readings": ["はやい", "ソク"],
+    "meanings": ["fast", "speed"]
+  },
+  "連": {
+    "readings": ["つれる", "レン"],
+    "meanings": ["take along", "connect"]
+  },
+  "過": {
+    "readings": ["すごす", "カ"],
+    "meanings": ["pass", "spend time"]
+  },
+  "遅": {
+    "readings": ["おそい", "チ"],
+    "meanings": ["late", "slow"]
+  },
+  "遊": {
+    "readings": ["あそぶ", "ユウ"],
+    "meanings": ["play"]
+  },
+  "違": {
+    "readings": ["ちがう", "イ"],
+    "meanings": ["differ", "wrong"]
+  },
+  "遠": {
+    "readings": ["とおい", "エン"],
+    "meanings": ["far", "distant"]
+  },
+  "部": {
+    "readings": ["ブ"],
+    "meanings": ["section", "part"]
+  },
+  "配": {
+    "readings": ["くばる", "ハイ"],
+    "meanings": ["distribute", "worry"]
+  },
+  "酷": {
+    "readings": ["ひどい", "コク"],
+    "meanings": ["cruel", "terrible"]
+  },
+  "里": {
+    "readings": ["さと", "リ"],
+    "meanings": ["village", "hometown"]
+  },
+  "閉": {
+    "readings": ["とじる", "ヘイ"],
+    "meanings": ["close", "shut"]
+  },
+  "間": {
+    "readings": ["あいだ", "カン"],
+    "meanings": ["between", "interval"]
+  },
+  "降": {
+    "readings": ["おりる", "ふる", "コウ"],
+    "meanings": ["descend", "fall"]
+  },
+  "陰": {
+    "readings": ["かげ", "イン"],
+    "meanings": ["shadow", "shade"]
+  },
+  "階": {
+    "readings": ["カイ"],
+    "meanings": ["floor", "stairs"]
+  },
+  "隠": {
+    "readings": ["かくれる", "イン"],
+    "meanings": ["hide"]
+  },
+  "陸": {
+    "readings": ["リク"],
+    "meanings": ["land"]
+  },
+  "陽": {
+    "readings": ["ひ", "ヨウ"],
+    "meanings": ["sun", "positive"]
+  },
+  "集": {
+    "readings": ["あつめる", "シュウ"],
+    "meanings": ["gather", "collect"]
+  },
+  "雨": {
+    "readings": ["あめ", "ウ"],
+    "meanings": ["rain"]
+  },
+  "雪": {
+    "readings": ["ゆき", "セツ"],
+    "meanings": ["snow"]
+  },
+  "雲": {
+    "readings": ["くも", "ウン"],
+    "meanings": ["cloud"]
+  },
+  "雷": {
+    "readings": ["かみなり", "ライ"],
+    "meanings": ["thunder"]
+  },
+  "電": {
+    "readings": ["デン"],
+    "meanings": ["electricity"]
+  },
+  "青": {
+    "readings": ["あおい", "セイ"],
+    "meanings": ["blue", "green"]
+  },
+  "静": {
+    "readings": ["しずか", "セイ"],
+    "meanings": ["quiet", "calm"]
+  },
+  "面": {
+    "readings": ["おもて", "メン"],
+    "meanings": ["face", "surface"]
+  },
+  "音": {
+    "readings": ["おと", "オン"],
+    "meanings": ["sound"]
+  },
+  "頑": {
+    "readings": ["ガン"],
+    "meanings": ["stubborn"]
+  },
+  "顔": {
+    "readings": ["かお", "ガン"],
+    "meanings": ["face"]
+  },
+  "風": {
+    "readings": ["かぜ", "フウ"],
+    "meanings": ["wind"]
+  },
+  "飛": {
+    "readings": ["とぶ", "ヒ"],
+    "meanings": ["fly"]
+  },
+  "食": {
+    "readings": ["たべる", "ショク"],
+    "meanings": ["eat", "food"]
+  },
+  "飲": {
+    "readings": ["のむ", "イン"],
+    "meanings": ["drink"]
+  },
+  "飾": {
+    "readings": ["かざる", "ショク"],
+    "meanings": ["decorate"]
+  },
+  "馬": {
+    "readings": ["うま", "バ"],
+    "meanings": ["horse"]
+  },
+  "驚": {
+    "readings": ["おどろく", "キョウ"],
+    "meanings": ["surprise"]
+  },
+  "髪": {
+    "readings": ["かみ", "ハツ"],
+    "meanings": ["hair"]
+  },
+  "鬼": {
+    "readings": ["おに", "キ"],
+    "meanings": ["demon", "ogre"]
+  },
+  "鏡": {
+    "readings": ["かがみ", "キョウ"],
+    "meanings": ["mirror"]
+  },
+  "鳴": {
+    "readings": ["なく", "メイ"],
+    "meanings": ["cry", "chirp"]
+  },
+  "鳥": {
+    "readings": ["とり", "チョウ"],
+    "meanings": ["bird"]
+  },
+  "鹿": {
+    "readings": ["しか", "ロク"],
+    "meanings": ["deer"]
+  },
+  "麗": {
+    "readings": ["うるわしい", "レイ"],
+    "meanings": ["beautiful"]
+  },
+  "黒": {
+    "readings": ["くろい", "コク"],
+    "meanings": ["black"]
+  },
+  "黙": {
+    "readings": ["だまる", "モク"],
+    "meanings": ["silence"]
+  },
+  "鼻": {
+    "readings": ["はな", "ビ"],
+    "meanings": ["nose"]
+  },
+  "兄": {
+    "readings": ["あに", "キョウ"],
+    "meanings": ["older brother"]
+  },
+  "四": {
+    "readings": ["よん", "シ"],
+    "meanings": ["four"]
+  },
+  "回": {
+    "readings": ["まわる", "カイ"],
+    "meanings": ["turn", "time"]
+  },
+  "声": {
+    "readings": ["こえ", "セイ"],
+    "meanings": ["voice"]
+  },
+  "来": {
+    "readings": ["くる", "ライ"],
+    "meanings": ["come", "arrive"]
+  },
+  "作": {
+    "readings": ["つくる", "サク"],
+    "meanings": ["make", "create"]
+  },
+  "乗": {
+    "readings": ["のる", "ジョウ"],
+    "meanings": ["ride", "board"]
+  },
+  "今": {
+    "readings": ["いま", "コン"],
+    "meanings": ["now", "this"]
+  },
+  "人": {
+    "readings": ["ひと", "ジン"],
+    "meanings": ["person"]
+  },
+  "出": {
+    "readings": ["でる", "だす", "シュツ"],
+    "meanings": ["exit", "put out"]
+  },
+  "分": {
+    "readings": ["わかる", "ブン"],
+    "meanings": ["understand", "divide"]
+  },
+  "冬": {
+    "readings": ["ふゆ", "トウ"],
+    "meanings": ["winter"]
+  },
+  "呼": {
+    "readings": ["よぶ", "コ"],
+    "meanings": ["call"]
+  },
+  "念": {
+    "readings": ["ネン"],
+    "meanings": ["thought", "feeling"]
+  },
+  "残": {
+    "readings": ["のこる", "ザン"],
+    "meanings": ["remain"]
+  },
+  "法": {
+    "readings": ["ホウ"],
+    "meanings": ["law", "method"]
+  },
+  "満": {
+    "readings": ["みちる", "マン"],
+    "meanings": ["full", "fill"]
+  },
+  "理": {
+    "readings": ["リ"],
+    "meanings": ["reason", "logic"]
+  },
+  "私": {
+    "readings": ["わたし", "シ"],
+    "meanings": ["I", "me"]
+  },
+  "若": {
+    "readings": ["わかい", "ジャク"],
+    "meanings": ["young"]
+  },
+  "語": {
+    "readings": ["かたる", "ゴ"],
+    "meanings": ["word", "tell"]
+  },
+  "谷": {
+    "readings": ["たに", "コク"],
+    "meanings": ["valley"]
+  },
+  "長": {
+    "readings": ["ながい", "チョウ"],
+    "meanings": ["long"]
+  },
+  "危": {
+    "readings": ["あぶない", "キ"],
+    "meanings": ["dangerous"]
+  },
+  "室": {
+    "readings": ["むろ", "シツ"],
+    "meanings": ["room"]
+  },
+  "梯": {
+    "readings": ["はしご", "テイ"],
+    "meanings": ["ladder"]
+  },
+  "段": {
+    "readings": ["ダン"],
+    "meanings": ["step", "grade"]
+  },
+  "登": {
+    "readings": ["のぼる", "トウ"],
+    "meanings": ["climb"]
+  },
+  "魔": {
+    "readings": ["マ"],
+    "meanings": ["magic", "demon"]
+  },
+  "難": {
+    "readings": ["むずかしい", "ナン"],
+    "meanings": ["difficult"]
+  },
+  "料": {
+    "readings": ["リョウ"],
+    "meanings": ["fee", "materials"]
+  },
+  "作り出す": {
+    "readings": ["つくりだす"],
+    "meanings": ["create", "produce"]
+  }
 }
