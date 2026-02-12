@@ -1,0 +1,19 @@
+{
+  "name": "moomin-japanese-trainer",
+  "version": "1.0.0",
+  "description": "Japanese vocabulary trainer using Moomin anime content",
+  "private": true,
+  "scripts": {
+    "generate-audio": "node generate-audio.js",
+    "generate-furigana": "node generate-furigana.js",
+    "generate-furigana:all": "node generate-furigana.js --episode all",
+    "generate-furigana:ep01": "node generate-furigana.js --episode ep01",
+    "generate-furigana:ep02": "node generate-furigana.js --episode ep02",
+    "generate-furigana:ep03": "node generate-furigana.js --episode ep03",
+    "generate-furigana:ep04": "node generate-furigana.js --episode ep04",
+    "generate-furigana:ep05": "node generate-furigana.js --episode ep05"
+  },
+  "devDependencies": {
+    "kuromoji": "^0.1.2"
+  }
+}

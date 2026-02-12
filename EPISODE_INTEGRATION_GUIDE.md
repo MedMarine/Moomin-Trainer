@@ -5,12 +5,18 @@
 
 ## Overview
 
-This guide documents the workflow for converting raw dialogue transcriptions into properly formatted trainer data. The process has four main phases:
+This guide documents the workflow for converting raw dialogue transcriptions into properly formatted trainer data. The process has five main phases:
 
 1. **Cleaning** — Fix transcription/translation errors in raw dialogue
 2. **Extraction** — Identify vocabulary and create structured data
 3. **Integration** — Merge new content with existing data
-4. **Audio Generation** — Create TTS audio files for examples
+4. **Furigana Generation** — Pre-compute correct furigana for all example sentences
+5. **Audio Generation** — Create TTS audio files for examples
+
+> **Note on Furigana:** After creating/updating vocab.json for an episode, run
+> `node generate-furigana.js --episode epXX` to add morphologically-correct
+> furigana annotations. This replaces the old per-character kanji.json lookup
+> with word-level readings from kuromoji. See FURIGANA_FIX.md for details.
 
 ---
 

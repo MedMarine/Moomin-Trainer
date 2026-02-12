@@ -611,7 +611,7 @@ const App = (function() {
               data-word="${escapeHtml(word.id)}" 
               data-index="${escapeHtml(audioIndex)}"
               title="Play audio">▶</button>
-            ${Cards.formatJapanese(ex.japanese)}
+            ${Cards.formatJapanese(ex.japanese, ex.furigana || null)}
           </div>
           <div class="example-en">${escapeHtml(ex.english)}</div>
           ${ex.note ? `<div class="example-note">💡 ${escapeHtml(ex.note)}</div>` : ''}

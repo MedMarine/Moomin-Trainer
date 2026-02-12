@@ -12,7 +12,8 @@
       {
         "japanese": "何の事件も起こらないように思われたのですが",
         "english": "It seemed like nothing eventful would happen, but...",
-        "note": "何の〜も〜ない (no ~ at all)"
+        "note": "何の〜も〜ない (no ~ at all)",
+        "furigana": "<ruby>何<rt>なに</rt></ruby>の<ruby>事件<rt>じけん</rt></ruby>も<ruby>起<rt>お</rt></ruby>こらないように<ruby>思<rt>おも</rt></ruby>われたのですが"
       }
     ]
   },
@@ -29,7 +30,8 @@
       {
         "japanese": "見ればわかるでしょ?これから焼くのよ",
         "english": "Can't you see? I'm about to cook them now.",
-        "note": "〜のよ (explanatory, feminine)"
+        "note": "〜のよ (explanatory, feminine)",
+        "furigana": "<ruby>見<rt>み</rt></ruby>ればわかるでしょ?これから<ruby>焼<rt>や</rt></ruby>くのよ"
       }
     ]
   },
@@ -46,12 +48,14 @@
       {
         "japanese": "大事な設計図でしょ?",
         "english": "That's an important blueprint, isn't it?",
-        "note": "大事な (important)"
+        "note": "大事な (important)",
+        "furigana": "<ruby>大事<rt>だいじ</rt></ruby>な<ruby>設計<rt>せっけい</rt></ruby><ruby>図<rt>ず</rt></ruby>でしょ?"
       },
       {
         "japanese": "もう一度設計図を見直してみると",
         "english": "When I looked at the blueprint again...",
-        "note": "見直す = to look again, review"
+        "note": "見直す = to look again, review",
+        "furigana": "<ruby>もう一度<rt>もういちど</rt></ruby><ruby>設計<rt>せっけい</rt></ruby><ruby>図<rt>ず</rt></ruby>を<ruby>見直<rt>みなお</rt></ruby>してみると"
       }
     ]
   },
@@ -68,7 +72,8 @@
       {
         "japanese": "ああ、失敗だ!僕には才能がないんだ!",
         "english": "Ah, it's a failure! I have no talent!",
-        "note": "〜んだ (explanatory)"
+        "note": "〜んだ (explanatory)",
+        "furigana": "ああ、<ruby>失敗<rt>しっぱい</rt></ruby>だ!<ruby>僕<rt>ぼく</rt></ruby>には<ruby>才能<rt>さいのう</rt></ruby>がないんだ!"
       }
     ]
   },
@@ -85,17 +90,20 @@
       {
         "japanese": "僕には才能がないんだ!",
         "english": "I have no talent!",
-        "note": "〜がない (don't have)"
+        "note": "〜がない (don't have)",
+        "furigana": "<ruby>僕<rt>ぼく</rt></ruby>には<ruby>才能<rt>さいのう</rt></ruby>がないんだ!"
       },
       {
         "japanese": "僕には発明の才能なんてないんだ!",
         "english": "I don't have any talent for invention!",
-        "note": "〜の才能 (talent for)"
+        "note": "〜の才能 (talent for)",
+        "furigana": "<ruby>僕<rt>ぼく</rt></ruby>には<ruby>発明<rt>はつめい</rt></ruby>の<ruby>才能<rt>さいのう</rt></ruby>なんてないんだ!"
       },
       {
         "japanese": "私には文学的才能など全くないんだ",
         "english": "I have no literary talent whatsoever.",
-        "note": "文学的才能 (literary talent)"
+        "note": "文学的才能 (literary talent)",
+        "furigana": "<ruby>私<rt>わたし</rt></ruby>には<ruby>文学<rt>ぶんがく</rt></ruby><ruby>的<rt>てき</rt></ruby><ruby>才能<rt>さいのう</rt></ruby>など<ruby>全<rt>まった</rt></ruby>くないんだ"
       }
     ]
   },
@@ -112,7 +120,8 @@
       {
         "japanese": "お兄さんは前に、陸を走る船を作ったじゃない",
         "english": "But brother, you made a land-sailing ship before, didn't you?",
-        "note": "陸を走る (runs on land)"
+        "note": "陸を走る (runs on land)",
+        "furigana": "お<ruby>兄<rt>にい</rt></ruby>さんは<ruby>前<rt>まえ</rt></ruby>に、<ruby>陸<rt>りく</rt></ruby>を<ruby>走<rt>はし</rt></ruby>る<ruby>船<rt>ふね</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ったじゃない"
       }
     ]
   },
@@ -129,17 +138,20 @@
       {
         "japanese": "もっと自信を持って、お兄さん",
         "english": "Have more confidence, brother.",
-        "note": "自信を持つ (have confidence)"
+        "note": "自信を持つ (have confidence)",
+        "furigana": "もっと<ruby>自信<rt>じしん</rt></ruby>を<ruby>持<rt>も</rt></ruby>って、お<ruby>兄<rt>にい</rt></ruby>さん"
       },
       {
         "japanese": "パパはいつも自信満々だよ",
         "english": "Papa is always full of confidence.",
-        "note": "自信満々 (full of confidence)"
+        "note": "自信満々 (full of confidence)",
+        "furigana": "パパはいつも<ruby>自信満々<rt>じしんまんまん</rt></ruby>だよ"
       },
       {
         "japanese": "急に自信がなくなってしまったのです",
         "english": "I suddenly lost all my confidence.",
-        "note": "自信がなくなる (lose confidence)"
+        "note": "自信がなくなる (lose confidence)",
+        "furigana": "<ruby>急<rt>きゅう</rt></ruby>に<ruby>自信<rt>じしん</rt></ruby>がなくなってしまったのです"
       }
     ]
   },
@@ -156,7 +168,8 @@
       {
         "japanese": "僕には、発明の才能なんてないんだ!",
         "english": "I don't have any talent for invention!",
-        "note": "発明の才能 (talent for invention)"
+        "note": "発明の才能 (talent for invention)",
+        "furigana": "<ruby>僕<rt>ぼく</rt></ruby>には、<ruby>発明<rt>はつめい</rt></ruby>の<ruby>才能<rt>さいのう</rt></ruby>なんてないんだ!"
       }
     ]
   },
@@ -173,7 +186,8 @@
       {
         "japanese": "ミーも食堂へ行きなさい",
         "english": "My, go to the dining room too.",
-        "note": "〜へ行く (go to)"
+        "note": "〜へ行く (go to)",
+        "furigana": "ミーも<ruby>食堂<rt>しょくどう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きなさい"
       }
     ]
   },
@@ -190,7 +204,8 @@
       {
         "japanese": "フローレン泣いてた?",
         "english": "Was Floren crying?",
-        "note": "〜ていた (past progressive)"
+        "note": "〜ていた (past progressive)",
+        "furigana": "フローレン<ruby>泣<rt>な</rt></ruby>いてた?"
       }
     ]
   },
@@ -207,12 +222,14 @@
       {
         "japanese": "お兄さんも今に自信を取り戻すから",
         "english": "Her brother will regain his confidence soon.",
-        "note": "今に = soon"
+        "note": "今に = soon",
+        "furigana": "お<ruby>兄<rt>にい</rt></ruby>さんも<ruby>今<rt>いま</rt></ruby>に<ruby>自信<rt>じしん</rt></ruby>を<ruby>取り戻<rt>とりもど</rt></ruby>すから"
       },
       {
         "japanese": "どうやって自信を取り戻したらいいんでしょう",
         "english": "How can I regain my confidence?",
-        "note": "〜たらいい (how to)"
+        "note": "〜たらいい (how to)",
+        "furigana": "どうやって<ruby>自信<rt>じしん</rt></ruby>を<ruby>取り戻<rt>とりもど</rt></ruby>したらいいんでしょう"
       }
     ]
   },
@@ -229,7 +246,8 @@
       {
         "japanese": "物を新しく作り出す人は、時々そうなるらしいよ",
         "english": "People who create new things apparently go through this sometimes.",
-        "note": "新しく作り出す (create anew)"
+        "note": "新しく作り出す (create anew)",
+        "furigana": "<ruby>物<rt>もの</rt></ruby>を<ruby>新<rt>あたら</rt></ruby>しく<ruby>作り出<rt>つくりだ</rt></ruby>す<ruby>人<rt>ひと</rt></ruby>は、<ruby>時々<rt>ときどき</rt></ruby>そうなるらしいよ"
       }
     ]
   },
@@ -246,12 +264,14 @@
       {
         "japanese": "パパは小説を書いてるんでしょ?",
         "english": "Papa is writing a novel, right?",
-        "note": "〜んでしょ (right?)"
+        "note": "〜んでしょ (right?)",
+        "furigana": "パパは<ruby>小説<rt>しょうせつ</rt></ruby>を<ruby>書<rt>か</rt></ruby>いてるんでしょ?"
       },
       {
         "japanese": "もう小説を書くのはやめるべきだ",
         "english": "I should stop writing novels.",
-        "note": "〜べき (should)"
+        "note": "〜べき (should)",
+        "furigana": "もう<ruby>小説<rt>しょうせつ</rt></ruby>を<ruby>書<rt>か</rt></ruby>くのはやめるべきだ"
       }
     ]
   },
@@ -268,7 +288,8 @@
       {
         "japanese": "朝になると太陽が東の空に昇った",
         "english": "When morning came, the sun rose in the eastern sky.",
-        "note": "朝になる (morning comes)"
+        "note": "朝になる (morning comes)",
+        "furigana": "<ruby>朝<rt>あさ</rt></ruby>になると<ruby>太陽<rt>たいよう</rt></ruby>が<ruby>東<rt>ひがし</rt></ruby>の<ruby>空<rt>そら</rt></ruby>に<ruby>昇<rt>のぼ</rt></ruby>った"
       }
     ]
   },
@@ -285,7 +306,8 @@
       {
         "japanese": "朝になると太陽が東の空に昇った",
         "english": "When morning came, the sun rose in the eastern sky.",
-        "note": "太陽が昇る (sun rises)"
+        "note": "太陽が昇る (sun rises)",
+        "furigana": "<ruby>朝<rt>あさ</rt></ruby>になると<ruby>太陽<rt>たいよう</rt></ruby>が<ruby>東<rt>ひがし</rt></ruby>の<ruby>空<rt>そら</rt></ruby>に<ruby>昇<rt>のぼ</rt></ruby>った"
       }
     ]
   },
@@ -302,7 +324,8 @@
       {
         "japanese": "太陽が東の空に昇った",
         "english": "The sun rose in the eastern sky.",
-        "note": "東の空 (eastern sky)"
+        "note": "東の空 (eastern sky)",
+        "furigana": "<ruby>太陽<rt>たいよう</rt></ruby>が<ruby>東<rt>ひがし</rt></ruby>の<ruby>空<rt>そら</rt></ruby>に<ruby>昇<rt>のぼ</rt></ruby>った"
       }
     ]
   },
@@ -319,7 +342,8 @@
       {
         "japanese": "太陽が東の空に昇った",
         "english": "The sun rose in the eastern sky.",
-        "note": "太陽が昇る (sun rises)"
+        "note": "太陽が昇る (sun rises)",
+        "furigana": "<ruby>太陽<rt>たいよう</rt></ruby>が<ruby>東<rt>ひがし</rt></ruby>の<ruby>空<rt>そら</rt></ruby>に<ruby>昇<rt>のぼ</rt></ruby>った"
       }
     ]
   },
@@ -336,7 +360,8 @@
       {
         "japanese": "そしてあたりが明るくなった",
         "english": "And the surroundings became bright.",
-        "note": "明るくなる (become bright)"
+        "note": "明るくなる (become bright)",
+        "furigana": "そしてあたりが<ruby>明<rt>あか</rt></ruby>るくなった"
       }
     ]
   },
@@ -353,7 +378,8 @@
       {
         "japanese": "こんな当たり前のことを書いて",
         "english": "Writing such obvious things...",
-        "note": "当たり前のこと (obvious things)"
+        "note": "当たり前のこと (obvious things)",
+        "furigana": "こんな<ruby>当たり前<rt>あたりまえ</rt></ruby>のことを<ruby>書<rt>か</rt></ruby>いて"
       }
     ]
   },
@@ -370,7 +396,8 @@
       {
         "japanese": "よく恥ずかしくないな",
         "english": "Aren't you embarrassed?",
-        "note": "よく〜ない (how can you not)"
+        "note": "よく〜ない (how can you not)",
+        "furigana": "よく<ruby>恥<rt>は</rt></ruby>ずかしくないな"
       }
     ]
   },
@@ -387,7 +414,8 @@
       {
         "japanese": "私には文学的才能など全くないんだ",
         "english": "I have no literary talent whatsoever.",
-        "note": "全く〜ない (not at all)"
+        "note": "全く〜ない (not at all)",
+        "furigana": "<ruby>私<rt>わたし</rt></ruby>には<ruby>文学<rt>ぶんがく</rt></ruby><ruby>的<rt>てき</rt></ruby><ruby>才能<rt>さいのう</rt></ruby>など<ruby>全<rt>まった</rt></ruby>くないんだ"
       }
     ]
   },
@@ -404,12 +432,14 @@
       {
         "japanese": "私には文学的才能など全くないんだ",
         "english": "I have no literary talent whatsoever.",
-        "note": "全く〜ない (not at all)"
+        "note": "全く〜ない (not at all)",
+        "furigana": "<ruby>私<rt>わたし</rt></ruby>には<ruby>文学<rt>ぶんがく</rt></ruby><ruby>的<rt>てき</rt></ruby><ruby>才能<rt>さいのう</rt></ruby>など<ruby>全<rt>まった</rt></ruby>くないんだ"
       },
       {
         "japanese": "全く楽しくないんだよ、今は",
         "english": "It's not fun at all anymore.",
-        "note": "全く〜ない (not at all)"
+        "note": "全く〜ない (not at all)",
+        "furigana": "<ruby>全<rt>まった</rt></ruby>く<ruby>楽<rt>たの</rt></ruby>しくないんだよ、<ruby>今<rt>いま</rt></ruby>は"
       }
     ]
   },
@@ -426,7 +456,8 @@
       {
         "japanese": "想像力もない、感受性も衰えてる",
         "english": "I have no imagination, my sensitivity has declined.",
-        "note": "〜もない (don't have ~ either)"
+        "note": "〜もない (don't have ~ either)",
+        "furigana": "<ruby>想像<rt>そうぞう</rt></ruby><ruby>力<rt>りょく</rt></ruby>もない、<ruby>感受性<rt>かんじゅせい</rt></ruby>も<ruby>衰<rt>おとろ</rt></ruby>えてる"
       }
     ]
   },
@@ -443,7 +474,8 @@
       {
         "japanese": "感受性も衰えてる",
         "english": "My sensitivity has declined.",
-        "note": "感受性が衰える (sensitivity declines)"
+        "note": "感受性が衰える (sensitivity declines)",
+        "furigana": "<ruby>感受性<rt>かんじゅせい</rt></ruby>も<ruby>衰<rt>おとろ</rt></ruby>えてる"
       }
     ]
   },
@@ -460,7 +492,8 @@
       {
         "japanese": "感受性も衰えてる",
         "english": "My sensitivity has declined.",
-        "note": "〜ている (state)"
+        "note": "〜ている (state)",
+        "furigana": "<ruby>感受性<rt>かんじゅせい</rt></ruby>も<ruby>衰<rt>おとろ</rt></ruby>えてる"
       }
     ]
   },
@@ -477,12 +510,14 @@
       {
         "japanese": "今調子が出てきたところだから",
         "english": "I'm just getting into the groove now...",
-        "note": "調子が出る (get into rhythm)"
+        "note": "調子が出る (get into rhythm)",
+        "furigana": "<ruby>今<rt>こん</rt></ruby><ruby>調子<rt>ちょうし</rt></ruby>が<ruby>出<rt>で</rt></ruby>てきたところだから"
       },
       {
         "japanese": "あの調子じゃ、海まで流れ出て",
         "english": "At that rate, it might flow all the way to the sea...",
-        "note": "あの調子 (at that rate)"
+        "note": "あの調子 (at that rate)",
+        "furigana": "あの<ruby>調子<rt>ちょうし</rt></ruby>じゃ、<ruby>海<rt>うみ</rt></ruby>まで<ruby>流れ出<rt>ながれで</rt></ruby>て"
       }
     ]
   },
@@ -499,7 +534,8 @@
       {
         "japanese": "後でいただく",
         "english": "I'll eat later.",
-        "note": "いただく = polite form of 食べる"
+        "note": "いただく = polite form of 食べる",
+        "furigana": "<ruby>後<rt>あと</rt></ruby>でいただく"
       }
     ]
   },
@@ -516,7 +552,8 @@
       {
         "japanese": "きっと僕の聞き違いだ",
         "english": "It must have been my imagination.",
-        "note": "聞き違い = mishearing"
+        "note": "聞き違い = mishearing",
+        "furigana": "きっと<ruby>僕<rt>ぼく</rt></ruby>の<ruby>聞<rt>き</rt></ruby>き<ruby>違<rt>ちが</rt></ruby>いだ"
       }
     ]
   },
@@ -533,7 +570,8 @@
       {
         "japanese": "僕はスノフキンとちょっと探検に行くんだ",
         "english": "I'm going on a little exploration with Snufkin.",
-        "note": "探検に行く (go exploring)"
+        "note": "探検に行く (go exploring)",
+        "furigana": "<ruby>僕<rt>ぼく</rt></ruby>はスノフキンとちょっと<ruby>探検<rt>たんけん</rt></ruby>に<ruby>行<rt>い</rt></ruby>くんだ"
       }
     ]
   },
@@ -550,7 +588,8 @@
       {
         "japanese": "遅かったな、今日は来ないのかと思った",
         "english": "You're late, I thought you weren't coming today.",
-        "note": "〜かと思う (thought that)"
+        "note": "〜かと思う (thought that)",
+        "furigana": "<ruby>遅<rt>おそ</rt></ruby>かったな、<ruby>今日<rt>きょう</rt></ruby>は<ruby>来<rt>こ</rt></ruby>ないのかと<ruby>思<rt>おも</rt></ruby>った"
       }
     ]
   },
@@ -567,7 +606,8 @@
       {
         "japanese": "笹舟だよ、まるで本物の船のように流れていくぜ",
         "english": "It's a bamboo leaf boat. It flows along just like a real ship.",
-        "note": "まるで〜のように (just like)"
+        "note": "まるで〜のように (just like)",
+        "furigana": "<ruby>笹舟<rt>ささぶね</rt></ruby>だよ、まるで<ruby>本物<rt>ほんもの</rt></ruby>の<ruby>船<rt>ふね</rt></ruby>のように<ruby>流<rt>なが</rt></ruby>れていくぜ"
       }
     ]
   },
@@ -584,7 +624,8 @@
       {
         "japanese": "まるで本物の船のように流れていくぜ",
         "english": "It flows along just like a real ship.",
-        "note": "本物の船 (real ship)"
+        "note": "本物の船 (real ship)",
+        "furigana": "まるで<ruby>本物<rt>ほんもの</rt></ruby>の<ruby>船<rt>ふね</rt></ruby>のように<ruby>流<rt>なが</rt></ruby>れていくぜ"
       }
     ]
   },
@@ -601,12 +642,14 @@
       {
         "japanese": "まるで本物の船のように流れていくぜ",
         "english": "It flows along just like a real ship.",
-        "note": "流れていく (flows away)"
+        "note": "流れていく (flows away)",
+        "furigana": "まるで<ruby>本物<rt>ほんもの</rt></ruby>の<ruby>船<rt>ふね</rt></ruby>のように<ruby>流<rt>なが</rt></ruby>れていくぜ"
       },
       {
         "japanese": "知らない国まで行ってしまうぞ",
         "english": "It might even reach an unknown country.",
-        "note": "After 流れる context"
+        "note": "After 流れる context",
+        "furigana": "<ruby>知<rt>し</rt></ruby>らない<ruby>国<rt>くに</rt></ruby>まで<ruby>行<rt>い</rt></ruby>ってしまうぞ"
       }
     ]
   },
@@ -623,7 +666,8 @@
       {
         "japanese": "知らない国まで行ってしまうぞ",
         "english": "It might even reach an unknown country.",
-        "note": "知らない国 (unknown country)"
+        "note": "知らない国 (unknown country)",
+        "furigana": "<ruby>知<rt>し</rt></ruby>らない<ruby>国<rt>くに</rt></ruby>まで<ruby>行<rt>い</rt></ruby>ってしまうぞ"
       }
     ]
   },
@@ -640,12 +684,14 @@
       {
         "japanese": "それで旅をするのも楽しそうだね",
         "english": "Traveling like that sounds fun.",
-        "note": "楽しそう (looks fun)"
+        "note": "楽しそう (looks fun)",
+        "furigana": "それで<ruby>旅<rt>たび</rt></ruby>をするのも<ruby>楽<rt>たの</rt></ruby>しそうだね"
       },
       {
         "japanese": "全く楽しくないんだよ、今は",
         "english": "It's not fun at all anymore.",
-        "note": "楽しくない (not fun)"
+        "note": "楽しくない (not fun)",
+        "furigana": "<ruby>全<rt>まった</rt></ruby>く<ruby>楽<rt>たの</rt></ruby>しくないんだよ、<ruby>今<rt>いま</rt></ruby>は"
       }
     ]
   },
@@ -662,12 +708,14 @@
       {
         "japanese": "ミーやフローレンも一緒に行きたそうだったけど",
         "english": "My and Floren looked like they wanted to come too.",
-        "note": "一緒に行く (go together)"
+        "note": "一緒に行く (go together)",
+        "furigana": "ミーやフローレンも<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>行<rt>い</rt></ruby>きたそうだったけど"
       },
       {
         "japanese": "私も一緒に行くって",
         "english": "I'm coming along too!",
-        "note": "一緒に (together)"
+        "note": "一緒に (together)",
+        "furigana": "<ruby>私<rt>わたし</rt></ruby>も<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>行<rt>い</rt></ruby>くって"
       }
     ]
   },
@@ -684,7 +732,8 @@
       {
         "japanese": "ミーは簡単には諦めないさ、ほら",
         "english": "My won't give up easily. Look.",
-        "note": "簡単に諦める (give up easily)"
+        "note": "簡単に諦める (give up easily)",
+        "furigana": "ミーは<ruby>簡単<rt>かんたん</rt></ruby>には<ruby>諦<rt>あきら</rt></ruby>めないさ、ほら"
       }
     ]
   },
@@ -701,7 +750,8 @@
       {
         "japanese": "ミーは簡単には諦めないさ",
         "english": "My won't give up easily.",
-        "note": "簡単には〜ない (won't easily)"
+        "note": "簡単には〜ない (won't easily)",
+        "furigana": "ミーは<ruby>簡単<rt>かんたん</rt></ruby>には<ruby>諦<rt>あきら</rt></ruby>めないさ"
       }
     ]
   },
@@ -718,7 +768,8 @@
       {
         "japanese": "ムーミンが言った通り、みんなで登るのは無理だな",
         "english": "As Moomin said, it's impossible for everyone to climb.",
-        "note": "〜は無理 (is impossible)"
+        "note": "〜は無理 (is impossible)",
+        "furigana": "ムーミンが<ruby>言<rt>い</rt></ruby>った<ruby>通<rt>とお</rt></ruby>り、みんなで<ruby>登<rt>のぼ</rt></ruby>るのは<ruby>無理<rt>むり</rt></ruby>だな"
       }
     ]
   },
@@ -735,7 +786,8 @@
       {
         "japanese": "君たちはホラ穴の入り口で待ってろ",
         "english": "You all wait at the cave entrance.",
-        "note": "入り口で (at the entrance)"
+        "note": "入り口で (at the entrance)",
+        "furigana": "<ruby>君<rt>きみ</rt></ruby>たちはホラ<ruby>穴<rt>あな</rt></ruby>の<ruby>入り口<rt>いりくち</rt></ruby>で<ruby>待<rt>ま</rt></ruby>ってろ"
       }
     ]
   },
@@ -752,12 +804,14 @@
       {
         "japanese": "この先をもう少し行ったところだ",
         "english": "It's just a little further ahead.",
-        "note": "この先 (up ahead)"
+        "note": "この先 (up ahead)",
+        "furigana": "この<ruby>先<rt>さき</rt></ruby>を<ruby>もう少<rt>もうすこ</rt></ruby>し<ruby>行<rt>おこな</rt></ruby>ったところだ"
       },
       {
         "japanese": "どっちが先に降りる?",
         "english": "Who goes down first?",
-        "note": "先に (first)"
+        "note": "先に (first)",
+        "furigana": "どっちが<ruby>先<rt>さき</rt></ruby>に<ruby>降<rt>お</rt></ruby>りる?"
       }
     ]
   },
@@ -774,7 +828,8 @@
       {
         "japanese": "うん、縦穴を見つけたんだ",
         "english": "Yeah, we found a vertical shaft.",
-        "note": "縦穴を見つける (find a shaft)"
+        "note": "縦穴を見つける (find a shaft)",
+        "furigana": "うん、<ruby>縦穴<rt>たてあな</rt></ruby>を<ruby>見<rt>み</rt></ruby>つけたんだ"
       }
     ]
   },
@@ -791,7 +846,8 @@
       {
         "japanese": "本当にホラ穴につながってるのかしら?",
         "english": "I wonder if it really connects to the cave?",
-        "note": "〜につながる (connect to)"
+        "note": "〜につながる (connect to)",
+        "furigana": "<ruby>本当<rt>ほんとう</rt></ruby>にホラ<ruby>穴<rt>あな</rt></ruby>につながってるのかしら?"
       }
     ]
   },
@@ -808,7 +864,8 @@
       {
         "japanese": "それを確かめてみるのさ",
         "english": "That's what we're going to find out.",
-        "note": "〜てみる (try to)"
+        "note": "〜てみる (try to)",
+        "furigana": "それを<ruby>確<rt>たし</rt></ruby>かめてみるのさ"
       }
     ]
   },
@@ -825,12 +882,14 @@
       {
         "japanese": "臆病なのね",
         "english": "You're such a coward.",
-        "note": "臆病な (cowardly)"
+        "note": "臆病な (cowardly)",
+        "furigana": "<ruby>臆病<rt>おくびょう</rt></ruby>なのね"
       },
       {
         "japanese": "臆病ね",
         "english": "Such a coward.",
-        "note": "Abbreviated expression"
+        "note": "Abbreviated expression",
+        "furigana": "<ruby>臆病<rt>おくびょう</rt></ruby>ね"
       }
     ]
   },
@@ -847,7 +906,8 @@
       {
         "japanese": "この二人が何だか心細そうだから",
         "english": "These two look worried...",
-        "note": "心細そう (looks anxious)"
+        "note": "心細そう (looks anxious)",
+        "furigana": "この<ruby>二<rt>に</rt></ruby><ruby>人<rt>にん</rt></ruby>が<ruby>何<rt>なん</rt></ruby>だか<ruby>心細<rt>こころぼそ</rt></ruby>そうだから"
       }
     ]
   },
@@ -864,12 +924,14 @@
       {
         "japanese": "何だか怖いわ",
         "english": "It's kind of scary.",
-        "note": "何だか (somehow)"
+        "note": "何だか (somehow)",
+        "furigana": "<ruby>何<rt>なん</rt></ruby>だか<ruby>怖<rt>こわ</rt></ruby>いわ"
       },
       {
         "japanese": "だから怖いの",
         "english": "That's why it's scary.",
-        "note": "だから (that's why)"
+        "note": "だから (that's why)",
+        "furigana": "だから<ruby>怖<rt>こわ</rt></ruby>いの"
       }
     ]
   },
@@ -886,12 +948,14 @@
       {
         "japanese": "気をつけなくっちゃ",
         "english": "We have to be careful.",
-        "note": "〜なくちゃ (have to)"
+        "note": "〜なくちゃ (have to)",
+        "furigana": "<ruby>気<rt>き</rt></ruby>をつけなくっちゃ"
       },
       {
         "japanese": "それじゃ、気をつけて降りろよ",
         "english": "Then be careful going down.",
-        "note": "気をつけて (carefully)"
+        "note": "気をつけて (carefully)",
+        "furigana": "それじゃ、<ruby>気<rt>き</rt></ruby>をつけて<ruby>降<rt>お</rt></ruby>りろよ"
       }
     ]
   },
@@ -908,7 +972,8 @@
       {
         "japanese": "馬鹿ね、ここには誰も住んでないのよ",
         "english": "Don't be silly, nobody lives here.",
-        "note": "馬鹿ね (silly/foolish)"
+        "note": "馬鹿ね (silly/foolish)",
+        "furigana": "<ruby>馬鹿<rt>ばか</rt></ruby>ね、ここには<ruby>誰<rt>だれ</rt></ruby>も<ruby>住<rt>す</rt></ruby>んでないのよ"
       }
     ]
   },
@@ -925,7 +990,8 @@
       {
         "japanese": "ここには誰も住んでないのよ",
         "english": "Nobody lives here.",
-        "note": "誰も〜ない (nobody)"
+        "note": "誰も〜ない (nobody)",
+        "furigana": "ここには<ruby>誰<rt>だれ</rt></ruby>も<ruby>住<rt>す</rt></ruby>んでないのよ"
       }
     ]
   },
@@ -942,7 +1008,8 @@
       {
         "japanese": "この辺がホラ穴の屋根になるんだね",
         "english": "This area must be the roof of the cave.",
-        "note": "〜の屋根 (roof of)"
+        "note": "〜の屋根 (roof of)",
+        "furigana": "この<ruby>辺<rt>あたり</rt></ruby>がホラ<ruby>穴<rt>あな</rt></ruby>の<ruby>屋根<rt>やね</rt></ruby>になるんだね"
       }
     ]
   },
@@ -959,12 +1026,14 @@
       {
         "japanese": "この辺がホラ穴の屋根になるんだね",
         "english": "This area must be the roof of the cave.",
-        "note": "この辺 (this area)"
+        "note": "この辺 (this area)",
+        "furigana": "この<ruby>辺<rt>あたり</rt></ruby>がホラ<ruby>穴<rt>あな</rt></ruby>の<ruby>屋根<rt>やね</rt></ruby>になるんだね"
       },
       {
         "japanese": "この辺にしては珍しい貝殻がたくさんあるね",
         "english": "There are a lot of rare shells around here.",
-        "note": "〜にしては (for this area)"
+        "note": "〜にしては (for this area)",
+        "furigana": "この<ruby>辺<rt>あたり</rt></ruby>にしては<ruby>珍<rt>めずら</rt></ruby>しい<ruby>貝殻<rt>かいがら</rt></ruby>がたくさんあるね"
       }
     ]
   },
@@ -981,7 +1050,8 @@
       {
         "japanese": "こんな貝殻初めてだよ",
         "english": "I've never seen a shell like this before!",
-        "note": "初めて (first time)"
+        "note": "初めて (first time)",
+        "furigana": "こんな<ruby>貝殻<rt>かいがら</rt></ruby><ruby>初<rt>はじ</rt></ruby>めてだよ"
       }
     ]
   },
@@ -998,7 +1068,8 @@
       {
         "japanese": "この辺にしては珍しい貝殻がたくさんあるね",
         "english": "There are a lot of rare shells around here.",
-        "note": "珍しい貝殻 (rare shells)"
+        "note": "珍しい貝殻 (rare shells)",
+        "furigana": "この<ruby>辺<rt>あたり</rt></ruby>にしては<ruby>珍<rt>めずら</rt></ruby>しい<ruby>貝殻<rt>かいがら</rt></ruby>がたくさんあるね"
       }
     ]
   },
@@ -1015,7 +1086,8 @@
       {
         "japanese": "珍しい貝殻がたくさんあるね",
         "english": "There are a lot of rare shells.",
-        "note": "たくさんある (there are many)"
+        "note": "たくさんある (there are many)",
+        "furigana": "<ruby>珍<rt>めずら</rt></ruby>しい<ruby>貝殻<rt>かいがら</rt></ruby>がたくさんあるね"
       }
     ]
   },
@@ -1032,7 +1104,8 @@
       {
         "japanese": "退屈なら貝殻拾いでもすればいいのに",
         "english": "If she was bored she should have just picked shells.",
-        "note": "退屈なら (if bored)"
+        "note": "退屈なら (if bored)",
+        "furigana": "<ruby>退屈<rt>たいくつ</rt></ruby>なら<ruby>貝殻<rt>かいがら</rt></ruby><ruby>拾<rt>ひろ</rt></ruby>いでもすればいいのに"
       }
     ]
   },
@@ -1049,7 +1122,8 @@
       {
         "japanese": "退屈なら貝殻拾いでもすればいいのに",
         "english": "If she was bored she should have just picked shells.",
-        "note": "貝殻拾い (shell picking)"
+        "note": "貝殻拾い (shell picking)",
+        "furigana": "<ruby>退屈<rt>たいくつ</rt></ruby>なら<ruby>貝殻<rt>かいがら</rt></ruby><ruby>拾<rt>ひろ</rt></ruby>いでもすればいいのに"
       }
     ]
   },
@@ -1066,7 +1140,8 @@
       {
         "japanese": "おい、ミー、戻ってこい、危ないぞ",
         "english": "Hey, My, come back, it's dangerous!",
-        "note": "戻ってくる (come back)"
+        "note": "戻ってくる (come back)",
+        "furigana": "おい、ミー、<ruby>戻<rt>もど</rt></ruby>ってこい、<ruby>危<rt>あぶ</rt></ruby>ないぞ"
       }
     ]
   },
@@ -1083,7 +1158,8 @@
       {
         "japanese": "勝手に黙って先に行ったくせに",
         "english": "You went ahead without saying anything!",
-        "note": "勝手に (without permission)"
+        "note": "勝手に (without permission)",
+        "furigana": "<ruby>勝手<rt>かって</rt></ruby>に<ruby>黙<rt>だま</rt></ruby>って<ruby>先<rt>さき</rt></ruby>に<ruby>行<rt>い</rt></ruby>ったくせに"
       }
     ]
   },
@@ -1100,7 +1176,8 @@
       {
         "japanese": "勝手に黙って先に行った",
         "english": "You went ahead without saying anything.",
-        "note": "黙って (silently)"
+        "note": "黙って (silently)",
+        "furigana": "<ruby>勝手<rt>かって</rt></ruby>に<ruby>黙<rt>だま</rt></ruby>って<ruby>先<rt>さき</rt></ruby>に<ruby>行<rt>い</rt></ruby>った"
       }
     ]
   },
@@ -1117,7 +1194,8 @@
       {
         "japanese": "何なら連れてってやってもいいぜ",
         "english": "If you want, I can take you with me.",
-        "note": "連れていく (take along)"
+        "note": "連れていく (take along)",
+        "furigana": "<ruby>何<rt>なに</rt></ruby>なら<ruby>連<rt>つ</rt></ruby>れてってやってもいいぜ"
       }
     ]
   },
@@ -1134,7 +1212,8 @@
       {
         "japanese": "暗くて危ないな",
         "english": "It's dark and dangerous.",
-        "note": "暗くて (dark and)"
+        "note": "暗くて (dark and)",
+        "furigana": "<ruby>暗<rt>くら</rt></ruby>くて<ruby>危<rt>あぶ</rt></ruby>ないな"
       }
     ]
   },
@@ -1151,7 +1230,8 @@
       {
         "japanese": "手を繋ごうね",
         "english": "Let's hold hands.",
-        "note": "手を繋ぐ (hold hands)"
+        "note": "手を繋ぐ (hold hands)",
+        "furigana": "<ruby>手<rt>て</rt></ruby>を<ruby>繋<rt>つな</rt></ruby>ごうね"
       }
     ]
   },
@@ -1168,7 +1248,8 @@
       {
         "japanese": "手を繋ごうね",
         "english": "Let's hold hands.",
-        "note": "〜よう (volitional)"
+        "note": "〜よう (volitional)",
+        "furigana": "<ruby>手<rt>て</rt></ruby>を<ruby>繋<rt>つな</rt></ruby>ごうね"
       }
     ]
   },
@@ -1185,12 +1266,14 @@
       {
         "japanese": "どっちが先に降りる?",
         "english": "Who goes down first?",
-        "note": "先に降りる (go down first)"
+        "note": "先に降りる (go down first)",
+        "furigana": "どっちが<ruby>先<rt>さき</rt></ruby>に<ruby>降<rt>お</rt></ruby>りる?"
       },
       {
         "japanese": "気をつけて降りろよ",
         "english": "Be careful going down.",
-        "note": "降りろ (imperative)"
+        "note": "降りろ (imperative)",
+        "furigana": "<ruby>気<rt>き</rt></ruby>をつけて<ruby>降<rt>お</rt></ruby>りろよ"
       }
     ]
   },
@@ -1207,7 +1290,8 @@
       {
         "japanese": "ゆっくり、ゆっくり、何も急ぐことはないさ",
         "english": "Slowly, slowly, there's no need to rush.",
-        "note": "ゆっくり (slowly)"
+        "note": "ゆっくり (slowly)",
+        "furigana": "ゆっくり、ゆっくり、<ruby>何<rt>なに</rt></ruby>も<ruby>急<rt>いそ</rt></ruby>ぐことはないさ"
       }
     ]
   },
@@ -1224,7 +1308,8 @@
       {
         "japanese": "何も急ぐことはないさ",
         "english": "There's no need to rush.",
-        "note": "〜ことはない (no need to)"
+        "note": "〜ことはない (no need to)",
+        "furigana": "<ruby>何<rt>なに</rt></ruby>も<ruby>急<rt>いそ</rt></ruby>ぐことはないさ"
       }
     ]
   },
@@ -1241,7 +1326,8 @@
       {
         "japanese": "ヘムレンさんがこんなところで昼寝していたんだ",
         "english": "Mr. Hemulen was taking a nap in a place like this.",
-        "note": "昼寝する (take a nap)"
+        "note": "昼寝する (take a nap)",
+        "furigana": "ヘムレンさんがこんなところで<ruby>昼寝<rt>ひるね</rt></ruby>していたんだ"
       }
     ]
   },
@@ -1258,7 +1344,8 @@
       {
         "japanese": "いや、驚いたのなんのって",
         "english": "Well, was I ever surprised!",
-        "note": "驚いた (was surprised)"
+        "note": "驚いた (was surprised)",
+        "furigana": "いや、<ruby>驚<rt>おどろ</rt></ruby>いたのなんのって"
       }
     ]
   },
@@ -1275,7 +1362,8 @@
       {
         "japanese": "実はこのところ私はすっかり落ち込んでるんだ",
         "english": "Actually, I've been feeling really down lately.",
-        "note": "実は (actually)"
+        "note": "実は (actually)",
+        "furigana": "<ruby>実<rt>じつ</rt></ruby>はこのところ<ruby>私<rt>わたし</rt></ruby>はすっかり<ruby>落ち込<rt>おちこ</rt></ruby>んでるんだ"
       }
     ]
   },
@@ -1292,7 +1380,8 @@
       {
         "japanese": "私はすっかり落ち込んでるんだ",
         "english": "I've been feeling really down.",
-        "note": "すっかり (completely)"
+        "note": "すっかり (completely)",
+        "furigana": "<ruby>私<rt>わたし</rt></ruby>はすっかり<ruby>落ち込<rt>おちこ</rt></ruby>んでるんだ"
       }
     ]
   },
@@ -1309,12 +1398,14 @@
       {
         "japanese": "私はすっかり落ち込んでるんだ",
         "english": "I've been feeling really down.",
-        "note": "落ち込む (feel down)"
+        "note": "落ち込む (feel down)",
+        "furigana": "<ruby>私<rt>わたし</rt></ruby>はすっかり<ruby>落ち込<rt>おちこ</rt></ruby>んでるんだ"
       },
       {
         "japanese": "じゃあ、落ち込んでる理由は何です?",
         "english": "Then what's the reason you're feeling down?",
-        "note": "落ち込んでる (are depressed)"
+        "note": "落ち込んでる (are depressed)",
+        "furigana": "じゃあ、<ruby>落ち込<rt>おちこ</rt></ruby>んでる<ruby>理由<rt>りゆう</rt></ruby>は<ruby>何<rt>なに</rt></ruby>です?"
       }
     ]
   },
@@ -1331,12 +1422,14 @@
       {
         "japanese": "あの大事な切手のコレクションを盗まれたんですか?",
         "english": "Was your precious stamp collection stolen?",
-        "note": "切手のコレクション (stamp collection)"
+        "note": "切手のコレクション (stamp collection)",
+        "furigana": "あの<ruby>大事<rt>だいじ</rt></ruby>な<ruby>切手<rt>きって</rt></ruby>のコレクションを<ruby>盗<rt>ぬす</rt></ruby>まれたんですか?"
       },
       {
         "japanese": "あの切手のコレクションのせいだ",
         "english": "It's because of that stamp collection.",
-        "note": "〜のせい (because of)"
+        "note": "〜のせい (because of)",
+        "furigana": "あの<ruby>切手<rt>きって</rt></ruby>のコレクションのせいだ"
       }
     ]
   },
@@ -1353,7 +1446,8 @@
       {
         "japanese": "切手のコレクションを盗まれたんですか?",
         "english": "Was your stamp collection stolen?",
-        "note": "〜られる (passive)"
+        "note": "〜られる (passive)",
+        "furigana": "<ruby>切手<rt>きって</rt></ruby>のコレクションを<ruby>盗<rt>ぬす</rt></ruby>まれたんですか?"
       }
     ]
   },
@@ -1370,7 +1464,8 @@
       {
         "japanese": "欠けた切手は一枚もない",
         "english": "Not a single stamp is missing.",
-        "note": "一枚も〜ない (not even one)"
+        "note": "一枚も〜ない (not even one)",
+        "furigana": "<ruby>欠<rt>か</rt></ruby>けた<ruby>切手<rt>きって</rt></ruby>は<ruby>一<rt>いち</rt></ruby><ruby>枚<rt>まい</rt></ruby>もない"
       }
     ]
   },
@@ -1387,7 +1482,8 @@
       {
         "japanese": "欠けた切手は一枚もない、完璧なコレクションだ",
         "english": "Not a single stamp is missing, it's a perfect collection.",
-        "note": "完璧な (perfect)"
+        "note": "完璧な (perfect)",
+        "furigana": "<ruby>欠<rt>か</rt></ruby>けた<ruby>切手<rt>きって</rt></ruby>は<ruby>一<rt>いち</rt></ruby><ruby>枚<rt>まい</rt></ruby>もない、<ruby>完璧<rt>かんぺき</rt></ruby>なコレクションだ"
       }
     ]
   },
@@ -1404,7 +1500,8 @@
       {
         "japanese": "落ち込んでる理由は何です?",
         "english": "What's the reason you're feeling down?",
-        "note": "〜理由 (reason for)"
+        "note": "〜理由 (reason for)",
+        "furigana": "<ruby>落ち込<rt>おちこ</rt></ruby>んでる<ruby>理由<rt>りゆう</rt></ruby>は<ruby>何<rt>なに</rt></ruby>です?"
       }
     ]
   },
@@ -1421,7 +1518,8 @@
       {
         "japanese": "私のコレクションは世界で一番だ",
         "english": "My collection is the best in the world.",
-        "note": "世界で一番 (best in the world)"
+        "note": "世界で一番 (best in the world)",
+        "furigana": "<ruby>私<rt>わたし</rt></ruby>のコレクションは<ruby>世界<rt>せかい</rt></ruby>で<ruby>一番<rt>いちばん</rt></ruby>だ"
       }
     ]
   },
@@ -1438,7 +1536,8 @@
       {
         "japanese": "長い間情熱を傾けて集めた",
         "english": "I spent a long time passionately gathering.",
-        "note": "長い間 (for a long time)"
+        "note": "長い間 (for a long time)",
+        "furigana": "<ruby>長<rt>なが</rt></ruby>い<ruby>間<rt>ま</rt></ruby><ruby>情熱<rt>じょうねつ</rt></ruby>を<ruby>傾<rt>かたむ</rt></ruby>けて<ruby>集<rt>あつ</rt></ruby>めた"
       }
     ]
   },
@@ -1455,12 +1554,14 @@
       {
         "japanese": "長い間情熱を傾けて集めた",
         "english": "I spent a long time passionately gathering.",
-        "note": "情熱を傾ける (pour passion into)"
+        "note": "情熱を傾ける (pour passion into)",
+        "furigana": "<ruby>長<rt>なが</rt></ruby>い<ruby>間<rt>ま</rt></ruby><ruby>情熱<rt>じょうねつ</rt></ruby>を<ruby>傾<rt>かたむ</rt></ruby>けて<ruby>集<rt>あつ</rt></ruby>めた"
       },
       {
         "japanese": "一生懸命情熱を込めて切手を集めている人",
         "english": "Someone passionately collecting stamps.",
-        "note": "情熱を込めて (with passion)"
+        "note": "情熱を込めて (with passion)",
+        "furigana": "<ruby>一生懸命<rt>いっしょうけんめい</rt></ruby><ruby>情熱<rt>じょうねつ</rt></ruby>を<ruby>込<rt>こ</rt></ruby>めて<ruby>切手<rt>きって</rt></ruby>を<ruby>集<rt>あつ</rt></ruby>めている<ruby>人<rt>ひと</rt></ruby>"
       }
     ]
   },
@@ -1477,12 +1578,14 @@
       {
         "japanese": "情熱を傾けて集めた素晴らしいコレクションだ",
         "english": "It's a wonderful collection I passionately gathered.",
-        "note": "〜を集める (collect)"
+        "note": "〜を集める (collect)",
+        "furigana": "<ruby>情熱<rt>じょうねつ</rt></ruby>を<ruby>傾<rt>かたむ</rt></ruby>けて<ruby>集<rt>あつ</rt></ruby>めた<ruby>素晴<rt>すば</rt></ruby>らしいコレクションだ"
       },
       {
         "japanese": "切手の代わりに何か他のものを集めるんです",
         "english": "Instead of stamps, you should collect something else.",
-        "note": "〜を集める (collect)"
+        "note": "〜を集める (collect)",
+        "furigana": "<ruby>切手<rt>きって</rt></ruby>の<ruby>代<rt>か</rt></ruby>わりに<ruby>何<rt>なに</rt></ruby>か<ruby>他<rt>た</rt></ruby>のものを<ruby>集<rt>あつ</rt></ruby>めるんです"
       }
     ]
   },
@@ -1499,7 +1602,8 @@
       {
         "japanese": "君たちみたいな若い人たちには分からないだろうな",
         "english": "Young people like you probably wouldn't understand.",
-        "note": "若い人 (young people)"
+        "note": "若い人 (young people)",
+        "furigana": "<ruby>君<rt>きみ</rt></ruby>たちみたいな<ruby>若<rt>わか</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>たちには<ruby>分<rt>わ</rt></ruby>からないだろうな"
       }
     ]
   },
@@ -1516,7 +1620,8 @@
       {
         "japanese": "私は一体何をしたらいいんだ?",
         "english": "What on earth should I do?",
-        "note": "一体〜 (what on earth)"
+        "note": "一体〜 (what on earth)",
+        "furigana": "<ruby>私<rt>わたし</rt></ruby>は<ruby>一体<rt>いったい</rt></ruby><ruby>何<rt>なに</rt></ruby>をしたらいいんだ?"
       }
     ]
   },
@@ -1533,12 +1638,14 @@
       {
         "japanese": "一生懸命情熱を込めて切手を集めている人",
         "english": "Someone earnestly and passionately collecting stamps.",
-        "note": "一生懸命 (with all one's might)"
+        "note": "一生懸命 (with all one's might)",
+        "furigana": "<ruby>一生懸命<rt>いっしょうけんめい</rt></ruby><ruby>情熱<rt>じょうねつ</rt></ruby>を<ruby>込<rt>こ</rt></ruby>めて<ruby>切手<rt>きって</rt></ruby>を<ruby>集<rt>あつ</rt></ruby>めている<ruby>人<rt>ひと</rt></ruby>"
       },
       {
         "japanese": "目的に向かって一生懸命やってる時は",
         "english": "When you're working hard toward a goal...",
-        "note": "一生懸命やる (work hard)"
+        "note": "一生懸命やる (work hard)",
+        "furigana": "<ruby>目的<rt>もくてき</rt></ruby>に<ruby>向<rt>む</rt></ruby>かって<ruby>一生懸命<rt>いっしょうけんめい</rt></ruby>やってる<ruby>時<rt>とき</rt></ruby>は"
       }
     ]
   },
@@ -1555,12 +1662,14 @@
       {
         "japanese": "もっと自信を持って",
         "english": "Have more confidence.",
-        "note": "自信を持つ (have confidence)"
+        "note": "自信を持つ (have confidence)",
+        "furigana": "もっと<ruby>自信<rt>じしん</rt></ruby>を<ruby>持<rt>も</rt></ruby>って"
       },
       {
         "japanese": "今はただ切手を持ってるだけの人になった",
         "english": "Now you've become just someone who has stamps.",
-        "note": "持っている (have/own)"
+        "note": "持っている (have/own)",
+        "furigana": "<ruby>今<rt>いま</rt></ruby>はただ<ruby>切手<rt>きって</rt></ruby>を<ruby>持<rt>も</rt></ruby>ってるだけの<ruby>人<rt>ひと</rt></ruby>になった"
       }
     ]
   },
@@ -1577,7 +1686,8 @@
       {
         "japanese": "目的に向かって一生懸命やってる時は",
         "english": "When you're working hard toward a goal...",
-        "note": "目的に向かって (toward a goal)"
+        "note": "目的に向かって (toward a goal)",
+        "furigana": "<ruby>目的<rt>もくてき</rt></ruby>に<ruby>向<rt>む</rt></ruby>かって<ruby>一生懸命<rt>いっしょうけんめい</rt></ruby>やってる<ruby>時<rt>とき</rt></ruby>は"
       }
     ]
   },
@@ -1594,7 +1704,8 @@
       {
         "japanese": "苦しいこともあるけど本当は楽しいんだね",
         "english": "There are hard times, but it's actually fun.",
-        "note": "苦しいこと (difficult things)"
+        "note": "苦しいこと (difficult things)",
+        "furigana": "<ruby>苦<rt>くる</rt></ruby>しいこともあるけど<ruby>本当<rt>ほんとう</rt></ruby>は<ruby>楽<rt>たの</rt></ruby>しいんだね"
       }
     ]
   },
@@ -1611,7 +1722,8 @@
       {
         "japanese": "努力して自分で見つけるしかないでしょう",
         "english": "You'll probably just have to work hard and find it yourself.",
-        "note": "努力して (by making effort)"
+        "note": "努力して (by making effort)",
+        "furigana": "<ruby>努力<rt>どりょく</rt></ruby>して<ruby>自分<rt>じぶん</rt></ruby>で<ruby>見<rt>み</rt></ruby>つけるしかないでしょう"
       }
     ]
   },
@@ -1628,7 +1740,8 @@
       {
         "japanese": "努力して自分で見つけるしかない",
         "english": "You just have to work hard and find it yourself.",
-        "note": "自分で (by oneself)"
+        "note": "自分で (by oneself)",
+        "furigana": "<ruby>努力<rt>どりょく</rt></ruby>して<ruby>自分<rt>じぶん</rt></ruby>で<ruby>見<rt>み</rt></ruby>つけるしかない"
       }
     ]
   },
@@ -1645,12 +1758,14 @@
       {
         "japanese": "縦穴を見つけたんだ",
         "english": "We found a vertical shaft.",
-        "note": "〜を見つける (find)"
+        "note": "〜を見つける (find)",
+        "furigana": "<ruby>縦穴<rt>たてあな</rt></ruby>を<ruby>見<rt>み</rt></ruby>つけたんだ"
       },
       {
         "japanese": "パパ、海岸まで来てください、船を見つけたんです",
         "english": "Papa, please come to the beach, we found a ship!",
-        "note": "船を見つける (find a ship)"
+        "note": "船を見つける (find a ship)",
+        "furigana": "パパ、<ruby>海岸<rt>かいがん</rt></ruby>まで<ruby>来<rt>き</rt></ruby>てください、<ruby>船<rt>ふね</rt></ruby>を<ruby>見<rt>み</rt></ruby>つけたんです"
       }
     ]
   },
@@ -1667,7 +1782,8 @@
       {
         "japanese": "壊れたボートでも流れ着いたのかい?",
         "english": "Did a broken boat wash ashore?",
-        "note": "壊れた (broken)"
+        "note": "壊れた (broken)",
+        "furigana": "<ruby>壊<rt>こわ</rt></ruby>れたボートでも<ruby>流れ着<rt>ながれつ</rt></ruby>いたのかい?"
       }
     ]
   },
@@ -1684,7 +1800,8 @@
       {
         "japanese": "壊れたボートでも流れ着いたのかい?",
         "english": "Did a broken boat wash ashore?",
-        "note": "流れ着く (wash ashore)"
+        "note": "流れ着く (wash ashore)",
+        "furigana": "<ruby>壊<rt>こわ</rt></ruby>れたボートでも<ruby>流れ着<rt>ながれつ</rt></ruby>いたのかい?"
       }
     ]
   },
@@ -1701,7 +1818,8 @@
       {
         "japanese": "もっと立派な船です、白い帆のついた",
         "english": "It's a finer ship, with white sails.",
-        "note": "立派な (splendid)"
+        "note": "立派な (splendid)",
+        "furigana": "もっと<ruby>立派<rt>りっぱ</rt></ruby>な<ruby>船<rt>ふね</rt></ruby>です、<ruby>白<rt>しろ</rt></ruby>い<ruby>帆<rt>ほ</rt></ruby>のついた"
       }
     ]
   },
@@ -1718,7 +1836,8 @@
       {
         "japanese": "白い帆のついた",
         "english": "With white sails.",
-        "note": "白い帆 (white sails)"
+        "note": "白い帆 (white sails)",
+        "furigana": "<ruby>白<rt>しろ</rt></ruby>い<ruby>帆<rt>ほ</rt></ruby>のついた"
       }
     ]
   },
@@ -1735,12 +1854,14 @@
       {
         "japanese": "白い帆のついた",
         "english": "With white sails.",
-        "note": "帆のついた (with sails)"
+        "note": "帆のついた (with sails)",
+        "furigana": "<ruby>白<rt>しろ</rt></ruby>い<ruby>帆<rt>ほ</rt></ruby>のついた"
       },
       {
         "japanese": "船に帆を張って",
         "english": "Setting the sails on the ship.",
-        "note": "帆を張る (set sails)"
+        "note": "帆を張る (set sails)",
+        "furigana": "<ruby>船<rt>ふね</rt></ruby>に<ruby>帆<rt>ほ</rt></ruby>を<ruby>張<rt>は</rt></ruby>って"
       }
     ]
   },
@@ -1757,7 +1878,8 @@
       {
         "japanese": "それじゃあ、早速修理に取り掛かろう",
         "english": "Well then, let's get started on repairs right away.",
-        "note": "早速 (right away)"
+        "note": "早速 (right away)",
+        "furigana": "それじゃあ、<ruby>早速<rt>さっそく</rt></ruby><ruby>修理<rt>しゅうり</rt></ruby>に<ruby>取り掛<rt>とりか</rt></ruby>かろう"
       }
     ]
   },
@@ -1774,7 +1896,8 @@
       {
         "japanese": "早速修理に取り掛かろう",
         "english": "Let's get started on repairs right away.",
-        "note": "修理に取り掛かる (start repairs)"
+        "note": "修理に取り掛かる (start repairs)",
+        "furigana": "<ruby>早速<rt>さっそく</rt></ruby><ruby>修理<rt>しゅうり</rt></ruby>に<ruby>取り掛<rt>とりか</rt></ruby>かろう"
       }
     ]
   },
@@ -1791,7 +1914,8 @@
       {
         "japanese": "修理に取り掛かろう",
         "english": "Let's start on the repairs.",
-        "note": "〜に取り掛かる (start on)"
+        "note": "〜に取り掛かる (start on)",
+        "furigana": "<ruby>修理<rt>しゅうり</rt></ruby>に<ruby>取り掛<rt>とりか</rt></ruby>かろう"
       }
     ]
   },
@@ -1808,7 +1932,8 @@
       {
         "japanese": "本当に船が動くようになったら",
         "english": "If the ship really starts working...",
-        "note": "動くようになる (come to move)"
+        "note": "動くようになる (come to move)",
+        "furigana": "<ruby>本当<rt>ほんとう</rt></ruby>に<ruby>船<rt>ふね</rt></ruby>が<ruby>動<rt>うご</rt></ruby>くようになったら"
       }
     ]
   },
@@ -1825,7 +1950,8 @@
       {
         "japanese": "切手の代わりに何か他のものを集めるんです",
         "english": "Instead of stamps, you should collect something else.",
-        "note": "〜の代わりに (instead of)"
+        "note": "〜の代わりに (instead of)",
+        "furigana": "<ruby>切手<rt>きって</rt></ruby>の<ruby>代<rt>か</rt></ruby>わりに<ruby>何<rt>なに</rt></ruby>か<ruby>他<rt>た</rt></ruby>のものを<ruby>集<rt>あつ</rt></ruby>めるんです"
       }
     ]
   },
@@ -1842,7 +1968,8 @@
       {
         "japanese": "何か他のものを集めるんです",
         "english": "Collect something else.",
-        "note": "他のもの (something else)"
+        "note": "他のもの (something else)",
+        "furigana": "<ruby>何<rt>なに</rt></ruby>か<ruby>他<rt>た</rt></ruby>のものを<ruby>集<rt>あつ</rt></ruby>めるんです"
       }
     ]
   },
@@ -1859,7 +1986,8 @@
       {
         "japanese": "何でもあるでしょう",
         "english": "There's all sorts of things.",
-        "note": "何でもある (there's anything)"
+        "note": "何でもある (there's anything)",
+        "furigana": "<ruby>何<rt>なに</rt></ruby>でもあるでしょう"
       }
     ]
   },
@@ -1876,7 +2004,8 @@
       {
         "japanese": "蝶々なんかどうです",
         "english": "How about butterflies?",
-        "note": "〜なんかどう (how about)"
+        "note": "〜なんかどう (how about)",
+        "furigana": "<ruby>蝶々<rt>ちょうちょう</rt></ruby>なんかどうです"
       }
     ]
   },
@@ -1893,7 +2022,8 @@
       {
         "japanese": "コレクションを決めたよ",
         "english": "I've decided on a collection.",
-        "note": "〜を決める (decide on)"
+        "note": "〜を決める (decide on)",
+        "furigana": "コレクションを<ruby>決<rt>き</rt></ruby>めたよ"
       }
     ]
   },
@@ -1910,7 +2040,8 @@
       {
         "japanese": "植物にした、これはハマナス",
         "english": "I chose plants. This is a beach rose.",
-        "note": "植物にする (choose plants)"
+        "note": "植物にする (choose plants)",
+        "furigana": "<ruby>植物<rt>しょくぶつ</rt></ruby>にした、これはハマナス"
       }
     ]
   },
@@ -1927,7 +2058,8 @@
       {
         "japanese": "私のコレクション第一号だ",
         "english": "This is the first item in my collection.",
-        "note": "第一号 (number one)"
+        "note": "第一号 (number one)",
+        "furigana": "<ruby>私<rt>わたし</rt></ruby>のコレクション<ruby>第<rt>だい</rt></ruby><ruby>一<rt>いち</rt></ruby><ruby>号<rt>ごう</rt></ruby>だ"
       }
     ]
   },
@@ -1944,12 +2076,14 @@
       {
         "japanese": "物を新しく作り出す人は",
         "english": "People who create new things...",
-        "note": "新しく (newly)"
+        "note": "新しく (newly)",
+        "furigana": "<ruby>物<rt>もの</rt></ruby>を<ruby>新<rt>あたら</rt></ruby>しく<ruby>作り出<rt>つくりだ</rt></ruby>す<ruby>人<rt>ひと</rt></ruby>は"
       },
       {
         "japanese": "空飛ぶ船の新しいアイデアがひらめいたんだ",
         "english": "I got a new idea for the flying ship.",
-        "note": "新しいアイデア (new idea)"
+        "note": "新しいアイデア (new idea)",
+        "furigana": "<ruby>空<rt>そら</rt></ruby><ruby>飛<rt>と</rt></ruby>ぶ<ruby>船<rt>ふね</rt></ruby>の<ruby>新<rt>あたら</rt></ruby>しいアイデアがひらめいたんだ"
       }
     ]
   },
@@ -1966,7 +2100,8 @@
       {
         "japanese": "今度こそ完成するぞ",
         "english": "This time I'll definitely complete it!",
-        "note": "完成する (complete)"
+        "note": "完成する (complete)",
+        "furigana": "<ruby>今度<rt>こんど</rt></ruby>こそ<ruby>完成<rt>かんせい</rt></ruby>するぞ"
       }
     ]
   },
@@ -1983,7 +2118,8 @@
       {
         "japanese": "みんなで仕上げた船に帆を張って",
         "english": "Setting sails on the ship we all finished together.",
-        "note": "仕上げる (finish/complete)"
+        "note": "仕上げる (finish/complete)",
+        "furigana": "みんなで<ruby>仕上<rt>しあ</rt></ruby>げた<ruby>船<rt>ふね</rt></ruby>に<ruby>帆<rt>ほ</rt></ruby>を<ruby>張<rt>は</rt></ruby>って"
       }
     ]
   },
@@ -2000,7 +2136,8 @@
       {
         "japanese": "大海原へと漕ぎ出した",
         "english": "Rowing out to the open sea.",
-        "note": "漕ぎ出す (row out)"
+        "note": "漕ぎ出す (row out)",
+        "furigana": "<ruby>大<rt>だい</rt></ruby><ruby>海原<rt>うなばら</rt></ruby>へと<ruby>漕<rt>こ</rt></ruby>ぎ<ruby>出<rt>だ</rt></ruby>した"
       }
     ]
   }

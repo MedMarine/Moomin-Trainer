@@ -12,12 +12,14 @@
       {
         "japanese": "春だ！春が来たんだ！",
         "english": "It's spring! Spring has come!",
-        "note": "だ (copula) + んだ (emphasis)"
+        "note": "だ (copula) + んだ (emphasis)",
+        "furigana": "<ruby>春<rt>はる</rt></ruby>だ！<ruby>春<rt>はる</rt></ruby>が<ruby>来<rt>き</rt></ruby>たんだ！"
       },
       {
         "japanese": "暖かい春からこの物語を始めることにしましょう",
         "english": "Let's start this story in warm spring.",
-        "note": "adjective + noun pattern"
+        "note": "adjective + noun pattern",
+        "furigana": "<ruby>暖<rt>あたた</rt></ruby>かい<ruby>春<rt>はる</rt></ruby>からこの<ruby>物語<rt>ものがたり</rt></ruby>を<ruby>始<rt>はじ</rt></ruby>めることにしましょう"
       }
     ]
   },
@@ -34,17 +36,20 @@
       {
         "japanese": "春が来たんだ！",
         "english": "Spring has come!",
-        "note": "past tense (た-form)"
+        "note": "past tense (た-form)",
+        "furigana": "<ruby>春<rt>はる</rt></ruby>が<ruby>来<rt>き</rt></ruby>たんだ！"
       },
       {
         "japanese": "今年はずいぶん早く帰ってきたね",
         "english": "You came back pretty early this year.",
-        "note": "帰って + きた (motion toward speaker)"
+        "note": "帰って + きた (motion toward speaker)",
+        "furigana": "<ruby>今年<rt>ことし</rt></ruby>はずいぶん<ruby>早<rt>はや</rt></ruby>く<ruby>帰<rt>かえ</rt></ruby>ってきたね"
       },
       {
         "japanese": "さあこっちにおいで",
         "english": "Now come over here.",
-        "note": "おいで = polite imperative of 来る"
+        "note": "おいで = polite imperative of 来る",
+        "furigana": "さあこっちにおいで"
       }
     ]
   },
@@ -61,12 +66,14 @@
       {
         "japanese": "ほらみんな眠っていますよ",
         "english": "Look, everyone is sleeping.",
-        "note": "〜ている (progressive/state)"
+        "note": "〜ている (progressive/state)",
+        "furigana": "ほらみんな<ruby>眠<rt>ねむ</rt></ruby>っていますよ"
       },
       {
         "japanese": "この谷の住民たちは冬の間眠って過ごします",
         "english": "The residents of this valley sleep through the winter.",
-        "note": "〜て過ごす (spend time doing)"
+        "note": "〜て過ごす (spend time doing)",
+        "furigana": "この<ruby>谷<rt>たに</rt></ruby>の<ruby>住民<rt>じゅうみん</rt></ruby>たちは<ruby>冬<rt>ふゆ</rt></ruby>の<ruby>間<rt>ま</rt></ruby><ruby>眠<rt>ねむ</rt></ruby>って<ruby>過<rt>す</rt></ruby>ごします"
       }
     ]
   },
@@ -83,12 +90,14 @@
       {
         "japanese": "起きたのね二人とも",
         "english": "You both woke up, didn't you?",
-        "note": "past + explanatory のね"
+        "note": "past + explanatory のね",
+        "furigana": "<ruby>起<rt>お</rt></ruby>きたのね<ruby>二<rt>に</rt></ruby><ruby>人<rt>にん</rt></ruby>とも"
       },
       {
         "japanese": "やあミー君も起きてたのか",
         "english": "Oh, Little My, you're awake too.",
-        "note": "〜ていた (past progressive state)"
+        "note": "〜ていた (past progressive state)",
+        "furigana": "やあミー<ruby>君<rt>きみ</rt></ruby>も<ruby>起<rt>お</rt></ruby>きてたのか"
       }
     ]
   },
@@ -105,17 +114,20 @@
       {
         "japanese": "あれはシルクハットだ",
         "english": "That's a top hat!",
-        "note": "シルクハット = silk hat / top hat"
+        "note": "シルクハット = silk hat / top hat",
+        "furigana": "あれはシルクハットだ"
       },
       {
         "japanese": "この帽子パパのに似てるな",
         "english": "This hat looks a lot like Dad's.",
-        "note": "〜に似ている (to resemble)"
+        "note": "〜に似ている (to resemble)",
+        "furigana": "この<ruby>帽子<rt>ぼうし</rt></ruby>パパのに<ruby>似<rt>に</rt></ruby>てるな"
       },
       {
         "japanese": "残念だけどこの帽子は大きすぎる",
         "english": "Unfortunately, this hat is too big.",
-        "note": "〜すぎる (too much)"
+        "note": "〜すぎる (too much)",
+        "furigana": "<ruby>残念<rt>ざんねん</rt></ruby>だけどこの<ruby>帽子<rt>ぼうし</rt></ruby>は<ruby>大<rt>おお</rt></ruby>きすぎる"
       }
     ]
   },
@@ -132,12 +144,14 @@
       {
         "japanese": "ムーミン谷は冬になるとすっかり雪で覆われてしまうんです",
         "english": "Moominvalley gets completely covered in snow during winter.",
-        "note": "〜になると (when it becomes)"
+        "note": "〜になると (when it becomes)",
+        "furigana": "ムーミン<ruby>谷<rt>たに</rt></ruby>は<ruby>冬<rt>ふゆ</rt></ruby>になるとすっかり<ruby>雪<rt>ゆき</rt></ruby>で<ruby>覆<rt>おお</rt></ruby>われてしまうんです"
       },
       {
         "japanese": "みんなが雪の下で眠っている冬から始めるわけにはいかないので",
         "english": "We can't start from winter when everyone is sleeping under the snow.",
-        "note": "〜わけにはいかない (cannot do)"
+        "note": "〜わけにはいかない (cannot do)",
+        "furigana": "みんなが<ruby>雪の下<rt>ゆきのした</rt></ruby>で<ruby>眠<rt>ねむ</rt></ruby>っている<ruby>冬<rt>ふゆ</rt></ruby>から<ruby>始<rt>はじ</rt></ruby>めるわけにはいかないので"
       }
     ]
   },
@@ -154,12 +168,14 @@
       {
         "japanese": "私どうしてこの家で冬眠してたの",
         "english": "Why was I hibernating in this house?",
-        "note": "〜していた (past progressive)"
+        "note": "〜していた (past progressive)",
+        "furigana": "<ruby>私<rt>わたし</rt></ruby>どうしてこの<ruby>家<rt>いえ</rt></ruby>で<ruby>冬眠<rt>とうみん</rt></ruby>してたの"
       },
       {
         "japanese": "冬眠明けのお料理を作ることにしましょうか",
         "english": "Shall we make some post-hibernation dishes?",
-        "note": "〜明け (after/post-)"
+        "note": "〜明け (after/post-)",
+        "furigana": "<ruby>冬眠<rt>とうみん</rt></ruby><ruby>明<rt>あ</rt></ruby>けのお<ruby>料理<rt>りょうり</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ることにしましょうか"
       }
     ]
   },
@@ -176,12 +192,14 @@
       {
         "japanese": "みなさんはムーミン谷のことを聞いたことがありますか",
         "english": "Have you all heard of Moomin Valley?",
-        "note": "〜のこと (about ~)"
+        "note": "〜のこと (about ~)",
+        "furigana": "みなさんはムーミン<ruby>谷<rt>たに</rt></ruby>のことを<ruby>聞<rt>き</rt></ruby>いたことがありますか"
       },
       {
         "japanese": "この谷の住民たちは冬の間眠って過ごします",
         "english": "The residents of this valley sleep through the winter.",
-        "note": "住民 = residents"
+        "note": "住民 = residents",
+        "furigana": "この<ruby>谷<rt>たに</rt></ruby>の<ruby>住民<rt>じゅうみん</rt></ruby>たちは<ruby>冬<rt>ふゆ</rt></ruby>の<ruby>間<rt>ま</rt></ruby><ruby>眠<rt>ねむ</rt></ruby>って<ruby>過<rt>す</rt></ruby>ごします"
       }
     ]
   },
@@ -198,7 +216,8 @@
       {
         "japanese": "ムーミン谷は冬になるとすっかり雪で覆われてしまうんです",
         "english": "Moominvalley gets completely covered in snow during winter.",
-        "note": "雪で覆われる (be covered with snow)"
+        "note": "雪で覆われる (be covered with snow)",
+        "furigana": "ムーミン<ruby>谷<rt>たに</rt></ruby>は<ruby>冬<rt>ふゆ</rt></ruby>になるとすっかり<ruby>雪<rt>ゆき</rt></ruby>で<ruby>覆<rt>おお</rt></ruby>われてしまうんです"
       }
     ]
   },
@@ -215,17 +234,20 @@
       {
         "japanese": "これはムーミンの家です",
         "english": "This is Moomin's house.",
-        "note": "possessive の"
+        "note": "possessive の",
+        "furigana": "これはムーミンの<ruby>家<rt>いえ</rt></ruby>です"
       },
       {
         "japanese": "私家でお姉ちゃんと一緒に寝てたはずだけど",
         "english": "I should have been sleeping with my big sister at home.",
-        "note": "はず (should be/expectation)"
+        "note": "はず (should be/expectation)",
+        "furigana": "<ruby>私家<rt>しか</rt></ruby>でお<ruby>姉<rt>ねえ</rt></ruby>ちゃんと<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>寝<rt>ね</rt></ruby>てたはずだけど"
       },
       {
         "japanese": "僕が家を出た時ママは起きてました",
         "english": "When I left the house, Mama was awake.",
-        "note": "家を出る (leave the house)"
+        "note": "家を出る (leave the house)",
+        "furigana": "<ruby>僕<rt>ぼく</rt></ruby>が<ruby>家<rt>いえ</rt></ruby>を<ruby>出<rt>で</rt></ruby>た<ruby>時<rt>とき</rt></ruby>ママは<ruby>起<rt>お</rt></ruby>きてました"
       }
     ]
   },
@@ -242,12 +264,14 @@
       {
         "japanese": "これがこの物語の主人公ムーミントロール",
         "english": "This is Moomintroll, the main character of this story.",
-        "note": "主人公 = main character/protagonist"
+        "note": "主人公 = main character/protagonist",
+        "furigana": "これがこの<ruby>物語<rt>ものがたり</rt></ruby>の<ruby>主人公<rt>しゅじんこう</rt></ruby>ムーミントロール"
       },
       {
         "japanese": "それではさっそく物語を始めることにします",
         "english": "Now, let's promptly start the story.",
-        "note": "さっそく = promptly/at once"
+        "note": "さっそく = promptly/at once",
+        "furigana": "それではさっそく<ruby>物語<rt>ものがたり</rt></ruby>を<ruby>始<rt>はじ</rt></ruby>めることにします"
       }
     ]
   },
@@ -264,12 +288,14 @@
       {
         "japanese": "それではさっそく物語を始めることにします",
         "english": "Now, let's promptly start the story.",
-        "note": "〜ことにする (decide to)"
+        "note": "〜ことにする (decide to)",
+        "furigana": "それではさっそく<ruby>物語<rt>ものがたり</rt></ruby>を<ruby>始<rt>はじ</rt></ruby>めることにします"
       },
       {
         "japanese": "暖かい春からこの物語を始めることにしましょう",
         "english": "Let's start this story in warm spring.",
-        "note": "〜ましょう (let's)"
+        "note": "〜ましょう (let's)",
+        "furigana": "<ruby>暖<rt>あたた</rt></ruby>かい<ruby>春<rt>はる</rt></ruby>からこの<ruby>物語<rt>ものがたり</rt></ruby>を<ruby>始<rt>はじ</rt></ruby>めることにしましょう"
       }
     ]
   },
@@ -286,7 +312,8 @@
       {
         "japanese": "みなさんはムーミン谷のことを聞いたことがありますか",
         "english": "Have you all heard of Moomin Valley?",
-        "note": "〜たことがある (have experienced)"
+        "note": "〜たことがある (have experienced)",
+        "furigana": "みなさんはムーミン<ruby>谷<rt>たに</rt></ruby>のことを<ruby>聞<rt>き</rt></ruby>いたことがありますか"
       }
     ]
   },
@@ -303,17 +330,20 @@
       {
         "japanese": "うちに行ってお姉ちゃんが帰ってきてるかどうか見てくる",
         "english": "I'm going home to see if big sister has come back.",
-        "note": "〜てくる (go and come back)"
+        "note": "〜てくる (go and come back)",
+        "furigana": "うちに<ruby>行<rt>い</rt></ruby>ってお<ruby>姉<rt>ねえ</rt></ruby>ちゃんが<ruby>帰<rt>かえ</rt></ruby>ってきてるかどうか<ruby>見<rt>み</rt></ruby>てくる"
       },
       {
         "japanese": "でも見てくる",
         "english": "But I'll check.",
-        "note": "見る used as 'check/verify'"
+        "note": "見る used as 'check/verify'",
+        "furigana": "でも<ruby>見<rt>み</rt></ruby>てくる"
       },
       {
         "japanese": "あなたは自分の顔鏡で見たことあるの",
         "english": "Have you ever seen your own face in the mirror?",
-        "note": "〜たことある (have done before)"
+        "note": "〜たことある (have done before)",
+        "furigana": "あなたは<ruby>自分<rt>じぶん</rt></ruby>の<ruby>顔<rt>かお</rt></ruby><ruby>鏡<rt>きょう</rt></ruby>で<ruby>見<rt>み</rt></ruby>たことあるの"
       }
     ]
   },
@@ -330,12 +360,14 @@
       {
         "japanese": "この子は自分がムーミンだって言い張るんだよ",
         "english": "This child insists they are Moomin.",
-        "note": "言い張る = to insist"
+        "note": "言い張る = to insist",
+        "furigana": "この<ruby>子<rt>こ</rt></ruby>は<ruby>自分<rt>じぶん</rt></ruby>がムーミンだって<ruby>言い張<rt>いいは</rt></ruby>るんだよ"
       },
       {
         "japanese": "言ったでしょ静かにしてって",
         "english": "I told you to be quiet.",
-        "note": "〜って (quotation marker, casual)"
+        "note": "〜って (quotation marker, casual)",
+        "furigana": "<ruby>言<rt>い</rt></ruby>ったでしょ<ruby>静<rt>しず</rt></ruby>かにしてって"
       }
     ]
   },
@@ -352,17 +384,20 @@
       {
         "japanese": "君もスノフキンに会いに行くの",
         "english": "Are you going to see Snufkin too?",
-        "note": "〜に行く (go to do)"
+        "note": "〜に行く (go to do)",
+        "furigana": "<ruby>君<rt>きみ</rt></ruby>もスノフキンに<ruby>会<rt>あ</rt></ruby>いに<ruby>行<rt>い</rt></ruby>くの"
       },
       {
         "japanese": "お兄さん私ムーミンのところに遊びに行っていい",
         "english": "Hey, can I go visit Moomin?",
-        "note": "遊びに行く (go to play/visit)"
+        "note": "遊びに行く (go to play/visit)",
+        "furigana": "お<ruby>兄<rt>にい</rt></ruby>さん<ruby>私<rt>わたし</rt></ruby>ムーミンのところに<ruby>遊<rt>あそ</rt></ruby>びに<ruby>行<rt>い</rt></ruby>っていい"
       },
       {
         "japanese": "去年の秋ミーのお姉ちゃんはお母さんのところへ行ったろ",
         "english": "Last autumn, my big sister went to our mother, right?",
-        "note": "〜へ行く (go to a place)"
+        "note": "〜へ行く (go to a place)",
+        "furigana": "<ruby>去年<rt>きょねん</rt></ruby>の<ruby>秋<rt>あき</rt></ruby>ミーのお<ruby>姉<rt>ねえ</rt></ruby>ちゃんは<ruby>お母<rt>おかあ</rt></ruby>さんのところへ<ruby>行<rt>い</rt></ruby>ったろ"
       }
     ]
   },
@@ -379,17 +414,20 @@
       {
         "japanese": "スノフキンが帰ってる",
         "english": "Snufkin is back.",
-        "note": "〜ている (resultant state)"
+        "note": "〜ている (resultant state)",
+        "furigana": "スノフキンが<ruby>帰<rt>かえ</rt></ruby>ってる"
       },
       {
         "japanese": "今年はずいぶん早く帰ってきたね",
         "english": "You came back pretty early this year.",
-        "note": "帰ってくる (come back here)"
+        "note": "帰ってくる (come back here)",
+        "furigana": "<ruby>今年<rt>ことし</rt></ruby>はずいぶん<ruby>早<rt>はや</rt></ruby>く<ruby>帰<rt>かえ</rt></ruby>ってきたね"
       },
       {
         "japanese": "ミムラが帰ってくるまでミーはずっとこの家にいていいんだよ",
         "english": "Until Mimura comes back, I can stay in this house forever.",
-        "note": "〜まで (until)"
+        "note": "〜まで (until)",
+        "furigana": "ミムラが<ruby>帰<rt>かえ</rt></ruby>ってくるまでミーはずっとこの<ruby>家<rt>いえ</rt></ruby>にいていいんだよ"
       }
     ]
   },
@@ -406,12 +444,14 @@
       {
         "japanese": "忘れちゃったの",
         "english": "Did you forget?",
-        "note": "〜ちゃった (casual te-shimatta)"
+        "note": "〜ちゃった (casual te-shimatta)",
+        "furigana": "<ruby>忘<rt>わす</rt></ruby>れちゃったの"
       },
       {
         "japanese": "4ヶ月も眠ると去年のことなんかみんな忘れちゃうんだなミーは",
         "english": "If you sleep for four months, you forget everything from last year.",
-        "note": "〜と (conditional)"
+        "note": "〜と (conditional)",
+        "furigana": "4<ruby>ヶ月<rt>かげつ</rt></ruby>も<ruby>眠<rt>ねむ</rt></ruby>ると<ruby>去年<rt>きょねん</rt></ruby>のことなんかみんな<ruby>忘<rt>わす</rt></ruby>れちゃうんだなミーは"
       }
     ]
   },
@@ -428,12 +468,14 @@
       {
         "japanese": "なんとなく思い出してきた",
         "english": "I'm starting to remember a little.",
-        "note": "〜てきた (gradual change)"
+        "note": "〜てきた (gradual change)",
+        "furigana": "なんとなく<ruby>思い出<rt>おもいだ</rt></ruby>してきた"
       },
       {
         "japanese": "やっと思い出したらしいな",
         "english": "It seems you've finally remembered.",
-        "note": "〜らしい (seems like)"
+        "note": "〜らしい (seems like)",
+        "furigana": "やっと<ruby>思い出<rt>おもいだ</rt></ruby>したらしいな"
       }
     ]
   },
@@ -450,7 +492,8 @@
       {
         "japanese": "覚えてることだってあるわ",
         "english": "There are things I remember.",
-        "note": "〜だって (even)"
+        "note": "〜だって (even)",
+        "furigana": "<ruby>覚<rt>おぼ</rt></ruby>えてることだってあるわ"
       }
     ]
   },
@@ -467,17 +510,20 @@
       {
         "japanese": "ずいぶん大きいな",
         "english": "It's quite big.",
-        "note": "ずいぶん = quite/considerably"
+        "note": "ずいぶん = quite/considerably",
+        "furigana": "ずいぶん<ruby>大<rt>おお</rt></ruby>きいな"
       },
       {
         "japanese": "これは私の帽子より大きいよ",
         "english": "This is bigger than my hat.",
-        "note": "〜より (comparison)"
+        "note": "〜より (comparison)",
+        "furigana": "これは<ruby>私<rt>わたし</rt></ruby>の<ruby>帽子<rt>ぼうし</rt></ruby>より<ruby>大<rt>おお</rt></ruby>きいよ"
       },
       {
         "japanese": "残念だけどこの帽子は大きすぎる",
         "english": "Unfortunately, this hat is too big.",
-        "note": "〜すぎる (too much)"
+        "note": "〜すぎる (too much)",
+        "furigana": "<ruby>残念<rt>ざんねん</rt></ruby>だけどこの<ruby>帽子<rt>ぼうし</rt></ruby>は<ruby>大<rt>おお</rt></ruby>きすぎる"
       }
     ]
   },
@@ -494,17 +540,20 @@
       {
         "japanese": "僕たち面白いことをするんだ",
         "english": "We're going to do something fun.",
-        "note": "面白いこと = something interesting"
+        "note": "面白いこと = something interesting",
+        "furigana": "<ruby>僕<rt>ぼく</rt></ruby>たち<ruby>面白<rt>おもしろ</rt></ruby>いことをするんだ"
       },
       {
         "japanese": "山に登るのは何が面白いのさ",
         "english": "What's so fun about climbing a mountain?",
-        "note": "〜のは...の (nominalizing)"
+        "note": "〜のは...の (nominalizing)",
+        "furigana": "<ruby>山<rt>やま</rt></ruby>に<ruby>登<rt>のぼ</rt></ruby>るのは<ruby>何<rt>なに</rt></ruby>が<ruby>面白<rt>おもしろ</rt></ruby>いのさ"
       },
       {
         "japanese": "さあスニフを起こして何か面白いことをしようよ",
         "english": "Now let's wake up Sniff and do something fun.",
-        "note": "〜しよう (volitional)"
+        "note": "〜しよう (volitional)",
+        "furigana": "さあスニフを<ruby>起<rt>お</rt></ruby>こして<ruby>何<rt>なに</rt></ruby>か<ruby>面白<rt>おもしろ</rt></ruby>いことをしようよ"
       }
     ]
   },
@@ -521,7 +570,8 @@
       {
         "japanese": "お姉ちゃんがいなくて寂しいからって冬眠する前の日ここへ来たんだぞ",
         "english": "I came here the day before hibernating because I was lonely without my sister.",
-        "note": "〜からって (because, citing reason)"
+        "note": "〜からって (because, citing reason)",
+        "furigana": "お<ruby>姉<rt>ねえ</rt></ruby>ちゃんがいなくて<ruby>寂<rt>さび</rt></ruby>しいからって<ruby>冬眠<rt>とうみん</rt></ruby>する<ruby>前<rt>まえ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>ここへ<ruby>来<rt>き</rt></ruby>たんだぞ"
       }
     ]
   },
@@ -538,7 +588,8 @@
       {
         "japanese": "暖かい春からこの物語を始めることにしましょう",
         "english": "Let's start this story in warm spring.",
-        "note": "暖かい modifies 春"
+        "note": "暖かい modifies 春",
+        "furigana": "<ruby>暖<rt>あたた</rt></ruby>かい<ruby>春<rt>はる</rt></ruby>からこの<ruby>物語<rt>ものがたり</rt></ruby>を<ruby>始<rt>はじ</rt></ruby>めることにしましょう"
       }
     ]
   },
@@ -555,17 +606,20 @@
       {
         "japanese": "今年はずいぶん早く帰ってきたね",
         "english": "You came back pretty early this year.",
-        "note": "早く (adverb form)"
+        "note": "早く (adverb form)",
+        "furigana": "<ruby>今年<rt>ことし</rt></ruby>はずいぶん<ruby>早<rt>はや</rt></ruby>く<ruby>帰<rt>かえ</rt></ruby>ってきたね"
       },
       {
         "japanese": "縄梯子より階段の方が早いわ",
         "english": "It's quicker to take the stairs than the rope ladder.",
-        "note": "〜より〜の方が (comparison)"
+        "note": "〜より〜の方が (comparison)",
+        "furigana": "<ruby>縄梯子<rt>なわばしご</rt></ruby>より<ruby>階段<rt>かいだん</rt></ruby>の<ruby>方<rt>ほう</rt></ruby>が<ruby>早<rt>はや</rt></ruby>いわ"
       },
       {
         "japanese": "パパ早くこの雲に乗って",
         "english": "Dad, quickly get on this cloud.",
-        "note": "早く as adverb 'quickly'"
+        "note": "早く as adverb 'quickly'",
+        "furigana": "パパ<ruby>早<rt>はや</rt></ruby>くこの<ruby>雲<rt>くも</rt></ruby>に<ruby>乗<rt>の</rt></ruby>って"
       }
     ]
   },
@@ -582,17 +636,20 @@
       {
         "japanese": "素晴らしい眺めだろスニフ",
         "english": "It's a wonderful view, isn't it, Sniff?",
-        "note": "〜だろ (right?/isn't it?)"
+        "note": "〜だろ (right?/isn't it?)",
+        "furigana": "<ruby>素晴<rt>すば</rt></ruby>らしい<ruby>眺<rt>なが</rt></ruby>めだろスニフ"
       },
       {
         "japanese": "こんな素晴らしい天気だ",
         "english": "The weather is amazing.",
-        "note": "こんな = such/like this"
+        "note": "こんな = such/like this",
+        "furigana": "こんな<ruby>素晴<rt>すば</rt></ruby>らしい<ruby>天気<rt>てんき</rt></ruby>だ"
       },
       {
         "japanese": "夢を追うということは素晴らしいことさ",
         "english": "Chasing a dream is a wonderful thing.",
-        "note": "〜ということ (the fact that)"
+        "note": "〜ということ (the fact that)",
+        "furigana": "<ruby>夢<rt>ゆめ</rt></ruby>を<ruby>追<rt>お</rt></ruby>うということは<ruby>素晴<rt>すば</rt></ruby>らしいことさ"
       }
     ]
   },
@@ -609,12 +666,14 @@
       {
         "japanese": "残念だけどこの帽子は大きすぎる",
         "english": "Unfortunately, this hat is too big.",
-        "note": "残念だけど = unfortunately/but"
+        "note": "残念だけど = unfortunately/but",
+        "furigana": "<ruby>残念<rt>ざんねん</rt></ruby>だけどこの<ruby>帽子<rt>ぼうし</rt></ruby>は<ruby>大<rt>おお</rt></ruby>きすぎる"
       },
       {
         "japanese": "残念ねもっと遊びたかったのに",
         "english": "What a shame, I wanted to play more.",
-        "note": "〜のに (even though)"
+        "note": "〜のに (even though)",
+        "furigana": "<ruby>残念<rt>ざんねん</rt></ruby>ねもっと<ruby>遊<rt>あそ</rt></ruby>びたかったのに"
       }
     ]
   },
@@ -631,17 +690,20 @@
       {
         "japanese": "本当に空飛ぶ船なんかできるのかな",
         "english": "I wonder if a real flying ship can be made.",
-        "note": "本当に = really"
+        "note": "本当に = really",
+        "furigana": "<ruby>本当<rt>ほんとう</rt></ruby>に<ruby>空<rt>そら</rt></ruby><ruby>飛<rt>と</rt></ruby>ぶ<ruby>船<rt>ふね</rt></ruby>なんかできるのかな"
       },
       {
         "japanese": "僕本当にムーミンなんだよ",
         "english": "I'm really Moomin!",
-        "note": "なんだよ = emphatic explanation"
+        "note": "なんだよ = emphatic explanation",
+        "furigana": "<ruby>僕<rt>ぼく</rt></ruby><ruby>本当<rt>ほんとう</rt></ruby>にムーミンなんだよ"
       },
       {
         "japanese": "ねえ本当にあんた誰",
         "english": "Hey, who are you really?",
-        "note": "本当に as emphasis"
+        "note": "本当に as emphasis",
+        "furigana": "ねえ<ruby>本当<rt>ほんとう</rt></ruby>にあんた<ruby>誰<rt>だれ</rt></ruby>"
       }
     ]
   },
@@ -658,17 +720,20 @@
       {
         "japanese": "私家でお姉ちゃんと一緒に寝てたはずだけど",
         "english": "I should have been sleeping with my big sister at home.",
-        "note": "〜と一緒に (together with)"
+        "note": "〜と一緒に (together with)",
+        "furigana": "<ruby>私家<rt>しか</rt></ruby>でお<ruby>姉<rt>ねえ</rt></ruby>ちゃんと<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>寝<rt>ね</rt></ruby>てたはずだけど"
       },
       {
         "japanese": "去年の秋ミーのお姉ちゃんはお母さんのところへ行ったろ",
         "english": "Last autumn, Little My's big sister went to their mother.",
-        "note": "ミーの (Little My's)"
+        "note": "ミーの (Little My's)",
+        "furigana": "<ruby>去年<rt>きょねん</rt></ruby>の<ruby>秋<rt>あき</rt></ruby>ミーのお<ruby>姉<rt>ねえ</rt></ruby>ちゃんは<ruby>お母<rt>おかあ</rt></ruby>さんのところへ<ruby>行<rt>い</rt></ruby>ったろ"
       },
       {
         "japanese": "うちに行ってお姉ちゃんが帰ってきてるかどうか見てくる",
         "english": "I'm going home to see if big sister has come back.",
-        "note": "〜かどうか (whether or not)"
+        "note": "〜かどうか (whether or not)",
+        "furigana": "うちに<ruby>行<rt>い</rt></ruby>ってお<ruby>姉<rt>ねえ</rt></ruby>ちゃんが<ruby>帰<rt>かえ</rt></ruby>ってきてるかどうか<ruby>見<rt>み</rt></ruby>てくる"
       }
     ]
   },
@@ -685,12 +750,14 @@
       {
         "japanese": "お兄さん私ムーミンのところに遊びに行っていい",
         "english": "Hey, can I go visit Moomin?",
-        "note": "Asking brother for permission"
+        "note": "Asking brother for permission",
+        "furigana": "お<ruby>兄<rt>にい</rt></ruby>さん<ruby>私<rt>わたし</rt></ruby>ムーミンのところに<ruby>遊<rt>あそ</rt></ruby>びに<ruby>行<rt>い</rt></ruby>っていい"
       },
       {
         "japanese": "もちろんお兄さんは行かないわね",
         "english": "Of course, big brother isn't going.",
-        "note": "わね (female sentence ending)"
+        "note": "わね (female sentence ending)",
+        "furigana": "もちろんお<ruby>兄<rt>にい</rt></ruby>さんは<ruby>行<rt>い</rt></ruby>かないわね"
       }
     ]
   },
@@ -707,17 +774,20 @@
       {
         "japanese": "そしてこれがムーミンパパ",
         "english": "And this is Moomin Papa.",
-        "note": "Character introduction"
+        "note": "Character introduction",
+        "furigana": "そしてこれがムーミンパパ"
       },
       {
         "japanese": "この帽子パパのに似てるな",
         "english": "This hat looks a lot like Dad's.",
-        "note": "パパの = Dad's (possessive)"
+        "note": "パパの = Dad's (possessive)",
+        "furigana": "この<ruby>帽子<rt>ぼうし</rt></ruby>パパのに<ruby>似<rt>に</rt></ruby>てるな"
       },
       {
         "japanese": "どうしたのパパ",
         "english": "What's wrong, Dad?",
-        "note": "どうしたの = What happened?"
+        "note": "どうしたの = What happened?",
+        "furigana": "どうしたのパパ"
       }
     ]
   },
@@ -734,17 +804,20 @@
       {
         "japanese": "これがムーミンママ",
         "english": "This is Moomin Mama.",
-        "note": "Character introduction"
+        "note": "Character introduction",
+        "furigana": "これがムーミンママ"
       },
       {
         "japanese": "きっとムーミンママが何かおいしいものを作ってるんだね",
         "english": "Moominmama is probably making something delicious.",
-        "note": "きっと = surely/probably"
+        "note": "きっと = surely/probably",
+        "furigana": "きっとムーミンママが<ruby>何<rt>なに</rt></ruby>かおいしいものを<ruby>作<rt>つく</rt></ruby>ってるんだね"
       },
       {
         "japanese": "僕をムーミンって呼んでよママ",
         "english": "Call me Moomin, Mama.",
-        "note": "〜って呼ぶ (to call by name)"
+        "note": "〜って呼ぶ (to call by name)",
+        "furigana": "<ruby>僕<rt>ぼく</rt></ruby>をムーミンって<ruby>呼<rt>よ</rt></ruby>んでよママ"
       }
     ]
   },
@@ -761,17 +834,20 @@
       {
         "japanese": "今年はずいぶん早く帰ってきたね",
         "english": "You came back pretty early this year.",
-        "note": "ずいぶん = considerably"
+        "note": "ずいぶん = considerably",
+        "furigana": "<ruby>今年<rt>ことし</rt></ruby>はずいぶん<ruby>早<rt>はや</rt></ruby>く<ruby>帰<rt>かえ</rt></ruby>ってきたね"
       },
       {
         "japanese": "今年あの山に登るのは僕たちが一番なんだぜ",
         "english": "This year, we're the first ones to climb that mountain.",
-        "note": "一番 = first/best"
+        "note": "一番 = first/best",
+        "furigana": "<ruby>今年<rt>ことし</rt></ruby>あの<ruby>山<rt>やま</rt></ruby>に<ruby>登<rt>のぼ</rt></ruby>るのは<ruby>僕<rt>ぼく</rt></ruby>たちが<ruby>一番<rt>いちばん</rt></ruby>なんだぜ"
       },
       {
         "japanese": "今年こそ僕は空飛ぶ船を作ってみせるぞ",
         "english": "This year, I will definitely make a flying ship!",
-        "note": "こそ = emphasis (this year for sure)"
+        "note": "こそ = emphasis (this year for sure)",
+        "furigana": "<ruby>今年<rt>ことし</rt></ruby>こそ<ruby>僕<rt>ぼく</rt></ruby>は<ruby>空<rt>そら</rt></ruby><ruby>飛<rt>と</rt></ruby>ぶ<ruby>船<rt>ふね</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ってみせるぞ"
       }
     ]
   },
@@ -788,12 +864,14 @@
       {
         "japanese": "去年の秋ミーのお姉ちゃんはお母さんのところへ行ったろ",
         "english": "Last autumn, Little My's big sister went to their mother.",
-        "note": "去年の秋 = last autumn"
+        "note": "去年の秋 = last autumn",
+        "furigana": "<ruby>去年<rt>きょねん</rt></ruby>の<ruby>秋<rt>あき</rt></ruby>ミーのお<ruby>姉<rt>ねえ</rt></ruby>ちゃんは<ruby>お母<rt>おかあ</rt></ruby>さんのところへ<ruby>行<rt>い</rt></ruby>ったろ"
       },
       {
         "japanese": "4ヶ月も眠ると去年のことなんかみんな忘れちゃうんだな",
         "english": "If you sleep for four months, you forget everything from last year.",
-        "note": "去年のこと = things from last year"
+        "note": "去年のこと = things from last year",
+        "furigana": "4<ruby>ヶ月<rt>かげつ</rt></ruby>も<ruby>眠<rt>ねむ</rt></ruby>ると<ruby>去年<rt>きょねん</rt></ruby>のことなんかみんな<ruby>忘<rt>わす</rt></ruby>れちゃうんだな"
       }
     ]
   },
@@ -810,12 +888,14 @@
       {
         "japanese": "山に登るのは何が面白いのさ",
         "english": "What's so fun about climbing a mountain?",
-        "note": "山に登る (climb a mountain)"
+        "note": "山に登る (climb a mountain)",
+        "furigana": "<ruby>山<rt>やま</rt></ruby>に<ruby>登<rt>のぼ</rt></ruby>るのは<ruby>何<rt>なに</rt></ruby>が<ruby>面白<rt>おもしろ</rt></ruby>いのさ"
       },
       {
         "japanese": "今年あの山に登るのは僕たちが一番なんだぜ",
         "english": "This year, we're the first ones to climb that mountain.",
-        "note": "あの山 = that mountain"
+        "note": "あの山 = that mountain",
+        "furigana": "<ruby>今年<rt>ことし</rt></ruby>あの<ruby>山<rt>やま</rt></ruby>に<ruby>登<rt>のぼ</rt></ruby>るのは<ruby>僕<rt>ぼく</rt></ruby>たちが<ruby>一番<rt>いちばん</rt></ruby>なんだぜ"
       }
     ]
   },
@@ -832,12 +912,14 @@
       {
         "japanese": "海が光ってる",
         "english": "The sea is sparkling.",
-        "note": "〜ている (continuous state)"
+        "note": "〜ている (continuous state)",
+        "furigana": "<ruby>海<rt>うみ</rt></ruby>が<ruby>光<rt>ひか</rt></ruby>ってる"
       },
       {
         "japanese": "海だってね",
         "english": "And the sea too.",
-        "note": "だって = also/even"
+        "note": "だって = also/even",
+        "furigana": "<ruby>海<rt>うみ</rt></ruby>だってね"
       }
     ]
   },
@@ -854,17 +936,20 @@
       {
         "japanese": "何これ雲みたい",
         "english": "What is this? It looks like a cloud.",
-        "note": "〜みたい (looks like)"
+        "note": "〜みたい (looks like)",
+        "furigana": "<ruby>何<rt>なに</rt></ruby>これ<ruby>雲<rt>くも</rt></ruby>みたい"
       },
       {
         "japanese": "僕も知らないようちの中から雲が湧いてきたんだ",
         "english": "I don't know either, a cloud has emerged from inside our house.",
-        "note": "湧いてきた = emerged/sprung up"
+        "note": "湧いてきた = emerged/sprung up",
+        "furigana": "<ruby>僕<rt>ぼく</rt></ruby>も<ruby>知<rt>し</rt></ruby>らないようちの<ruby>中<rt>なか</rt></ruby>から<ruby>雲<rt>くも</rt></ruby>が<ruby>湧<rt>わ</rt></ruby>いてきたんだ"
       },
       {
         "japanese": "あらららら雲がなくなっちゃった",
         "english": "Oh dear, the cloud has disappeared.",
-        "note": "なくなる = to disappear"
+        "note": "なくなる = to disappear",
+        "furigana": "あらららら<ruby>雲<rt>くも</rt></ruby>がなくなっちゃった"
       }
     ]
   },
@@ -881,12 +966,14 @@
       {
         "japanese": "南の方の旅はつまらなかったの",
         "english": "Was the trip to the south boring?",
-        "note": "南の方 = the south"
+        "note": "南の方 = the south",
+        "furigana": "<ruby>南<rt>みなみ</rt></ruby>の<ruby>方<rt>ほう</rt></ruby>の<ruby>旅<rt>たび</rt></ruby>はつまらなかったの"
       },
       {
         "japanese": "旅の話をしてよ",
         "english": "Tell me about your trip.",
-        "note": "旅の話 = stories of the trip"
+        "note": "旅の話 = stories of the trip",
+        "furigana": "<ruby>旅<rt>たび</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>をしてよ"
       }
     ]
   },
@@ -903,12 +990,14 @@
       {
         "japanese": "旅の話をしてよ",
         "english": "Tell me about your trip.",
-        "note": "話をする = to tell/talk about"
+        "note": "話をする = to tell/talk about",
+        "furigana": "<ruby>旅<rt>たび</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>をしてよ"
       },
       {
         "japanese": "あとでゆっくりとね",
         "english": "Later, slowly.",
-        "note": "Response to request for stories"
+        "note": "Response to request for stories",
+        "furigana": "あとでゆっくりとね"
       }
     ]
   },
@@ -925,17 +1014,20 @@
       {
         "japanese": "夢ね兄さんは夢を追ってるんだわ",
         "english": "A dream, huh? You're chasing a dream, brother.",
-        "note": "夢を追う = to chase a dream"
+        "note": "夢を追う = to chase a dream",
+        "furigana": "<ruby>夢<rt>ゆめ</rt></ruby>ね<ruby>兄<rt>にい</rt></ruby>さんは<ruby>夢<rt>ゆめ</rt></ruby>を<ruby>追<rt>お</rt></ruby>ってるんだわ"
       },
       {
         "japanese": "夢を追うということは素晴らしいことさ",
         "english": "Chasing a dream is a wonderful thing.",
-        "note": "〜ということ (the fact that)"
+        "note": "〜ということ (the fact that)",
+        "furigana": "<ruby>夢<rt>ゆめ</rt></ruby>を<ruby>追<rt>お</rt></ruby>うということは<ruby>素晴<rt>すば</rt></ruby>らしいことさ"
       },
       {
         "japanese": "僕食べ物の夢ならしょっちゅう見るよ",
         "english": "Well, I often dream about food.",
-        "note": "夢を見る = to have a dream"
+        "note": "夢を見る = to have a dream",
+        "furigana": "<ruby>僕<rt>ぼく</rt></ruby><ruby>食べ物<rt>たべもの</rt></ruby>の<ruby>夢<rt>ゆめ</rt></ruby>ならしょっちゅう<ruby>見<rt>み</rt></ruby>るよ"
       }
     ]
   },
@@ -952,12 +1044,14 @@
       {
         "japanese": "今年こそ僕は空飛ぶ船を作ってみせるぞ",
         "english": "This year, I will definitely make a flying ship!",
-        "note": "空飛ぶ = sky-flying"
+        "note": "空飛ぶ = sky-flying",
+        "furigana": "<ruby>今年<rt>ことし</rt></ruby>こそ<ruby>僕<rt>ぼく</rt></ruby>は<ruby>空<rt>そら</rt></ruby><ruby>飛<rt>と</rt></ruby>ぶ<ruby>船<rt>ふね</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ってみせるぞ"
       },
       {
         "japanese": "本当に空飛ぶ船なんかできるのかな",
         "english": "I wonder if a real flying ship can be made.",
-        "note": "〜かな = I wonder if"
+        "note": "〜かな = I wonder if",
+        "furigana": "<ruby>本当<rt>ほんとう</rt></ruby>に<ruby>空<rt>そら</rt></ruby><ruby>飛<rt>と</rt></ruby>ぶ<ruby>船<rt>ふね</rt></ruby>なんかできるのかな"
       }
     ]
   },
@@ -974,17 +1068,20 @@
       {
         "japanese": "冬眠明けのお料理を作ることにしましょうか",
         "english": "Shall we make some post-hibernation dishes?",
-        "note": "〜ことにする (decide to)"
+        "note": "〜ことにする (decide to)",
+        "furigana": "<ruby>冬眠<rt>とうみん</rt></ruby><ruby>明<rt>あ</rt></ruby>けのお<ruby>料理<rt>りょうり</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ることにしましょうか"
       },
       {
         "japanese": "今年こそ僕は空飛ぶ船を作ってみせるぞ",
         "english": "This year, I will definitely make a flying ship!",
-        "note": "〜てみせる (will show by doing)"
+        "note": "〜てみせる (will show by doing)",
+        "furigana": "<ruby>今年<rt>ことし</rt></ruby>こそ<ruby>僕<rt>ぼく</rt></ruby>は<ruby>空<rt>そら</rt></ruby><ruby>飛<rt>と</rt></ruby>ぶ<ruby>船<rt>ふね</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ってみせるぞ"
       },
       {
         "japanese": "きっとムーミンママが何かおいしいものを作ってるんだね",
         "english": "Moominmama is probably making something delicious.",
-        "note": "何か = something"
+        "note": "何か = something",
+        "furigana": "きっとムーミンママが<ruby>何<rt>なに</rt></ruby>かおいしいものを<ruby>作<rt>つく</rt></ruby>ってるんだね"
       }
     ]
   },
@@ -1001,17 +1098,20 @@
       {
         "japanese": "私も乗りたい",
         "english": "I want to ride it too.",
-        "note": "〜たい (want to)"
+        "note": "〜たい (want to)",
+        "furigana": "<ruby>私<rt>わたし</rt></ruby>も<ruby>乗<rt>の</rt></ruby>りたい"
       },
       {
         "japanese": "パパ早くこの雲に乗って",
         "english": "Dad, quickly get on this cloud.",
-        "note": "〜に乗る (get on)"
+        "note": "〜に乗る (get on)",
+        "furigana": "パパ<ruby>早<rt>はや</rt></ruby>くこの<ruby>雲<rt>くも</rt></ruby>に<ruby>乗<rt>の</rt></ruby>って"
       },
       {
         "japanese": "どうしたの乗りたければ乗せてあげるよ",
         "english": "What's wrong? If you want to ride, I can let you.",
-        "note": "〜ば (conditional)"
+        "note": "〜ば (conditional)",
+        "furigana": "どうしたの<ruby>乗<rt>の</rt></ruby>りたければ<ruby>乗<rt>の</rt></ruby>せてあげるよ"
       }
     ]
   },
@@ -1028,12 +1128,14 @@
       {
         "japanese": "子供たちのこと知ってるか空中を飛び回っているんだぞ",
         "english": "Do you know about the kids? They are flying around in the air!",
-        "note": "飛び回る = fly around"
+        "note": "飛び回る = fly around",
+        "furigana": "<ruby>子供<rt>こども</rt></ruby>たちのこと<ruby>知<rt>し</rt></ruby>ってるか<ruby>空中<rt>くうちゅう</rt></ruby>を<ruby>飛び回<rt>とびまわ</rt></ruby>っているんだぞ"
       },
       {
         "japanese": "ねえスナフキンさっき飛行鬼が飛んでるのを見たよ",
         "english": "Hey Snufkin, I saw a flying goblin earlier.",
-        "note": "飛行鬼 = The Hobgoblin"
+        "note": "飛行鬼 = The Hobgoblin",
+        "furigana": "ねえスナフキンさっき<ruby>飛行<rt>ひこう</rt></ruby><ruby>鬼<rt>おに</rt></ruby>が<ruby>飛<rt>と</rt></ruby>んでるのを<ruby>見<rt>み</rt></ruby>たよ"
       }
     ]
   },
@@ -1050,12 +1152,14 @@
       {
         "japanese": "落っこちないように気をつけなさいって",
         "english": "Be careful not to fall.",
-        "note": "落っこちる = casual for 落ちる"
+        "note": "落っこちる = casual for 落ちる",
+        "furigana": "<ruby>落<rt>お</rt></ruby>っこちないように<ruby>気<rt>き</rt></ruby>をつけなさいって"
       },
       {
         "japanese": "落ちる落ちる死んじゃう",
         "english": "I'm falling, I'm falling, I'm going to die!",
-        "note": "Repeated for emphasis/panic"
+        "note": "Repeated for emphasis/panic",
+        "furigana": "<ruby>落<rt>お</rt></ruby>ちる<ruby>落<rt>お</rt></ruby>ちる<ruby>死<rt>し</rt></ruby>んじゃう"
       }
     ]
   },
@@ -1072,12 +1176,14 @@
       {
         "japanese": "山に登るのは何が面白いのさ",
         "english": "What's so fun about climbing a mountain?",
-        "note": "〜に登る (climb onto)"
+        "note": "〜に登る (climb onto)",
+        "furigana": "<ruby>山<rt>やま</rt></ruby>に<ruby>登<rt>のぼ</rt></ruby>るのは<ruby>何<rt>なに</rt></ruby>が<ruby>面白<rt>おもしろ</rt></ruby>いのさ"
       },
       {
         "japanese": "今年あの山に登るのは僕たちが一番なんだぜ",
         "english": "This year, we're the first ones to climb that mountain.",
-        "note": "登るのは = climbing is"
+        "note": "登るのは = climbing is",
+        "furigana": "<ruby>今年<rt>ことし</rt></ruby>あの<ruby>山<rt>やま</rt></ruby>に<ruby>登<rt>のぼ</rt></ruby>るのは<ruby>僕<rt>ぼく</rt></ruby>たちが<ruby>一番<rt>いちばん</rt></ruby>なんだぜ"
       }
     ]
   },
@@ -1094,17 +1200,20 @@
       {
         "japanese": "お兄さん私ムーミンのところに遊びに行っていい",
         "english": "Hey, can I go visit Moomin?",
-        "note": "遊びに行く (go to play/visit)"
+        "note": "遊びに行く (go to play/visit)",
+        "furigana": "お<ruby>兄<rt>にい</rt></ruby>さん<ruby>私<rt>わたし</rt></ruby>ムーミンのところに<ruby>遊<rt>あそ</rt></ruby>びに<ruby>行<rt>い</rt></ruby>っていい"
       },
       {
         "japanese": "残念ねもっと遊びたかったのに",
         "english": "What a shame, I wanted to play more.",
-        "note": "〜たかった (wanted to)"
+        "note": "〜たかった (wanted to)",
+        "furigana": "<ruby>残念<rt>ざんねん</rt></ruby>ねもっと<ruby>遊<rt>あそ</rt></ruby>びたかったのに"
       },
       {
         "japanese": "また一緒に遊ぼうさあおいで",
         "english": "Let's play together again, come on over.",
-        "note": "〜よう (volitional)"
+        "note": "〜よう (volitional)",
+        "furigana": "また<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>遊<rt>あそ</rt></ruby>ぼうさあおいで"
       }
     ]
   },
@@ -1121,12 +1230,14 @@
       {
         "japanese": "地下室は探したの",
         "english": "Did you search the basement?",
-        "note": "Past tense question"
+        "note": "Past tense question",
+        "furigana": "<ruby>地下<rt>ちか</rt></ruby><ruby>室<rt>しつ</rt></ruby>は<ruby>探<rt>さが</rt></ruby>したの"
       },
       {
         "japanese": "きっとあの帽子を探しているんだよ",
         "english": "I'm sure it's looking for that hat.",
-        "note": "〜ている (progressive)"
+        "note": "〜ている (progressive)",
+        "furigana": "きっとあの<ruby>帽子<rt>ぼうし</rt></ruby>を<ruby>探<rt>さが</rt></ruby>しているんだよ"
       }
     ]
   },
@@ -1143,17 +1254,20 @@
       {
         "japanese": "見つかった",
         "english": "Found it.",
-        "note": "Past tense = 'it was found'"
+        "note": "Past tense = 'it was found'",
+        "furigana": "<ruby>見<rt>み</rt></ruby>つかった"
       },
       {
         "japanese": "ムーミンがどうしても見つからないんです",
         "english": "I just can't find Moomin.",
-        "note": "どうしても〜ない (no matter what)"
+        "note": "どうしても〜ない (no matter what)",
+        "furigana": "ムーミンがどうしても<ruby>見<rt>み</rt></ruby>つからないんです"
       },
       {
         "japanese": "どうやら僕だけ見つからなかったようだね",
         "english": "It seems I'm the only one who wasn't found.",
-        "note": "〜ようだ (it seems)"
+        "note": "〜ようだ (it seems)",
+        "furigana": "どうやら<ruby>僕<rt>ぼく</rt></ruby>だけ<ruby>見<rt>み</rt></ruby>つからなかったようだね"
       }
     ]
   },
@@ -1170,12 +1284,14 @@
       {
         "japanese": "あのどこか隠れるところありませんか",
         "english": "Is there anywhere to hide?",
-        "note": "隠れるところ = place to hide"
+        "note": "隠れるところ = place to hide",
+        "furigana": "あのどこか<ruby>隠<rt>かく</rt></ruby>れるところありませんか"
       },
       {
         "japanese": "君はムーミンがどこに隠れているか知っているのかい",
         "english": "Do you know where Moomin is hiding?",
-        "note": "〜ているか (whether ~ing)"
+        "note": "〜ているか (whether ~ing)",
+        "furigana": "<ruby>君<rt>きみ</rt></ruby>はムーミンがどこに<ruby>隠<rt>かく</rt></ruby>れているか<ruby>知<rt>し</rt></ruby>っているのかい"
       }
     ]
   },
@@ -1192,17 +1308,20 @@
       {
         "japanese": "僕も知らないよ",
         "english": "I don't know either.",
-        "note": "知らない = don't know"
+        "note": "知らない = don't know",
+        "furigana": "<ruby>僕<rt>ぼく</rt></ruby>も<ruby>知<rt>し</rt></ruby>らないよ"
       },
       {
         "japanese": "おい知らないぞ落ちたって知らないぞ",
         "english": "Hey, I don't know! If you fall, it's not my problem!",
-        "note": "知らない = 'not my problem'"
+        "note": "知らない = 'not my problem'",
+        "furigana": "おい<ruby>知<rt>し</rt></ruby>らないぞ<ruby>落<rt>お</rt></ruby>ちたって<ruby>知<rt>し</rt></ruby>らないぞ"
       },
       {
         "japanese": "子供たちのこと知ってるか",
         "english": "Do you know about the kids?",
-        "note": "知ってる = know (casual)"
+        "note": "知ってる = know (casual)",
+        "furigana": "<ruby>子供<rt>こども</rt></ruby>たちのこと<ruby>知<rt>し</rt></ruby>ってるか"
       }
     ]
   },
@@ -1219,12 +1338,14 @@
       {
         "japanese": "分かったわ分かったから少し黙って落ち着いてちょうだい",
         "english": "I understand, I understand, so be quiet and calm down a little.",
-        "note": "分かった = understood"
+        "note": "分かった = understood",
+        "furigana": "<ruby>分<rt>わ</rt></ruby>かったわ<ruby>分<rt>わ</rt></ruby>かったから<ruby>少<rt>すこ</rt></ruby>し<ruby>黙<rt>だま</rt></ruby>って<ruby>落ち着<rt>おちつ</rt></ruby>いてちょうだい"
       },
       {
         "japanese": "ママのこと分かってるんでしょ",
         "english": "You know who Mama is, right?",
-        "note": "分かってる = you know/understand"
+        "note": "分かってる = you know/understand",
+        "furigana": "ママのこと<ruby>分<rt>わ</rt></ruby>かってるんでしょ"
       }
     ]
   },
@@ -1241,12 +1362,14 @@
       {
         "japanese": "おい待て降りてこい",
         "english": "Hey, wait, come down!",
-        "note": "待て = imperative (wait!)"
+        "note": "待て = imperative (wait!)",
+        "furigana": "おい<ruby>待<rt>ま</rt></ruby>て<ruby>降<rt>お</rt></ruby>りてこい"
       },
       {
         "japanese": "おい待て僕の雲待ってくれ",
         "english": "Hey wait, my cloud, wait for me!",
-        "note": "待ってくれ = please wait"
+        "note": "待ってくれ = please wait",
+        "furigana": "おい<ruby>待<rt>ま</rt></ruby>て<ruby>僕<rt>ぼく</rt></ruby>の<ruby>雲<rt>くも</rt></ruby><ruby>待<rt>ま</rt></ruby>ってくれ"
       }
     ]
   },
@@ -1263,12 +1386,14 @@
       {
         "japanese": "ムーミンって呼んで",
         "english": "Call me Moomin.",
-        "note": "〜って呼ぶ (call someone ~)"
+        "note": "〜って呼ぶ (call someone ~)",
+        "furigana": "ムーミンって<ruby>呼<rt>よ</rt></ruby>んで"
       },
       {
         "japanese": "どうして僕のこと呼んでくれないの",
         "english": "Why won't you call me?",
-        "note": "〜てくれない (won't do for me)"
+        "note": "〜てくれない (won't do for me)",
+        "furigana": "どうして<ruby>僕<rt>ぼく</rt></ruby>のこと<ruby>呼<rt>よ</rt></ruby>んでくれないの"
       }
     ]
   },
@@ -1285,12 +1410,14 @@
       {
         "japanese": "それじゃあ捨てちゃおうか",
         "english": "Then shall we throw it away?",
-        "note": "〜ちゃう = casual 〜てしまう"
+        "note": "〜ちゃう = casual 〜てしまう",
+        "furigana": "それじゃあ<ruby>捨<rt>す</rt></ruby>てちゃおうか"
       },
       {
         "japanese": "拾ったものを捨てただけさ",
         "english": "I just threw away what I picked up.",
-        "note": "拾う = to pick up"
+        "note": "拾う = to pick up",
+        "furigana": "<ruby>拾<rt>ひろ</rt></ruby>ったものを<ruby>捨<rt>す</rt></ruby>てただけさ"
       }
     ]
   },
@@ -1307,17 +1434,20 @@
       {
         "japanese": "僕はムーミントロール",
         "english": "I'm Moomintroll.",
-        "note": "Self-introduction"
+        "note": "Self-introduction",
+        "furigana": "<ruby>僕<rt>ぼく</rt></ruby>はムーミントロール"
       },
       {
         "japanese": "僕たち面白いことをするんだ",
         "english": "We're going to do something fun.",
-        "note": "僕たち = we (male speaker)"
+        "note": "僕たち = we (male speaker)",
+        "furigana": "<ruby>僕<rt>ぼく</rt></ruby>たち<ruby>面白<rt>おもしろ</rt></ruby>いことをするんだ"
       },
       {
         "japanese": "僕本当にムーミンなんだよ",
         "english": "I'm really Moomin!",
-        "note": "Emphatic statement"
+        "note": "Emphatic statement",
+        "furigana": "<ruby>僕<rt>ぼく</rt></ruby><ruby>本当<rt>ほんとう</rt></ruby>にムーミンなんだよ"
       }
     ]
   },
@@ -1334,17 +1464,20 @@
       {
         "japanese": "私どうしてこの家で冬眠してたの",
         "english": "Why was I hibernating in this house?",
-        "note": "Little My speaking"
+        "note": "Little My speaking",
+        "furigana": "<ruby>私<rt>わたし</rt></ruby>どうしてこの<ruby>家<rt>いえ</rt></ruby>で<ruby>冬眠<rt>とうみん</rt></ruby>してたの"
       },
       {
         "japanese": "私も乗りたい",
         "english": "I want to ride it too.",
-        "note": "私も = me too"
+        "note": "私も = me too",
+        "furigana": "<ruby>私<rt>わたし</rt></ruby>も<ruby>乗<rt>の</rt></ruby>りたい"
       },
       {
         "japanese": "私が自分の子供を間違えるはずはありません",
         "english": "I would never mistake my own child.",
-        "note": "Moominmama speaking"
+        "note": "Moominmama speaking",
+        "furigana": "<ruby>私<rt>わたし</rt></ruby>が<ruby>自分<rt>じぶん</rt></ruby>の<ruby>子供<rt>こども</rt></ruby>を<ruby>間違<rt>まちが</rt></ruby>えるはずはありません"
       }
     ]
   },
@@ -1361,17 +1494,20 @@
       {
         "japanese": "ほらみんな眠っていますよ",
         "english": "Look, everyone is sleeping.",
-        "note": "みんな as subject"
+        "note": "みんな as subject",
+        "furigana": "ほらみんな<ruby>眠<rt>ねむ</rt></ruby>っていますよ"
       },
       {
         "japanese": "みなさんはムーミン谷のことを聞いたことがありますか",
         "english": "Have you all heard of Moomin Valley?",
-        "note": "みなさん = polite 'everyone'"
+        "note": "みなさん = polite 'everyone'",
+        "furigana": "みなさんはムーミン<ruby>谷<rt>たに</rt></ruby>のことを<ruby>聞<rt>き</rt></ruby>いたことがありますか"
       },
       {
         "japanese": "さあさあみんなお食事しましょうね",
         "english": "Alright everyone, let's have a meal.",
-        "note": "Addressing a group"
+        "note": "Addressing a group",
+        "furigana": "さあさあみんなお<ruby>食事<rt>しょくじ</rt></ruby>しましょうね"
       }
     ]
   },
@@ -1388,12 +1524,14 @@
       {
         "japanese": "私しばらくここにいてもいい",
         "english": "Can I stay here for a while?",
-        "note": "ここに = at here"
+        "note": "ここに = at here",
+        "furigana": "<ruby>私<rt>わたし</rt></ruby>しばらくここにいてもいい"
       },
       {
         "japanese": "ここにいるよ",
         "english": "I'm right here.",
-        "note": "ここに + いる (be at)"
+        "note": "ここに + いる (be at)",
+        "furigana": "ここにいるよ"
       }
     ]
   },
@@ -1410,7 +1548,8 @@
       {
         "japanese": "そんなものできるもんですか",
         "english": "Can such a thing really be done?",
-        "note": "そんな = such (that kind of)"
+        "note": "そんな = such (that kind of)",
+        "furigana": "そんなものできるもんですか"
       }
     ]
   },
@@ -1427,12 +1566,14 @@
       {
         "japanese": "あそこからムーミン谷が全部見えるぞ",
         "english": "From up there, you can see all of Moominvalley.",
-        "note": "あそこから = from over there"
+        "note": "あそこから = from over there",
+        "furigana": "あそこからムーミン<ruby>谷<rt>たに</rt></ruby>が<ruby>全部<rt>ぜんぶ</rt></ruby><ruby>見<rt>み</rt></ruby>えるぞ"
       },
       {
         "japanese": "あそこ",
         "english": "Over there.",
-        "note": "Short answer pointing"
+        "note": "Short answer pointing",
+        "furigana": "あそこ"
       }
     ]
   },
@@ -1449,17 +1590,20 @@
       {
         "japanese": "何だろうこれは",
         "english": "I wonder what this is.",
-        "note": "何だろう = what could it be"
+        "note": "何だろう = what could it be",
+        "furigana": "<ruby>何<rt>なに</rt></ruby>だろうこれは"
       },
       {
         "japanese": "山に登るのは何が面白いのさ",
         "english": "What's so fun about climbing a mountain?",
-        "note": "何が = what (subject)"
+        "note": "何が = what (subject)",
+        "furigana": "<ruby>山<rt>やま</rt></ruby>に<ruby>登<rt>のぼ</rt></ruby>るのは<ruby>何<rt>なに</rt></ruby>が<ruby>面白<rt>おもしろ</rt></ruby>いのさ"
       },
       {
         "japanese": "何を",
         "english": "What?",
-        "note": "Short question"
+        "note": "Short question",
+        "furigana": "<ruby>何<rt>なに</rt></ruby>を"
       }
     ]
   },
@@ -1476,17 +1620,20 @@
       {
         "japanese": "誰かが落としていったんだろう",
         "english": "Someone must have dropped it.",
-        "note": "誰か = someone"
+        "note": "誰か = someone",
+        "furigana": "<ruby>誰<rt>だれ</rt></ruby>かが<ruby>落<rt>お</rt></ruby>としていったんだろう"
       },
       {
         "japanese": "君は誰だ",
         "english": "Who are you?",
-        "note": "Direct question"
+        "note": "Direct question",
+        "furigana": "<ruby>君<rt>きみ</rt></ruby>は<ruby>誰<rt>だれ</rt></ruby>だ"
       },
       {
         "japanese": "誰だここでゆで卵を食べたのは",
         "english": "Who ate a boiled egg here?",
-        "note": "Topic fronting for emphasis"
+        "note": "Topic fronting for emphasis",
+        "furigana": "<ruby>誰<rt>だれ</rt></ruby>だここでゆで<ruby>卵<rt>たまご</rt></ruby>を<ruby>食<rt>た</rt></ruby>べたのは"
       }
     ]
   },
@@ -1503,17 +1650,20 @@
       {
         "japanese": "どこ",
         "english": "Where?",
-        "note": "Short question"
+        "note": "Short question",
+        "furigana": "どこ"
       },
       {
         "japanese": "ムーミンおまえは一体どこに隠れていたんだ",
         "english": "Moomin, where on earth have you been hiding?",
-        "note": "一体 = on earth (emphasis)"
+        "note": "一体 = on earth (emphasis)",
+        "furigana": "ムーミンおまえは<ruby>一体<rt>いったい</rt></ruby>どこに<ruby>隠<rt>かく</rt></ruby>れていたんだ"
       },
       {
         "japanese": "あのどこか隠れるところありませんか",
         "english": "Is there anywhere to hide?",
-        "note": "どこか = somewhere"
+        "note": "どこか = somewhere",
+        "furigana": "あのどこか<ruby>隠<rt>かく</rt></ruby>れるところありませんか"
       }
     ]
   },
@@ -1530,12 +1680,14 @@
       {
         "japanese": "今年あの山に登るのは僕たちが一番なんだぜ",
         "english": "This year, we're the first ones to climb that mountain.",
-        "note": "一番 = first"
+        "note": "一番 = first",
+        "furigana": "<ruby>今年<rt>ことし</rt></ruby>あの<ruby>山<rt>やま</rt></ruby>に<ruby>登<rt>のぼ</rt></ruby>るのは<ruby>僕<rt>ぼく</rt></ruby>たちが<ruby>一番<rt>いちばん</rt></ruby>なんだぜ"
       },
       {
         "japanese": "やっぱりムーミン谷が一番だからね",
         "english": "After all, Moominvalley is the best.",
-        "note": "一番 = the best"
+        "note": "一番 = the best",
+        "furigana": "やっぱりムーミン<ruby>谷<rt>たに</rt></ruby>が<ruby>一番<rt>いちばん</rt></ruby>だからね"
       }
     ]
   },
@@ -1552,12 +1704,14 @@
       {
         "japanese": "今はいないわね",
         "english": "He's not here now.",
-        "note": "今は = as for now"
+        "note": "今は = as for now",
+        "furigana": "<ruby>今<rt>いま</rt></ruby>はいないわね"
       },
       {
         "japanese": "今誰か笑わなかったかい",
         "english": "Didn't someone just laugh?",
-        "note": "今 = just now"
+        "note": "今 = just now",
+        "furigana": "<ruby>今<rt>いま</rt></ruby><ruby>誰<rt>だれ</rt></ruby>か<ruby>笑<rt>わら</rt></ruby>わなかったかい"
       }
     ]
   },
@@ -1574,17 +1728,20 @@
       {
         "japanese": "もう一回だな",
         "english": "One more time.",
-        "note": "もう一回 = one more time"
+        "note": "もう一回 = one more time",
+        "furigana": "もう<ruby>一<rt>いち</rt></ruby><ruby>回<rt>かい</rt></ruby>だな"
       },
       {
         "japanese": "もう帰らなくちゃ",
         "english": "I have to go home now.",
-        "note": "もう = already/now"
+        "note": "もう = already/now",
+        "furigana": "もう<ruby>帰<rt>かえ</rt></ruby>らなくちゃ"
       },
       {
         "japanese": "もう降りたほうがいい",
         "english": "You should probably come down now.",
-        "note": "もう = by now"
+        "note": "もう = by now",
+        "furigana": "もう<ruby>降<rt>お</rt></ruby>りたほうがいい"
       }
     ]
   },
@@ -1601,17 +1758,20 @@
       {
         "japanese": "あいつはまだ寝てるよきっと",
         "english": "He's probably still asleep.",
-        "note": "まだ = still"
+        "note": "まだ = still",
+        "furigana": "あいつはまだ<ruby>寝<rt>ね</rt></ruby>てるよきっと"
       },
       {
         "japanese": "まだ帰ってないと思うよ",
         "english": "I don't think she is back yet.",
-        "note": "まだ〜ない = not yet"
+        "note": "まだ〜ない = not yet",
+        "furigana": "まだ<ruby>帰<rt>かえ</rt></ruby>ってないと<ruby>思<rt>おも</rt></ruby>うよ"
       },
       {
         "japanese": "僕はまだ眠いよ",
         "english": "I'm still sleepy.",
-        "note": "まだ = still"
+        "note": "まだ = still",
+        "furigana": "<ruby>僕<rt>ぼく</rt></ruby>はまだ<ruby>眠<rt>ねむ</rt></ruby>いよ"
       }
     ]
   },
@@ -1628,7 +1788,8 @@
       {
         "japanese": "だからパパの書く物語はとても長い長いものになりそうでした",
         "english": "That's why the story Papa writes seems to be quite long.",
-        "note": "とても長い = very long"
+        "note": "とても長い = very long",
+        "furigana": "だからパパの<ruby>書<rt>か</rt></ruby>く<ruby>物語<rt>ものがたり</rt></ruby>はとても<ruby>長<rt>なが</rt></ruby>い<ruby>長<rt>なが</rt></ruby>いものになりそうでした"
       }
     ]
   },
@@ -1645,12 +1806,14 @@
       {
         "japanese": "ムーミンちょっとこっちにおいで",
         "english": "Moomin, come here for a moment.",
-        "note": "ちょっと = a moment"
+        "note": "ちょっと = a moment",
+        "furigana": "ムーミンちょっとこっちにおいで"
       },
       {
         "japanese": "ムーミンはしかし心の中でちょっぴり惜しいなと思いました",
         "english": "However, Moomin felt a little regretful inside.",
-        "note": "ちょっぴり = a tiny bit"
+        "note": "ちょっぴり = a tiny bit",
+        "furigana": "ムーミンはしかし<ruby>心<rt>こころ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>でちょっぴり<ruby>惜<rt>お</rt></ruby>しいなと<ruby>思<rt>おも</rt></ruby>いました"
       }
     ]
   },
@@ -1667,7 +1830,8 @@
       {
         "japanese": "ミムラが帰ってくるまでミーはずっとこの家にいていいんだよ",
         "english": "Until Mimura comes back, you can stay in this house forever.",
-        "note": "ずっと = the whole time"
+        "note": "ずっと = the whole time",
+        "furigana": "ミムラが<ruby>帰<rt>かえ</rt></ruby>ってくるまでミーはずっとこの<ruby>家<rt>いえ</rt></ruby>にいていいんだよ"
       }
     ]
   },
@@ -1684,12 +1848,14 @@
       {
         "japanese": "ああ楽しかった",
         "english": "Ah, that was fun.",
-        "note": "Expression of satisfaction"
+        "note": "Expression of satisfaction",
+        "furigana": "ああ<ruby>楽<rt>たの</rt></ruby>しかった"
       },
       {
         "japanese": "ああ待て",
         "english": "Ah, wait!",
-        "note": "Interjection before command"
+        "note": "Interjection before command",
+        "furigana": "ああ<ruby>待<rt>ま</rt></ruby>て"
       }
     ]
   },
@@ -1706,17 +1872,20 @@
       {
         "japanese": "さあ降りなさいムーミン",
         "english": "Now, come down, Moomin.",
-        "note": "Prompting action"
+        "note": "Prompting action",
+        "furigana": "さあ<ruby>降<rt>ふ</rt></ruby>りなさいムーミン"
       },
       {
         "japanese": "さあこっちにおいで",
         "english": "Now come over here.",
-        "note": "Encouragement"
+        "note": "Encouragement",
+        "furigana": "さあこっちにおいで"
       },
       {
         "japanese": "さあスニフを起こして何か面白いことをしようよ",
         "english": "Now let's wake up Sniff and do something fun.",
-        "note": "Starting proposal"
+        "note": "Starting proposal",
+        "furigana": "さあスニフを<ruby>起<rt>お</rt></ruby>こして<ruby>何<rt>なに</rt></ruby>か<ruby>面白<rt>おもしろ</rt></ruby>いことをしようよ"
       }
     ]
   },
@@ -1733,12 +1902,14 @@
       {
         "japanese": "やあミー君も起きてたのか",
         "english": "Oh, Little My, you're awake too.",
-        "note": "Casual greeting"
+        "note": "Casual greeting",
+        "furigana": "やあミー<ruby>君<rt>きみ</rt></ruby>も<ruby>起<rt>お</rt></ruby>きてたのか"
       },
       {
         "japanese": "やあ",
         "english": "Hey.",
-        "note": "Simple greeting"
+        "note": "Simple greeting",
+        "furigana": "やあ"
       }
     ]
   },
@@ -1755,7 +1926,8 @@
       {
         "japanese": "わあ素敵",
         "english": "Wow, amazing!",
-        "note": "Exclamation of wonder"
+        "note": "Exclamation of wonder",
+        "furigana": "わあ<ruby>素敵<rt>すてき</rt></ruby>"
       }
     ]
   },
@@ -1772,12 +1944,14 @@
       {
         "japanese": "危ない触るな爆発したらどうするんだ",
         "english": "It's dangerous, don't touch it! What if it explodes?",
-        "note": "Warning"
+        "note": "Warning",
+        "furigana": "<ruby>危<rt>あぶ</rt></ruby>ない<ruby>触<rt>さわ</rt></ruby>るな<ruby>爆発<rt>ばくはつ</rt></ruby>したらどうするんだ"
       },
       {
         "japanese": "早く乗らないと危ないパパ",
         "english": "You have to get on quick, it's dangerous, Dad!",
-        "note": "危ない as predicate"
+        "note": "危ない as predicate",
+        "furigana": "<ruby>早<rt>はや</rt></ruby>く<ruby>乗<rt>の</rt></ruby>らないと<ruby>危<rt>あぶ</rt></ruby>ないパパ"
       }
     ]
   },
@@ -1794,12 +1968,14 @@
       {
         "japanese": "かくれんぼよ",
         "english": "It's hide and seek.",
-        "note": "Explaining the game"
+        "note": "Explaining the game",
+        "furigana": "かくれんぼよ"
       },
       {
         "japanese": "ムーミンはかくれんぼの天才ね",
         "english": "Moomin is a hide-and-seek genius, isn't he?",
-        "note": "〜の天才 = genius at"
+        "note": "〜の天才 = genius at",
+        "furigana": "ムーミンはかくれんぼの<ruby>天才<rt>てんさい</rt></ruby>ね"
       }
     ]
   }

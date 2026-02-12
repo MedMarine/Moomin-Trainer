@@ -1,41 +1,704 @@
 [
-  {"id": "気圧計", "word": "気圧計", "reading": "きあつけい", "pos": "noun", "meaning": "barometer", "notes": "Weather instrument for measuring atmospheric pressure", "jlpt": "N2", "frequency": 8, "examples": [{"japanese": "この気圧計が壊れてなかったら、雨がいつ止むかわかるんじゃない?", "english": "If this barometer wasn't broken, wouldn't we know when the rain will stop?", "note": "conditional"}]},
-  {"id": "嵐", "word": "嵐", "reading": "あらし", "pos": "noun", "meaning": "storm", "notes": "Can refer to wind, rain, or both", "jlpt": "N3", "frequency": 4, "examples": [{"japanese": "突然の嵐にあってしまいました", "english": "They encountered a sudden storm", "note": "〜にあう pattern"}]},
-  {"id": "返す", "word": "返す", "reading": "かえす", "pos": "verb (godan)", "meaning": "to return (something)", "notes": "Transitive. 返る is intransitive.", "jlpt": "N4", "frequency": 6, "examples": [{"japanese": "気圧計をニョロニョロに返したほうがいい", "english": "We should return the barometer to the Hattifatteners", "note": "〜たほうがいい"}]},
-  {"id": "珍しい", "word": "珍しい", "reading": "めずらしい", "pos": "i-adjective", "meaning": "rare, unusual", "notes": "Often used positively", "jlpt": "N4", "frequency": 4, "examples": [{"japanese": "確かに珍しい植物は見つけた", "english": "I certainly found rare plants", "note": ""}]},
-  {"id": "綱", "word": "綱", "reading": "つな", "pos": "noun", "meaning": "rope, cord", "notes": "Thicker than 紐 (string)", "jlpt": "N2", "frequency": 3, "examples": [{"japanese": "綱を結ばなかったんですか?", "english": "You didn't tie the rope?", "note": ""}]},
-  {"id": "結ぶ", "word": "結ぶ", "reading": "むすぶ", "pos": "verb (godan)", "meaning": "to tie, to bind", "notes": "Also means 'to form (relationship)'", "jlpt": "N3", "frequency": 4, "examples": [{"japanese": "結んであったよ", "english": "It was tied", "note": "〜てある resultative state"}]},
-  {"id": "満潮", "word": "満潮", "reading": "まんちょう", "pos": "noun", "meaning": "high tide", "notes": "Opposite: 干潮 (low tide)", "jlpt": "N2", "frequency": 1, "examples": [{"japanese": "今は満潮なんだ", "english": "It must be high tide now", "note": ""}]},
-  {"id": "雷", "word": "雷", "reading": "かみなり", "pos": "noun", "meaning": "thunder, lightning", "notes": "Can refer to both sound and flash", "jlpt": "N3", "frequency": 2, "examples": [{"japanese": "雷の音も聞こえないわ", "english": "I can't hear the thunder either", "note": ""}]},
-  {"id": "退屈", "word": "退屈", "reading": "たいくつ", "pos": "noun/na-adjective/suru verb", "meaning": "boredom, tedium", "notes": "退屈する = to be bored", "jlpt": "N3", "frequency": 1, "examples": [{"japanese": "ずっとテントの中で退屈したわ", "english": "I've been bored in the tent the whole time", "note": ""}]},
-  {"id": "光る", "word": "光る", "reading": "ひかる", "pos": "verb (godan)", "meaning": "to shine, to glow", "notes": "Intransitive. 光らせる = to make shine", "jlpt": "N3", "frequency": 2, "examples": [{"japanese": "みんな光ってる", "english": "They're all glowing", "note": "〜ている"}]},
-  {"id": "電気", "word": "電気", "reading": "でんき", "pos": "noun", "meaning": "electricity", "notes": "Also means 'electric light'", "jlpt": "N4", "frequency": 1, "examples": [{"japanese": "ニョロニョロたちの体は電気を帯びた", "english": "The Hattifatteners' bodies became charged with electricity", "note": "電気を帯びる"}]},
-  {"id": "勇気", "word": "勇気", "reading": "ゆうき", "pos": "noun", "meaning": "courage, bravery", "notes": "勇気がある = to be brave", "jlpt": "N3", "frequency": 1, "examples": [{"japanese": "ムーミンって、勇気があるのね", "english": "Moomin is so brave", "note": "〜がある"}]},
-  {"id": "ぶつかる", "word": "ぶつかる", "reading": "ぶつかる", "pos": "verb (godan)", "meaning": "to bump into, to collide", "notes": "Intransitive. ぶつける = transitive", "jlpt": "N3", "frequency": 2, "examples": [{"japanese": "あいつ、君の顔にぶつかったろ", "english": "That thing bumped into your face, didn't it?", "note": ""}]},
-  {"id": "髪の毛", "word": "髪の毛", "reading": "かみのけ", "pos": "noun", "meaning": "hair (on head)", "notes": "髪 alone also works", "jlpt": "N4", "frequency": 4, "examples": [{"japanese": "髪の毛なんて、またすぐに生えてくるわ", "english": "Hair will grow back soon", "note": ""}]},
-  {"id": "心配", "word": "心配", "reading": "しんぱい", "pos": "noun/na-adjective/suru verb", "meaning": "worry, concern", "notes": "心配する = to worry", "jlpt": "N4", "frequency": 1, "examples": [{"japanese": "そんなに心配することないのよ", "english": "You don't need to worry so much", "note": "〜ことない"}]},
-  {"id": "ひどい", "word": "酷い", "reading": "ひどい", "pos": "i-adjective", "meaning": "terrible, awful, cruel", "notes": "Very common word", "jlpt": "N4", "frequency": 3, "examples": [{"japanese": "ひどいわ、ひどいわ", "english": "It's terrible, terrible!", "note": "emphasis through repetition"}]},
-  {"id": "生える", "word": "生える", "reading": "はえる", "pos": "verb (ichidan)", "meaning": "to grow (plants, hair)", "notes": "Intransitive", "jlpt": "N3", "frequency": 1, "examples": [{"japanese": "髪の毛なんて、またすぐに生えてくるわ", "english": "Hair will grow back soon", "note": "〜てくる"}]},
-  {"id": "秘密", "word": "秘密", "reading": "ひみつ", "pos": "noun/na-adjective", "meaning": "secret", "notes": "秘密の + noun = secret ~", "jlpt": "N3", "frequency": 1, "examples": [{"japanese": "誰にも決して見つからない秘密の島", "english": "A secret island that no one will ever find", "note": ""}]},
-  {"id": "二度と", "word": "二度と", "reading": "にどと", "pos": "adverb", "meaning": "never again (with negative)", "notes": "Always used with negative verb", "jlpt": "N3", "frequency": 1, "examples": [{"japanese": "二度と見たくないね", "english": "I never want to see them again", "note": "〜たくない"}]},
-  {"id": "似合う", "word": "似合う", "reading": "にあう", "pos": "verb (godan)", "meaning": "to suit, to look good on", "notes": "～が似合う = ~ suits (someone)", "jlpt": "N3", "frequency": 1, "examples": [{"japanese": "そのスカーフ、とってもよく似合うよ", "english": "That scarf looks really good on you", "note": "〜が似合う"}]},
-  {"id": "借りる", "word": "借りる", "reading": "かりる", "pos": "verb (ichidan)", "meaning": "to borrow", "notes": "Opposite: 貸す (to lend)", "jlpt": "N4", "frequency": 1, "examples": [{"japanese": "ママに借りたの", "english": "I borrowed it from Mama", "note": "〜に借りる"}]},
-  {"id": "探検", "word": "探検", "reading": "たんけん", "pos": "noun/suru verb", "meaning": "exploration", "notes": "探検する = to explore", "jlpt": "N3", "frequency": 1, "examples": [{"japanese": "島の探検もゆっくりできるぞ", "english": "We can take our time exploring the island", "note": ""}]},
-  {"id": "流れ着く", "word": "流れ着く", "reading": "ながれつく", "pos": "verb (godan)", "meaning": "to wash ashore, to drift ashore", "notes": "流れる + 着く compound", "jlpt": "N2", "frequency": 2, "examples": [{"japanese": "いろいろなものが流れ着いている", "english": "Various things have washed ashore", "note": "〜ている"}]},
-  {"id": "宝石", "word": "宝石", "reading": "ほうせき", "pos": "noun", "meaning": "jewel, gem", "notes": "宝 (treasure) + 石 (stone)", "jlpt": "N3", "frequency": 2, "examples": [{"japanese": "宝石なんか、流れ着いてないかしら", "english": "I wonder if any jewels have washed ashore", "note": "〜かしら"}]},
-  {"id": "空っぽ", "word": "空っぽ", "reading": "からっぽ", "pos": "noun/na-adjective", "meaning": "empty", "notes": "Emphatic form of 空 (から)", "jlpt": "N3", "frequency": 1, "examples": [{"japanese": "空っぽだ", "english": "It's empty!", "note": ""}]},
-  {"id": "宝物", "word": "宝物", "reading": "たからもの", "pos": "noun", "meaning": "treasure", "notes": "Also read ほうもつ in formal contexts", "jlpt": "N3", "frequency": 1, "examples": [{"japanese": "すごい宝物を見つけた", "english": "I found an amazing treasure", "note": ""}]},
-  {"id": "望遠鏡", "word": "望遠鏡", "reading": "ぼうえんきょう", "pos": "noun", "meaning": "telescope", "notes": "望遠 (distant view) + 鏡 (lens)", "jlpt": "N2", "frequency": 1, "examples": [{"japanese": "船で使う望遠鏡だよ", "english": "It's a telescope used on ships", "note": ""}]},
-  {"id": "面白い", "word": "面白い", "reading": "おもしろい", "pos": "i-adjective", "meaning": "interesting, fun", "notes": "Very common word", "jlpt": "N5", "frequency": 2, "examples": [{"japanese": "面白いものがあるぞ", "english": "There's something interesting!", "note": ""}]},
-  {"id": "死ぬ", "word": "死ぬ", "reading": "しぬ", "pos": "verb (godan)", "meaning": "to die", "notes": "Only godan verb ending in ぬ", "jlpt": "N4", "frequency": 1, "examples": [{"japanese": "死んでるの?", "english": "Is she dead?", "note": "〜ている state"}]},
-  {"id": "生きる", "word": "生きる", "reading": "いきる", "pos": "verb (ichidan)", "meaning": "to live, to be alive", "notes": "Intransitive", "jlpt": "N4", "frequency": 1, "examples": [{"japanese": "初めから生きてはいない", "english": "She was never alive to begin with", "note": "〜てはいない"}]},
-  {"id": "飾り", "word": "飾り", "reading": "かざり", "pos": "noun", "meaning": "decoration, ornament", "notes": "From 飾る (to decorate)", "jlpt": "N3", "frequency": 1, "examples": [{"japanese": "大きな船の先についていた飾り", "english": "A decoration that was attached to a large ship", "note": ""}]},
-  {"id": "助ける", "word": "助ける", "reading": "たすける", "pos": "verb (ichidan)", "meaning": "to help, to save", "notes": "Transitive", "jlpt": "N4", "frequency": 2, "examples": [{"japanese": "助けてくれ、誰か助けて", "english": "Help me! Someone help!", "note": "〜てくれ"}]},
-  {"id": "落ちる", "word": "落ちる", "reading": "おちる", "pos": "verb (ichidan)", "meaning": "to fall, to drop", "notes": "Intransitive. 落とす = transitive", "jlpt": "N4", "frequency": 2, "examples": [{"japanese": "どうしてこんなところへ落っこちたんですか?", "english": "Why did you fall into a place like this?", "note": "落っこちる = colloquial"}]},
-  {"id": "女王様", "word": "女王様", "reading": "じょおうさま", "pos": "noun", "meaning": "queen", "notes": "様 adds respect", "jlpt": "N3", "frequency": 2, "examples": [{"japanese": "あの木の女王様が好きになってしまって", "english": "He fell in love with that wooden queen", "note": ""}]},
-  {"id": "ガラス玉", "word": "ガラス玉", "reading": "ガラスだま", "pos": "noun", "meaning": "glass ball, marble", "notes": "ガラス (glass) + 玉 (ball)", "jlpt": "N3", "frequency": 2, "examples": [{"japanese": "このガラス玉をあげるよ", "english": "I'll give you this glass ball", "note": ""}]},
-  {"id": "一家", "word": "一家", "reading": "いっか", "pos": "noun", "meaning": "family, household", "notes": "一 + 家", "jlpt": "N3", "frequency": 1, "examples": [{"japanese": "ムーミン一家の船の旅", "english": "The Moomin family's boat trip", "note": ""}]},
-  {"id": "旅", "word": "旅", "reading": "たび", "pos": "noun", "meaning": "trip, journey", "notes": "旅行 is more common in modern Japanese", "jlpt": "N4", "frequency": 1, "examples": [{"japanese": "船の旅はこんな風にして終わりました", "english": "The boat trip came to an end like this", "note": ""}]},
-  {"id": "大勢", "word": "大勢", "reading": "おおぜい", "pos": "noun", "meaning": "many people, crowd", "notes": "Used only for people", "jlpt": "N4", "frequency": 1, "examples": [{"japanese": "大勢のお客様が僕の家にやってきた", "english": "A lot of guests came to my house", "note": ""}]},
-  {"id": "何者", "word": "何者", "reading": "なにもの", "pos": "noun", "meaning": "who (emphatic)", "notes": "More dramatic than 誰", "jlpt": "N2", "frequency": 1, "examples": [{"japanese": "彼らは一体何者なんだろう?", "english": "Who on earth are they?", "note": "一体 + 何者"}]}
+  {
+    "id": "気圧計",
+    "word": "気圧計",
+    "reading": "きあつけい",
+    "pos": "noun",
+    "meaning": "barometer",
+    "notes": "Weather instrument for measuring atmospheric pressure",
+    "jlpt": "N2",
+    "frequency": 8,
+    "examples": [
+      {
+        "japanese": "この気圧計が壊れてなかったら、雨がいつ止むかわかるんじゃない?",
+        "english": "If this barometer wasn't broken, wouldn't we know when the rain will stop?",
+        "note": "conditional",
+        "furigana": "この<ruby>気圧<rt>きあつ</rt></ruby><ruby>計<rt>けい</rt></ruby>が<ruby>壊<rt>こわ</rt></ruby>れてなかったら、<ruby>雨<rt>あめ</rt></ruby>がいつ<ruby>止<rt>や</rt></ruby>むかわかるんじゃない?"
+      }
+    ]
+  },
+  {
+    "id": "嵐",
+    "word": "嵐",
+    "reading": "あらし",
+    "pos": "noun",
+    "meaning": "storm",
+    "notes": "Can refer to wind, rain, or both",
+    "jlpt": "N3",
+    "frequency": 4,
+    "examples": [
+      {
+        "japanese": "突然の嵐にあってしまいました",
+        "english": "They encountered a sudden storm",
+        "note": "〜にあう pattern",
+        "furigana": "<ruby>突然<rt>とつぜん</rt></ruby>の<ruby>嵐<rt>あらし</rt></ruby>にあってしまいました"
+      }
+    ]
+  },
+  {
+    "id": "返す",
+    "word": "返す",
+    "reading": "かえす",
+    "pos": "verb (godan)",
+    "meaning": "to return (something)",
+    "notes": "Transitive. 返る is intransitive.",
+    "jlpt": "N4",
+    "frequency": 6,
+    "examples": [
+      {
+        "japanese": "気圧計をニョロニョロに返したほうがいい",
+        "english": "We should return the barometer to the Hattifatteners",
+        "note": "〜たほうがいい",
+        "furigana": "<ruby>気圧<rt>きあつ</rt></ruby><ruby>計<rt>けい</rt></ruby>をニョロニョロに<ruby>返<rt>かえ</rt></ruby>したほうがいい"
+      }
+    ]
+  },
+  {
+    "id": "珍しい",
+    "word": "珍しい",
+    "reading": "めずらしい",
+    "pos": "i-adjective",
+    "meaning": "rare, unusual",
+    "notes": "Often used positively",
+    "jlpt": "N4",
+    "frequency": 4,
+    "examples": [
+      {
+        "japanese": "確かに珍しい植物は見つけた",
+        "english": "I certainly found rare plants",
+        "note": "",
+        "furigana": "<ruby>確<rt>たし</rt></ruby>かに<ruby>珍<rt>めずら</rt></ruby>しい<ruby>植物<rt>しょくぶつ</rt></ruby>は<ruby>見<rt>み</rt></ruby>つけた"
+      }
+    ]
+  },
+  {
+    "id": "綱",
+    "word": "綱",
+    "reading": "つな",
+    "pos": "noun",
+    "meaning": "rope, cord",
+    "notes": "Thicker than 紐 (string)",
+    "jlpt": "N2",
+    "frequency": 3,
+    "examples": [
+      {
+        "japanese": "綱を結ばなかったんですか?",
+        "english": "You didn't tie the rope?",
+        "note": "",
+        "furigana": "<ruby>綱<rt>つな</rt></ruby>を<ruby>結<rt>むす</rt></ruby>ばなかったんですか?"
+      }
+    ]
+  },
+  {
+    "id": "結ぶ",
+    "word": "結ぶ",
+    "reading": "むすぶ",
+    "pos": "verb (godan)",
+    "meaning": "to tie, to bind",
+    "notes": "Also means 'to form (relationship)'",
+    "jlpt": "N3",
+    "frequency": 4,
+    "examples": [
+      {
+        "japanese": "結んであったよ",
+        "english": "It was tied",
+        "note": "〜てある resultative state",
+        "furigana": "<ruby>結<rt>むす</rt></ruby>んであったよ"
+      }
+    ]
+  },
+  {
+    "id": "満潮",
+    "word": "満潮",
+    "reading": "まんちょう",
+    "pos": "noun",
+    "meaning": "high tide",
+    "notes": "Opposite: 干潮 (low tide)",
+    "jlpt": "N2",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "今は満潮なんだ",
+        "english": "It must be high tide now",
+        "note": "",
+        "furigana": "<ruby>今<rt>いま</rt></ruby>は<ruby>満潮<rt>まんちょう</rt></ruby>なんだ"
+      }
+    ]
+  },
+  {
+    "id": "雷",
+    "word": "雷",
+    "reading": "かみなり",
+    "pos": "noun",
+    "meaning": "thunder, lightning",
+    "notes": "Can refer to both sound and flash",
+    "jlpt": "N3",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "雷の音も聞こえないわ",
+        "english": "I can't hear the thunder either",
+        "note": "",
+        "furigana": "<ruby>雷<rt>かみなり</rt></ruby>の<ruby>音<rt>おと</rt></ruby>も<ruby>聞<rt>き</rt></ruby>こえないわ"
+      }
+    ]
+  },
+  {
+    "id": "退屈",
+    "word": "退屈",
+    "reading": "たいくつ",
+    "pos": "noun/na-adjective/suru verb",
+    "meaning": "boredom, tedium",
+    "notes": "退屈する = to be bored",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "ずっとテントの中で退屈したわ",
+        "english": "I've been bored in the tent the whole time",
+        "note": "",
+        "furigana": "ずっとテントの<ruby>中<rt>なか</rt></ruby>で<ruby>退屈<rt>たいくつ</rt></ruby>したわ"
+      }
+    ]
+  },
+  {
+    "id": "光る",
+    "word": "光る",
+    "reading": "ひかる",
+    "pos": "verb (godan)",
+    "meaning": "to shine, to glow",
+    "notes": "Intransitive. 光らせる = to make shine",
+    "jlpt": "N3",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "みんな光ってる",
+        "english": "They're all glowing",
+        "note": "〜ている",
+        "furigana": "みんな<ruby>光<rt>ひか</rt></ruby>ってる"
+      }
+    ]
+  },
+  {
+    "id": "電気",
+    "word": "電気",
+    "reading": "でんき",
+    "pos": "noun",
+    "meaning": "electricity",
+    "notes": "Also means 'electric light'",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "ニョロニョロたちの体は電気を帯びた",
+        "english": "The Hattifatteners' bodies became charged with electricity",
+        "note": "電気を帯びる",
+        "furigana": "ニョロニョロたちの<ruby>体<rt>からだ</rt></ruby>は<ruby>電気<rt>でんき</rt></ruby>を<ruby>帯<rt>お</rt></ruby>びた"
+      }
+    ]
+  },
+  {
+    "id": "勇気",
+    "word": "勇気",
+    "reading": "ゆうき",
+    "pos": "noun",
+    "meaning": "courage, bravery",
+    "notes": "勇気がある = to be brave",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "ムーミンって、勇気があるのね",
+        "english": "Moomin is so brave",
+        "note": "〜がある",
+        "furigana": "ムーミンって、<ruby>勇気<rt>ゆうき</rt></ruby>があるのね"
+      }
+    ]
+  },
+  {
+    "id": "ぶつかる",
+    "word": "ぶつかる",
+    "reading": "ぶつかる",
+    "pos": "verb (godan)",
+    "meaning": "to bump into, to collide",
+    "notes": "Intransitive. ぶつける = transitive",
+    "jlpt": "N3",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "あいつ、君の顔にぶつかったろ",
+        "english": "That thing bumped into your face, didn't it?",
+        "note": "",
+        "furigana": "あいつ、<ruby>君<rt>きみ</rt></ruby>の<ruby>顔<rt>かお</rt></ruby>にぶつかったろ"
+      }
+    ]
+  },
+  {
+    "id": "髪の毛",
+    "word": "髪の毛",
+    "reading": "かみのけ",
+    "pos": "noun",
+    "meaning": "hair (on head)",
+    "notes": "髪 alone also works",
+    "jlpt": "N4",
+    "frequency": 4,
+    "examples": [
+      {
+        "japanese": "髪の毛なんて、またすぐに生えてくるわ",
+        "english": "Hair will grow back soon",
+        "note": "",
+        "furigana": "<ruby>髪の毛<rt>かみのけ</rt></ruby>なんて、またすぐに<ruby>生<rt>は</rt></ruby>えてくるわ"
+      }
+    ]
+  },
+  {
+    "id": "心配",
+    "word": "心配",
+    "reading": "しんぱい",
+    "pos": "noun/na-adjective/suru verb",
+    "meaning": "worry, concern",
+    "notes": "心配する = to worry",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "そんなに心配することないのよ",
+        "english": "You don't need to worry so much",
+        "note": "〜ことない",
+        "furigana": "そんなに<ruby>心配<rt>しんぱい</rt></ruby>することないのよ"
+      }
+    ]
+  },
+  {
+    "id": "ひどい",
+    "word": "酷い",
+    "reading": "ひどい",
+    "pos": "i-adjective",
+    "meaning": "terrible, awful, cruel",
+    "notes": "Very common word",
+    "jlpt": "N4",
+    "frequency": 3,
+    "examples": [
+      {
+        "japanese": "ひどいわ、ひどいわ",
+        "english": "It's terrible, terrible!",
+        "note": "emphasis through repetition",
+        "furigana": "ひどいわ、ひどいわ"
+      }
+    ]
+  },
+  {
+    "id": "生える",
+    "word": "生える",
+    "reading": "はえる",
+    "pos": "verb (ichidan)",
+    "meaning": "to grow (plants, hair)",
+    "notes": "Intransitive",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "髪の毛なんて、またすぐに生えてくるわ",
+        "english": "Hair will grow back soon",
+        "note": "〜てくる",
+        "furigana": "<ruby>髪の毛<rt>かみのけ</rt></ruby>なんて、またすぐに<ruby>生<rt>は</rt></ruby>えてくるわ"
+      }
+    ]
+  },
+  {
+    "id": "秘密",
+    "word": "秘密",
+    "reading": "ひみつ",
+    "pos": "noun/na-adjective",
+    "meaning": "secret",
+    "notes": "秘密の + noun = secret ~",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "誰にも決して見つからない秘密の島",
+        "english": "A secret island that no one will ever find",
+        "note": "",
+        "furigana": "<ruby>誰<rt>だれ</rt></ruby>にも<ruby>決<rt>けっ</rt></ruby>して<ruby>見<rt>み</rt></ruby>つからない<ruby>秘密<rt>ひみつ</rt></ruby>の<ruby>島<rt>しま</rt></ruby>"
+      }
+    ]
+  },
+  {
+    "id": "二度と",
+    "word": "二度と",
+    "reading": "にどと",
+    "pos": "adverb",
+    "meaning": "never again (with negative)",
+    "notes": "Always used with negative verb",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "二度と見たくないね",
+        "english": "I never want to see them again",
+        "note": "〜たくない",
+        "furigana": "<ruby>二度<rt>にど</rt></ruby>と<ruby>見<rt>み</rt></ruby>たくないね"
+      }
+    ]
+  },
+  {
+    "id": "似合う",
+    "word": "似合う",
+    "reading": "にあう",
+    "pos": "verb (godan)",
+    "meaning": "to suit, to look good on",
+    "notes": "～が似合う = ~ suits (someone)",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "そのスカーフ、とってもよく似合うよ",
+        "english": "That scarf looks really good on you",
+        "note": "〜が似合う",
+        "furigana": "そのスカーフ、とってもよく<ruby>似合<rt>にあ</rt></ruby>うよ"
+      }
+    ]
+  },
+  {
+    "id": "借りる",
+    "word": "借りる",
+    "reading": "かりる",
+    "pos": "verb (ichidan)",
+    "meaning": "to borrow",
+    "notes": "Opposite: 貸す (to lend)",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "ママに借りたの",
+        "english": "I borrowed it from Mama",
+        "note": "〜に借りる",
+        "furigana": "ママに<ruby>借<rt>か</rt></ruby>りたの"
+      }
+    ]
+  },
+  {
+    "id": "探検",
+    "word": "探検",
+    "reading": "たんけん",
+    "pos": "noun/suru verb",
+    "meaning": "exploration",
+    "notes": "探検する = to explore",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "島の探検もゆっくりできるぞ",
+        "english": "We can take our time exploring the island",
+        "note": "",
+        "furigana": "<ruby>島<rt>しま</rt></ruby>の<ruby>探検<rt>たんけん</rt></ruby>もゆっくりできるぞ"
+      }
+    ]
+  },
+  {
+    "id": "流れ着く",
+    "word": "流れ着く",
+    "reading": "ながれつく",
+    "pos": "verb (godan)",
+    "meaning": "to wash ashore, to drift ashore",
+    "notes": "流れる + 着く compound",
+    "jlpt": "N2",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "いろいろなものが流れ着いている",
+        "english": "Various things have washed ashore",
+        "note": "〜ている",
+        "furigana": "いろいろなものが<ruby>流れ着<rt>ながれつ</rt></ruby>いている"
+      }
+    ]
+  },
+  {
+    "id": "宝石",
+    "word": "宝石",
+    "reading": "ほうせき",
+    "pos": "noun",
+    "meaning": "jewel, gem",
+    "notes": "宝 (treasure) + 石 (stone)",
+    "jlpt": "N3",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "宝石なんか、流れ着いてないかしら",
+        "english": "I wonder if any jewels have washed ashore",
+        "note": "〜かしら",
+        "furigana": "<ruby>宝石<rt>ほうせき</rt></ruby>なんか、<ruby>流れ着<rt>ながれつ</rt></ruby>いてないかしら"
+      }
+    ]
+  },
+  {
+    "id": "空っぽ",
+    "word": "空っぽ",
+    "reading": "からっぽ",
+    "pos": "noun/na-adjective",
+    "meaning": "empty",
+    "notes": "Emphatic form of 空 (から)",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "空っぽだ",
+        "english": "It's empty!",
+        "note": "",
+        "furigana": "<ruby>空<rt>から</rt></ruby>っぽだ"
+      }
+    ]
+  },
+  {
+    "id": "宝物",
+    "word": "宝物",
+    "reading": "たからもの",
+    "pos": "noun",
+    "meaning": "treasure",
+    "notes": "Also read ほうもつ in formal contexts",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "すごい宝物を見つけた",
+        "english": "I found an amazing treasure",
+        "note": "",
+        "furigana": "すごい<ruby>宝物<rt>ほうもつ</rt></ruby>を<ruby>見<rt>み</rt></ruby>つけた"
+      }
+    ]
+  },
+  {
+    "id": "望遠鏡",
+    "word": "望遠鏡",
+    "reading": "ぼうえんきょう",
+    "pos": "noun",
+    "meaning": "telescope",
+    "notes": "望遠 (distant view) + 鏡 (lens)",
+    "jlpt": "N2",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "船で使う望遠鏡だよ",
+        "english": "It's a telescope used on ships",
+        "note": "",
+        "furigana": "<ruby>船<rt>ふね</rt></ruby>で<ruby>使<rt>つか</rt></ruby>う<ruby>望遠鏡<rt>ぼうえんきょう</rt></ruby>だよ"
+      }
+    ]
+  },
+  {
+    "id": "面白い",
+    "word": "面白い",
+    "reading": "おもしろい",
+    "pos": "i-adjective",
+    "meaning": "interesting, fun",
+    "notes": "Very common word",
+    "jlpt": "N5",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "面白いものがあるぞ",
+        "english": "There's something interesting!",
+        "note": "",
+        "furigana": "<ruby>面白<rt>おもしろ</rt></ruby>いものがあるぞ"
+      }
+    ]
+  },
+  {
+    "id": "死ぬ",
+    "word": "死ぬ",
+    "reading": "しぬ",
+    "pos": "verb (godan)",
+    "meaning": "to die",
+    "notes": "Only godan verb ending in ぬ",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "死んでるの?",
+        "english": "Is she dead?",
+        "note": "〜ている state",
+        "furigana": "<ruby>死<rt>し</rt></ruby>んでるの?"
+      }
+    ]
+  },
+  {
+    "id": "生きる",
+    "word": "生きる",
+    "reading": "いきる",
+    "pos": "verb (ichidan)",
+    "meaning": "to live, to be alive",
+    "notes": "Intransitive",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "初めから生きてはいない",
+        "english": "She was never alive to begin with",
+        "note": "〜てはいない",
+        "furigana": "<ruby>初<rt>はじ</rt></ruby>めから<ruby>生<rt>い</rt></ruby>きてはいない"
+      }
+    ]
+  },
+  {
+    "id": "飾り",
+    "word": "飾り",
+    "reading": "かざり",
+    "pos": "noun",
+    "meaning": "decoration, ornament",
+    "notes": "From 飾る (to decorate)",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "大きな船の先についていた飾り",
+        "english": "A decoration that was attached to a large ship",
+        "note": "",
+        "furigana": "<ruby>大<rt>おお</rt></ruby>きな<ruby>船<rt>ふね</rt></ruby>の<ruby>先<rt>さき</rt></ruby>についていた<ruby>飾<rt>かざ</rt></ruby>り"
+      }
+    ]
+  },
+  {
+    "id": "助ける",
+    "word": "助ける",
+    "reading": "たすける",
+    "pos": "verb (ichidan)",
+    "meaning": "to help, to save",
+    "notes": "Transitive",
+    "jlpt": "N4",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "助けてくれ、誰か助けて",
+        "english": "Help me! Someone help!",
+        "note": "〜てくれ",
+        "furigana": "<ruby>助<rt>たす</rt></ruby>けてくれ、<ruby>誰<rt>だれ</rt></ruby>か<ruby>助<rt>たす</rt></ruby>けて"
+      }
+    ]
+  },
+  {
+    "id": "落ちる",
+    "word": "落ちる",
+    "reading": "おちる",
+    "pos": "verb (ichidan)",
+    "meaning": "to fall, to drop",
+    "notes": "Intransitive. 落とす = transitive",
+    "jlpt": "N4",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "どうしてこんなところへ落っこちたんですか?",
+        "english": "Why did you fall into a place like this?",
+        "note": "落っこちる = colloquial",
+        "furigana": "どうしてこんなところへ<ruby>落<rt>お</rt></ruby>っこちたんですか?"
+      }
+    ]
+  },
+  {
+    "id": "女王様",
+    "word": "女王様",
+    "reading": "じょおうさま",
+    "pos": "noun",
+    "meaning": "queen",
+    "notes": "様 adds respect",
+    "jlpt": "N3",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "あの木の女王様が好きになってしまって",
+        "english": "He fell in love with that wooden queen",
+        "note": "",
+        "furigana": "あの<ruby>木<rt>き</rt></ruby>の<ruby>女王<rt>じょおう</rt></ruby><ruby>様<rt>さま</rt></ruby>が<ruby>好<rt>す</rt></ruby>きになってしまって"
+      }
+    ]
+  },
+  {
+    "id": "ガラス玉",
+    "word": "ガラス玉",
+    "reading": "ガラスだま",
+    "pos": "noun",
+    "meaning": "glass ball, marble",
+    "notes": "ガラス (glass) + 玉 (ball)",
+    "jlpt": "N3",
+    "frequency": 2,
+    "examples": [
+      {
+        "japanese": "このガラス玉をあげるよ",
+        "english": "I'll give you this glass ball",
+        "note": "",
+        "furigana": "このガラス<ruby>玉<rt>だま</rt></ruby>をあげるよ"
+      }
+    ]
+  },
+  {
+    "id": "一家",
+    "word": "一家",
+    "reading": "いっか",
+    "pos": "noun",
+    "meaning": "family, household",
+    "notes": "一 + 家",
+    "jlpt": "N3",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "ムーミン一家の船の旅",
+        "english": "The Moomin family's boat trip",
+        "note": "",
+        "furigana": "ムーミン<ruby>一家<rt>いっか</rt></ruby>の<ruby>船<rt>ふね</rt></ruby>の<ruby>旅<rt>たび</rt></ruby>"
+      }
+    ]
+  },
+  {
+    "id": "旅",
+    "word": "旅",
+    "reading": "たび",
+    "pos": "noun",
+    "meaning": "trip, journey",
+    "notes": "旅行 is more common in modern Japanese",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "船の旅はこんな風にして終わりました",
+        "english": "The boat trip came to an end like this",
+        "note": "",
+        "furigana": "<ruby>船<rt>ふね</rt></ruby>の<ruby>旅<rt>たび</rt></ruby>はこんな<ruby>風<rt>かぜ</rt></ruby>にして<ruby>終<rt>お</rt></ruby>わりました"
+      }
+    ]
+  },
+  {
+    "id": "大勢",
+    "word": "大勢",
+    "reading": "おおぜい",
+    "pos": "noun",
+    "meaning": "many people, crowd",
+    "notes": "Used only for people",
+    "jlpt": "N4",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "大勢のお客様が僕の家にやってきた",
+        "english": "A lot of guests came to my house",
+        "note": "",
+        "furigana": "<ruby>大勢<rt>たいせい</rt></ruby>の<ruby>お客様<rt>おきゃくさま</rt></ruby>が<ruby>僕<rt>ぼく</rt></ruby>の<ruby>家<rt>いえ</rt></ruby>にやってきた"
+      }
+    ]
+  },
+  {
+    "id": "何者",
+    "word": "何者",
+    "reading": "なにもの",
+    "pos": "noun",
+    "meaning": "who (emphatic)",
+    "notes": "More dramatic than 誰",
+    "jlpt": "N2",
+    "frequency": 1,
+    "examples": [
+      {
+        "japanese": "彼らは一体何者なんだろう?",
+        "english": "Who on earth are they?",
+        "note": "一体 + 何者",
+        "furigana": "<ruby>彼<rt>かれ</rt></ruby>らは<ruby>一体<rt>いったい</rt></ruby><ruby>何者<rt>なにもの</rt></ruby>なんだろう?"
+      }
+    ]
+  }
 ]

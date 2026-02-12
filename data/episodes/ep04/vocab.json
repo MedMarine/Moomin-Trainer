@@ -12,7 +12,8 @@
       {
         "japanese": "どこかへ行きましょうと言い出してみんなが賛成しました",
         "english": "Someone suggested going somewhere, and everyone agreed.",
-        "note": "賛成する (to agree)"
+        "note": "賛成する (to agree)",
+        "furigana": "どこかへ<ruby>行<rt>い</rt></ruby>きましょうと<ruby>言<rt>い</rt></ruby>い<ruby>出<rt>だ</rt></ruby>してみんなが<ruby>賛成<rt>さんせい</rt></ruby>しました"
       }
     ]
   },
@@ -29,7 +30,8 @@
       {
         "japanese": "出発する今日になっても決まりませんでした",
         "english": "Even on the day of departure, it wasn't decided.",
-        "note": "出発する (to depart)"
+        "note": "出発する (to depart)",
+        "furigana": "<ruby>出発<rt>しゅっぱつ</rt></ruby>する<ruby>今日<rt>きょう</rt></ruby>になっても<ruby>決<rt>き</rt></ruby>まりませんでした"
       }
     ]
   },
@@ -46,7 +48,8 @@
       {
         "japanese": "それみんな持っていくつもり?",
         "english": "Are you planning to bring all of that?",
-        "note": "〜つもり (intend to)"
+        "note": "〜つもり (intend to)",
+        "furigana": "それみんな<ruby>持<rt>も</rt></ruby>っていくつもり?"
       }
     ]
   },
@@ -63,7 +66,8 @@
       {
         "japanese": "どこかへ着いたら上陸するわよね",
         "english": "When we arrive somewhere, we'll go ashore, right?",
-        "note": "上陸する (to land)"
+        "note": "上陸する (to land)",
+        "furigana": "どこかへ<ruby>着<rt>つ</rt></ruby>いたら<ruby>上陸<rt>じょうりく</rt></ruby>するわよね"
       }
     ]
   },
@@ -80,7 +84,8 @@
       {
         "japanese": "火を起こしたり、コーヒーが飲みたくなったりする",
         "english": "We'll want to make a fire and drink coffee.",
-        "note": "火を起こす (make a fire)"
+        "note": "火を起こす (make a fire)",
+        "furigana": "<ruby>火<rt>ひ</rt></ruby>を<ruby>起<rt>お</rt></ruby>こしたり、コーヒーが<ruby>飲<rt>の</rt></ruby>みたくなったりする"
       }
     ]
   },
@@ -97,7 +102,8 @@
       {
         "japanese": "これはそのために必要なものばかりよ",
         "english": "All of this is necessary for that purpose.",
-        "note": "必要なもの (necessary things)"
+        "note": "必要なもの (necessary things)",
+        "furigana": "これはそのために<ruby>必要<rt>ひつよう</rt></ruby>なものばかりよ"
       }
     ]
   },
@@ -114,7 +120,8 @@
       {
         "japanese": "落っこって怪我するわ",
         "english": "You'll fall and get hurt.",
-        "note": "怪我する (get injured)"
+        "note": "怪我する (get injured)",
+        "furigana": "<ruby>落<rt>お</rt></ruby>っこって<ruby>怪我<rt>けが</rt></ruby>するわ"
       }
     ]
   },
@@ -131,7 +138,8 @@
       {
         "japanese": "平気だよ",
         "english": "I'm fine.",
-        "note": "Casual assertion"
+        "note": "Casual assertion",
+        "furigana": "<ruby>平気<rt>へいき</rt></ruby>だよ"
       }
     ]
   },
@@ -148,7 +156,8 @@
       {
         "japanese": "たまには船に乗るのも悪くない",
         "english": "It wouldn't be bad to go on a boat once in a while.",
-        "note": "たまには (for a change)"
+        "note": "たまには (for a change)",
+        "furigana": "たまには<ruby>船<rt>ふね</rt></ruby>に<ruby>乗<rt>の</rt></ruby>るのも<ruby>悪<rt>わる</rt></ruby>くない"
       }
     ]
   },
@@ -165,7 +174,8 @@
       {
         "japanese": "もうすぐ支度ができるわよ",
         "english": "We'll be ready soon.",
-        "note": "支度ができる (preparations are done)"
+        "note": "支度ができる (preparations are done)",
+        "furigana": "もうすぐ<ruby>支度<rt>したく</rt></ruby>ができるわよ"
       }
     ]
   },
@@ -182,7 +192,8 @@
       {
         "japanese": "結局どこへ行くことにしたの?",
         "english": "Where did you decide to go after all?",
-        "note": "結局 (after all)"
+        "note": "結局 (after all)",
+        "furigana": "<ruby>結局<rt>けっきょく</rt></ruby>どこへ<ruby>行<rt>い</rt></ruby>くことにしたの?"
       }
     ]
   },
@@ -199,7 +210,8 @@
       {
         "japanese": "引っ越しですか、みなさん?",
         "english": "Are you all moving?",
-        "note": "引っ越し (moving house)"
+        "note": "引っ越し (moving house)",
+        "furigana": "<ruby>引っ越<rt>ひっこ</rt></ruby>しですか、みなさん?"
       }
     ]
   },
@@ -216,7 +228,8 @@
       {
         "japanese": "持ち主は現れませんか?",
         "english": "The owner hasn't appeared?",
-        "note": "持ち主 (owner)"
+        "note": "持ち主 (owner)",
+        "furigana": "<ruby>持ち主<rt>もちぬし</rt></ruby>は<ruby>現<rt>あらわ</rt></ruby>れませんか?"
       }
     ]
   },
@@ -233,7 +246,8 @@
       {
         "japanese": "持ち主は現れませんか?",
         "english": "The owner hasn't appeared?",
-        "note": "現れる (to appear)"
+        "note": "現れる (to appear)",
+        "furigana": "<ruby>持ち主<rt>もちぬし</rt></ruby>は<ruby>現<rt>あらわ</rt></ruby>れませんか?"
       }
     ]
   },
@@ -250,7 +264,8 @@
       {
         "japanese": "なんでそんな荷物がいるんです?",
         "english": "Why do you need so much luggage?",
-        "note": "荷物がいる (need luggage)"
+        "note": "荷物がいる (need luggage)",
+        "furigana": "なんでそんな<ruby>荷物<rt>にもつ</rt></ruby>がいるんです?"
       }
     ]
   },
@@ -267,7 +282,8 @@
       {
         "japanese": "絶好の航海日和だな",
         "english": "It's perfect sailing weather.",
-        "note": "絶好の (ideal, perfect)"
+        "note": "絶好の (ideal, perfect)",
+        "furigana": "<ruby>絶好<rt>ぜっこう</rt></ruby>の<ruby>航海<rt>こうかい</rt></ruby><ruby>日和<rt>ひより</rt></ruby>だな"
       }
     ]
   },
@@ -284,7 +300,8 @@
       {
         "japanese": "絶好の航海日和だな",
         "english": "It's perfect sailing weather.",
-        "note": "航海日和 (sailing weather)"
+        "note": "航海日和 (sailing weather)",
+        "furigana": "<ruby>絶好<rt>ぜっこう</rt></ruby>の<ruby>航海<rt>こうかい</rt></ruby><ruby>日和<rt>ひより</rt></ruby>だな"
       }
     ]
   },
@@ -301,7 +318,8 @@
       {
         "japanese": "僕、泳ぎ得意じゃないからね",
         "english": "I'm not good at swimming.",
-        "note": "得意じゃない (not good at)"
+        "note": "得意じゃない (not good at)",
+        "furigana": "<ruby>僕<rt>ぼく</rt></ruby>、<ruby>泳<rt>およ</rt></ruby>ぎ<ruby>得意<rt>とくい</rt></ruby>じゃないからね"
       }
     ]
   },
@@ -318,12 +336,14 @@
       {
         "japanese": "僕、泳ぎ得意じゃないからね",
         "english": "I'm not good at swimming.",
-        "note": "泳ぎ (swimming, noun)"
+        "note": "泳ぎ (swimming, noun)",
+        "furigana": "<ruby>僕<rt>ぼく</rt></ruby>、<ruby>泳<rt>およ</rt></ruby>ぎ<ruby>得意<rt>とくい</rt></ruby>じゃないからね"
       },
       {
         "japanese": "スニフは泳げないのよ",
         "english": "Sniff can't swim.",
-        "note": "泳げない (can't swim)"
+        "note": "泳げない (can't swim)",
+        "furigana": "スニフは<ruby>泳<rt>およ</rt></ruby>げないのよ"
       }
     ]
   },
@@ -340,7 +360,8 @@
       {
         "japanese": "嵐になって船がひっくり返ったら大変",
         "english": "If a storm comes and the boat flips, it would be terrible.",
-        "note": "嵐になる (a storm comes)"
+        "note": "嵐になる (a storm comes)",
+        "furigana": "<ruby>嵐<rt>あらし</rt></ruby>になって<ruby>船<rt>ふね</rt></ruby>が<ruby>ひっくり返<rt>ひっくりかえ</rt></ruby>ったら<ruby>大変<rt>たいへん</rt></ruby>"
       }
     ]
   },
@@ -357,7 +378,8 @@
       {
         "japanese": "船がひっくり返ったら大変",
         "english": "If the boat flips over, it would be terrible.",
-        "note": "ひっくり返る (flip over)"
+        "note": "ひっくり返る (flip over)",
+        "furigana": "<ruby>船<rt>ふね</rt></ruby>が<ruby>ひっくり返<rt>ひっくりかえ</rt></ruby>ったら<ruby>大変<rt>たいへん</rt></ruby>"
       }
     ]
   },
@@ -374,7 +396,8 @@
       {
         "japanese": "満員だね",
         "english": "It's full, isn't it?",
-        "note": "満員 (packed)"
+        "note": "満員 (packed)",
+        "furigana": "<ruby>満員<rt>まんいん</rt></ruby>だね"
       }
     ]
   },
@@ -391,7 +414,8 @@
       {
         "japanese": "僕が乗ったら沈みそうだよ",
         "english": "If I get on, it looks like it'll sink.",
-        "note": "沈みそう (looks like it'll sink)"
+        "note": "沈みそう (looks like it'll sink)",
+        "furigana": "<ruby>僕<rt>ぼく</rt></ruby>が<ruby>乗<rt>の</rt></ruby>ったら<ruby>沈<rt>しず</rt></ruby>みそうだよ"
       }
     ]
   },
@@ -408,7 +432,8 @@
       {
         "japanese": "僕は留守番をしてるよ",
         "english": "I'll watch the house.",
-        "note": "留守番する (house-sit)"
+        "note": "留守番する (house-sit)",
+        "furigana": "<ruby>僕<rt>ぼく</rt></ruby>は<ruby>留守番<rt>るすばん</rt></ruby>をしてるよ"
       }
     ]
   },
@@ -425,7 +450,8 @@
       {
         "japanese": "君たちの家を守ってあげる",
         "english": "I'll protect your house for you.",
-        "note": "〜を守る (protect)"
+        "note": "〜を守る (protect)",
+        "furigana": "<ruby>君<rt>きみ</rt></ruby>たちの<ruby>家<rt>いえ</rt></ruby>を<ruby>守<rt>まも</rt></ruby>ってあげる"
       }
     ]
   },
@@ -442,7 +468,8 @@
       {
         "japanese": "安心して行ってらっしゃい",
         "english": "Don't worry and have a safe trip.",
-        "note": "安心して (with peace of mind)"
+        "note": "安心して (with peace of mind)",
+        "furigana": "<ruby>安心<rt>あんしん</rt></ruby>して<ruby>行<rt>い</rt></ruby>ってらっしゃい"
       }
     ]
   },
@@ -459,7 +486,8 @@
       {
         "japanese": "台所のテーブルの上にパンケーキがある",
         "english": "There are pancakes on the kitchen table.",
-        "note": "台所の (kitchen's)"
+        "note": "台所の (kitchen's)",
+        "furigana": "<ruby>台所<rt>だいどころ</rt></ruby>のテーブルの<ruby>上<rt>うえ</rt></ruby>にパンケーキがある"
       }
     ]
   },
@@ -476,7 +504,8 @@
       {
         "japanese": "何の心配もしてないわよ",
         "english": "I'm not worried at all.",
-        "note": "心配する (to worry)"
+        "note": "心配する (to worry)",
+        "furigana": "<ruby>何<rt>なに</rt></ruby>の<ruby>心配<rt>しんぱい</rt></ruby>もしてないわよ"
       }
     ]
   },
@@ -493,7 +522,8 @@
       {
         "japanese": "風がすっかりなくなったな",
         "english": "The wind has completely died down.",
-        "note": "風がなくなる (wind dies)"
+        "note": "風がなくなる (wind dies)",
+        "furigana": "<ruby>風<rt>かぜ</rt></ruby>がすっかりなくなったな"
       }
     ]
   },
@@ -510,7 +540,8 @@
       {
         "japanese": "櫂を使おうよ",
         "english": "Let's use the oars.",
-        "note": "櫂を使う (use oars)"
+        "note": "櫂を使う (use oars)",
+        "furigana": "<ruby>櫂<rt>かい</rt></ruby>を<ruby>使<rt>つか</rt></ruby>おうよ"
       }
     ]
   },
@@ -527,7 +558,8 @@
       {
         "japanese": "スナフキン、協力してくれ",
         "english": "Snufkin, help me out.",
-        "note": "協力する (cooperate)"
+        "note": "協力する (cooperate)",
+        "furigana": "スナフキン、<ruby>協力<rt>きょうりょく</rt></ruby>してくれ"
       }
     ]
   },
@@ -544,7 +576,8 @@
       {
         "japanese": "全然動いてないじゃない",
         "english": "We're not moving at all!",
-        "note": "全然〜ない (not at all)"
+        "note": "全然〜ない (not at all)",
+        "furigana": "<ruby>全然<rt>ぜんぜん</rt></ruby><ruby>動<rt>うご</rt></ruby>いてないじゃない"
       }
     ]
   },
@@ -561,7 +594,8 @@
       {
         "japanese": "これで精一杯なんだ",
         "english": "This is the best we can do.",
-        "note": "精一杯 (one's utmost)"
+        "note": "精一杯 (one's utmost)",
+        "furigana": "これで<ruby>精一杯<rt>せいいっぱい</rt></ruby>なんだ"
       }
     ]
   },
@@ -578,7 +612,8 @@
       {
         "japanese": "珍しい植物を採集するんじゃ",
         "english": "I'll collect rare plants.",
-        "note": "〜を採集する (collect)"
+        "note": "〜を採集する (collect)",
+        "furigana": "<ruby>珍<rt>めずら</rt></ruby>しい<ruby>植物<rt>しょくぶつ</rt></ruby>を<ruby>採集<rt>さいしゅう</rt></ruby>するんじゃ"
       }
     ]
   },
@@ -595,12 +630,14 @@
       {
         "japanese": "きっと一つくらい島が見つかります",
         "english": "We'll surely find at least one island.",
-        "note": "島が見つかる (find an island)"
+        "note": "島が見つかる (find an island)",
+        "furigana": "きっと<ruby>一<rt>ひと</rt></ruby>つくらい<ruby>島<rt>しま</rt></ruby>が<ruby>見<rt>み</rt></ruby>つかります"
       },
       {
         "japanese": "綺麗な島だよ",
         "english": "It's a beautiful island.",
-        "note": "綺麗な島 (beautiful island)"
+        "note": "綺麗な島 (beautiful island)",
+        "furigana": "<ruby>綺麗<rt>きれい</rt></ruby>な<ruby>島<rt>しま</rt></ruby>だよ"
       }
     ]
   },
@@ -617,7 +654,8 @@
       {
         "japanese": "綺麗な島だよ",
         "english": "It's a beautiful island.",
-        "note": "綺麗な (beautiful)"
+        "note": "綺麗な (beautiful)",
+        "furigana": "<ruby>綺麗<rt>きれい</rt></ruby>な<ruby>島<rt>しま</rt></ruby>だよ"
       }
     ]
   },
@@ -634,7 +672,8 @@
       {
         "japanese": "船もつけやすいようになっている",
         "english": "It looks easy to dock the boat too.",
-        "note": "船をつける (dock a boat)"
+        "note": "船をつける (dock a boat)",
+        "furigana": "<ruby>船<rt>ふね</rt></ruby>もつけやすいようになっている"
       }
     ]
   },
@@ -651,7 +690,8 @@
       {
         "japanese": "お礼は植物を見つけてからでいいですよ",
         "english": "You can thank me after you find some plants.",
-        "note": "お礼 (thanks)"
+        "note": "お礼 (thanks)",
+        "furigana": "<ruby>お礼<rt>おれい</rt></ruby>は<ruby>植物<rt>しょくぶつ</rt></ruby>を<ruby>見<rt>み</rt></ruby>つけてからでいいですよ"
       }
     ]
   },
@@ -668,7 +708,8 @@
       {
         "japanese": "私、石でかまどを作るわ",
         "english": "I'll make a stone stove.",
-        "note": "石で (with stones)"
+        "note": "石で (with stones)",
+        "furigana": "<ruby>私<rt>わたし</rt></ruby>、<ruby>石<rt>いし</rt></ruby>でかまどを<ruby>作<rt>つく</rt></ruby>るわ"
       }
     ]
   },
@@ -685,7 +726,8 @@
       {
         "japanese": "石でかまどを作るわ",
         "english": "I'll make a stone stove.",
-        "note": "かまどを作る (make a stove)"
+        "note": "かまどを作る (make a stove)",
+        "furigana": "<ruby>石<rt>いし</rt></ruby>でかまどを<ruby>作<rt>つく</rt></ruby>るわ"
       }
     ]
   },
@@ -702,7 +744,8 @@
       {
         "japanese": "上陸したら薪を集めてきてちょうだい",
         "english": "Please gather firewood after we land.",
-        "note": "薪を集める (gather firewood)"
+        "note": "薪を集める (gather firewood)",
+        "furigana": "<ruby>上陸<rt>じょうりく</rt></ruby>したら<ruby>薪<rt>たきぎ</rt></ruby>を<ruby>集<rt>あつ</rt></ruby>めてきてちょうだい"
       }
     ]
   },
@@ -719,7 +762,8 @@
       {
         "japanese": "全部役に立つな",
         "english": "Everything is useful.",
-        "note": "役に立つ (be useful)"
+        "note": "役に立つ (be useful)",
+        "furigana": "<ruby>全部<rt>ぜんぶ</rt></ruby><ruby>役に立<rt>やくにた</rt></ruby>つな"
       }
     ]
   },
@@ -736,7 +780,8 @@
       {
         "japanese": "ピクニックは楽しいものにしないとね",
         "english": "We need to make the picnic enjoyable.",
-        "note": "ピクニック (picnic)"
+        "note": "ピクニック (picnic)",
+        "furigana": "ピクニックは<ruby>楽<rt>たの</rt></ruby>しいものにしないとね"
       }
     ]
   },
@@ -753,12 +798,14 @@
       {
         "japanese": "何か手伝うことある?",
         "english": "Is there anything I can help with?",
-        "note": "手伝う (to help)"
+        "note": "手伝う (to help)",
+        "furigana": "<ruby>何<rt>なに</rt></ruby>か<ruby>手伝<rt>てつだ</rt></ruby>うことある?"
       },
       {
         "japanese": "私はママのお手伝いをするわ",
         "english": "I'll help Mama.",
-        "note": "お手伝いをする (help out)"
+        "note": "お手伝いをする (help out)",
+        "furigana": "<ruby>私<rt>わたし</rt></ruby>はママのお<ruby>手伝<rt>てつだ</rt></ruby>いをするわ"
       }
     ]
   },
@@ -775,7 +822,8 @@
       {
         "japanese": "今のところは誰も見かけないね",
         "english": "So far I haven't seen anyone.",
-        "note": "見かける (catch sight of)"
+        "note": "見かける (catch sight of)",
+        "furigana": "<ruby>今<rt>いま</rt></ruby>のところは<ruby>誰<rt>だれ</rt></ruby>も<ruby>見<rt>み</rt></ruby>かけないね"
       }
     ]
   },
@@ -792,7 +840,8 @@
       {
         "japanese": "私を信用しないのね?",
         "english": "You don't trust me?",
-        "note": "信用する (to trust)"
+        "note": "信用する (to trust)",
+        "furigana": "<ruby>私<rt>わたし</rt></ruby>を<ruby>信用<rt>しんよう</rt></ruby>しないのね?"
       }
     ]
   },
@@ -809,7 +858,8 @@
       {
         "japanese": "見間違いだってあるからね",
         "english": "It could have been a mistake.",
-        "note": "見間違い (mistaken identity)"
+        "note": "見間違い (mistaken identity)",
+        "furigana": "<ruby>見<rt>み</rt></ruby><ruby>間違<rt>まちが</rt></ruby>いだってあるからね"
       }
     ]
   },
@@ -826,7 +876,8 @@
       {
         "japanese": "おしべが三つに、めしべが七つ",
         "english": "Three stamens and seven pistils.",
-        "note": "Botanical description"
+        "note": "Botanical description",
+        "furigana": "おしべが<ruby>三<rt>みっ</rt></ruby>つに、めしべが<ruby>七<rt>なな</rt></ruby>つ"
       }
     ]
   },
@@ -843,7 +894,8 @@
       {
         "japanese": "おしべが三つに、めしべが七つ",
         "english": "Three stamens and seven pistils.",
-        "note": "Botanical description"
+        "note": "Botanical description",
+        "furigana": "おしべが<ruby>三<rt>みっ</rt></ruby>つに、めしべが<ruby>七<rt>なな</rt></ruby>つ"
       }
     ]
   },
@@ -860,7 +912,8 @@
       {
         "japanese": "興味深い",
         "english": "Interesting.",
-        "note": "興味深い (intriguing)"
+        "note": "興味深い (intriguing)",
+        "furigana": "<ruby>興味深<rt>きょうみぶか</rt></ruby>い"
       }
     ]
   },
@@ -877,12 +930,14 @@
       {
         "japanese": "気圧計じゃないか",
         "english": "Isn't that a barometer?",
-        "note": "気圧計 (barometer)"
+        "note": "気圧計 (barometer)",
+        "furigana": "<ruby>気圧<rt>きあつ</rt></ruby><ruby>計<rt>けい</rt></ruby>じゃないか"
       },
       {
         "japanese": "この気圧計はお前たちのものなんだな",
         "english": "This barometer belongs to you all.",
-        "note": "Possessive use"
+        "note": "Possessive use",
+        "furigana": "この<ruby>気圧<rt>きあつ</rt></ruby><ruby>計<rt>けい</rt></ruby>は<ruby>お前<rt>おまえ</rt></ruby>たちのものなんだな"
       }
     ]
   },
@@ -899,7 +954,8 @@
       {
         "japanese": "雨をさしてるぞ",
         "english": "It's pointing to rain.",
-        "note": "Barometer reading"
+        "note": "Barometer reading",
+        "furigana": "<ruby>雨<rt>あめ</rt></ruby>をさしてるぞ"
       }
     ]
   },
@@ -916,7 +972,8 @@
       {
         "japanese": "文句でもあるのか?",
         "english": "Do you have a complaint?",
-        "note": "文句がある (have complaint)"
+        "note": "文句がある (have complaint)",
+        "furigana": "<ruby>文句<rt>もんく</rt></ruby>でもあるのか?"
       }
     ]
   },
@@ -933,7 +990,8 @@
       {
         "japanese": "ここはお化け島か",
         "english": "So this is a ghost island?",
-        "note": "お化け島 (ghost island)"
+        "note": "お化け島 (ghost island)",
+        "furigana": "ここは<ruby>お化<rt>おば</rt></ruby>け<ruby>島<rt>とう</rt></ruby>か"
       }
     ]
   },
@@ -950,7 +1008,8 @@
       {
         "japanese": "ニョロニョロはおとなしい奴だから",
         "english": "Hattifatteners are quiet creatures.",
-        "note": "おとなしい (docile)"
+        "note": "おとなしい (docile)",
+        "furigana": "ニョロニョロはおとなしい<ruby>奴<rt>やっこ</rt></ruby>だから"
       }
     ]
   },
@@ -967,12 +1026,14 @@
       {
         "japanese": "助けてくれって言ったな",
         "english": "Someone said 'help me.'",
-        "note": "助けてくれ (help me)"
+        "note": "助けてくれ (help me)",
+        "furigana": "<ruby>助<rt>たす</rt></ruby>けてくれって<ruby>言<rt>い</rt></ruby>ったな"
       },
       {
         "japanese": "おい、助けてくれー",
         "english": "Hey, help me!",
-        "note": "Desperate plea"
+        "note": "Desperate plea",
+        "furigana": "おい、<ruby>助<rt>たす</rt></ruby>けてくれー"
       }
     ]
   },
@@ -989,7 +1050,8 @@
       {
         "japanese": "ヘムレンさんの声よ",
         "english": "That's Mr. Hemulen's voice.",
-        "note": "〜の声 (someone's voice)"
+        "note": "〜の声 (someone's voice)",
+        "furigana": "ヘムレンさんの<ruby>声<rt>こえ</rt></ruby>よ"
       }
     ]
   },
@@ -1006,7 +1068,8 @@
       {
         "japanese": "ニョロニョロをこんなに怒らせた",
         "english": "You made the Hattifatteners this angry.",
-        "note": "怒らせる (make angry)"
+        "note": "怒らせる (make angry)",
+        "furigana": "ニョロニョロをこんなに<ruby>怒<rt>おこ</rt></ruby>らせた"
       }
     ]
   },
@@ -1023,7 +1086,8 @@
       {
         "japanese": "何か気に入らないことがあったらしいよ",
         "english": "Apparently something bothered them.",
-        "note": "気に入らない (not like)"
+        "note": "気に入らない (not like)",
+        "furigana": "<ruby>何<rt>なに</rt></ruby>か<ruby>気に入<rt>きにい</rt></ruby>らないことがあったらしいよ"
       }
     ]
   },
@@ -1040,7 +1104,8 @@
       {
         "japanese": "気圧計を叩いたのがまずかったのかな",
         "english": "Maybe hitting the barometer was a bad idea.",
-        "note": "叩く (to hit)"
+        "note": "叩く (to hit)",
+        "furigana": "<ruby>気圧<rt>きあつ</rt></ruby><ruby>計<rt>けい</rt></ruby>を<ruby>叩<rt>たた</rt></ruby>いたのがまずかったのかな"
       }
     ]
   },
@@ -1057,7 +1122,8 @@
       {
         "japanese": "叩いたのがまずかったのかな",
         "english": "Maybe hitting it was a bad idea.",
-        "note": "まずい (bad idea)"
+        "note": "まずい (bad idea)",
+        "furigana": "<ruby>叩<rt>たた</rt></ruby>いたのがまずかったのかな"
       }
     ]
   },
@@ -1074,7 +1140,8 @@
       {
         "japanese": "すぐに草の陰に隠れちゃった",
         "english": "It quickly hid in the grass.",
-        "note": "草の陰 (shadow of grass)"
+        "note": "草の陰 (shadow of grass)",
+        "furigana": "すぐに<ruby>草<rt>くさ</rt></ruby>の<ruby>陰<rt>かげ</rt></ruby>に<ruby>隠<rt>かく</rt></ruby>れちゃった"
       }
     ]
   },
@@ -1091,7 +1158,8 @@
       {
         "japanese": "草の陰に隠れちゃった",
         "english": "It hid in the shade of the grass.",
-        "note": "陰に (in the shadow)"
+        "note": "陰に (in the shadow)",
+        "furigana": "<ruby>草<rt>くさ</rt></ruby>の<ruby>陰<rt>かげ</rt></ruby>に<ruby>隠<rt>かく</rt></ruby>れちゃった"
       }
     ]
   },
@@ -1108,7 +1176,8 @@
       {
         "japanese": "草の陰に隠れちゃった",
         "english": "It hid in the grass.",
-        "note": "隠れる (to hide)"
+        "note": "隠れる (to hide)",
+        "furigana": "<ruby>草<rt>くさ</rt></ruby>の<ruby>陰<rt>かげ</rt></ruby>に<ruby>隠<rt>かく</rt></ruby>れちゃった"
       }
     ]
   },
@@ -1125,7 +1194,8 @@
       {
         "japanese": "今日は波も穏やかだし",
         "english": "The waves are calm today too.",
-        "note": "穏やかな波 (calm waves)"
+        "note": "穏やかな波 (calm waves)",
+        "furigana": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>波<rt>なみ</rt></ruby>も<ruby>穏<rt>おだ</rt></ruby>やかだし"
       }
     ]
   },
@@ -1142,7 +1212,8 @@
       {
         "japanese": "今日は波も穏やかだし",
         "english": "The waves are calm today too.",
-        "note": "波 (waves)"
+        "note": "波 (waves)",
+        "furigana": "<ruby>今日<rt>きょう</rt></ruby>は<ruby>波<rt>なみ</rt></ruby>も<ruby>穏<rt>おだ</rt></ruby>やかだし"
       }
     ]
   }
