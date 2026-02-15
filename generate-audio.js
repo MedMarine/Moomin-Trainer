@@ -280,6 +280,11 @@ function getSpeakerForText(text, lines) {
   return CHARACTER_SPEAKERS['default'];
 }
 
+function getWordAudioFilename(episodeId, wordId) {
+  const safeWordId = sanitizeFilename(wordId);
+  return `${episodeId}_${safeWordId}_word.${OUTPUT_FORMAT}`;
+}
+
 async function generateForEpisode(episodeId, lines, hasFFmpeg) {
   const vocab = loadVocab(episodeId);
   if (!vocab) {
@@ -299,6 +304,41 @@ async function generateForEpisode(episodeId, lines, hasFFmpeg) {
   let failed = 0;
 
   for (const word of vocab) {
+    // Generate standalone word pronunciation audio
+    const wordFilename = getWordAudioFilename(episodeId, word.id);
+    const wordFilepath = path.join(episodeAudioDir, wordFilename);
+
+    if (!fs.existsSync(wordFilepath)) {
+      // Use the word's reading (kana) for clearest pronunciation
+      const wordText = word.reading || word.word;
+      const speakerId = CHARACTER_SPEAKERS['default'];
+
+      try {
+        process.stdout.write(`  ${word.word} [word]...`);
+        
+        const audioBuffer = await generateAudio(wordText, speakerId);
+        
+        if (hasFFmpeg && OUTPUT_FORMAT !== 'wav') {
+          const tempPath = path.join(TEMP_DIR, `temp_${Date.now()}.wav`);
+          fs.writeFileSync(tempPath, audioBuffer);
+          await convertAudio(tempPath, wordFilepath);
+          fs.unlinkSync(tempPath);
+        } else {
+          fs.writeFileSync(wordFilepath, audioBuffer);
+        }
+        
+        console.log(' ✓');
+        generated++;
+        await new Promise(r => setTimeout(r, 50));
+      } catch (e) {
+        console.log(` ✗ ${e.message}`);
+        failed++;
+      }
+    } else {
+      skipped++;
+    }
+
+    // Generate example sentence audio
     if (!word.examples || word.examples.length === 0) continue;
 
     for (let i = 0; i < word.examples.length; i++) {
@@ -375,6 +415,12 @@ function updateManifest(episodeId, vocab) {
   const episodeAudioDir = path.join(AUDIO_DIR, episodeId);
   
   for (const word of vocab) {
+    // Track standalone word pronunciation audio
+    const wordFilename = getWordAudioFilename(episodeId, word.id);
+    const wordFilepath = path.join(episodeAudioDir, wordFilename);
+    manifest.episodes[episodeId][`${word.id}_word`] = fs.existsSync(wordFilepath);
+
+    // Track example sentence audio
     if (!word.examples) continue;
     
     for (let i = 0; i < word.examples.length; i++) {

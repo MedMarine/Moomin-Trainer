@@ -74,6 +74,12 @@ const App = (function() {
       if (toggle) toggle.checked = true;
     }
 
+    if (settings.showFuriganaFront) {
+      document.body.classList.add('show-furigana-front');
+      const toggle = document.getElementById('setting-furigana-front');
+      if (toggle) toggle.checked = true;
+    }
+
     const newPerDay = document.getElementById('setting-new-per-day');
     if (newPerDay) {
       newPerDay.value = settings.newPerDay || 20;
@@ -539,6 +545,9 @@ const App = (function() {
       
       container.innerHTML = filtered.map(word => renderDetailedVocabItem(word)).join('');
       
+      // Initialize word play buttons on filtered results
+      Cards.initAudioListeners(container);
+      
       // Re-add click handlers with text selection protection
       container.querySelectorAll('.vocab-detail-item').forEach(item => {
         let mouseDownTime = 0;
@@ -548,7 +557,7 @@ const App = (function() {
         });
         
         item.addEventListener('click', (e) => {
-          if (e.target.closest('.play-btn')) return;
+          if (e.target.closest('.play-btn') || e.target.closest('.word-play-btn')) return;
           const timeDiff = Date.now() - mouseDownTime;
           const hasSelection = window.getSelection().toString().length > 0;
           if (timeDiff > 200 || hasSelection) return;
@@ -560,6 +569,9 @@ const App = (function() {
         });
       });
     });
+
+    // Initialize word play buttons on the whole browser view (visible before expand)
+    Cards.initAudioListeners(browserView);
 
     // Add expand/collapse handlers with text selection protection
     browserView.querySelectorAll('.vocab-detail-item').forEach(item => {
@@ -573,7 +585,7 @@ const App = (function() {
       
       item.addEventListener('click', (e) => {
         // Don't toggle if clicking on play button
-        if (e.target.closest('.play-btn')) return;
+        if (e.target.closest('.play-btn') || e.target.closest('.word-play-btn')) return;
         
         // Don't toggle if user is selecting text (held mouse down for >200ms or text is selected)
         const timeDiff = Date.now() - mouseDownTime;
@@ -620,10 +632,17 @@ const App = (function() {
       }).join('');
     }
 
+    // Word pronunciation play button for vocab browser
+    const wordPlayBtn = `<button class="word-play-btn" 
+      data-episode="${escapeHtml(episodeId)}" 
+      data-word="${escapeHtml(word.id)}"
+      title="Play word pronunciation">🔊</button>`;
+
     return `
       <div class="vocab-detail-item" data-word-id="${escapeHtml(word.id)}">
         <div class="vocab-detail-header">
           <div class="vocab-detail-word">
+            ${wordPlayBtn}
             <span class="vocab-word japanese">${escapeHtml(word.word)}</span>
             <span class="vocab-reading">${escapeHtml(word.reading)}</span>
           </div>
@@ -997,9 +1016,14 @@ const App = (function() {
    * Set up settings controls
    */
   function setupSettings() {
-    // Furigana toggle
+    // Furigana toggle (card back, examples, browse)
     document.getElementById('setting-furigana').addEventListener('change', (e) => {
       Tooltips.toggleFurigana(e.target.checked);
+    });
+
+    // Furigana on card front toggle
+    document.getElementById('setting-furigana-front').addEventListener('change', (e) => {
+      Tooltips.toggleFuriganaFront(e.target.checked);
     });
 
     // New cards per day

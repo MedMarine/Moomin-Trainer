@@ -175,14 +175,37 @@ const Tooltips = (function() {
   }
 
   /**
-   * Toggle furigana visibility
+   * Toggle furigana visibility (card back, examples, browse)
    */
   function toggleFurigana(show) {
     document.body.classList.toggle('show-furigana', show);
-    Storage.set('SETTINGS', {
-      ...Storage.get('SETTINGS'),
-      showFurigana: show
-    });
+    const settings = Storage.get('SETTINGS');
+    settings.showFurigana = show;
+    // If turning off furigana globally, also turn off front furigana
+    if (!show) {
+      settings.showFuriganaFront = false;
+      document.body.classList.remove('show-furigana-front');
+      const frontToggle = document.getElementById('setting-furigana-front');
+      if (frontToggle) frontToggle.checked = false;
+    }
+    Storage.set('SETTINGS', settings);
+  }
+
+  /**
+   * Toggle furigana visibility on card front
+   */
+  function toggleFuriganaFront(show) {
+    document.body.classList.toggle('show-furigana-front', show);
+    const settings = Storage.get('SETTINGS');
+    settings.showFuriganaFront = show;
+    // If turning on front furigana, ensure main furigana is also on
+    if (show && !settings.showFurigana) {
+      settings.showFurigana = true;
+      document.body.classList.add('show-furigana');
+      const mainToggle = document.getElementById('setting-furigana');
+      if (mainToggle) mainToggle.checked = true;
+    }
+    Storage.set('SETTINGS', settings);
   }
 
   // Public API
@@ -190,6 +213,7 @@ const Tooltips = (function() {
     init,
     loadKanjiData,
     toggleFurigana,
+    toggleFuriganaFront,
     hideTooltip,
     getKanjiReading
   };

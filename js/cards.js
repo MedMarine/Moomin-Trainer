@@ -107,6 +107,71 @@ const Cards = (function() {
   }
 
   /**
+   * Get the audio file path for a standalone word pronunciation
+   */
+  function getWordAudioPath(episodeId, wordId) {
+    const safeEpisodeId = sanitizeEpisodeId(episodeId);
+    const safeWordId = String(wordId || '').replace(/[<>:"\/\\|?*]/g, '_').substring(0, 50);
+    return `audio/${safeEpisodeId}/${safeEpisodeId}_${safeWordId}_word.ogg`;
+  }
+
+  /**
+   * Check if standalone word audio exists
+   */
+  function hasWordAudio(episodeId, wordId) {
+    if (!audioManifest) return false;
+    const epAudio = audioManifest.episodes[episodeId];
+    if (!epAudio) return false;
+    return epAudio[`${wordId}_word`] === true;
+  }
+
+  /**
+   * Play standalone word pronunciation audio
+   */
+  function playWordAudio(episodeId, wordId, buttonEl) {
+    // Stop any currently playing audio
+    if (currentAudio) {
+      currentAudio.pause();
+      currentAudio.currentTime = 0;
+      document.querySelectorAll('.play-btn.playing, .word-play-btn.playing').forEach(btn => {
+        btn.classList.remove('playing');
+        btn.innerHTML = btn.classList.contains('word-play-btn') ? '🔊' : '▶';
+      });
+    }
+
+    const audioPath = getWordAudioPath(episodeId, wordId);
+    currentAudio = new Audio(audioPath);
+
+    if (buttonEl) {
+      buttonEl.classList.add('playing');
+      buttonEl.innerHTML = '⏸';
+    }
+
+    currentAudio.onended = () => {
+      if (buttonEl) {
+        buttonEl.classList.remove('playing');
+        buttonEl.innerHTML = '🔊';
+      }
+      currentAudio = null;
+    };
+
+    currentAudio.onerror = () => {
+      // Fall back to first example audio if word audio doesn't exist
+      if (buttonEl) {
+        buttonEl.classList.remove('playing');
+        buttonEl.innerHTML = '🔊';
+      }
+      currentAudio = null;
+      // Try playing the first example sentence audio as fallback
+      playAudio(episodeId, wordId, 0, null);
+    };
+
+    currentAudio.play().catch(e => {
+      console.error('Word audio playback failed:', e);
+    });
+  }
+
+  /**
    * Play audio for an example sentence
    */
   function playAudio(episodeId, wordId, exampleIndex, buttonEl) {
@@ -166,6 +231,10 @@ const Cards = (function() {
       document.querySelectorAll('.play-btn.playing').forEach(btn => {
         btn.classList.remove('playing');
         btn.textContent = '▶';
+      });
+      document.querySelectorAll('.word-play-btn.playing').forEach(btn => {
+        btn.classList.remove('playing');
+        btn.innerHTML = '🔊';
       });
     }
   }
@@ -302,20 +371,27 @@ const Cards = (function() {
       `;
     });
 
-    // Get icon for visual memory aid (if CardIcons is available)
-    const iconHtml = (typeof CardIcons !== 'undefined' && CardIcons.renderIcon) 
-      ? CardIcons.renderIcon(wordId) 
-      : '';
+
+
+    // Word pronunciation play button
+    const wordPlayBtn = `<button class="word-play-btn" 
+      data-episode="${escapeHtml(epId)}" 
+      data-word="${escapeHtml(wordId)}"
+      title="Play word pronunciation">🔊</button>`;
 
     return `
       <div class="flashcard" data-card-id="vocab_${escapeHtml(wordId)}" data-episode="${escapeHtml(epId)}">
         <div class="card-front">
-          ${iconHtml}
           <div class="word-display japanese">${formatWordWithFurigana(word.word, word.reading)}</div>
           <div class="word-pos">${escapeHtml(word.pos || '')}</div>
+          ${wordPlayBtn}
           <div class="flip-hint">タップして答えを表示</div>
         </div>
         <div class="card-back">
+          <div class="card-back-word japanese">
+            ${wordPlayBtn}
+            ${formatWordWithFurigana(word.word, word.reading)}
+          </div>
           <div class="word-meaning">${escapeHtml(word.meaning)}</div>
           <div class="examples">
             ${examplesHtml}
@@ -427,6 +503,14 @@ const Cards = (function() {
         playAudio(episode, word, parseInt(index), btn);
       });
     });
+    // Word pronunciation play buttons
+    container.querySelectorAll('.word-play-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation(); // Don't flip card when clicking play
+        const { episode, word } = btn.dataset;
+        playWordAudio(episode, word, btn);
+      });
+    });
   }
 
   // Public API
@@ -443,9 +527,12 @@ const Cards = (function() {
     updateGradeButtons,
     formatJapanese,
     playAudio,
+    playWordAudio,
     stopAudio,
     initAudioListeners,
     hasAudio,
-    getAudioPath
+    hasWordAudio,
+    getAudioPath,
+    getWordAudioPath
   };
 })();

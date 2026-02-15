@@ -16,6 +16,7 @@ const Storage = (function() {
   const DEFAULTS = {
     settings: {
       showFurigana: false,
+      showFuriganaFront: false,
       newPerDay: 20
     },
     progress: {

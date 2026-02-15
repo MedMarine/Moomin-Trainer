@@ -78,7 +78,18 @@ ruby rt {
   visibility: hidden;
 }
 
+/* Show furigana everywhere EXCEPT card front */
 body.show-furigana ruby rt {
+  visibility: visible;
+}
+
+/* Hide furigana specifically on card front unless front-furigana is enabled */
+body.show-furigana .card-front ruby rt {
+  visibility: hidden;
+}
+
+/* Show furigana on card front only when both toggles are on */
+body.show-furigana.show-furigana-front .card-front ruby rt {
   visibility: visible;
 }
 
@@ -1122,6 +1133,71 @@ body.show-furigana ruby rt {
   0%, 100% { transform: translateX(0); }
   25% { transform: translateX(-3px); }
   75% { transform: translateX(3px); }
+}
+
+/* Word pronunciation play button */
+.word-play-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 50%;
+  color: var(--text-muted);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.15s;
+  flex-shrink: 0;
+}
+
+.word-play-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: rgba(126, 184, 218, 0.1);
+  transform: scale(1.1);
+}
+
+.word-play-btn.playing {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: rgba(126, 184, 218, 0.15);
+  animation: pulse 1s infinite;
+}
+
+/* Word play button on flashcard front */
+.card-front .word-play-btn {
+  margin: 0.75rem auto;
+  width: 44px;
+  height: 44px;
+  font-size: 1.2rem;
+}
+
+/* Word play button + word on card back */
+.card-back-word {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+}
+
+.card-back-word .word-play-btn {
+  width: 32px;
+  height: 32px;
+  font-size: 0.9rem;
+}
+
+/* Word play button in vocab browser header */
+.vocab-detail-word .word-play-btn {
+  width: 30px;
+  height: 30px;
+  font-size: 0.85rem;
+  margin-right: 0.4rem;
 }
 
 /* Example with play button layout */
