@@ -102,6 +102,14 @@ const Tooltips = (function() {
     tooltip.querySelector('.tooltip-reading').textContent = reading;
     tooltip.querySelector('.tooltip-meaning').textContent = meaning;
 
+    // Add radical breakdown if available
+    const radicalsEl = tooltip.querySelector('.tooltip-radicals');
+    if (radicalsEl) {
+      const radicalStr = Radicals.isLoaded() ? Radicals.getTooltipString(char) : '';
+      radicalsEl.textContent = radicalStr;
+      radicalsEl.style.display = radicalStr ? 'block' : 'none';
+    }
+
     // Position tooltip
     positionTooltip(kanji);
 

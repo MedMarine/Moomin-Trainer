@@ -10,7 +10,8 @@ A beautiful, offline-first Japanese vocabulary trainer featuring content from th
 - **Spaced Repetition System (SRS)** - Uses the FSRS v5 algorithm for optimal memory retention
 - **Episode-based Learning** - Vocabulary organized by anime episodes with context
 - **Audio Support** - TTS audio for example sentences (via VOICEVOX)
-- **Kanji Tooltips** - Hover over kanji to see readings and meanings
+- **Kanji Radical Decomposition** - See what components make up each kanji, with English keywords
+- **Kanji Tooltips** - Hover over kanji to see readings, meanings, and radical breakdowns
 - **Furigana Toggle** - Show/hide readings above kanji
 - **Progress Tracking** - Track your learning streak and statistics
 - **Dark Theme** - Easy on the eyes for extended study sessions
@@ -47,20 +48,24 @@ moomin-japanese-trainer/
 ├── js/
 │   ├── app.js              # Main application logic
 │   ├── cards.js            # Card rendering & audio
+│   ├── radicals.js         # Kanji radical decomposition
 │   ├── storage.js          # LocalStorage management
 │   ├── srs.js              # FSRS spaced repetition
 │   ├── tooltips.js         # Kanji hover tooltips
 │   └── icons.js            # SVG icons for cards
 ├── data/
 │   ├── core/
-│   │   └── kanji.json      # Kanji dictionary
+│   │   ├── kanji.json      # Kanji dictionary
+│   │   ├── radicals.json   # Radical decompositions & keywords
+│   │   └── radical-keywords.json  # Editable keyword source
 │   └── episodes/
 │       ├── index.json      # Episode list
 │       └── ep01-05/        # Episode vocabulary & lines
 ├── audio/                  # Generated TTS audio files
 │   ├── manifest.json
 │   └── ep01-05/
-└── generate-audio.js       # Audio generation script
+├── generate-audio.js       # Audio generation script
+└── generate-radicals.js    # Radical data build script
 ```
 
 ## 🎧 Audio Generation (Optional)
@@ -90,6 +95,15 @@ Create `audio/speaker-mappings.json` to customize character voices:
   "snufkin": 11
 }
 ```
+
+## 🎯 Radical Keywords
+
+The radical decomposition system uses English keywords for kanji components. To edit or add keywords:
+
+1. Edit `data/core/radical-keywords.json`
+2. Run `node generate-radicals.js` to rebuild `radicals.json`
+
+Keywords appear on flashcard backs and in kanji tooltips. Components without keywords are shown dimmed. The file ships with 154 of 239 components pre-filled.
 
 ## 💾 Data Storage
 
@@ -172,6 +186,14 @@ MIT License - see [LICENSE](LICENSE) file for details.
 - Very long vocabulary words may overflow on small screens
 
 ## 📝 Changelog
+
+### v1.1.0
+- Kanji radical decomposition system (KRADFILE/EDRDG data)
+- Component breakdown on flashcard backs
+- Radical info in kanji hover tooltips
+- 419 kanji decompositions, 239 components, 154 pre-authored keywords
+- Build pipeline for radical data (generate-radicals.js)
+- Cleaned invalid entries from kanji.json
 
 ### v1.0.0
 - Initial release

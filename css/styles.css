@@ -155,7 +155,7 @@ body.show-furigana.show-furigana-front .card-front ruby rt {
   pointer-events: none;
   opacity: 0;
   transition: opacity 0.15s;
-  max-width: 200px;
+  max-width: 280px;
 }
 
 #tooltip.visible {
@@ -172,6 +172,15 @@ body.show-furigana.show-furigana-front .card-front ruby rt {
 .tooltip-meaning {
   font-size: 0.85rem;
   color: var(--text-secondary);
+}
+
+.tooltip-radicals {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 4px;
+  padding-top: 4px;
+  border-top: 1px solid var(--border-subtle);
+  display: none;
 }
 
 /* ============================================================================
@@ -230,6 +239,96 @@ body.show-furigana.show-furigana-front .card-front ruby rt {
   color: var(--accent-bright);
   margin-bottom: 1.5rem;
   text-align: center;
+}
+
+/* ============================================================================
+ * Radical Breakdown (card back)
+ * ============================================================================ */
+
+.radical-breakdown {
+  background: rgba(126, 184, 218, 0.06);
+  border: 1px solid rgba(126, 184, 218, 0.15);
+  border-radius: var(--radius-md);
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.radical-breakdown-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.radical-kanji-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  margin-bottom: 0.4rem;
+}
+
+.radical-kanji-row:last-child {
+  margin-bottom: 0;
+}
+
+.radical-kanji-char {
+  font-size: 1.3rem;
+  color: var(--text-primary);
+  flex-shrink: 0;
+}
+
+.radical-equals {
+  color: var(--text-muted);
+  margin: 0 0.3rem;
+  font-size: 0.9rem;
+  flex-shrink: 0;
+}
+
+.radical-parts {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.15rem;
+}
+
+.radical-plus {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  margin: 0 0.15rem;
+}
+
+.radical-component {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  background: rgba(240, 246, 252, 0.05);
+  border-radius: var(--radius-sm);
+  padding: 0.15rem 0.4rem;
+  cursor: default;
+}
+
+.radical-component:hover {
+  background: rgba(126, 184, 218, 0.12);
+}
+
+.radical-component-char {
+  font-size: 1rem;
+  color: var(--accent-bright);
+}
+
+.radical-component-keyword {
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+}
+
+.radical-component.no-keyword {
+  opacity: 0.45;
+}
+
+.radical-component.no-keyword .radical-component-char {
+  color: var(--text-secondary);
 }
 
 .examples {

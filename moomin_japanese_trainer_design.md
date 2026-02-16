@@ -16,14 +16,18 @@ A web-based Japanese language learning application using authentic dialogue from
 
 ### 1.3 Core Philosophy
 - **Context-First**: Every word taught with authentic example sentences from the dialogue
-- **Kanji Through Exposure**: Unknown kanji learned via hover tooltips, not isolated study
+- **Kanji Through Components**: Kanji taught via radical decomposition — each character broken into meaningful parts with English keywords
+- **Kanji Through Exposure**: Unknown kanji reinforced via hover tooltips with readings, meanings, and component breakdowns
 - **Built-in SRS**: All spaced repetition handled within the app using FSRS v5
 - **Visual Memory Aids**: Custom SVG icons for vocabulary to aid retention
 - **TTS Audio Support**: VOICEVOX-generated audio for example sentences
 - **Multi-Episode Ready**: Architecture supports seamless addition of new episodes
 - **Episode Activation**: Users control which episodes contribute to their flashcard deck
 
-### 1.4 What We're NOT Building
+### 1.4 Key Architectural Additions
+- **Radical Decomposition**: KRADFILE-based kanji-to-component breakdown displayed on card backs and in tooltips, with hand-authored English keywords for each component radical
+
+### 1.5 What We're NOT Building
 - Hiragana/katakana lessons (robust solutions exist elsewhere)
 - Anki integration (SRS is built-in)
 - Writing/stroke order practice
@@ -42,6 +46,7 @@ moomin-trainer/
 │   ├── srs.js                 # FSRS v5 algorithm implementation
 │   ├── cards.js               # Card rendering, audio playback, vocab merging
 │   ├── icons.js               # SVG visual memory aid icons (65+ icons)
+│   ├── radicals.js            # Kanji radical decomposition & breakdown rendering
 │   ├── tooltips.js            # Kanji hover tooltip system
 │   └── storage.js             # LocalStorage API wrapper with validation
 ├── audio/
@@ -50,7 +55,9 @@ moomin-trainer/
 │       └── ep##_word_index.ogg  # VOICEVOX TTS files (OGG format)
 ├── data/
 │   ├── core/
-│   │   └── kanji.json         # Master kanji readings dictionary
+│   │   ├── kanji.json         # Master kanji readings dictionary
+│   │   ├── radicals.json      # Radical decompositions & component keywords (KRADFILE)
+│   │   └── radical-keywords.json  # Editable component keyword source file
 │   └── episodes/
 │       ├── index.json         # Episode registry & metadata
 │       └── ep##/
@@ -58,7 +65,10 @@ moomin-trainer/
 │           ├── vocab.json     # Episode-specific vocabulary with examples
 │           └── lines.json     # Dialogue lines for reference
 ├── generate-audio.js          # Node.js script for TTS audio generation
+├── generate-radicals.js       # Node.js script to rebuild radicals.json from keywords
+├── build_radicals.py          # Python bootstrap script for initial data generation
 ├── EPISODE_INTEGRATION_GUIDE.md
+├── RADICAL_DECOMPOSITION_PLAN.md
 ├── ICON_DESIGN.md
 ├── TTS_README.md
 └── README.md
@@ -100,11 +110,21 @@ moomin-trainer/
 
 **js/cards.js** (~350 lines)
 - Card rendering with visual icons
+- Radical breakdown display on card backs (via Radicals module)
 - TTS audio playback (OGG format)
 - Audio manifest loading and path generation
 - Vocabulary data loading and merging across episodes
 - Example sentence tracking with source episode/index for audio
 - Episode-to-vocab mapping
+
+**js/radicals.js** (~200 lines)
+- Loads `data/core/radicals.json` at startup
+- Kanji-to-component decomposition lookup
+- Component keyword/hint lookup
+- `renderBreakdown(word)` generates HTML for card backs
+- `getTooltipString(kanji)` generates compact string for tooltips
+- `findKanjiWithComponent(component)` for reverse lookup
+- Based on EDRDG KRADFILE data (CC-BY-SA 3.0)
 
 **js/icons.js** (~1200+ lines)
 - 65+ custom SVG icons for visual memory aids
@@ -112,10 +132,11 @@ moomin-trainer/
 - Moomin-inspired color palette
 - renderIcon() for flashcard integration
 
-**js/tooltips.js** (~150 lines)
+**js/tooltips.js** (~170 lines)
 - Kanji hover detection with mouse and touch support
 - Dynamic tooltip positioning
 - Kanji dictionary lookup
+- Radical decomposition display in tooltip (via Radicals module)
 - Furigana toggle
 
 **js/storage.js** (~250 lines)
@@ -354,6 +375,7 @@ Learners know kana but not kanji. Tooltips provide just-in-time readings on hove
 
 1. Check element `data-reading` and `data-meaning` attributes
 2. Fall back to `data/core/kanji.json` dictionary lookup
+3. Radical decomposition from `Radicals.getTooltipString()` (shown as third line)
 
 ### 7.3 Furigana Toggle
 
@@ -365,16 +387,85 @@ body.show-furigana ruby rt { visibility: visible; }
 
 ---
 
-## 8. Visual Memory Aid Icons
+## 8. Kanji Radical Decomposition System
 
-### 8.1 Design Philosophy
+### 8.1 Overview
+
+Kanji are decomposed into visual component radicals using KRADFILE data (EDRDG, CC-BY-SA 3.0). Each component has a hand-authored English keyword to enable mnemonic learning. The system shows breakdowns in two places: flashcard backs and kanji tooltips.
+
+### 8.2 Data Pipeline
+
+```
+radical-keywords.json (hand-authored keywords)
+        +
+KRADFILE decompositions (embedded in build script)
+        ↓
+  generate-radicals.js
+        ↓
+  data/core/radicals.json (runtime data)
+        ↓
+  js/radicals.js (client module)
+```
+
+### 8.3 Data Format
+
+**radicals.json:**
+```json
+{
+  "components": {
+    "言": { "strokes": 7, "keyword": "say", "hint": "Words coming from a mouth" }
+  },
+  "decompositions": {
+    "語": ["言", "五", "口"]
+  }
+}
+```
+
+**radical-keywords.json** (editable source):
+```json
+{
+  "言": { "keyword": "say", "hint": "Words coming from a mouth — the speech radical" },
+  "口": { "keyword": "mouth", "hint": "An open mouth or square opening" }
+}
+```
+
+### 8.4 Coverage
+
+- 419 kanji decompositions (all single-character entries in kanji.json)
+- 239 unique components
+- 154 components have pre-authored keywords; 85 need manual authoring
+- Component keywords are editable in `radical-keywords.json`; run `node generate-radicals.js` to rebuild
+
+### 8.5 Card Back Display
+
+After the meaning, before examples, the card back shows:
+```
+語 = 言 say + 五 + 口 mouth
+```
+Components without keywords appear dimmed. Hovering a component shows its hint.
+
+### 8.6 Tooltip Enhancement
+
+Kanji tooltips show a third line with the compact radical string:
+```
+はな・し
+talk, story
+───────
+言 say + 口 mouth + 舌 tongue
+```
+
+---
+
+## 9. Visual Memory Aid Icons
+
+### 9.1 Design Philosophy
 
 - Simple, recognizable SVG icons
 - Moomin-inspired aesthetic
 - 64x64 viewBox for consistency
 - App color palette (blues, soft accents)
 
-### 8.2 Categories (65+ icons)
+### 9.2 Categories (65+ icons)
 
 | Category | Examples |
 |----------|----------|
@@ -390,9 +481,9 @@ body.show-furigana ruby rt { visibility: visible; }
 
 ---
 
-## 9. Security Considerations
+## 10. Security Considerations
 
-### 9.1 XSS Protection
+### 10.1 XSS Protection
 
 All user-facing text is escaped via `escapeHtml()`:
 ```javascript
@@ -404,7 +495,7 @@ function escapeHtml(text) {
 }
 ```
 
-### 9.2 Path Traversal Protection
+### 10.2 Path Traversal Protection
 
 Episode IDs and file paths are sanitized:
 ```javascript
@@ -414,7 +505,7 @@ function sanitizeEpisodeId(episodeId) {
 }
 ```
 
-### 9.3 Import Validation
+### 10.3 Import Validation
 
 Backup imports check for:
 - Prototype pollution (`__proto__`, `constructor`, `prototype`)
@@ -424,36 +515,36 @@ Backup imports check for:
 
 ---
 
-## 10. UI Views
+## 11. UI Views
 
-### 10.1 Dashboard
+### 11.1 Dashboard
 - Today's counts: New / Learning / Due / Mastered
 - Study streak display
 - Start Review button (shows card count)
 - Episode list with activation toggles and mini-stats
 
-### 10.2 Episode Study View
+### 11.2 Episode Study View
 - Episode title and description
 - Activation toggle with explanation
 - Detailed stats grid (New/Learning/Review/Mastered)
 - Study options: Study All, Learn New, Browse Vocabulary
 - Vocabulary preview grid with hover popups
 
-### 10.3 Review Session
+### 11.3 Review Session
 - Single card display with visual icon
 - Click-to-flip interaction
 - Audio play buttons on examples
 - Grade buttons with interval previews
 - Progress bar and session stats
 
-### 10.4 Vocabulary Browser
+### 11.4 Vocabulary Browser
 - Filter by episode
 - Filter by status (new/learning/mature)
 - Search functionality
 - Expandable items with examples and audio
 - Text selection protected (doesn't trigger expand on select)
 
-### 10.5 Settings
+### 11.5 Settings
 - New cards per day (default: 20)
 - Furigana toggle
 - Export/Import progress
@@ -461,7 +552,7 @@ Backup imports check for:
 
 ---
 
-## 11. Development Status
+## 12. Development Status
 
 ### Completed Features ✓
 - [x] FSRS v5 SRS algorithm
@@ -476,8 +567,19 @@ Backup imports check for:
 - [x] Episode study view with stats
 - [x] Vocabulary browser with search
 - [x] 5 episodes integrated (ep01-ep05)
+- [x] Radical decomposition data (KRADFILE, 419 kanji, 239 components)
+- [x] Radical breakdown on card backs
+- [x] Radical info in kanji tooltips
+- [x] Radical keyword scaffolding (154/239 pre-authored)
+- [x] Build pipeline (generate-radicals.js, build_radicals.py)
+
+### In Progress
+- [ ] Authoring remaining 85 component keywords in radical-keywords.json
 
 ### Future Enhancements
+- [ ] Dedicated radical review cards (radical_ card type)
+- [ ] Browse by Radical view
+- [ ] Mnemonic system (pre-authored + AI-generated)
 - [ ] More visual icons (expand coverage)
 - [ ] Additional VOICEVOX character voices
 - [ ] Sentence comprehension card type
@@ -486,6 +588,6 @@ Backup imports check for:
 
 ---
 
-*Document Version: 3.0*
-*Updated: February 2025*
-*Changes: Updated to reflect FSRS v5, episode activation system, TTS audio, visual icons, security hardening, and 5-episode integration*
+*Document Version: 4.0*
+*Updated: February 2026*
+*Changes: Added radical decomposition system (KRADFILE data, card back breakdown, tooltip integration, build pipeline). Cleaned hallucinated kanji.json entries. See RADICAL_DECOMPOSITION_PLAN.md for full architecture.*

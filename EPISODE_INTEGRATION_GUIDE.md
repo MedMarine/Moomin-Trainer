@@ -12,6 +12,7 @@ This guide documents the workflow for converting raw dialogue transcriptions int
 3. **Integration** — Merge new content with existing data
 4. **Furigana Generation** — Pre-compute correct furigana for all example sentences
 5. **Audio Generation** — Create TTS audio files for examples
+6. **Radical Coverage** — Ensure kanji decompositions and component keywords exist
 
 > **Note on Furigana:** After creating/updating vocab.json for an episode, run
 > `node generate-furigana.js --episode epXX` to add morphologically-correct
@@ -278,6 +279,10 @@ This keeps data clean and avoids merge complexity.
 
 ```
 data/
+├── core/
+│   ├── kanji.json        # Master kanji readings dictionary
+│   ├── radicals.json     # Radical decompositions & keywords (rebuild with generate-radicals.js)
+│   └── radical-keywords.json  # Editable component keyword source
 └── episodes/
     ├── index.json        # Update with new episode
     └── ep##/             # New episode folder
@@ -442,7 +447,23 @@ mkdir data/episodes/ep06
 node generate-audio.js ep06
 ```
 
-### Step 8: Validate
+### Step 8: Update Radical Coverage
+
+New vocabulary may introduce kanji not yet in `radicals.json`. To extend coverage:
+
+1. **Check for missing kanji** — Any single-character kanji in the new vocab that isn't in `radicals.json` needs a decomposition added to `build_radicals.py` (or downloaded from krad-unicode)
+2. **Check for missing keywords** — New kanji may use components that don't have English keywords yet. Edit `data/core/radical-keywords.json` to fill them in
+3. **Rebuild radicals.json** — Run `node generate-radicals.js` to merge keywords into the data file
+
+```bash
+# After editing radical-keywords.json
+node generate-radicals.js
+# Output: stats showing decomposition count, component count, keyword coverage
+```
+
+Components without keywords will still appear on card backs (dimmed), so this step is not blocking — but filled keywords significantly improve the learning experience.
+
+### Step 9: Validate
 
 - [ ] All vocab IDs are unique across ALL episodes
 - [ ] All line IDs are sequential and unique within episode
@@ -450,7 +471,9 @@ node generate-audio.js ep06
 - [ ] JSON files are valid (no syntax errors)
 - [ ] Counts in meta.json and index.json match actual content
 - [ ] Audio files generated and manifest updated
-- [ ] Test in browser: load episode, play audio, check tooltips
+- [ ] New kanji have radical decompositions in radicals.json
+- [ ] New components have keywords in radical-keywords.json (or are marked for authoring)
+- [ ] Test in browser: load episode, play audio, check tooltips, verify radical breakdowns on card backs
 
 ---
 
@@ -502,6 +525,8 @@ Prioritize sentences that:
 6. **Exceeding 5 examples per word** (keep it focused)
 7. **Forgetting to update index.json** counts
 8. **Not validating JSON** before committing
+9. **Skipping radical coverage check** for new kanji (card backs will show no breakdown)
+10. **Adding multi-character entries to kanji.json** (only single kanji belong there — compound words go in vocab.json)
 
 ---
 
@@ -529,6 +554,6 @@ When filling in the `grammar` array:
 
 ---
 
-*Document Version: 2.0*
-*Updated: February 2025*
-*Changes: Added audio generation phase, example source tracking, speaker standardization, multi-episode vocabulary handling, and validation checklist*
+*Document Version: 3.0*
+*Updated: February 2026*
+*Changes: Added radical coverage phase (Phase 6), radical-related validation checks, updated file structure to include radicals.json and radical-keywords.json, added common mistakes for radical data and kanji.json hygiene*

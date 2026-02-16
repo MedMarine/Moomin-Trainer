@@ -451,74 +451,6 @@
     "readings": ["とどく", "とどける"],
     "meanings": ["reach", "deliver"]
   },
-  "届く": {
-    "readings": ["とどく"],
-    "meanings": ["reach", "arrive"]
-  },
-  "届ける": {
-    "readings": ["とどける"],
-    "meanings": ["deliver"]
-  },
-  "届け": {
-    "readings": ["とどけ"],
-    "meanings": ["delivery", "notice"]
-  },
-  "届出": {
-    "readings": ["とどけで"],
-    "meanings": ["notification"]
-  },
-  "届先": {
-    "readings": ["とどけさき"],
-    "meanings": ["destination"]
-  },
-  "届物": {
-    "readings": ["とどけもの"],
-    "meanings": ["delivery item"]
-  },
-  "届書": {
-    "readings": ["とどけしょ"],
-    "meanings": ["written notice"]
-  },
-  "届日": {
-    "readings": ["とどけび"],
-    "meanings": ["delivery date"]
-  },
-  "届届": {
-    "readings": ["とどけとどけ"],
-    "meanings": ["various notifications"]
-  },
-  "届届届": {
-    "readings": ["とどけとどけとどけ"],
-    "meanings": ["multiple notifications"]
-  },
-  "届届届届": {
-    "readings": ["とどけとどけとどけとどけ"],
-    "meanings": ["many notifications"]
-  },
-  "届届届届届": {
-    "readings": ["とどけとどけとどけとどけとどけ"],
-    "meanings": ["numerous notifications"]
-  },
-  "届届届届届届": {
-    "readings": ["とどけとどけとどけとどけとどけとどけ"],
-    "meanings": ["extensive notifications"]
-  },
-  "届届届届届届届": {
-    "readings": ["とどけとどけとどけとどけとどけとどけとどけ"],
-    "meanings": ["comprehensive notifications"]
-  },
-  "届届届届届届届届": {
-    "readings": ["とどけとどけとどけとどけとどけとどけとどけとどけ"],
-    "meanings": ["thorough notifications"]
-  },
-  "届届届届届届届届届": {
-    "readings": ["とどけとどけとどけとどけとどけとどけとどけとどけとどけ"],
-    "meanings": ["complete notifications"]
-  },
-  "届届届届届届届届届届": {
-    "readings": ["とどけとどけとどけとどけとどけとどけとどけとどけとどけとどけ"],
-    "meanings": ["total notifications"]
-  },
   "局": {
     "readings": ["キョク"],
     "meanings": ["bureau", "situation"]
@@ -526,10 +458,6 @@
   "屈": {
     "readings": ["かがむ", "クツ"],
     "meanings": ["bend", "yield"]
-  },
-  "届届届届届届届届届届届": {
-    "readings": ["とどけとどけとどけとどけとどけとどけとどけとどけとどけとどけとどけ"],
-    "meanings": ["full notifications"]
   },
   "屋": {
     "readings": ["や", "オク"],
@@ -1746,9 +1674,5 @@
   "料": {
     "readings": ["リョウ"],
     "meanings": ["fee", "materials"]
-  },
-  "作り出す": {
-    "readings": ["つくりだす"],
-    "meanings": ["create", "produce"]
   }
 }

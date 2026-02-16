@@ -1,0 +1,3005 @@
+{
+  "_meta": {
+    "source": "EDRDG KRADFILE/RADKFILE project (CC-BY-SA 3.0)",
+    "url": "https://www.edrdg.org/krad/kradinf.html",
+    "unicode_conversion": "Based on bhffmnn/krad-unicode",
+    "description": "Radical decompositions for kanji used in the Moomin Japanese Trainer",
+    "note": "Component keywords and hints are authored in radical-keywords.json and merged by generate-radicals.js"
+  },
+  "components": {
+    "⺅": {
+      "strokes": 2,
+      "keyword": "person",
+      "hint": "The left-side person radical (にんべん)"
+    },
+    "⺈": {
+      "strokes": 2,
+      "keyword": "knife",
+      "hint": "A small blade at the top"
+    },
+    "⺌": {
+      "strokes": 3,
+      "keyword": "little",
+      "hint": "The top-form of small"
+    },
+    "⺕": {
+      "strokes": 3,
+      "keyword": "net",
+      "hint": "Net radical variant"
+    },
+    "⺖": {
+      "strokes": 3,
+      "keyword": "heart",
+      "hint": "The left-side heart radical (りっしんべん)"
+    },
+    "⺘": {
+      "strokes": 3,
+      "keyword": "hand",
+      "hint": "The left-side hand radical (てへん)"
+    },
+    "⺡": {
+      "strokes": 3,
+      "keyword": "water",
+      "hint": "The left-side water radical (さんずい)"
+    },
+    "⺨": {
+      "strokes": 3,
+      "keyword": "animal",
+      "hint": "The left-side dog/animal radical (けものへん)"
+    },
+    "⺭": {
+      "strokes": 4,
+      "keyword": "altar",
+      "hint": "The left-side spirit/altar radical (しめすへん)"
+    },
+    "⺮": {
+      "strokes": 5,
+      "keyword": "bamboo",
+      "hint": "Bamboo leaves (たけかんむり)"
+    },
+    "⺾": {
+      "strokes": 3,
+      "keyword": "grass",
+      "hint": "Grass or plants growing (くさかんむり)"
+    },
+    "⻂": {
+      "strokes": 5,
+      "keyword": "clothing",
+      "hint": "The left-side clothing radical (ころもへん)"
+    },
+    "⻌": {
+      "strokes": 3,
+      "keyword": "road",
+      "hint": "The road/movement radical (しんにょう)"
+    },
+    "⻏": {
+      "strokes": 3,
+      "keyword": "city",
+      "hint": "The right-side city/village radical (おおざと)"
+    },
+    "⻖": {
+      "strokes": 3,
+      "keyword": "hill",
+      "hint": "The left-side hill/mound radical (こざとへん)"
+    },
+    "マ": {
+      "strokes": 2,
+      "keyword": "mama",
+      "hint": "The katakana マ (ma) — two strokes like a swooping check mark"
+    },
+    "ユ": {
+      "strokes": 2,
+      "keyword": "hook line",
+      "hint": "The katakana ユ (yu) — a horizontal stroke with a vertical drop"
+    },
+    "ヨ": {
+      "strokes": 3,
+      "keyword": "rake",
+      "hint": "Three horizontal prongs — the katakana ヨ (yo) looks like a rake"
+    },
+    "一": {
+      "strokes": 1,
+      "keyword": "one",
+      "hint": "A single horizontal stroke"
+    },
+    "丂": {
+      "strokes": 2,
+      "keyword": "bent",
+      "hint": "A stroke that bends or curves — something not straight"
+    },
+    "七": {
+      "strokes": 0,
+      "keyword": "seven",
+      "hint": "The number seven — a bent stroke crossing a horizontal line"
+    },
+    "不": {
+      "strokes": 0,
+      "keyword": "not",
+      "hint": "Negation — a ceiling blocking upward movement"
+    },
+    "世": {
+      "strokes": 0,
+      "keyword": "generation",
+      "hint": "Three decades side by side — the passing of time"
+    },
+    "丘": {
+      "strokes": 5,
+      "keyword": "mound",
+      "hint": "An earthen hill — a raised bump in the landscape"
+    },
+    "丙": {
+      "strokes": 5,
+      "keyword": "third",
+      "hint": "The third heavenly stem — a frame with legs"
+    },
+    "丨": {
+      "strokes": 1,
+      "keyword": "stick",
+      "hint": "A vertical stroke"
+    },
+    "丶": {
+      "strokes": 1,
+      "keyword": "drop",
+      "hint": "A single dot"
+    },
+    "丷": {
+      "strokes": 2,
+      "keyword": "horns",
+      "hint": "Two small strokes pointing up like a pair of horns or antennae"
+    },
+    "丸": {
+      "strokes": 3,
+      "keyword": "round",
+      "hint": "A ball shape — something circular or complete"
+    },
+    "主": {
+      "strokes": 5,
+      "keyword": "master",
+      "hint": "A flame above a base — the lord, the main one, the host"
+    },
+    "丿": {
+      "strokes": 1,
+      "keyword": "slash",
+      "hint": "A diagonal stroke sweeping left"
+    },
+    "乍": {
+      "strokes": 5,
+      "keyword": "sudden",
+      "hint": "Something happening abruptly — a burst of action"
+    },
+    "乎": {
+      "strokes": 5,
+      "keyword": "question",
+      "hint": "An exclamatory particle — a voice rising in wonder"
+    },
+    "乙": {
+      "strokes": 1,
+      "keyword": "hook",
+      "hint": "A bent hook shape"
+    },
+    "九": {
+      "strokes": 2,
+      "keyword": "nine",
+      "hint": "The number nine — curving stroke with a hook"
+    },
+    "也": {
+      "strokes": 3,
+      "keyword": "scorpion",
+      "hint": "A curved tail shape — visually like a scorpion's stinger"
+    },
+    "亀": {
+      "strokes": 0,
+      "keyword": "turtle",
+      "hint": "The turtle character — shell, head, legs all visible"
+    },
+    "亅": {
+      "strokes": 1,
+      "keyword": "barb",
+      "hint": "A vertical stroke with a hook at the bottom"
+    },
+    "争": {
+      "strokes": 6,
+      "keyword": "conflict",
+      "hint": "Hands grabbing at something — a struggle, a dispute"
+    },
+    "二": {
+      "strokes": 2,
+      "keyword": "two",
+      "hint": "Two horizontal strokes stacked"
+    },
+    "五": {
+      "strokes": 4,
+      "keyword": "five",
+      "hint": "The number five — crisscrossing strokes between two lines"
+    },
+    "亜": {
+      "strokes": 7,
+      "keyword": "sub",
+      "hint": "A grid-like frame — meaning 'secondary' or 'under'"
+    },
+    "亠": {
+      "strokes": 0,
+      "keyword": "lid",
+      "hint": "A flat cover sitting on top — the topmost part"
+    },
+    "亡": {
+      "strokes": 3,
+      "keyword": "gone",
+      "hint": "A person vanished — death, escape, loss"
+    },
+    "人": {
+      "strokes": 2,
+      "keyword": "person",
+      "hint": "A person with legs spread — the standalone form"
+    },
+    "今": {
+      "strokes": 0,
+      "keyword": "now",
+      "hint": "A roof sheltering a person in the present moment"
+    },
+    "介": {
+      "strokes": 4,
+      "keyword": "shellfish",
+      "hint": "A person (人) with armor — something in between, mediating"
+    },
+    "儿": {
+      "strokes": 0,
+      "keyword": "legs",
+      "hint": "Two little legs walking — the human legs radical at the bottom of characters"
+    },
+    "元": {
+      "strokes": 4,
+      "keyword": "origin",
+      "hint": "Two legs (儿) supporting something above — the foundation, the beginning"
+    },
+    "兆": {
+      "strokes": 6,
+      "keyword": "omen",
+      "hint": "Cracks in a tortoise shell — divination, a sign of things to come"
+    },
+    "入": {
+      "strokes": 2,
+      "keyword": "enter",
+      "hint": "Something going inward"
+    },
+    "八": {
+      "strokes": 2,
+      "keyword": "eight",
+      "hint": "Two strokes spreading apart"
+    },
+    "兵": {
+      "strokes": 7,
+      "keyword": "soldier",
+      "hint": "A hill (丘) above legs — troops marching into battle"
+    },
+    "冂": {
+      "strokes": 2,
+      "keyword": "cage",
+      "hint": "An open box/enclosure from above"
+    },
+    "冖": {
+      "strokes": 2,
+      "keyword": "crown",
+      "hint": "A flat cover or lid on top"
+    },
+    "冫": {
+      "strokes": 2,
+      "keyword": "ice",
+      "hint": "Two dots of ice (にすい)"
+    },
+    "冬": {
+      "strokes": 0,
+      "keyword": "winter",
+      "hint": "Ice crystals falling beneath a cover"
+    },
+    "几": {
+      "strokes": 2,
+      "keyword": "table",
+      "hint": "A small table or stool"
+    },
+    "凡": {
+      "strokes": 3,
+      "keyword": "ordinary",
+      "hint": "A simple sail shape — plain, common, nothing special"
+    },
+    "凵": {
+      "strokes": 2,
+      "keyword": "bowl",
+      "hint": "An open container from below"
+    },
+    "凶": {
+      "strokes": 0,
+      "keyword": "doom",
+      "hint": "An X inside a pit — bad luck, misfortune trapped in a box"
+    },
+    "出": {
+      "strokes": 0,
+      "keyword": "exit",
+      "hint": "Mountains stacked — pushing up and out"
+    },
+    "刀": {
+      "strokes": 2,
+      "keyword": "sword",
+      "hint": "A blade shape"
+    },
+    "刂": {
+      "strokes": 2,
+      "keyword": "blade",
+      "hint": "The right-side sword radical (りっとう)"
+    },
+    "力": {
+      "strokes": 2,
+      "keyword": "power",
+      "hint": "A flexed arm showing strength"
+    },
+    "勹": {
+      "strokes": 2,
+      "keyword": "wrap",
+      "hint": "Something wrapping around"
+    },
+    "勿": {
+      "strokes": 0,
+      "keyword": "not",
+      "hint": "A slashed shape meaning 'do not' — like a warning sign"
+    },
+    "匕": {
+      "strokes": 2,
+      "keyword": "spoon",
+      "hint": "A spoon or ladle shape"
+    },
+    "十": {
+      "strokes": 2,
+      "keyword": "cross",
+      "hint": "A cross shape — the number ten"
+    },
+    "升": {
+      "strokes": 4,
+      "keyword": "rise",
+      "hint": "Something going upward — to ascend, a measuring cup"
+    },
+    "卜": {
+      "strokes": 2,
+      "keyword": "divination",
+      "hint": "A crack in an oracle bone"
+    },
+    "卩": {
+      "strokes": 2,
+      "keyword": "seal",
+      "hint": "A kneeling person or official seal"
+    },
+    "厂": {
+      "strokes": 2,
+      "keyword": "cliff",
+      "hint": "An overhanging cliff face"
+    },
+    "厶": {
+      "strokes": 2,
+      "keyword": "private",
+      "hint": "A small coiled shape — something kept to oneself"
+    },
+    "去": {
+      "strokes": 5,
+      "keyword": "depart",
+      "hint": "Earth (土) above legs — leaving the ground behind, going away"
+    },
+    "又": {
+      "strokes": 2,
+      "keyword": "again",
+      "hint": "A hand reaching out"
+    },
+    "友": {
+      "strokes": 4,
+      "keyword": "friend",
+      "hint": "Two hands reaching together — people helping each other"
+    },
+    "反": {
+      "strokes": 4,
+      "keyword": "flip",
+      "hint": "A cliff (厂) with a hand — turning something over, opposing"
+    },
+    "叔": {
+      "strokes": 8,
+      "keyword": "uncle",
+      "hint": "A younger brother of one's parent — the family elder"
+    },
+    "口": {
+      "strokes": 3,
+      "keyword": "mouth",
+      "hint": "An open mouth or square opening"
+    },
+    "可": {
+      "strokes": 5,
+      "keyword": "able",
+      "hint": "A mouth (口) with a hook — approval, something permitted"
+    },
+    "史": {
+      "strokes": 5,
+      "keyword": "history",
+      "hint": "A hand holding a record — the chronicle keeper"
+    },
+    "右": {
+      "strokes": 5,
+      "keyword": "right",
+      "hint": "A hand (ナ) reaching for the mouth (口) — the right side"
+    },
+    "周": {
+      "strokes": 8,
+      "keyword": "circuit",
+      "hint": "Something enclosed and complete — going all the way around"
+    },
+    "咸": {
+      "strokes": 9,
+      "keyword": "salty",
+      "hint": "A weapon (戈) with a mouth — the sharp taste of salt"
+    },
+    "品": {
+      "strokes": 9,
+      "keyword": "goods",
+      "hint": "Three mouths stacked — many items, products, quality"
+    },
+    "囗": {
+      "strokes": 3,
+      "keyword": "box",
+      "hint": "A full enclosure — a fence or border"
+    },
+    "土": {
+      "strokes": 3,
+      "keyword": "earth",
+      "hint": "A mound of earth on the ground"
+    },
+    "士": {
+      "strokes": 3,
+      "keyword": "samurai",
+      "hint": "A samurai or scholar"
+    },
+    "夂": {
+      "strokes": 3,
+      "keyword": "winter legs",
+      "hint": "Legs walking slowly downward"
+    },
+    "夕": {
+      "strokes": 3,
+      "keyword": "evening",
+      "hint": "A crescent moon at dusk"
+    },
+    "大": {
+      "strokes": 3,
+      "keyword": "big",
+      "hint": "A person with arms spread wide"
+    },
+    "天": {
+      "strokes": 0,
+      "keyword": "heaven",
+      "hint": "Above a person — the vast sky overhead"
+    },
+    "夫": {
+      "strokes": 0,
+      "keyword": "husband",
+      "hint": "A person standing tall with a broad hat"
+    },
+    "女": {
+      "strokes": 3,
+      "keyword": "woman",
+      "hint": "A woman kneeling"
+    },
+    "子": {
+      "strokes": 3,
+      "keyword": "child",
+      "hint": "A child with arms outstretched"
+    },
+    "宀": {
+      "strokes": 3,
+      "keyword": "roof",
+      "hint": "A house roof (うかんむり)"
+    },
+    "寸": {
+      "strokes": 3,
+      "keyword": "inch",
+      "hint": "A unit of measurement — the width of a thumb"
+    },
+    "寺": {
+      "strokes": 6,
+      "keyword": "temple",
+      "hint": "Earth (土) above inch (寸) — sacred ground measured carefully"
+    },
+    "小": {
+      "strokes": 3,
+      "keyword": "small",
+      "hint": "A small thing with particles flying off"
+    },
+    "尸": {
+      "strokes": 3,
+      "keyword": "corpse",
+      "hint": "A body lying down — used in body/building kanji"
+    },
+    "尹": {
+      "strokes": 4,
+      "keyword": "governor",
+      "hint": "A hand holding a staff — one who rules and administers"
+    },
+    "山": {
+      "strokes": 3,
+      "keyword": "mountain",
+      "hint": "Three peaks of a mountain"
+    },
+    "巛": {
+      "strokes": 0,
+      "keyword": "stream",
+      "hint": "Three flowing curves — water coursing through a channel"
+    },
+    "川": {
+      "strokes": 3,
+      "keyword": "river",
+      "hint": "Three flowing streams"
+    },
+    "工": {
+      "strokes": 3,
+      "keyword": "craft",
+      "hint": "A carpenter's square tool"
+    },
+    "己": {
+      "strokes": 3,
+      "keyword": "self",
+      "hint": "Oneself — a coiled shape"
+    },
+    "巾": {
+      "strokes": 3,
+      "keyword": "cloth",
+      "hint": "A hanging piece of cloth or towel"
+    },
+    "市": {
+      "strokes": 5,
+      "keyword": "market",
+      "hint": "A covered trading area — where people buy and sell"
+    },
+    "布": {
+      "strokes": 5,
+      "keyword": "linen",
+      "hint": "A hand spreading fabric — woven material, to spread out"
+    },
+    "干": {
+      "strokes": 3,
+      "keyword": "dry",
+      "hint": "A drying rack"
+    },
+    "幺": {
+      "strokes": 3,
+      "keyword": "thread",
+      "hint": "A tiny twisted thread"
+    },
+    "广": {
+      "strokes": 3,
+      "keyword": "shelter",
+      "hint": "A lean-to shelter with a roof"
+    },
+    "廿": {
+      "strokes": 4,
+      "keyword": "twenty",
+      "hint": "Two tens side by side — the number twenty"
+    },
+    "弋": {
+      "strokes": 3,
+      "keyword": "arrow",
+      "hint": "An arrow in flight"
+    },
+    "弓": {
+      "strokes": 3,
+      "keyword": "bow",
+      "hint": "A curved bow for shooting"
+    },
+    "彡": {
+      "strokes": 3,
+      "keyword": "hair",
+      "hint": "Three flowing lines — hair or decoration"
+    },
+    "彦": {
+      "strokes": 9,
+      "keyword": "lad",
+      "hint": "A handsome young man — a talented youth with flowing hair"
+    },
+    "彳": {
+      "strokes": 3,
+      "keyword": "step",
+      "hint": "The left half of a crossroads — a small step"
+    },
+    "心": {
+      "strokes": 4,
+      "keyword": "heart",
+      "hint": "The standalone heart — feelings and mind"
+    },
+    "憂": {
+      "strokes": 0,
+      "keyword": "grief",
+      "hint": "A heavy heart weighed down with sorrow"
+    },
+    "戈": {
+      "strokes": 4,
+      "keyword": "halberd",
+      "hint": "A weapon on a pole"
+    },
+    "戸": {
+      "strokes": 4,
+      "keyword": "door",
+      "hint": "A single door panel"
+    },
+    "手": {
+      "strokes": 4,
+      "keyword": "hand",
+      "hint": "The standalone hand"
+    },
+    "才": {
+      "strokes": 0,
+      "keyword": "talent",
+      "hint": "A sprout just breaking through — natural ability emerging"
+    },
+    "攵": {
+      "strokes": 4,
+      "keyword": "strike",
+      "hint": "A hand holding a stick to hit (ぼくづくり)"
+    },
+    "文": {
+      "strokes": 4,
+      "keyword": "writing",
+      "hint": "A pattern or writing"
+    },
+    "斗": {
+      "strokes": 4,
+      "keyword": "ladle",
+      "hint": "A large measuring ladle"
+    },
+    "斤": {
+      "strokes": 4,
+      "keyword": "axe",
+      "hint": "An axe blade"
+    },
+    "方": {
+      "strokes": 4,
+      "keyword": "direction",
+      "hint": "A direction or way"
+    },
+    "日": {
+      "strokes": 4,
+      "keyword": "sun",
+      "hint": "The sun — also day"
+    },
+    "月": {
+      "strokes": 4,
+      "keyword": "moon",
+      "hint": "The moon — also month and meat radical"
+    },
+    "木": {
+      "strokes": 4,
+      "keyword": "tree",
+      "hint": "A tree with branches and roots"
+    },
+    "未": {
+      "strokes": 5,
+      "keyword": "not yet",
+      "hint": "A tree (木) with a shorter top branch — hasn't fully grown"
+    },
+    "本": {
+      "strokes": 5,
+      "keyword": "book",
+      "hint": "A tree (木) with a mark at the root — the origin, a book"
+    },
+    "束": {
+      "strokes": 7,
+      "keyword": "bundle",
+      "hint": "A tree (木) wrapped with a belt (口) — tied together"
+    },
+    "林": {
+      "strokes": 8,
+      "keyword": "grove",
+      "hint": "Two trees (木木) side by side — a small forest"
+    },
+    "業": {
+      "strokes": 0,
+      "keyword": "karma",
+      "hint": "A complex tower of strokes — work, profession, consequences"
+    },
+    "欠": {
+      "strokes": 4,
+      "keyword": "yawn",
+      "hint": "A person with mouth open — lacking"
+    },
+    "次": {
+      "strokes": 0,
+      "keyword": "next",
+      "hint": "Two strokes stepping forward in sequence"
+    },
+    "止": {
+      "strokes": 4,
+      "keyword": "stop",
+      "hint": "A footprint — stopping"
+    },
+    "歹": {
+      "strokes": 4,
+      "keyword": "death",
+      "hint": "Bones — death or decay"
+    },
+    "殳": {
+      "strokes": 4,
+      "keyword": "weapon",
+      "hint": "A hand wielding a weapon"
+    },
+    "母": {
+      "strokes": 4,
+      "keyword": "mother",
+      "hint": "A mother nursing"
+    },
+    "毎": {
+      "strokes": 0,
+      "keyword": "every",
+      "hint": "A mother (母) variant — each and every time"
+    },
+    "比": {
+      "strokes": 4,
+      "keyword": "compare",
+      "hint": "Two figures side by side — measuring one against the other"
+    },
+    "毛": {
+      "strokes": 4,
+      "keyword": "fur",
+      "hint": "Animal fur or hair"
+    },
+    "民": {
+      "strokes": 0,
+      "keyword": "people",
+      "hint": "The common folk — an eye looking down at the populace"
+    },
+    "气": {
+      "strokes": 4,
+      "keyword": "steam",
+      "hint": "Rising steam or vapor"
+    },
+    "水": {
+      "strokes": 4,
+      "keyword": "water",
+      "hint": "The standalone water character"
+    },
+    "永": {
+      "strokes": 5,
+      "keyword": "eternal",
+      "hint": "Water flowing forever — this character contains all basic strokes"
+    },
+    "火": {
+      "strokes": 4,
+      "keyword": "fire",
+      "hint": "Flames burning"
+    },
+    "爪": {
+      "strokes": 4,
+      "keyword": "claw",
+      "hint": "Fingers or claws reaching down"
+    },
+    "父": {
+      "strokes": 4,
+      "keyword": "father",
+      "hint": "A father — hand holding an axe"
+    },
+    "片": {
+      "strokes": 4,
+      "keyword": "slice",
+      "hint": "One side of something split"
+    },
+    "牛": {
+      "strokes": 4,
+      "keyword": "cow",
+      "hint": "A cow's head with horns"
+    },
+    "犬": {
+      "strokes": 4,
+      "keyword": "dog",
+      "hint": "A dog"
+    },
+    "玉": {
+      "strokes": 0,
+      "keyword": "jewel",
+      "hint": "The king radical (王) with a dot — a precious stone held by royalty"
+    },
+    "王": {
+      "strokes": 4,
+      "keyword": "king",
+      "hint": "The three levels of heaven, earth, and man connected"
+    },
+    "瓜": {
+      "strokes": 5,
+      "keyword": "melon",
+      "hint": "A vine with a fruit hanging — a gourd or melon"
+    },
+    "甘": {
+      "strokes": 0,
+      "keyword": "sweet",
+      "hint": "Something in the mouth — the taste of sweetness"
+    },
+    "生": {
+      "strokes": 5,
+      "keyword": "life",
+      "hint": "A plant sprouting from the ground — birth, growth, raw"
+    },
+    "用": {
+      "strokes": 5,
+      "keyword": "use",
+      "hint": "A fenced-in tool — something put to practical purpose"
+    },
+    "田": {
+      "strokes": 5,
+      "keyword": "field",
+      "hint": "A rice paddy divided into plots"
+    },
+    "由": {
+      "strokes": 5,
+      "keyword": "reason",
+      "hint": "Something sprouting from a box — the origin or cause of things"
+    },
+    "申": {
+      "strokes": 5,
+      "keyword": "monkey",
+      "hint": "The monkey zodiac sign — a field (田) with a line through it"
+    },
+    "疒": {
+      "strokes": 5,
+      "keyword": "sickness",
+      "hint": "A person lying on a bed — illness"
+    },
+    "癶": {
+      "strokes": 5,
+      "keyword": "footsteps",
+      "hint": "Two feet — the dotted cliff radical"
+    },
+    "白": {
+      "strokes": 5,
+      "keyword": "white",
+      "hint": "Something white and pure"
+    },
+    "百": {
+      "strokes": 0,
+      "keyword": "hundred",
+      "hint": "One on top of white — a complete count"
+    },
+    "皮": {
+      "strokes": 5,
+      "keyword": "skin",
+      "hint": "Animal skin being stretched"
+    },
+    "皿": {
+      "strokes": 5,
+      "keyword": "plate",
+      "hint": "A flat dish or plate"
+    },
+    "目": {
+      "strokes": 5,
+      "keyword": "eye",
+      "hint": "An eye turned sideways"
+    },
+    "直": {
+      "strokes": 8,
+      "keyword": "straight",
+      "hint": "An eye (目) looking directly ahead with a vertical line — honest and direct"
+    },
+    "県": {
+      "strokes": 9,
+      "keyword": "prefecture",
+      "hint": "A hanging eye — an administrative district (Japan-specific)"
+    },
+    "矢": {
+      "strokes": 5,
+      "keyword": "arrow",
+      "hint": "An arrow ready to fly"
+    },
+    "石": {
+      "strokes": 5,
+      "keyword": "stone",
+      "hint": "A stone at the base of a cliff"
+    },
+    "禾": {
+      "strokes": 5,
+      "keyword": "grain",
+      "hint": "A grain plant drooping with seeds"
+    },
+    "穴": {
+      "strokes": 5,
+      "keyword": "hole",
+      "hint": "A cave or hole in the ground"
+    },
+    "立": {
+      "strokes": 5,
+      "keyword": "stand",
+      "hint": "A person standing on the ground"
+    },
+    "米": {
+      "strokes": 6,
+      "keyword": "rice",
+      "hint": "Grains of rice scattered"
+    },
+    "糸": {
+      "strokes": 6,
+      "keyword": "thread",
+      "hint": "Silk thread — the string radical"
+    },
+    "罒": {
+      "strokes": 5,
+      "keyword": "net",
+      "hint": "A net spread out (よこめ)"
+    },
+    "羊": {
+      "strokes": 0,
+      "keyword": "sheep",
+      "hint": "Horns on top, a body below — a sheep seen from the front"
+    },
+    "義": {
+      "strokes": 13,
+      "keyword": "justice",
+      "hint": "A sheep (羊) above self/me (我) — righteous sacrifice for the greater good"
+    },
+    "翟": {
+      "strokes": 14,
+      "keyword": "pheasant",
+      "hint": "A long-tailed bird — feathers fanning out"
+    },
+    "耂": {
+      "strokes": 4,
+      "keyword": "old",
+      "hint": "The top part of 老 — old age"
+    },
+    "者": {
+      "strokes": 0,
+      "keyword": "someone",
+      "hint": "A person of a certain kind — 'the one who...'"
+    },
+    "耳": {
+      "strokes": 6,
+      "keyword": "ear",
+      "hint": "An ear"
+    },
+    "聿": {
+      "strokes": 0,
+      "keyword": "brush",
+      "hint": "A writing brush"
+    },
+    "自": {
+      "strokes": 6,
+      "keyword": "self",
+      "hint": "A nose — pointing at oneself"
+    },
+    "至": {
+      "strokes": 6,
+      "keyword": "arrive",
+      "hint": "An arrow reaching its target — to arrive at a destination"
+    },
+    "臼": {
+      "strokes": 6,
+      "keyword": "mortar",
+      "hint": "A grinding mortar"
+    },
+    "舌": {
+      "strokes": 6,
+      "keyword": "tongue",
+      "hint": "A tongue sticking out of a mouth"
+    },
+    "舟": {
+      "strokes": 6,
+      "keyword": "boat",
+      "hint": "A small boat"
+    },
+    "艮": {
+      "strokes": 6,
+      "keyword": "stubborn",
+      "hint": "An eye looking back — defiance"
+    },
+    "色": {
+      "strokes": 6,
+      "keyword": "color",
+      "hint": "A person kneeling — color/desire"
+    },
+    "菐": {
+      "strokes": 11,
+      "keyword": "bushy",
+      "hint": "A rare component — grass growing thick and wild"
+    },
+    "虍": {
+      "strokes": 6,
+      "keyword": "tiger stripes",
+      "hint": "The top of 虎 — tiger markings"
+    },
+    "虫": {
+      "strokes": 6,
+      "keyword": "insect",
+      "hint": "A bug or worm"
+    },
+    "行": {
+      "strokes": 6,
+      "keyword": "go",
+      "hint": "A crossroads — going somewhere"
+    },
+    "衣": {
+      "strokes": 6,
+      "keyword": "clothes",
+      "hint": "A garment with flowing parts"
+    },
+    "西": {
+      "strokes": 6,
+      "keyword": "west",
+      "hint": "A bird settling into its nest at sunset"
+    },
+    "見": {
+      "strokes": 7,
+      "keyword": "see",
+      "hint": "An eye on legs — looking around"
+    },
+    "角": {
+      "strokes": 7,
+      "keyword": "horn",
+      "hint": "An animal's horn"
+    },
+    "言": {
+      "strokes": 7,
+      "keyword": "say",
+      "hint": "Words coming from a mouth — the speech radical"
+    },
+    "谷": {
+      "strokes": 7,
+      "keyword": "valley",
+      "hint": "A valley between mountains"
+    },
+    "豆": {
+      "strokes": 7,
+      "keyword": "bean",
+      "hint": "A bean on a pedestal — ceremonial vessel"
+    },
+    "豕": {
+      "strokes": 7,
+      "keyword": "pig",
+      "hint": "A pig"
+    },
+    "象": {
+      "strokes": 12,
+      "keyword": "elephant",
+      "hint": "An elephant"
+    },
+    "貝": {
+      "strokes": 7,
+      "keyword": "shell",
+      "hint": "A cowrie shell — used as money"
+    },
+    "赤": {
+      "strokes": 7,
+      "keyword": "red",
+      "hint": "The color red — fire over earth"
+    },
+    "走": {
+      "strokes": 7,
+      "keyword": "run",
+      "hint": "A person running"
+    },
+    "車": {
+      "strokes": 7,
+      "keyword": "cart",
+      "hint": "A wheeled cart seen from above"
+    },
+    "辛": {
+      "strokes": 7,
+      "keyword": "spicy",
+      "hint": "A needle — something sharp/bitter"
+    },
+    "酉": {
+      "strokes": 7,
+      "keyword": "sake jar",
+      "hint": "A jar for fermenting alcohol"
+    },
+    "釆": {
+      "strokes": 7,
+      "keyword": "sift",
+      "hint": "Separating grain — to sort and distinguish, like panning for gold"
+    },
+    "里": {
+      "strokes": 7,
+      "keyword": "village",
+      "hint": "Fields and earth — a village"
+    },
+    "重": {
+      "strokes": 9,
+      "keyword": "heavy",
+      "hint": "Layers stacked on the earth — weight pressing down"
+    },
+    "金": {
+      "strokes": 8,
+      "keyword": "gold",
+      "hint": "Metal/gold nuggets underground"
+    },
+    "長": {
+      "strokes": 8,
+      "keyword": "long",
+      "hint": "Something long — also elder"
+    },
+    "門": {
+      "strokes": 8,
+      "keyword": "gate",
+      "hint": "A double gate"
+    },
+    "隹": {
+      "strokes": 8,
+      "keyword": "bird",
+      "hint": "A short-tailed bird"
+    },
+    "雨": {
+      "strokes": 8,
+      "keyword": "rain",
+      "hint": "Rain falling from clouds"
+    },
+    "青": {
+      "strokes": 8,
+      "keyword": "blue",
+      "hint": "Blue/green — the color of plants growing"
+    },
+    "面": {
+      "strokes": 9,
+      "keyword": "face",
+      "hint": "A face"
+    },
+    "韋": {
+      "strokes": 9,
+      "keyword": "leather",
+      "hint": "Tanned animal hide — tough and flexible material"
+    },
+    "音": {
+      "strokes": 9,
+      "keyword": "sound",
+      "hint": "Sound — something ringing"
+    },
+    "頁": {
+      "strokes": 9,
+      "keyword": "head",
+      "hint": "A head/page — the head radical"
+    },
+    "風": {
+      "strokes": 9,
+      "keyword": "wind",
+      "hint": "Wind blowing"
+    },
+    "飛": {
+      "strokes": 0,
+      "keyword": "fly",
+      "hint": "Wings spread wide, soaring through the air"
+    },
+    "食": {
+      "strokes": 9,
+      "keyword": "eat",
+      "hint": "Food — a person at a vessel with a lid"
+    },
+    "馬": {
+      "strokes": 10,
+      "keyword": "horse",
+      "hint": "A horse"
+    },
+    "髟": {
+      "strokes": 10,
+      "keyword": "long hair",
+      "hint": "Long flowing hair"
+    },
+    "鬼": {
+      "strokes": 10,
+      "keyword": "demon",
+      "hint": "A demon or ghost"
+    },
+    "鳥": {
+      "strokes": 11,
+      "keyword": "bird",
+      "hint": "A bird with tail feathers"
+    },
+    "鹿": {
+      "strokes": 11,
+      "keyword": "deer",
+      "hint": "A deer with antlers"
+    },
+    "黒": {
+      "strokes": 11,
+      "keyword": "black",
+      "hint": "The color black"
+    },
+    "鼻": {
+      "strokes": 14,
+      "keyword": "nose",
+      "hint": "A nose"
+    }
+  },
+  "decompositions": {
+    "一": [
+      "一"
+    ],
+    "七": [
+      "一",
+      "乙"
+    ],
+    "三": [
+      "一"
+    ],
+    "上": [
+      "一",
+      "卜"
+    ],
+    "下": [
+      "一",
+      "卜"
+    ],
+    "不": [
+      "一",
+      "大",
+      "丶"
+    ],
+    "世": [
+      "一",
+      "十",
+      "凵"
+    ],
+    "中": [
+      "丨",
+      "口"
+    ],
+    "主": [
+      "丶",
+      "王"
+    ],
+    "事": [
+      "一",
+      "口",
+      "亅",
+      "ヨ"
+    ],
+    "二": [
+      "一"
+    ],
+    "井": [
+      "一",
+      "十"
+    ],
+    "仕": [
+      "⺅",
+      "士"
+    ],
+    "他": [
+      "⺅",
+      "也"
+    ],
+    "付": [
+      "⺅",
+      "寸"
+    ],
+    "代": [
+      "⺅",
+      "弋"
+    ],
+    "件": [
+      "⺅",
+      "牛"
+    ],
+    "会": [
+      "人",
+      "二",
+      "厶"
+    ],
+    "伝": [
+      "⺅",
+      "二",
+      "厶"
+    ],
+    "伸": [
+      "⺅",
+      "申"
+    ],
+    "似": [
+      "⺅",
+      "人",
+      "丶"
+    ],
+    "住": [
+      "⺅",
+      "主"
+    ],
+    "体": [
+      "⺅",
+      "本"
+    ],
+    "何": [
+      "⺅",
+      "口",
+      "可"
+    ],
+    "使": [
+      "⺅",
+      "口",
+      "一",
+      "丨",
+      "史"
+    ],
+    "供": [
+      "⺅",
+      "八",
+      "丷",
+      "口"
+    ],
+    "信": [
+      "⺅",
+      "言"
+    ],
+    "修": [
+      "⺅",
+      "彡",
+      "攵"
+    ],
+    "借": [
+      "⺅",
+      "日",
+      "一",
+      "二"
+    ],
+    "僕": [
+      "⺅",
+      "業",
+      "丷",
+      "菐"
+    ],
+    "傾": [
+      "⺅",
+      "頁",
+      "匕"
+    ],
+    "像": [
+      "⺅",
+      "象"
+    ],
+    "優": [
+      "⺅",
+      "心",
+      "百",
+      "冖",
+      "憂"
+    ],
+    "光": [
+      "小",
+      "儿"
+    ],
+    "先": [
+      "⺅",
+      "儿",
+      "土"
+    ],
+    "入": [
+      "入"
+    ],
+    "全": [
+      "人",
+      "王"
+    ],
+    "公": [
+      "八",
+      "厶"
+    ],
+    "切": [
+      "七",
+      "刀"
+    ],
+    "初": [
+      "⻂",
+      "刀"
+    ],
+    "別": [
+      "口",
+      "刂",
+      "力"
+    ],
+    "前": [
+      "一",
+      "月",
+      "刂",
+      "丷"
+    ],
+    "力": [
+      "力"
+    ],
+    "加": [
+      "力",
+      "口"
+    ],
+    "助": [
+      "目",
+      "力"
+    ],
+    "努": [
+      "又",
+      "女",
+      "力"
+    ],
+    "勇": [
+      "マ",
+      "田",
+      "力"
+    ],
+    "動": [
+      "重",
+      "力"
+    ],
+    "勝": [
+      "月",
+      "⺘",
+      "力"
+    ],
+    "勢": [
+      "土",
+      "力",
+      "丸",
+      "九"
+    ],
+    "化": [
+      "⺅",
+      "匕"
+    ],
+    "協": [
+      "十",
+      "力"
+    ],
+    "南": [
+      "十",
+      "冂",
+      "干",
+      "丷"
+    ],
+    "単": [
+      "十",
+      "田",
+      "丷"
+    ],
+    "卵": [
+      "卩"
+    ],
+    "原": [
+      "厂",
+      "白",
+      "小"
+    ],
+    "去": [
+      "土",
+      "厶"
+    ],
+    "取": [
+      "耳",
+      "又"
+    ],
+    "受": [
+      "爪",
+      "冖",
+      "又"
+    ],
+    "口": [
+      "口"
+    ],
+    "句": [
+      "口",
+      "勹"
+    ],
+    "叩": [
+      "口",
+      "卩"
+    ],
+    "台": [
+      "口",
+      "厶"
+    ],
+    "号": [
+      "口",
+      "丂"
+    ],
+    "合": [
+      "人",
+      "一",
+      "口"
+    ],
+    "同": [
+      "冂",
+      "口",
+      "一"
+    ],
+    "向": [
+      "冂",
+      "口",
+      "丿"
+    ],
+    "君": [
+      "口",
+      "尹"
+    ],
+    "味": [
+      "口",
+      "未"
+    ],
+    "命": [
+      "人",
+      "口",
+      "卩"
+    ],
+    "和": [
+      "禾",
+      "口"
+    ],
+    "員": [
+      "口",
+      "貝"
+    ],
+    "嘘": [
+      "口",
+      "虍",
+      "丘"
+    ],
+    "因": [
+      "囗",
+      "大"
+    ],
+    "図": [
+      "囗"
+    ],
+    "国": [
+      "囗",
+      "玉"
+    ],
+    "圧": [
+      "土",
+      "厂"
+    ],
+    "地": [
+      "土",
+      "也"
+    ],
+    "堂": [
+      "土",
+      "⺌",
+      "口",
+      "冖"
+    ],
+    "場": [
+      "土",
+      "日",
+      "一",
+      "勿"
+    ],
+    "壊": [
+      "土",
+      "衣",
+      "目"
+    ],
+    "変": [
+      "亠",
+      "⺌",
+      "夂"
+    ],
+    "夜": [
+      "亠",
+      "人",
+      "夕"
+    ],
+    "夢": [
+      "⺾",
+      "冖",
+      "夕"
+    ],
+    "大": [
+      "大"
+    ],
+    "天": [
+      "一",
+      "大"
+    ],
+    "太": [
+      "大",
+      "丶"
+    ],
+    "失": [
+      "大",
+      "丿"
+    ],
+    "女": [
+      "女"
+    ],
+    "奴": [
+      "女",
+      "又"
+    ],
+    "好": [
+      "女",
+      "子"
+    ],
+    "姉": [
+      "女",
+      "市"
+    ],
+    "始": [
+      "女",
+      "口",
+      "厶"
+    ],
+    "子": [
+      "子"
+    ],
+    "孤": [
+      "子",
+      "瓜"
+    ],
+    "学": [
+      "子",
+      "⺌",
+      "冖"
+    ],
+    "宇": [
+      "宀",
+      "干"
+    ],
+    "守": [
+      "宀",
+      "寸"
+    ],
+    "安": [
+      "宀",
+      "女"
+    ],
+    "完": [
+      "宀",
+      "元"
+    ],
+    "宙": [
+      "宀",
+      "由"
+    ],
+    "宝": [
+      "宀",
+      "玉"
+    ],
+    "実": [
+      "宀",
+      "大"
+    ],
+    "客": [
+      "宀",
+      "夂",
+      "口"
+    ],
+    "家": [
+      "宀",
+      "豕"
+    ],
+    "密": [
+      "宀",
+      "山",
+      "心"
+    ],
+    "寂": [
+      "宀",
+      "叔"
+    ],
+    "寝": [
+      "宀",
+      "ヨ",
+      "冖",
+      "又"
+    ],
+    "小": [
+      "小"
+    ],
+    "少": [
+      "小",
+      "丿"
+    ],
+    "尻": [
+      "尸",
+      "九"
+    ],
+    "尾": [
+      "尸",
+      "毛"
+    ],
+    "届": [
+      "尸",
+      "由"
+    ],
+    "局": [
+      "尸",
+      "口"
+    ],
+    "屈": [
+      "尸",
+      "出"
+    ],
+    "屋": [
+      "尸",
+      "至"
+    ],
+    "山": [
+      "山"
+    ],
+    "岸": [
+      "山",
+      "厂",
+      "干"
+    ],
+    "島": [
+      "山",
+      "鳥"
+    ],
+    "嵐": [
+      "山",
+      "風"
+    ],
+    "川": [
+      "川"
+    ],
+    "帆": [
+      "巾",
+      "凡"
+    ],
+    "帯": [
+      "一",
+      "巾",
+      "冖"
+    ],
+    "帰": [
+      "巾",
+      "刂",
+      "ヨ"
+    ],
+    "帽": [
+      "巾",
+      "日",
+      "目"
+    ],
+    "平": [
+      "一",
+      "八",
+      "干"
+    ],
+    "年": [
+      "一",
+      "干"
+    ],
+    "度": [
+      "广",
+      "又",
+      "廿"
+    ],
+    "引": [
+      "弓",
+      "丨"
+    ],
+    "弱": [
+      "弓",
+      "冫"
+    ],
+    "張": [
+      "弓",
+      "長"
+    ],
+    "当": [
+      "⺌",
+      "ヨ"
+    ],
+    "役": [
+      "彳",
+      "几",
+      "殳"
+    ],
+    "彼": [
+      "彳",
+      "皮"
+    ],
+    "後": [
+      "彳",
+      "幺",
+      "夂"
+    ],
+    "待": [
+      "彳",
+      "寺"
+    ],
+    "得": [
+      "彳",
+      "日",
+      "一",
+      "寸"
+    ],
+    "心": [
+      "心"
+    ],
+    "必": [
+      "心",
+      "丿"
+    ],
+    "忘": [
+      "亡",
+      "心"
+    ],
+    "怒": [
+      "女",
+      "又",
+      "心"
+    ],
+    "怖": [
+      "⺖",
+      "布"
+    ],
+    "思": [
+      "田",
+      "心"
+    ],
+    "急": [
+      "⺈",
+      "ヨ",
+      "心"
+    ],
+    "性": [
+      "⺖",
+      "生"
+    ],
+    "怪": [
+      "⺖",
+      "土",
+      "又"
+    ],
+    "恥": [
+      "耳",
+      "心"
+    ],
+    "悩": [
+      "⺖",
+      "凶",
+      "巛"
+    ],
+    "悪": [
+      "亜",
+      "心"
+    ],
+    "情": [
+      "⺖",
+      "月",
+      "青"
+    ],
+    "惜": [
+      "⺖",
+      "日",
+      "一"
+    ],
+    "想": [
+      "木",
+      "目",
+      "心"
+    ],
+    "意": [
+      "音",
+      "心"
+    ],
+    "愛": [
+      "爪",
+      "冖",
+      "心",
+      "夂"
+    ],
+    "感": [
+      "咸",
+      "心"
+    ],
+    "懸": [
+      "県",
+      "心",
+      "糸"
+    ],
+    "成": [
+      "戈",
+      "丿"
+    ],
+    "我": [
+      "戈",
+      "手"
+    ],
+    "戸": [
+      "戸"
+    ],
+    "戻": [
+      "戸",
+      "大"
+    ],
+    "所": [
+      "戸",
+      "斤"
+    ],
+    "手": [
+      "手"
+    ],
+    "才": [
+      "才"
+    ],
+    "捨": [
+      "⺘",
+      "口",
+      "土"
+    ],
+    "探": [
+      "⺘",
+      "木",
+      "冖"
+    ],
+    "拾": [
+      "⺘",
+      "口",
+      "人"
+    ],
+    "持": [
+      "⺘",
+      "寺"
+    ],
+    "掛": [
+      "⺘",
+      "土",
+      "卜"
+    ],
+    "採": [
+      "⺘",
+      "爪",
+      "木"
+    ],
+    "支": [
+      "十",
+      "又"
+    ],
+    "敗": [
+      "貝",
+      "攵"
+    ],
+    "敵": [
+      "⺕",
+      "口",
+      "攵"
+    ],
+    "文": [
+      "文"
+    ],
+    "斧": [
+      "父",
+      "斤"
+    ],
+    "新": [
+      "立",
+      "木",
+      "斤"
+    ],
+    "方": [
+      "方"
+    ],
+    "旅": [
+      "方",
+      "人",
+      "丿"
+    ],
+    "日": [
+      "日"
+    ],
+    "早": [
+      "日",
+      "十"
+    ],
+    "昇": [
+      "日",
+      "升"
+    ],
+    "明": [
+      "日",
+      "月"
+    ],
+    "春": [
+      "一",
+      "人",
+      "大",
+      "日"
+    ],
+    "昼": [
+      "尸",
+      "日",
+      "一"
+    ],
+    "時": [
+      "日",
+      "寺"
+    ],
+    "晴": [
+      "日",
+      "青"
+    ],
+    "暖": [
+      "日",
+      "爪",
+      "友"
+    ],
+    "暗": [
+      "日",
+      "音"
+    ],
+    "書": [
+      "聿",
+      "日"
+    ],
+    "月": [
+      "月"
+    ],
+    "望": [
+      "亡",
+      "月",
+      "王"
+    ],
+    "朝": [
+      "十",
+      "日",
+      "月"
+    ],
+    "木": [
+      "木"
+    ],
+    "本": [
+      "木",
+      "一"
+    ],
+    "束": [
+      "木",
+      "口"
+    ],
+    "杯": [
+      "木",
+      "不"
+    ],
+    "東": [
+      "木",
+      "日"
+    ],
+    "枚": [
+      "木",
+      "攵"
+    ],
+    "根": [
+      "木",
+      "艮"
+    ],
+    "植": [
+      "木",
+      "十",
+      "目"
+    ],
+    "検": [
+      "木",
+      "人",
+      "一"
+    ],
+    "楽": [
+      "白",
+      "木",
+      "幺"
+    ],
+    "様": [
+      "木",
+      "水",
+      "羊"
+    ],
+    "櫂": [
+      "木",
+      "翟"
+    ],
+    "欠": [
+      "人",
+      "欠"
+    ],
+    "次": [
+      "冫",
+      "欠"
+    ],
+    "止": [
+      "止"
+    ],
+    "死": [
+      "一",
+      "夕",
+      "匕"
+    ],
+    "殻": [
+      "士",
+      "冖",
+      "殳"
+    ],
+    "母": [
+      "母"
+    ],
+    "毛": [
+      "毛"
+    ],
+    "民": [
+      "民"
+    ],
+    "気": [
+      "气",
+      "丿"
+    ],
+    "水": [
+      "水"
+    ],
+    "氷": [
+      "水",
+      "丶"
+    ],
+    "決": [
+      "⺡",
+      "大",
+      "ユ"
+    ],
+    "沈": [
+      "⺡",
+      "冖",
+      "儿"
+    ],
+    "波": [
+      "⺡",
+      "皮"
+    ],
+    "泣": [
+      "⺡",
+      "立"
+    ],
+    "泳": [
+      "⺡",
+      "永"
+    ],
+    "派": [
+      "⺡",
+      "丿",
+      "川"
+    ],
+    "流": [
+      "⺡",
+      "亡",
+      "川"
+    ],
+    "浜": [
+      "⺡",
+      "兵"
+    ],
+    "海": [
+      "⺡",
+      "母",
+      "毎"
+    ],
+    "深": [
+      "⺡",
+      "木",
+      "儿"
+    ],
+    "減": [
+      "⺡",
+      "口",
+      "戈"
+    ],
+    "湧": [
+      "⺡",
+      "マ",
+      "田",
+      "力"
+    ],
+    "漕": [
+      "⺡",
+      "口",
+      "品"
+    ],
+    "潮": [
+      "⺡",
+      "十",
+      "日",
+      "月"
+    ],
+    "火": [
+      "火"
+    ],
+    "無": [
+      "一",
+      "火"
+    ],
+    "然": [
+      "月",
+      "犬",
+      "火"
+    ],
+    "焼": [
+      "火",
+      "土",
+      "儿"
+    ],
+    "煙": [
+      "火",
+      "囗",
+      "土"
+    ],
+    "熱": [
+      "土",
+      "九",
+      "丸",
+      "火"
+    ],
+    "爆": [
+      "火",
+      "水",
+      "日"
+    ],
+    "片": [
+      "片"
+    ],
+    "物": [
+      "牛",
+      "勿"
+    ],
+    "独": [
+      "⺨",
+      "虫"
+    ],
+    "玉": [
+      "玉"
+    ],
+    "王": [
+      "王"
+    ],
+    "珍": [
+      "王",
+      "人",
+      "彡"
+    ],
+    "現": [
+      "王",
+      "見"
+    ],
+    "璧": [
+      "口",
+      "辛",
+      "玉"
+    ],
+    "甘": [
+      "甘"
+    ],
+    "生": [
+      "生"
+    ],
+    "用": [
+      "用"
+    ],
+    "由": [
+      "由"
+    ],
+    "界": [
+      "田",
+      "介"
+    ],
+    "番": [
+      "釆",
+      "田"
+    ],
+    "留": [
+      "田",
+      "刀",
+      "厶"
+    ],
+    "病": [
+      "疒",
+      "丙"
+    ],
+    "発": [
+      "癶",
+      "二"
+    ],
+    "白": [
+      "白"
+    ],
+    "的": [
+      "白",
+      "勹"
+    ],
+    "目": [
+      "目"
+    ],
+    "盗": [
+      "皿",
+      "次"
+    ],
+    "直": [
+      "十",
+      "目",
+      "一"
+    ],
+    "眠": [
+      "目",
+      "民"
+    ],
+    "眺": [
+      "目",
+      "兆"
+    ],
+    "着": [
+      "羊",
+      "目"
+    ],
+    "知": [
+      "矢",
+      "口"
+    ],
+    "石": [
+      "石"
+    ],
+    "破": [
+      "石",
+      "皮"
+    ],
+    "確": [
+      "石",
+      "冖",
+      "隹"
+    ],
+    "礼": [
+      "⺭",
+      "乙"
+    ],
+    "秋": [
+      "禾",
+      "火"
+    ],
+    "秘": [
+      "禾",
+      "心",
+      "丿"
+    ],
+    "種": [
+      "禾",
+      "重"
+    ],
+    "穏": [
+      "穴",
+      "心",
+      "爪"
+    ],
+    "穴": [
+      "穴"
+    ],
+    "空": [
+      "穴",
+      "工"
+    ],
+    "突": [
+      "穴",
+      "大"
+    ],
+    "立": [
+      "立"
+    ],
+    "笑": [
+      "⺮",
+      "大",
+      "天"
+    ],
+    "笛": [
+      "⺮",
+      "田",
+      "由"
+    ],
+    "第": [
+      "⺮",
+      "弓",
+      "丨"
+    ],
+    "笹": [
+      "⺮",
+      "世"
+    ],
+    "簡": [
+      "⺮",
+      "門",
+      "日"
+    ],
+    "精": [
+      "米",
+      "青"
+    ],
+    "素": [
+      "糸",
+      "丶"
+    ],
+    "約": [
+      "糸",
+      "勹"
+    ],
+    "細": [
+      "糸",
+      "田"
+    ],
+    "終": [
+      "糸",
+      "冬"
+    ],
+    "結": [
+      "糸",
+      "士",
+      "口"
+    ],
+    "絶": [
+      "糸",
+      "色",
+      "刀"
+    ],
+    "綱": [
+      "糸",
+      "冂",
+      "山",
+      "王"
+    ],
+    "綺": [
+      "糸",
+      "口",
+      "大"
+    ],
+    "緒": [
+      "糸",
+      "者"
+    ],
+    "縄": [
+      "糸",
+      "亀"
+    ],
+    "縦": [
+      "糸",
+      "彳",
+      "豕"
+    ],
+    "繋": [
+      "糸",
+      "車"
+    ],
+    "置": [
+      "罒",
+      "直"
+    ],
+    "羨": [
+      "羊",
+      "次",
+      "欠"
+    ],
+    "者": [
+      "耂",
+      "日"
+    ],
+    "聞": [
+      "門",
+      "耳"
+    ],
+    "能": [
+      "月",
+      "匕",
+      "厶"
+    ],
+    "臆": [
+      "月",
+      "音",
+      "心"
+    ],
+    "自": [
+      "自"
+    ],
+    "興": [
+      "臼",
+      "一",
+      "八"
+    ],
+    "舟": [
+      "舟"
+    ],
+    "船": [
+      "舟",
+      "口",
+      "八"
+    ],
+    "航": [
+      "舟",
+      "亠",
+      "几"
+    ],
+    "色": [
+      "色"
+    ],
+    "苦": [
+      "⺾",
+      "十",
+      "口"
+    ],
+    "草": [
+      "⺾",
+      "日",
+      "十"
+    ],
+    "荷": [
+      "⺾",
+      "⺅",
+      "口",
+      "可"
+    ],
+    "落": [
+      "⺾",
+      "⺡",
+      "口",
+      "夂"
+    ],
+    "薪": [
+      "⺾",
+      "立",
+      "木",
+      "斤"
+    ],
+    "虫": [
+      "虫"
+    ],
+    "蝶": [
+      "虫",
+      "世",
+      "木"
+    ],
+    "行": [
+      "行"
+    ],
+    "衰": [
+      "亠",
+      "口",
+      "衣"
+    ],
+    "要": [
+      "西",
+      "女"
+    ],
+    "覆": [
+      "西",
+      "日",
+      "夂"
+    ],
+    "見": [
+      "見"
+    ],
+    "覚": [
+      "⺌",
+      "見",
+      "冖"
+    ],
+    "触": [
+      "角",
+      "虫"
+    ],
+    "言": [
+      "言"
+    ],
+    "計": [
+      "言",
+      "十"
+    ],
+    "設": [
+      "言",
+      "殳"
+    ],
+    "試": [
+      "言",
+      "弋",
+      "工"
+    ],
+    "話": [
+      "言",
+      "口",
+      "舌"
+    ],
+    "説": [
+      "言",
+      "口",
+      "儿",
+      "丷"
+    ],
+    "誰": [
+      "言",
+      "隹"
+    ],
+    "調": [
+      "言",
+      "周"
+    ],
+    "諦": [
+      "言",
+      "立",
+      "冖",
+      "巾"
+    ],
+    "議": [
+      "言",
+      "義"
+    ],
+    "象": [
+      "象"
+    ],
+    "貝": [
+      "貝"
+    ],
+    "賛": [
+      "貝",
+      "夫"
+    ],
+    "赤": [
+      "赤"
+    ],
+    "走": [
+      "走"
+    ],
+    "起": [
+      "走",
+      "己"
+    ],
+    "越": [
+      "走",
+      "戈"
+    ],
+    "辺": [
+      "⻌",
+      "刀"
+    ],
+    "込": [
+      "⻌",
+      "入"
+    ],
+    "追": [
+      "⻌",
+      "口"
+    ],
+    "返": [
+      "⻌",
+      "反"
+    ],
+    "退": [
+      "⻌",
+      "艮"
+    ],
+    "通": [
+      "⻌",
+      "用",
+      "マ"
+    ],
+    "速": [
+      "⻌",
+      "束"
+    ],
+    "連": [
+      "⻌",
+      "車"
+    ],
+    "過": [
+      "⻌",
+      "口",
+      "冂"
+    ],
+    "遅": [
+      "⻌",
+      "羊",
+      "尸"
+    ],
+    "遊": [
+      "⻌",
+      "方",
+      "子"
+    ],
+    "違": [
+      "⻌",
+      "口",
+      "韋"
+    ],
+    "遠": [
+      "⻌",
+      "口",
+      "土",
+      "衣"
+    ],
+    "部": [
+      "口",
+      "立",
+      "⻏"
+    ],
+    "配": [
+      "酉",
+      "己"
+    ],
+    "酷": [
+      "酉",
+      "口",
+      "土"
+    ],
+    "里": [
+      "里"
+    ],
+    "閉": [
+      "門",
+      "才"
+    ],
+    "間": [
+      "門",
+      "日"
+    ],
+    "降": [
+      "⻖",
+      "夂"
+    ],
+    "陰": [
+      "⻖",
+      "二",
+      "厶",
+      "今"
+    ],
+    "階": [
+      "⻖",
+      "白",
+      "比"
+    ],
+    "隠": [
+      "⻖",
+      "心",
+      "爪"
+    ],
+    "陸": [
+      "⻖",
+      "土",
+      "八"
+    ],
+    "陽": [
+      "⻖",
+      "日",
+      "一",
+      "勿"
+    ],
+    "集": [
+      "隹",
+      "木"
+    ],
+    "雨": [
+      "雨"
+    ],
+    "雪": [
+      "雨",
+      "ヨ"
+    ],
+    "雲": [
+      "雨",
+      "二",
+      "厶"
+    ],
+    "雷": [
+      "雨",
+      "田"
+    ],
+    "電": [
+      "雨",
+      "田",
+      "乙"
+    ],
+    "青": [
+      "青"
+    ],
+    "静": [
+      "青",
+      "争"
+    ],
+    "面": [
+      "面"
+    ],
+    "音": [
+      "音"
+    ],
+    "頑": [
+      "元",
+      "頁"
+    ],
+    "顔": [
+      "彦",
+      "頁"
+    ],
+    "風": [
+      "風"
+    ],
+    "飛": [
+      "飛"
+    ],
+    "食": [
+      "食"
+    ],
+    "飲": [
+      "食",
+      "欠"
+    ],
+    "飾": [
+      "食",
+      "巾",
+      "人"
+    ],
+    "馬": [
+      "馬"
+    ],
+    "驚": [
+      "馬",
+      "口",
+      "攵"
+    ],
+    "髪": [
+      "髟",
+      "友",
+      "犬"
+    ],
+    "鬼": [
+      "鬼"
+    ],
+    "鏡": [
+      "金",
+      "立",
+      "日",
+      "儿"
+    ],
+    "鳴": [
+      "口",
+      "鳥"
+    ],
+    "鳥": [
+      "鳥"
+    ],
+    "鹿": [
+      "鹿"
+    ],
+    "麗": [
+      "鹿",
+      "一"
+    ],
+    "黒": [
+      "黒"
+    ],
+    "黙": [
+      "黒",
+      "犬"
+    ],
+    "鼻": [
+      "鼻"
+    ],
+    "兄": [
+      "口",
+      "儿"
+    ],
+    "四": [
+      "囗",
+      "八",
+      "儿"
+    ],
+    "回": [
+      "囗",
+      "口"
+    ],
+    "声": [
+      "士",
+      "尸"
+    ],
+    "来": [
+      "一",
+      "木",
+      "人"
+    ],
+    "作": [
+      "⺅",
+      "乍"
+    ],
+    "乗": [
+      "一",
+      "木",
+      "人",
+      "丿"
+    ],
+    "今": [
+      "人",
+      "一",
+      "亅"
+    ],
+    "人": [
+      "人"
+    ],
+    "出": [
+      "山",
+      "凵"
+    ],
+    "分": [
+      "八",
+      "刀"
+    ],
+    "冬": [
+      "夂",
+      "冫"
+    ],
+    "呼": [
+      "口",
+      "乎"
+    ],
+    "念": [
+      "人",
+      "心",
+      "一"
+    ],
+    "残": [
+      "歹",
+      "戈"
+    ],
+    "法": [
+      "⺡",
+      "去"
+    ],
+    "満": [
+      "⺡",
+      "一",
+      "八"
+    ],
+    "理": [
+      "王",
+      "里"
+    ],
+    "私": [
+      "禾",
+      "厶"
+    ],
+    "若": [
+      "⺾",
+      "口",
+      "右"
+    ],
+    "語": [
+      "言",
+      "五",
+      "口"
+    ],
+    "谷": [
+      "人",
+      "口",
+      "谷"
+    ],
+    "長": [
+      "長"
+    ],
+    "危": [
+      "厂",
+      "⺈",
+      "己"
+    ],
+    "室": [
+      "宀",
+      "至"
+    ],
+    "梯": [
+      "木",
+      "弓",
+      "丷"
+    ],
+    "段": [
+      "殳"
+    ],
+    "登": [
+      "癶",
+      "豆"
+    ],
+    "魔": [
+      "广",
+      "鬼",
+      "林"
+    ],
+    "難": [
+      "隹",
+      "又"
+    ],
+    "料": [
+      "米",
+      "斗"
+    ]
+  }
+}

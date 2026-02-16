@@ -34,6 +34,7 @@ const App = (function() {
     // Initialize subsystems
     Tooltips.init();
     await Tooltips.loadKanjiData();
+    await Radicals.init();
     
     // Load audio manifest for TTS playback
     await Cards.loadAudioManifest();
@@ -901,9 +902,20 @@ const App = (function() {
     // Add click-to-flip handler on the flashcard itself
     const flashcard = container.querySelector('.flashcard');
     if (flashcard) {
+      let mouseDownTime = 0;
+
+      flashcard.addEventListener('mousedown', () => {
+        mouseDownTime = Date.now();
+      });
+
       flashcard.addEventListener('click', (e) => {
-        // Don't flip if clicking on play button
-        if (e.target.closest('.play-btn')) return;
+        // Don't flip if clicking on interactive elements
+        if (e.target.closest('.play-btn') || e.target.closest('.word-play-btn')) return;
+        
+        // Don't flip if user is selecting text (held mouse >200ms or has active selection)
+        const timeDiff = Date.now() - mouseDownTime;
+        const hasSelection = window.getSelection().toString().length > 0;
+        if (timeDiff > 200 || hasSelection) return;
         
         if (flashcard.classList.contains('flipped')) {
           // Flip back to front to review again

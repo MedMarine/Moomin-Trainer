@@ -1,0 +1,970 @@
+{
+  "⺅": {
+    "keyword": "person",
+    "hint": "The left-side person radical (にんべん)"
+  },
+  "⺈": {
+    "keyword": "knife",
+    "hint": "A small blade at the top"
+  },
+  "⺌": {
+    "keyword": "little",
+    "hint": "The top-form of small"
+  },
+  "⺕": {
+    "keyword": "net",
+    "hint": "Net radical variant"
+  },
+  "⺖": {
+    "keyword": "heart",
+    "hint": "The left-side heart radical (りっしんべん)"
+  },
+  "⺘": {
+    "keyword": "hand",
+    "hint": "The left-side hand radical (てへん)"
+  },
+  "⺡": {
+    "keyword": "water",
+    "hint": "The left-side water radical (さんずい)"
+  },
+  "⺨": {
+    "keyword": "animal",
+    "hint": "The left-side dog/animal radical (けものへん)"
+  },
+  "⺭": {
+    "keyword": "altar",
+    "hint": "The left-side spirit/altar radical (しめすへん)"
+  },
+  "⺮": {
+    "keyword": "bamboo",
+    "hint": "Bamboo leaves (たけかんむり)"
+  },
+  "⺾": {
+    "keyword": "grass",
+    "hint": "Grass or plants growing (くさかんむり)"
+  },
+  "⻂": {
+    "keyword": "clothing",
+    "hint": "The left-side clothing radical (ころもへん)"
+  },
+  "⻌": {
+    "keyword": "road",
+    "hint": "The road/movement radical (しんにょう)"
+  },
+  "⻏": {
+    "keyword": "city",
+    "hint": "The right-side city/village radical (おおざと)"
+  },
+  "⻖": {
+    "keyword": "hill",
+    "hint": "The left-side hill/mound radical (こざとへん)"
+  },
+  "マ": {
+    "keyword": "mama",
+    "hint": "The katakana マ (ma) — two strokes like a swooping check mark"
+  },
+  "ユ": {
+    "keyword": "hook line",
+    "hint": "The katakana ユ (yu) — a horizontal stroke with a vertical drop"
+  },
+  "ヨ": {
+    "keyword": "rake",
+    "hint": "Three horizontal prongs — the katakana ヨ (yo) looks like a rake"
+  },
+  "一": {
+    "keyword": "one",
+    "hint": "A single horizontal stroke"
+  },
+  "丂": {
+    "keyword": "bent",
+    "hint": "A stroke that bends or curves — something not straight"
+  },
+  "七": {
+    "keyword": "seven",
+    "hint": "The number seven — a bent stroke crossing a horizontal line"
+  },
+  "不": {
+    "keyword": "not",
+    "hint": "Negation — a ceiling blocking upward movement"
+  },
+  "世": {
+    "keyword": "generation",
+    "hint": "Three decades side by side — the passing of time"
+  },
+  "丘": {
+    "keyword": "mound",
+    "hint": "An earthen hill — a raised bump in the landscape"
+  },
+  "丙": {
+    "keyword": "third",
+    "hint": "The third heavenly stem — a frame with legs"
+  },
+  "丨": {
+    "keyword": "stick",
+    "hint": "A vertical stroke"
+  },
+  "丶": {
+    "keyword": "drop",
+    "hint": "A single dot"
+  },
+  "丷": {
+    "keyword": "horns",
+    "hint": "Two small strokes pointing up like a pair of horns or antennae"
+  },
+  "丸": {
+    "keyword": "round",
+    "hint": "A ball shape — something circular or complete"
+  },
+  "主": {
+    "keyword": "master",
+    "hint": "A flame above a base — the lord, the main one, the host"
+  },
+  "丿": {
+    "keyword": "slash",
+    "hint": "A diagonal stroke sweeping left"
+  },
+  "乍": {
+    "keyword": "sudden",
+    "hint": "Something happening abruptly — a burst of action"
+  },
+  "乎": {
+    "keyword": "question",
+    "hint": "An exclamatory particle — a voice rising in wonder"
+  },
+  "乙": {
+    "keyword": "hook",
+    "hint": "A bent hook shape"
+  },
+  "九": {
+    "keyword": "nine",
+    "hint": "The number nine — curving stroke with a hook"
+  },
+  "也": {
+    "keyword": "scorpion",
+    "hint": "A curved tail shape — visually like a scorpion's stinger"
+  },
+  "亀": {
+    "keyword": "turtle",
+    "hint": "The turtle character — shell, head, legs all visible"
+  },
+  "亅": {
+    "keyword": "barb",
+    "hint": "A vertical stroke with a hook at the bottom"
+  },
+  "争": {
+    "keyword": "conflict",
+    "hint": "Hands grabbing at something — a struggle, a dispute"
+  },
+  "二": {
+    "keyword": "two",
+    "hint": "Two horizontal strokes stacked"
+  },
+  "五": {
+    "keyword": "five",
+    "hint": "The number five — crisscrossing strokes between two lines"
+  },
+  "亜": {
+    "keyword": "sub",
+    "hint": "A grid-like frame — meaning 'secondary' or 'under'"
+  },
+  "亠": {
+    "keyword": "lid",
+    "hint": "A flat cover sitting on top — the topmost part"
+  },
+  "亡": {
+    "keyword": "gone",
+    "hint": "A person vanished — death, escape, loss"
+  },
+  "人": {
+    "keyword": "person",
+    "hint": "A person with legs spread — the standalone form"
+  },
+  "今": {
+    "keyword": "now",
+    "hint": "A roof sheltering a person in the present moment"
+  },
+  "介": {
+    "keyword": "shellfish",
+    "hint": "A person (人) with armor — something in between, mediating"
+  },
+  "儿": {
+    "keyword": "legs",
+    "hint": "Two little legs walking — the human legs radical at the bottom of characters"
+  },
+  "元": {
+    "keyword": "origin",
+    "hint": "Two legs (儿) supporting something above — the foundation, the beginning"
+  },
+  "兆": {
+    "keyword": "omen",
+    "hint": "Cracks in a tortoise shell — divination, a sign of things to come"
+  },
+  "入": {
+    "keyword": "enter",
+    "hint": "Something going inward"
+  },
+  "八": {
+    "keyword": "eight",
+    "hint": "Two strokes spreading apart"
+  },
+  "公": {
+    "keyword": "public",
+    "hint": "Eight (八) above private (ム) — opening up what was hidden"
+  },
+  "兵": {
+    "keyword": "soldier",
+    "hint": "A hill (丘) above legs — troops marching into battle"
+  },
+  "冂": {
+    "keyword": "cage",
+    "hint": "An open box/enclosure from above"
+  },
+  "冖": {
+    "keyword": "crown",
+    "hint": "A flat cover or lid on top"
+  },
+  "冫": {
+    "keyword": "ice",
+    "hint": "Two dots of ice (にすい)"
+  },
+  "冬": {
+    "keyword": "winter",
+    "hint": "Ice crystals falling beneath a cover"
+  },
+  "几": {
+    "keyword": "table",
+    "hint": "A small table or stool"
+  },
+  "凡": {
+    "keyword": "ordinary",
+    "hint": "A simple sail shape — plain, common, nothing special"
+  },
+  "凵": {
+    "keyword": "bowl",
+    "hint": "An open container from below"
+  },
+  "凶": {
+    "keyword": "doom",
+    "hint": "An X inside a pit — bad luck, misfortune trapped in a box"
+  },
+  "出": {
+    "keyword": "exit",
+    "hint": "Mountains stacked — pushing up and out"
+  },
+  "刀": {
+    "keyword": "sword",
+    "hint": "A blade shape"
+  },
+  "刂": {
+    "keyword": "blade",
+    "hint": "The right-side sword radical (りっとう)"
+  },
+  "力": {
+    "keyword": "power",
+    "hint": "A flexed arm showing strength"
+  },
+  "勹": {
+    "keyword": "wrap",
+    "hint": "Something wrapping around"
+  },
+  "勿": {
+    "keyword": "not",
+    "hint": "A slashed shape meaning 'do not' — like a warning sign"
+  },
+  "匕": {
+    "keyword": "spoon",
+    "hint": "A spoon or ladle shape"
+  },
+  "十": {
+    "keyword": "cross",
+    "hint": "A cross shape — the number ten"
+  },
+  "升": {
+    "keyword": "rise",
+    "hint": "Something going upward — to ascend, a measuring cup"
+  },
+  "卜": {
+    "keyword": "divination",
+    "hint": "A crack in an oracle bone"
+  },
+  "卩": {
+    "keyword": "seal",
+    "hint": "A kneeling person or official seal"
+  },
+  "厂": {
+    "keyword": "cliff",
+    "hint": "An overhanging cliff face"
+  },
+  "厶": {
+    "keyword": "private",
+    "hint": "A small coiled shape — something kept to oneself"
+  },
+  "去": {
+    "keyword": "depart",
+    "hint": "Earth (土) above legs — leaving the ground behind, going away"
+  },
+  "又": {
+    "keyword": "again",
+    "hint": "A hand reaching out"
+  },
+  "友": {
+    "keyword": "friend",
+    "hint": "Two hands reaching together — people helping each other"
+  },
+  "反": {
+    "keyword": "flip",
+    "hint": "A cliff (厂) with a hand — turning something over, opposing"
+  },
+  "叔": {
+    "keyword": "uncle",
+    "hint": "A younger brother of one's parent — the family elder"
+  },
+  "口": {
+    "keyword": "mouth",
+    "hint": "An open mouth or square opening"
+  },
+  "可": {
+    "keyword": "able",
+    "hint": "A mouth (口) with a hook — approval, something permitted"
+  },
+  "史": {
+    "keyword": "history",
+    "hint": "A hand holding a record — the chronicle keeper"
+  },
+  "右": {
+    "keyword": "right",
+    "hint": "A hand (ナ) reaching for the mouth (口) — the right side"
+  },
+  "周": {
+    "keyword": "circuit",
+    "hint": "Something enclosed and complete — going all the way around"
+  },
+  "咸": {
+    "keyword": "salty",
+    "hint": "A weapon (戈) with a mouth — the sharp taste of salt"
+  },
+  "品": {
+    "keyword": "goods",
+    "hint": "Three mouths stacked — many items, products, quality"
+  },
+  "囗": {
+    "keyword": "box",
+    "hint": "A full enclosure — a fence or border"
+  },
+  "土": {
+    "keyword": "earth",
+    "hint": "A mound of earth on the ground"
+  },
+  "士": {
+    "keyword": "samurai",
+    "hint": "A samurai or scholar"
+  },
+  "夂": {
+    "keyword": "winter legs",
+    "hint": "Legs walking slowly downward"
+  },
+  "夕": {
+    "keyword": "evening",
+    "hint": "A crescent moon at dusk"
+  },
+  "大": {
+    "keyword": "big",
+    "hint": "A person with arms spread wide"
+  },
+  "天": {
+    "keyword": "heaven",
+    "hint": "Above a person — the vast sky overhead"
+  },
+  "夫": {
+    "keyword": "husband",
+    "hint": "A person standing tall with a broad hat"
+  },
+  "女": {
+    "keyword": "woman",
+    "hint": "A woman kneeling"
+  },
+  "子": {
+    "keyword": "child",
+    "hint": "A child with arms outstretched"
+  },
+  "宀": {
+    "keyword": "roof",
+    "hint": "A house roof (うかんむり)"
+  },
+  "寸": {
+    "keyword": "inch",
+    "hint": "A unit of measurement — the width of a thumb"
+  },
+  "寺": {
+    "keyword": "temple",
+    "hint": "Earth (土) above inch (寸) — sacred ground measured carefully"
+  },
+  "小": {
+    "keyword": "small",
+    "hint": "A small thing with particles flying off"
+  },
+  "尸": {
+    "keyword": "corpse",
+    "hint": "A body lying down — used in body/building kanji"
+  },
+  "尹": {
+    "keyword": "governor",
+    "hint": "A hand holding a staff — one who rules and administers"
+  },
+  "山": {
+    "keyword": "mountain",
+    "hint": "Three peaks of a mountain"
+  },
+  "巛": {
+    "keyword": "stream",
+    "hint": "Three flowing curves — water coursing through a channel"
+  },
+  "川": {
+    "keyword": "river",
+    "hint": "Three flowing streams"
+  },
+  "工": {
+    "keyword": "craft",
+    "hint": "A carpenter's square tool"
+  },
+  "己": {
+    "keyword": "self",
+    "hint": "Oneself — a coiled shape"
+  },
+  "巾": {
+    "keyword": "cloth",
+    "hint": "A hanging piece of cloth or towel"
+  },
+  "市": {
+    "keyword": "market",
+    "hint": "A covered trading area — where people buy and sell"
+  },
+  "布": {
+    "keyword": "linen",
+    "hint": "A hand spreading fabric — woven material, to spread out"
+  },
+  "干": {
+    "keyword": "dry",
+    "hint": "A drying rack"
+  },
+  "幺": {
+    "keyword": "thread",
+    "hint": "A tiny twisted thread"
+  },
+  "广": {
+    "keyword": "shelter",
+    "hint": "A lean-to shelter with a roof"
+  },
+  "廿": {
+    "keyword": "twenty",
+    "hint": "Two tens side by side — the number twenty"
+  },
+  "弋": {
+    "keyword": "arrow",
+    "hint": "An arrow in flight"
+  },
+  "弓": {
+    "keyword": "bow",
+    "hint": "A curved bow for shooting"
+  },
+  "彡": {
+    "keyword": "hair",
+    "hint": "Three flowing lines — hair or decoration"
+  },
+  "彦": {
+    "keyword": "lad",
+    "hint": "A handsome young man — a talented youth with flowing hair"
+  },
+  "彳": {
+    "keyword": "step",
+    "hint": "The left half of a crossroads — a small step"
+  },
+  "心": {
+    "keyword": "heart",
+    "hint": "The standalone heart — feelings and mind"
+  },
+  "憂": {
+    "keyword": "grief",
+    "hint": "A heavy heart weighed down with sorrow"
+  },
+  "戈": {
+    "keyword": "halberd",
+    "hint": "A weapon on a pole"
+  },
+  "戸": {
+    "keyword": "door",
+    "hint": "A single door panel"
+  },
+  "手": {
+    "keyword": "hand",
+    "hint": "The standalone hand"
+  },
+  "才": {
+    "keyword": "talent",
+    "hint": "A sprout just breaking through — natural ability emerging"
+  },
+  "攵": {
+    "keyword": "strike",
+    "hint": "A hand holding a stick to hit (ぼくづくり)"
+  },
+  "文": {
+    "keyword": "writing",
+    "hint": "A pattern or writing"
+  },
+  "斗": {
+    "keyword": "ladle",
+    "hint": "A large measuring ladle"
+  },
+  "斤": {
+    "keyword": "axe",
+    "hint": "An axe blade"
+  },
+  "方": {
+    "keyword": "direction",
+    "hint": "A direction or way"
+  },
+  "日": {
+    "keyword": "sun",
+    "hint": "The sun — also day"
+  },
+  "月": {
+    "keyword": "moon",
+    "hint": "The moon — also month and meat radical"
+  },
+  "木": {
+    "keyword": "tree",
+    "hint": "A tree with branches and roots"
+  },
+  "未": {
+    "keyword": "not yet",
+    "hint": "A tree (木) with a shorter top branch — hasn't fully grown"
+  },
+  "本": {
+    "keyword": "book",
+    "hint": "A tree (木) with a mark at the root — the origin, a book"
+  },
+  "束": {
+    "keyword": "bundle",
+    "hint": "A tree (木) wrapped with a belt (口) — tied together"
+  },
+  "林": {
+    "keyword": "grove",
+    "hint": "Two trees (木木) side by side — a small forest"
+  },
+  "業": {
+    "keyword": "karma",
+    "hint": "A complex tower of strokes — work, profession, consequences"
+  },
+  "欠": {
+    "keyword": "yawn",
+    "hint": "A person with mouth open — lacking"
+  },
+  "次": {
+    "keyword": "next",
+    "hint": "Two strokes stepping forward in sequence"
+  },
+  "止": {
+    "keyword": "stop",
+    "hint": "A footprint — stopping"
+  },
+  "歹": {
+    "keyword": "death",
+    "hint": "Bones — death or decay"
+  },
+  "殳": {
+    "keyword": "weapon",
+    "hint": "A hand wielding a weapon"
+  },
+  "母": {
+    "keyword": "mother",
+    "hint": "A mother nursing"
+  },
+  "毎": {
+    "keyword": "every",
+    "hint": "A mother (母) variant — each and every time"
+  },
+  "比": {
+    "keyword": "compare",
+    "hint": "Two figures side by side — measuring one against the other"
+  },
+  "毛": {
+    "keyword": "fur",
+    "hint": "Animal fur or hair"
+  },
+  "民": {
+    "keyword": "people",
+    "hint": "The common folk — an eye looking down at the populace"
+  },
+  "气": {
+    "keyword": "steam",
+    "hint": "Rising steam or vapor"
+  },
+  "水": {
+    "keyword": "water",
+    "hint": "The standalone water character"
+  },
+  "永": {
+    "keyword": "eternal",
+    "hint": "Water flowing forever — this character contains all basic strokes"
+  },
+  "火": {
+    "keyword": "fire",
+    "hint": "Flames burning"
+  },
+  "爪": {
+    "keyword": "claw",
+    "hint": "Fingers or claws reaching down"
+  },
+  "父": {
+    "keyword": "father",
+    "hint": "A father — hand holding an axe"
+  },
+  "片": {
+    "keyword": "slice",
+    "hint": "One side of something split"
+  },
+  "牛": {
+    "keyword": "cow",
+    "hint": "A cow's head with horns"
+  },
+  "犬": {
+    "keyword": "dog",
+    "hint": "A dog"
+  },
+  "玉": {
+    "keyword": "jewel",
+    "hint": "The king radical (王) with a dot — a precious stone held by royalty"
+  },
+  "王": {
+    "keyword": "king",
+    "hint": "The three levels of heaven, earth, and man connected"
+  },
+  "瓜": {
+    "keyword": "melon",
+    "hint": "A vine with a fruit hanging — a gourd or melon"
+  },
+  "甘": {
+    "keyword": "sweet",
+    "hint": "Something in the mouth — the taste of sweetness"
+  },
+  "生": {
+    "keyword": "life",
+    "hint": "A plant sprouting from the ground — birth, growth, raw"
+  },
+  "用": {
+    "keyword": "use",
+    "hint": "A fenced-in tool — something put to practical purpose"
+  },
+  "田": {
+    "keyword": "field",
+    "hint": "A rice paddy divided into plots"
+  },
+  "由": {
+    "keyword": "reason",
+    "hint": "Something sprouting from a box — the origin or cause of things"
+  },
+  "申": {
+    "keyword": "monkey",
+    "hint": "The monkey zodiac sign — a field (田) with a line through it"
+  },
+  "疒": {
+    "keyword": "sickness",
+    "hint": "A person lying on a bed — illness"
+  },
+  "癶": {
+    "keyword": "footsteps",
+    "hint": "Two feet — the dotted cliff radical"
+  },
+  "白": {
+    "keyword": "white",
+    "hint": "Something white and pure"
+  },
+  "百": {
+    "keyword": "hundred",
+    "hint": "One on top of white — a complete count"
+  },
+  "皮": {
+    "keyword": "skin",
+    "hint": "Animal skin being stretched"
+  },
+  "皿": {
+    "keyword": "plate",
+    "hint": "A flat dish or plate"
+  },
+  "目": {
+    "keyword": "eye",
+    "hint": "An eye turned sideways"
+  },
+  "直": {
+    "keyword": "straight",
+    "hint": "An eye (目) looking directly ahead with a vertical line — honest and direct"
+  },
+  "県": {
+    "keyword": "prefecture",
+    "hint": "A hanging eye — an administrative district (Japan-specific)"
+  },
+  "矢": {
+    "keyword": "arrow",
+    "hint": "An arrow ready to fly"
+  },
+  "石": {
+    "keyword": "stone",
+    "hint": "A stone at the base of a cliff"
+  },
+  "禸": {
+    "keyword": "track",
+    "hint": "Animal tracks"
+  },
+  "禾": {
+    "keyword": "grain",
+    "hint": "A grain plant drooping with seeds"
+  },
+  "穴": {
+    "keyword": "hole",
+    "hint": "A cave or hole in the ground"
+  },
+  "立": {
+    "keyword": "stand",
+    "hint": "A person standing on the ground"
+  },
+  "米": {
+    "keyword": "rice",
+    "hint": "Grains of rice scattered"
+  },
+  "糸": {
+    "keyword": "thread",
+    "hint": "Silk thread — the string radical"
+  },
+  "罒": {
+    "keyword": "net",
+    "hint": "A net spread out (よこめ)"
+  },
+  "羊": {
+    "keyword": "sheep",
+    "hint": "Horns on top, a body below — a sheep seen from the front"
+  },
+  "義": {
+    "keyword": "justice",
+    "hint": "A sheep (羊) above self/me (我) — righteous sacrifice for the greater good"
+  },
+  "翟": {
+    "keyword": "pheasant",
+    "hint": "A long-tailed bird — feathers fanning out"
+  },
+  "耂": {
+    "keyword": "old",
+    "hint": "The top part of 老 — old age"
+  },
+  "者": {
+    "keyword": "someone",
+    "hint": "A person of a certain kind — 'the one who...'"
+  },
+  "耳": {
+    "keyword": "ear",
+    "hint": "An ear"
+  },
+  "聿": {
+    "keyword": "brush",
+    "hint": "A writing brush"
+  },
+  "自": {
+    "keyword": "self",
+    "hint": "A nose — pointing at oneself"
+  },
+  "至": {
+    "keyword": "arrive",
+    "hint": "An arrow reaching its target — to arrive at a destination"
+  },
+  "臼": {
+    "keyword": "mortar",
+    "hint": "A grinding mortar"
+  },
+  "舌": {
+    "keyword": "tongue",
+    "hint": "A tongue sticking out of a mouth"
+  },
+  "舟": {
+    "keyword": "boat",
+    "hint": "A small boat"
+  },
+  "艮": {
+    "keyword": "stubborn",
+    "hint": "An eye looking back — defiance"
+  },
+  "色": {
+    "keyword": "color",
+    "hint": "A person kneeling — color/desire"
+  },
+  "菐": {
+    "keyword": "bushy",
+    "hint": "A rare component — grass growing thick and wild"
+  },
+  "虍": {
+    "keyword": "tiger stripes",
+    "hint": "The top of 虎 — tiger markings"
+  },
+  "虫": {
+    "keyword": "insect",
+    "hint": "A bug or worm"
+  },
+  "行": {
+    "keyword": "go",
+    "hint": "A crossroads — going somewhere"
+  },
+  "衣": {
+    "keyword": "clothes",
+    "hint": "A garment with flowing parts"
+  },
+  "西": {
+    "keyword": "west",
+    "hint": "A bird settling into its nest at sunset"
+  },
+  "見": {
+    "keyword": "see",
+    "hint": "An eye on legs — looking around"
+  },
+  "角": {
+    "keyword": "horn",
+    "hint": "An animal's horn"
+  },
+  "言": {
+    "keyword": "say",
+    "hint": "Words coming from a mouth — the speech radical"
+  },
+  "谷": {
+    "keyword": "valley",
+    "hint": "A valley between mountains"
+  },
+  "豆": {
+    "keyword": "bean",
+    "hint": "A bean on a pedestal — ceremonial vessel"
+  },
+  "豕": {
+    "keyword": "pig",
+    "hint": "A pig"
+  },
+  "象": {
+    "keyword": "elephant",
+    "hint": "An elephant"
+  },
+  "貝": {
+    "keyword": "shell",
+    "hint": "A cowrie shell — used as money"
+  },
+  "赤": {
+    "keyword": "red",
+    "hint": "The color red — fire over earth"
+  },
+  "走": {
+    "keyword": "run",
+    "hint": "A person running"
+  },
+  "足": {
+    "keyword": "foot",
+    "hint": "A foot/leg"
+  },
+  "車": {
+    "keyword": "cart",
+    "hint": "A wheeled cart seen from above"
+  },
+  "辛": {
+    "keyword": "spicy",
+    "hint": "A needle — something sharp/bitter"
+  },
+  "酉": {
+    "keyword": "sake jar",
+    "hint": "A jar for fermenting alcohol"
+  },
+  "釆": {
+    "keyword": "sift",
+    "hint": "Separating grain — to sort and distinguish, like panning for gold"
+  },
+  "里": {
+    "keyword": "village",
+    "hint": "Fields and earth — a village"
+  },
+  "重": {
+    "keyword": "heavy",
+    "hint": "Layers stacked on the earth — weight pressing down"
+  },
+  "金": {
+    "keyword": "gold",
+    "hint": "Metal/gold nuggets underground"
+  },
+  "長": {
+    "keyword": "long",
+    "hint": "Something long — also elder"
+  },
+  "門": {
+    "keyword": "gate",
+    "hint": "A double gate"
+  },
+  "隹": {
+    "keyword": "bird",
+    "hint": "A short-tailed bird"
+  },
+  "雨": {
+    "keyword": "rain",
+    "hint": "Rain falling from clouds"
+  },
+  "青": {
+    "keyword": "blue",
+    "hint": "Blue/green — the color of plants growing"
+  },
+  "面": {
+    "keyword": "face",
+    "hint": "A face"
+  },
+  "韋": {
+    "keyword": "leather",
+    "hint": "Tanned animal hide — tough and flexible material"
+  },
+  "音": {
+    "keyword": "sound",
+    "hint": "Sound — something ringing"
+  },
+  "頁": {
+    "keyword": "head",
+    "hint": "A head/page — the head radical"
+  },
+  "風": {
+    "keyword": "wind",
+    "hint": "Wind blowing"
+  },
+  "飛": {
+    "keyword": "fly",
+    "hint": "Wings spread wide, soaring through the air"
+  },
+  "食": {
+    "keyword": "eat",
+    "hint": "Food — a person at a vessel with a lid"
+  },
+  "馬": {
+    "keyword": "horse",
+    "hint": "A horse"
+  },
+  "髟": {
+    "keyword": "long hair",
+    "hint": "Long flowing hair"
+  },
+  "鬼": {
+    "keyword": "demon",
+    "hint": "A demon or ghost"
+  },
+  "鳥": {
+    "keyword": "bird",
+    "hint": "A bird with tail feathers"
+  },
+  "鹿": {
+    "keyword": "deer",
+    "hint": "A deer with antlers"
+  },
+  "黒": {
+    "keyword": "black",
+    "hint": "The color black"
+  },
+  "鼻": {
+    "keyword": "nose",
+    "hint": "A nose"
+  }
+}

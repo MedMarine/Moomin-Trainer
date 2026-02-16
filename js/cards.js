@@ -393,6 +393,7 @@ const Cards = (function() {
             ${formatWordWithFurigana(word.word, word.reading)}
           </div>
           <div class="word-meaning">${escapeHtml(word.meaning)}</div>
+          ${Radicals.isLoaded() ? Radicals.renderBreakdown(word.word) : ''}
           <div class="examples">
             ${examplesHtml}
           </div>
